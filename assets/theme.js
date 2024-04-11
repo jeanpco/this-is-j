@@ -7007,7 +7007,18 @@
         event.detail.variant &&
         this.inventories[event.detail.variant['id']] !== ''
       ) {
-        this.hidden = false;
+
+        const { tags = [], mergedTags = [] } =
+        window.allProductTags?.[event.detail.variant['product_id']] || {};
+        
+        const comingSoon = Boolean(
+          mergedTags.includes('comingsoon') ||
+            mergedTags.includes(`comingsoon::${event.detail.variant['option1']}`)
+        );
+
+        // hide if coming soon
+        this.hidden = comingSoon;
+        
         this.insertAdjacentHTML(
           'afterbegin',
           this.inventories[event.detail.variant['id']]
@@ -7074,7 +7085,7 @@
         addToCartButtonText =
           window.themeVariables.strings.productFormUnavailable;
       } else {
-        if (variant['available']) {
+        if (variant['available'] && !comingSoon) {
           addToCartButtonElement.removeAttribute('disabled');
           addToCartButtonElement.classList.remove('is-disabled');
           addToCartButtonElement.classList.add(
@@ -7665,6 +7676,10 @@
           tag.trim().toLowerCase() ===
           `restock::${variant.option1}`.trim().toLowerCase()
       );
+      const comingSoon = Boolean(
+        mergedTags.includes('comingsoon') ||
+          mergedTags.includes(`comingsoon::${variant.option1}`)
+      );
       let productLabelList = this.querySelector('[data-product-label-list]');
       if (!productLabelList) {
         return;
@@ -7673,31 +7688,35 @@
         productLabelList.innerHTML = '';
       } else {
         productLabelList.innerHTML = '';
-        if (
-          document.querySelector('.block-swatch__radio:checked') &&
-          !variant['available']
-        ) {
-          if (!!restockTag)
-            productLabelList.innerHTML = `<span class="label label--subdued">${window.themeVariables.strings.collectionRestock}</span>`;
-          else
-            productLabelList.innerHTML = `<span class="label label--subdued">${window.themeVariables.strings.collectionSoldOut}</span>`;
-        } else if (variant['compare_at_price'] > variant['price']) {
-          let savings = '';
-          if (window.themeVariables.settings.discountMode === 'percentage') {
-            savings = `${Math.round(
-              ((variant['compare_at_price'] - variant['price']) * 100) /
-                variant['compare_at_price']
-            )}%`;
-          } else {
-            savings = formatMoney(
-              variant['compare_at_price'] - variant['price']
-            );
-          }
-          productLabelList.innerHTML = `<span class="label label--highlight">${window.themeVariables.strings.collectionDiscount.replace(
-            '@savings@',
-            savings
-          )}</span>`;
-        }
+
+        if (!!comingSoon)
+            productLabelList.innerHTML = `<span class="label label--subdued">${window.themeVariables.strings.productFormComingSoon}</span>`;
+        else
+            if (
+              document.querySelector('.block-swatch__radio:checked') &&
+              !variant['available']
+            ) {
+              if (!!restockTag)
+                productLabelList.innerHTML = `<span class="label label--subdued">${window.themeVariables.strings.collectionRestock}</span>`;
+              else
+                productLabelList.innerHTML = `<span class="label label--subdued">${window.themeVariables.strings.collectionSoldOut}</span>`;
+            } else if (variant['compare_at_price'] > variant['price']) {
+              let savings = '';
+              if (window.themeVariables.settings.discountMode === 'percentage') {
+                savings = `${Math.round(
+                  ((variant['compare_at_price'] - variant['price']) * 100) /
+                    variant['compare_at_price']
+                )}%`;
+              } else {
+                savings = formatMoney(
+                  variant['compare_at_price'] - variant['price']
+                );
+              }
+              productLabelList.innerHTML = `<span class="label label--highlight">${window.themeVariables.strings.collectionDiscount.replace(
+                '@savings@',
+                savings
+              )}</span>`;
+            }
       }
     }
     _updatePrices(variant) {
