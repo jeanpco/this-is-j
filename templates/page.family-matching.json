@@ -493,7 +493,6 @@
       "blocks": {
         "0e39e8ad-8151-49af-acd4-c922f23a1b85": {
           "type": "collection",
-          "disabled": true,
           "settings": {
             "collection": "bookhou-x-this-is-j-charcoal",
             "label": "Bookhou x TIJ Charcoal",
@@ -503,7 +502,6 @@
         },
         "9bfdd6b1-0adb-49ad-a6ae-5619177d52b2": {
           "type": "collection",
-          "disabled": true,
           "settings": {
             "collection": "mens-charcoal",
             "label": "",
