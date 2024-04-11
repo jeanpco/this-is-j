@@ -1,0 +1,191 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "e178b3ed-b20a-40e7-873c-6abc0c114177": {
+      "type": "rich-text",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "FAQ's",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "faq": {
+      "type": "faq",
+      "blocks": {
+        "b4cb5f81-6756-411b-bd0e-a29a8ec1f6d7": {
+          "type": "category",
+          "settings": {
+            "title": "PRODUCT"
+          }
+        },
+        "f3107f54-ec76-4086-b9ad-758cfd207a4b": {
+          "type": "question",
+          "settings": {
+            "title": "Are all of your products made in Canada?",
+            "answer": "<p>They sure are! All of products are designed and manufactured in Canada.<\/p>"
+          }
+        },
+        "923a9279-1bd7-4f97-82fa-56514e0d6c4e": {
+          "type": "question",
+          "settings": {
+            "title": "What is the best way to wash my Bamboo Pajamas?",
+            "answer": "<p>Definitely machine wash cold and tumble dry low inside out. Do not hang to dry as the fabric can get very heavy when wet and that weight while hanging can stretch out the fabric. If you prefer not to use a dryer, please lay flat to dry.<\/p>"
+          }
+        },
+        "2a98227f-e49d-4995-8d66-b815701fe41e": {
+          "type": "question",
+          "settings": {
+            "title": "I can see a bit of pilling or little fibres on my bamboo, what is that?",
+            "answer": "<p>The fibrous quality of Bamboo is what makes it moisture wicking and so comfortable. The tiny fibers pull moisture away from your body to keep you cool and comfortable. To reduce the amount of fibers that can accumulate make sure to wash inside out so that the outside of the fabric isn’t rubbing up against too many other things in the wash.<\/p>"
+          }
+        },
+        "e9a0e97b-7943-4cec-b39e-8eaaa18f0d91": {
+          "type": "question",
+          "settings": {
+            "title": "I'm having trouble figuring out what size I am. How do I figure it out?",
+            "answer": "<p>Start by reading the product description which gives insight into the fit of that style. Next, check our size guides (<a href=\"https:\/\/thisisj.com\/pages\/womens-size-guide\">women<\/a>, <a href=\"https:\/\/thisisj.com\/pages\/mens-size-guide\">men<\/a>, <a href=\"https:\/\/thisisj.com\/pages\/kids-size-guide\">kids<\/a>) that provide additional measurements. Keep in mind that our bamboo fabric is extremely soft and stretchy. The measurements are taken from a relaxed garment (meaning lying flat, not on a person's body), and do not account for the additional 4\"-6” of stretch the fabric has when you put the garment on. If you’re still not sure, send us an email with some details about your height, weight and body type and the product you’re interested in and we’d be happy to make a recommendation.<\/p>"
+          }
+        },
+        "c4375c0c-5d3e-49ce-b35c-79ef5027f1cf": {
+          "type": "question",
+          "settings": {
+            "title": "What is Harris Loungewear?",
+            "answer": "<p>It is a re-incarnation of our founder’s family brand. Originally started in 1925 in Tillsonburg, Ontario as a high end Menswear store, it has been brought back to life as This Is J’s comfortable men’s loungewear brand.<\/p>"
+          }
+        },
+        "1035f00c-e597-4430-88b4-ca74abc4e689": {
+          "type": "category",
+          "settings": {
+            "title": "SHIPPING"
+          }
+        },
+        "33d8819f-8d6e-4f2c-8ba1-f2e51a97f1c4": {
+          "type": "question",
+          "settings": {
+            "title": "Do you ship to the US and overseas?",
+            "answer": "<p>We currently ship within Canada, to the US, Europe, and Australia<\/p>"
+          }
+        },
+        "1ec19375-1940-4252-bdc7-48fe0529344f": {
+          "type": "question",
+          "settings": {
+            "title": "How long will it take to get my order?",
+            "answer": "<p>That depends on where you live and the shipping you choose from the options available at the time of purchase.<\/p>"
+          }
+        },
+        "67992e86-75cb-4508-b76b-7cc992776211": {
+          "type": "question",
+          "settings": {
+            "title": "Can I have my order delivered more quickly by a courier?",
+            "answer": "<p>If you live in Toronto and need a guaranteed next day courier delivery, please get in touch by email and we can accommodate a custom order for you. <\/p>"
+          }
+        },
+        "79fa1236-080b-427a-9dfa-ae3dced78870": {
+          "type": "question",
+          "settings": {
+            "title": "Do you have an order pick-up location?",
+            "answer": "<p>At this time, we do not offer a pick-up option.<\/p>"
+          }
+        },
+        "c44964f8-0e10-4f32-a275-69c8b11db2bb": {
+          "type": "question",
+          "settings": {
+            "title": "What shipping carrier do you use?",
+            "answer": "<p>We use Canada Post to reach all our Canadian customers whether they live in a big city or rural area. A local courier when Local Delivery is selected. DHL in the U.S.<\/p>"
+          }
+        },
+        "6ade706a-522e-492f-b72f-741361e78ded": {
+          "type": "question",
+          "settings": {
+            "title": "How much is shipping and when can I expect my order to arrive?",
+            "answer": "<p>We offer free standard shipping on all orders over $100 across Canada and U.S. orders over $150. We also offer $10 flat rate shipping across the U.S. Your order will ship within 2-3 business days, provided all items are in stock. You will be notified as soon as your order is shipped, and you will be given a tracking number. Since we ship all of our products from Toronto, Canada, delivery will depend on where you're located and can be delayed due to order volume, customs, and national holidays. Real time shipping options display at the time of purchase giving you rates and time in transit choices.<strong>Orders placed after 11:30am EST are scheduled to ship the following day.<\/strong><\/p>"
+          }
+        },
+        "408d6434-ccb1-4bcc-b2eb-a88bdea0e4a0": {
+          "type": "category",
+          "settings": {
+            "title": "RETURNS"
+          }
+        },
+        "e56b0574-8235-4e4c-ba53-97ac9754d8a4": {
+          "type": "question",
+          "settings": {
+            "title": "Can I return or exchange an item?",
+            "answer": "<p>Of course! Just make sure you follow the following guidelines:<\/p><ul><li>The item must be returned within 30 days of purchase.<\/li><li>The item must be in new, unworn and unwashed condition and have all the parts if there are multiple items in a set.<\/li><li>The item must have a valid This Is J sales receipt or invoice number<\/li><li>A return\/exchange form must be filled out prior to shipping the item back. Visit <a href=\"\/pages\/return-and-exchange-form\" title=\"Return and Exchange Form\"><span style=\"text-decoration:underline\"><strong>Return and Exchange form page<\/strong><\/span><\/a>.<\/li><\/ul><p>An item cannot be returned under the following conditions:<\/p><ul><li>If the item was purchased in person at a show or event (exchanges only within 30 days).<\/li><li>If the item was purchased during a sample sale or sale that was advertised as “final sale”.<\/li><li>If the items has been worn and\/or washed.<\/li><li>If the item was purchased more than 30 days prior.<\/li><\/ul>"
+          }
+        }
+      },
+      "block_order": [
+        "b4cb5f81-6756-411b-bd0e-a29a8ec1f6d7",
+        "f3107f54-ec76-4086-b9ad-758cfd207a4b",
+        "923a9279-1bd7-4f97-82fa-56514e0d6c4e",
+        "2a98227f-e49d-4995-8d66-b815701fe41e",
+        "e9a0e97b-7943-4cec-b39e-8eaaa18f0d91",
+        "c4375c0c-5d3e-49ce-b35c-79ef5027f1cf",
+        "1035f00c-e597-4430-88b4-ca74abc4e689",
+        "33d8819f-8d6e-4f2c-8ba1-f2e51a97f1c4",
+        "1ec19375-1940-4252-bdc7-48fe0529344f",
+        "67992e86-75cb-4508-b76b-7cc992776211",
+        "79fa1236-080b-427a-9dfa-ae3dced78870",
+        "c44964f8-0e10-4f32-a275-69c8b11db2bb",
+        "6ade706a-522e-492f-b72f-741361e78ded",
+        "408d6434-ccb1-4bcc-b2eb-a88bdea0e4a0",
+        "e56b0574-8235-4e4c-ba53-97ac9754d8a4"
+      ],
+      "custom_css": [
+        ".faq__category {background: #d6bda7;}"
+      ],
+      "settings": {
+        "show_navigation": true,
+        "title": "",
+        "content": "",
+        "background": "#ffffff",
+        "text_color": "#1c1b1b"
+      }
+    },
+    "cbd89e3e-14f2-483a-9342-b37dff4a98cd": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<p>Can't find an answer to your question? Visit our contact page or email us at <a href=\"mailto:customerservice@thisisj.com\" title=\"Contact This Is J\">customerservice@thisisj.com<br\/><br\/><\/a>Have a shipping related question? Visit our <a href=\"https:\/\/thisisj.com\/pages\/shipping-information\" title=\"This is J Shipping Information\">Shipping Information page<\/a>.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "boxed",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "e178b3ed-b20a-40e7-873c-6abc0c114177",
+    "faq",
+    "cbd89e3e-14f2-483a-9342-b37dff4a98cd"
+  ]
+}

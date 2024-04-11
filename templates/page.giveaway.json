@@ -1,0 +1,53 @@
+{
+  "sections": {
+    "ccc6df00-17d6-411a-9bec-43c22101b86f": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "auto",
+        "image": "shopify:\/\/shop_images\/Loftie_x_This_Is_J_Giveaway_Page_Header.jpg",
+        "subheading": "",
+        "title": "The Restful Experience Giveaway",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+        "overlay_opacity": 45
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "show_title": false,
+        "page_width": "medium"
+      }
+    },
+    "c75f64c6-c7d6-463b-8151-a06a0ef9f72f": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<script async=\"\" type=\"text\/javascript\" src=\"https:\/\/static.klaviyo.com\/onsite\/js\/klaviyo.js?company_id=RiaEVf\"><\/script>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "ccc6df00-17d6-411a-9bec-43c22101b86f",
+    "main",
+    "c75f64c6-c7d6-463b-8151-a06a0ef9f72f"
+  ]
+}

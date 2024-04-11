@@ -1,0 +1,125 @@
+<div class="hero-cta" style="background-color: {{ section.settings.bg }};">
+  <div class="hero-cta__content-wrapper">
+    <div class="hero-cta__content">
+      {%- if section.settings.heading != blank -%}
+        <h1>{{ section.settings.heading }}</h1>
+      {%- endif -%}
+      {%- if section.settings.text != blank -%}
+        <div>{{ section.settings.text }}</div>
+      {%- endif -%}
+
+      {%- if customer and loyalty -%}
+        <p>
+          <strong>
+            {%- assign name = customer.first_name | default: customer.name | default: customer.email -%}
+            {{ 'loyalty.balance_html' | t: name: name }}
+          </strong>
+        </p>
+      {%- else -%}
+        <div class="hero-cta__buttons">
+          {%- for block in section.blocks -%}
+            {%- liquid
+              assign text_color = '#fff'
+              assign contrast_ratio = block.settings.color | color_contrast: '#ffffff'
+
+              if contrast_ratio < 2.5
+                assign text_color = '#000'
+              endif
+            -%}
+            <a
+              class="btn"
+              href="{{ block.settings.url }}"
+              style="
+                background: {{ block.settings.color }};
+                border-color: {{ block.settings.color }};
+                color: {{ text_color }};
+              "
+            >
+              {{ block.settings.text }}
+            </a>
+          {%- endfor -%}
+        </div>
+      {%- endif -%}
+    </div>
+  </div>
+  <div class="hero-cta__image">
+    {%- if section.settings.image -%}
+      {{ section.settings.image | image_url: width: 1800 | image_tag }}
+    {%- endif -%}
+  </div>
+</div>
+
+<style>
+  .shopify-section--loyalty h1 {
+    font-family: 'Cooper BT';
+    font-size: 36px;
+    font-weight: 400;
+  }
+
+  .hero-cta {
+    display: grid;
+    grid-template-areas: 'image' 'content';
+    grid-template-columns: 1fr;
+  }
+
+  @media only screen and (min-width: 769px) {
+    .hero-cta {
+      grid-template-areas: 'content image';
+      grid-template-columns: 2fr 3fr;
+    }
+  }
+
+  .hero-cta__content-wrapper {
+    grid-area: content;
+  }
+
+  .hero-cta__content {
+    max-width: 400px;
+    margin: 12rem auto;
+    padding: 1rem;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .hero-cta__content {
+      margin: 2rem auto;
+      text-align: center;
+    }
+  }
+
+  .hero-cta__image {
+    grid-area: image;
+  }
+
+  .hero-cta__image > img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+  }
+
+  .hero-cta__buttons {
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
+    margin-top: 2rem;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .hero-cta__buttons {
+      margin-left: 0;
+      margin-right: 0;
+      margin-top: 1rem;
+    }
+  }
+
+  .hero-cta__buttons > .btn {
+    margin: 0.5rem;
+    padding: 0.75rem 2rem;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .hero-cta__buttons > .btn {
+      margin: 0.5rem 0;
+      width: 100%;
+    }
+  }
+</style>

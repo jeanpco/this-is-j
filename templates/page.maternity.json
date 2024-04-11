@@ -1,0 +1,494 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [
+        "h1 {font-family: \"BV Celine\"; text-transform: none;}"
+      ],
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "b42824ae-5488-423a-96d3-a30bb19485d1": {
+      "type": "rich-text",
+      "custom_css": [
+        "h3 {font-size: 48px;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Sleepwear Styles for Your Pregnancy Journey",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "#fff0e9",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "3b92ad53-6849-4c67-a83e-35d0113d3920": {
+      "type": "slideshow",
+      "blocks": {
+        "template--21355617517849__3b92ad53-6849-4c67-a83e-35d0113d3920-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/maternity1.webp",
+            "mute_toggle": false,
+            "font": "'Cooper BT', serif",
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "",
+            "description": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--21355617517849__3b92ad53-6849-4c67-a83e-35d0113d3920-image-1"
+      ],
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "fade",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "278e2687-2fba-41fa-be34-02ba24a0e4c7": {
+      "type": "rich-text",
+      "custom_css": [
+        "p {font-size: 18px;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<p>From growing belly to hospital bag essentials, and postpartum care — we have you covered with our soft stretchy fabrics, loose flowing fits, and signature comfort style.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "af4f57a3-166b-47e9-a68a-bc2a03e69ae5": {
+      "type": "multi-column",
+      "blocks": {
+        "template--21355617517849__af4f57a3-166b-47e9-a68a-bc2a03e69ae5-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mat2.webp",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "<p>Short Sleeve Nightie<\/p>",
+            "link_text": "",
+            "link_url": "https:\/\/thisisj.com\/collections\/bamboo-jammers?sort_by=manual&filter.p.m.custom.style=Short+Sleeve+Nightie",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "template--21355617517849__af4f57a3-166b-47e9-a68a-bc2a03e69ae5-item-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mat3.webp",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "<p>Oversized Tee Harem Set<\/p>",
+            "link_text": "",
+            "link_url": "https:\/\/thisisj.com\/collections\/bamboo-jammers?sort_by=manual&filter.p.m.custom.style=Oversized+Tee+Harem+Set",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "template--21355617517849__af4f57a3-166b-47e9-a68a-bc2a03e69ae5-item-3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mat4.webp",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "<p>Oversized Tee Pajama Set<\/p>",
+            "link_text": "",
+            "link_url": "https:\/\/thisisj.com\/collections\/bamboo-jammers?sort_by=manual&filter.p.m.custom.style=Oversized+Tee+Pajama+Set",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "template--21355617517849__af4f57a3-166b-47e9-a68a-bc2a03e69ae5-item-1",
+        "template--21355617517849__af4f57a3-166b-47e9-a68a-bc2a03e69ae5-item-2",
+        "template--21355617517849__af4f57a3-166b-47e9-a68a-bc2a03e69ae5-item-3"
+      ],
+      "custom_css": [
+        "p {text-transform: uppercase; font-weight: 700;}"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "large",
+        "desktop_item_size": "large",
+        "spacing": "tight",
+        "background": "#fff0e9",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "a111d6f9-697e-447e-8a48-48def119894a": {
+      "type": "rich-text",
+      "custom_css": [
+        "p {font-size: 18px;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "The Best Maternity Pajamas For a Reason",
+        "content": "<p>∙ Wide elastic free waistband for a no pinch fit.<br\/>∙ Stretchy fabric to make room for your changing body.<br\/>∙ Moisture-wicking to keep you comfortable.<br\/>∙ Ultra-soft fabric for your delicate skin.<br\/>∙ Workable buttons for easy breastfeeding.<br\/>∙ Machine washable and dryer friendly for ease of care.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "4fa43a7b-a597-4bd1-873d-5bc747484749": {
+      "type": "slideshow",
+      "blocks": {
+        "template--21355617517849__4fa43a7b-a597-4bd1-873d-5bc747484749-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Maternity-Quote_3.jpg",
+            "mute_toggle": false,
+            "font": "'Cooper BT', serif",
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "",
+            "description": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--21355617517849__4fa43a7b-a597-4bd1-873d-5bc747484749-image-1"
+      ],
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "fade",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "78769f1b-8ac2-4727-9e7d-1952a8a0dc86": {
+      "type": "multi-column",
+      "blocks": {
+        "template--21355617517849__78769f1b-8ac2-4727-9e7d-1952a8a0dc86-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mat6.webp",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "",
+            "link_url": "shopify:\/\/collections\/henley-harem-sets",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "template--21355617517849__78769f1b-8ac2-4727-9e7d-1952a8a0dc86-item-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mat7.webp",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "",
+            "link_url": "shopify:\/\/collections\/henley-harem-sets",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "template--21355617517849__78769f1b-8ac2-4727-9e7d-1952a8a0dc86-item-3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mat8.webp",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "",
+            "link_url": "shopify:\/\/collections\/henley-harem-sets",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "template--21355617517849__78769f1b-8ac2-4727-9e7d-1952a8a0dc86-item-1",
+        "template--21355617517849__78769f1b-8ac2-4727-9e7d-1952a8a0dc86-item-2",
+        "template--21355617517849__78769f1b-8ac2-4727-9e7d-1952a8a0dc86-item-3"
+      ],
+      "custom_css": [
+        "h2 {font-size: 18px;}"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "subheading": "Henley harem set",
+        "title": "",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "large",
+        "desktop_item_size": "medium",
+        "spacing": "tight",
+        "background": "#fff0e9",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "07cbc21f-5484-4c0d-858e-2c829852bc68": {
+      "type": "slideshow",
+      "blocks": {
+        "template--21355617517849__07cbc21f-5484-4c0d-858e-2c829852bc68-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Maternity-Quote_1.jpg",
+            "mute_toggle": false,
+            "font": "'Cooper BT', serif",
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "",
+            "description": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--21355617517849__07cbc21f-5484-4c0d-858e-2c829852bc68-image-1"
+      ],
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "fade",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "a0b097a3-235a-4b33-854a-57f9e6f36edd": {
+      "type": "multi-column",
+      "blocks": {
+        "template--21355617517849__a0b097a3-235a-4b33-854a-57f9e6f36edd-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mat10.webp",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "",
+            "link_url": "shopify:\/\/collections\/robes",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "template--21355617517849__a0b097a3-235a-4b33-854a-57f9e6f36edd-item-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mat11.webp",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "",
+            "link_url": "shopify:\/\/collections\/robes",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "template--21355617517849__a0b097a3-235a-4b33-854a-57f9e6f36edd-item-1",
+        "template--21355617517849__a0b097a3-235a-4b33-854a-57f9e6f36edd-item-2"
+      ],
+      "custom_css": [
+        "h2 {font-size: 18px;}"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "subheading": "LOUNGE ROBE",
+        "title": "",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "large",
+        "desktop_item_size": "large",
+        "spacing": "tight",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "7bb6c7cb-b586-4070-b8f7-f10854db6972": {
+      "type": "slideshow",
+      "blocks": {
+        "template--21355617517849__7bb6c7cb-b586-4070-b8f7-f10854db6972-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Maternity-Quote_2.jpg",
+            "mute_toggle": false,
+            "font": "'Cooper BT', serif",
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "",
+            "description": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--21355617517849__7bb6c7cb-b586-4070-b8f7-f10854db6972-image-1"
+      ],
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "fade",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "bfd736f7-9f6c-4395-b4b2-1d613eba7b66": {
+      "type": "multi-column",
+      "blocks": {
+        "template--21355617517849__bfd736f7-9f6c-4395-b4b2-1d613eba7b66-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mat13.webp",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "",
+            "link_url": "https:\/\/thisisj.com\/collections\/bamboo-jammers?sort_by=manual&filter.p.m.custom.style=Short+Sleeve+Set",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "template--21355617517849__bfd736f7-9f6c-4395-b4b2-1d613eba7b66-item-1"
+      ],
+      "custom_css": [
+        "h2 {font-size: 18px;}"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "subheading": "Short Sleeve Set",
+        "title": "",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "large",
+        "desktop_item_size": "large",
+        "spacing": "tight",
+        "background": "#fff0e9",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "ee9aed0a-ae73-4d4b-947e-54aebdb7de59": {
+      "type": "rich-text",
+      "custom_css": [
+        "p {font-size: 18px;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<p>Our beautiful model, Carter, is 5'6\", 9 months pregnant, and is wearing size medium in our Bamboo Jammers sets.<br\/>Made in Toronto, Canada.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "small",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "b42824ae-5488-423a-96d3-a30bb19485d1",
+    "3b92ad53-6849-4c67-a83e-35d0113d3920",
+    "278e2687-2fba-41fa-be34-02ba24a0e4c7",
+    "af4f57a3-166b-47e9-a68a-bc2a03e69ae5",
+    "a111d6f9-697e-447e-8a48-48def119894a",
+    "4fa43a7b-a597-4bd1-873d-5bc747484749",
+    "78769f1b-8ac2-4727-9e7d-1952a8a0dc86",
+    "07cbc21f-5484-4c0d-858e-2c829852bc68",
+    "a0b097a3-235a-4b33-854a-57f9e6f36edd",
+    "7bb6c7cb-b586-4070-b8f7-f10854db6972",
+    "bfd736f7-9f6c-4395-b4b2-1d613eba7b66",
+    "ee9aed0a-ae73-4d4b-947e-54aebdb7de59"
+  ]
+}

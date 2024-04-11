@@ -1,0 +1,88 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "470bea11-06b9-4460-8cfa-5f6a04ea5873": {
+      "type": "faq",
+      "blocks": {
+        "template--21514985177369__470bea11-06b9-4460-8cfa-5f6a04ea5873-question-1": {
+          "type": "question",
+          "settings": {
+            "title": "Do you ship to the US and overseas?",
+            "answer": "<p>We currently ship within Canada, to the US, Europe, and Australia<\/p>"
+          }
+        },
+        "template--21514985177369__470bea11-06b9-4460-8cfa-5f6a04ea5873-question-2": {
+          "type": "question",
+          "settings": {
+            "title": "How long will it take to get my order?",
+            "answer": "<p>That depends on where you live and the shipping you choose from the options available at the time of purchase.<\/p>"
+          }
+        },
+        "f156cc7a-8523-40df-9562-c0f833889703": {
+          "type": "question",
+          "settings": {
+            "title": "Can I have my order delivered more quickly by a courier?",
+            "answer": "<p>If you live in Toronto and need a guaranteed next day courier delivery, please get in touch by email and we can accommodate a custom order for you. <\/p>"
+          }
+        },
+        "21fad9a0-b88a-40f0-871e-fddfb2d9e77e": {
+          "type": "question",
+          "settings": {
+            "title": "Do you have an order pick-up location?",
+            "answer": "<p>At this time, we do not offer a pick-up option.<\/p>"
+          }
+        },
+        "5f869973-8493-4f97-a8b4-26580f42eecf": {
+          "type": "question",
+          "settings": {
+            "title": "What shipping carrier do you use?",
+            "answer": "<p>We use Canada Post to reach all our Canadian customers whether they live in a big city or rural area. A local courier when Local Delivery is selected. DHL in the U.S.<\/p>"
+          }
+        },
+        "ef100e08-6ecf-4439-8af4-587b5da09d72": {
+          "type": "question",
+          "settings": {
+            "title": "Can I return or exchange an item?",
+            "answer": "<p>Of course! Just make sure you follow the following guidelines:<\/p><ul><li>The item must be returned within 30 days of purchase.<\/li><li>The item must be in new, unworn and unwashed condition and have all the parts if there are multiple items in a set.<\/li><li>The item must have a valid This Is J sales receipt or invoice number<\/li><li>A return\/exchange form must be filled out prior to shipping the item back. Visit <a href=\"https:\/\/thisisj.com\/pages\/return-and-exchange-form\" title=\"This is J - Return and Exchange Form\">Return and Exchange form page<\/a>.<\/li><\/ul><p>An item cannot be returned under the following conditions:<\/p><ul><li>If the item was purchased in person at a show or event (exchanges only within 30 days).<\/li><li>If the item was purchased during a sample sale or sale that was advertised as “final sale”.<\/li><li>If the items has been worn and\/or washed.<\/li><li>If the item was purchased more than 30 days prior.<\/li><\/ul>"
+          }
+        },
+        "beb17328-dee6-4cea-9426-ec1bb630c31c": {
+          "type": "question",
+          "settings": {
+            "title": "How much is shipping and when can I expect my order to arrive?",
+            "answer": "<p>We offer free standard shipping on all orders over $100 across Canada and U.S. orders over $150. We also offer $10 flat rate shipping across the U.S. Your order will ship within 2-3 business days, provided all items are in stock. You will be notified as soon as your order is shipped, and you will be given a tracking number. Since we ship all of our products from Toronto, Canada, delivery will depend on where you're located and can be delayed due to order volume, customs, and national holidays. Real time shipping options display at the time of purchase giving you rates and time in transit choices.<strong>Orders placed after 11:30am EST are scheduled to ship the following day.<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21514985177369__470bea11-06b9-4460-8cfa-5f6a04ea5873-question-1",
+        "template--21514985177369__470bea11-06b9-4460-8cfa-5f6a04ea5873-question-2",
+        "f156cc7a-8523-40df-9562-c0f833889703",
+        "21fad9a0-b88a-40f0-871e-fddfb2d9e77e",
+        "5f869973-8493-4f97-a8b4-26580f42eecf",
+        "ef100e08-6ecf-4439-8af4-587b5da09d72",
+        "beb17328-dee6-4cea-9426-ec1bb630c31c"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "Shipping and Returns\/Exchanges FAQ",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "470bea11-06b9-4460-8cfa-5f6a04ea5873"
+  ]
+}

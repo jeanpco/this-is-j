@@ -1,0 +1,45 @@
+<modal-content id="notify-me--{{ product.id }}" class="modal">
+  <div class="modal__overlay"></div>
+
+  <div class="modal__content">
+    <button
+      type="button"
+      class="modal__close-button tap-area"
+      data-action="close"
+      title="{{ 'general.accessibility.close' | t | escape }}"
+    >
+      {%- render 'icon' with 'close' -%}
+    </button>
+
+    <notify-me class="notify-me">
+      <form method="post" action="https://a.klaviyo.com/onsite/components/back-in-stock/subscribe">
+        <h2>{{ product.title }}</h2>
+        <p>{{ 'product.form.notify_me_content' | t }}</p>
+
+        <input type="hidden" name="a" value="RiaEVf">
+        <input type="hidden" name="variant" value="{{ product.select_or_first_available_variant.id }}">
+        <input type="hidden" name="product" value="{{ product.id }}">
+        <input type="hidden" name="platform" value="shopify">
+        <input type="hidden" name="subscribe_for_newsletter" value="false">
+
+        <div class="input">
+          <input type="email" id="email" autocomplete="email" class="input__field" name="email" required="required">
+          <label for="email" class="input__label">{{ 'customer.login.email' | t }}</label>
+        </div>
+
+        <button class="form__submit button button--full button--primary" type="submit">
+          {{- 'product.form.notify_me' | t -}}
+        </button>
+
+        <div class="banner banner--success form__banner" style="display:none">
+          <span class="banner__ribbon">{% render 'icon' with 'form-success' %}</span>
+          <p class="banner__content">{{ 'product.form.notify_me_success' | t }}</p>
+        </div>
+        <div class="banner banner--error form__banner" style="display:none">
+          <span class="banner__ribbon">{% render 'icon' with 'form-error' %}</span>
+          <p class="banner__content">{{ 'product.form.notify_me_error' | t }}</p>
+        </div>
+      </form>
+    </notify-me>
+  </div>
+</modal-content>

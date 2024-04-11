@@ -1,0 +1,72 @@
+{
+  "sections": {
+    "image_with_text_overlay_iJmKTi": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "small",
+        "image": "shopify:\/\/shop_images\/Sample-Sale-In-Person-Header-v6_no-logo.jpg",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+        "overlay_opacity": 30
+      }
+    },
+    "rich_text_bWdPbN": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Book your Early Access",
+        "content": "<p><\/p><p>Calling all comfort lovers!<\/p><p>This Is J will be hosting an <strong>in-person Sample Sale and you can get early access!<\/strong><\/p><p>Join us in-person to shop up to 80% Off misprints, off-cuts, seconds, samples and one of a kind pieces.<\/p><p><a href=\"https:\/\/calendly.com\/thisisj\/this-is-j-in-person-sample-sale-april?utm_source=Klaviyo&utm_medium=campaign&_kx=kP__xXBuyG1_sM9Jeq_YFw.RiaEVf\"><span style=\"text-decoration:underline\"><strong>Early Access by Appointment Only:<br\/><\/strong><\/span><\/a><strong>Thursday March 28th, 2024<br\/><\/strong>from 9:00 a.m. to 2:00 p.m.<strong> <\/strong><\/p><p><span style=\"text-decoration:underline\"><strong>Open to the Public:<br\/><\/strong><\/span><strong>Thursday March 28th, 2024<br\/><\/strong>from 2:00 p.m. to 6:00 p.m.<strong> <\/strong><\/p><p><strong>Friday March 29th, 2024<br\/><\/strong>from 9:00 a.m. to 6:00 p.m.<\/p><p>Located in a NEW bigger space at<br\/><strong>400 Eastern Avenue, Unit 201, Toronto, ON M4M1B9<\/strong><\/p><p>Get first pick! Register at the link below to reserve your EARLY ACCESS before we open to the public.<br\/><span style=\"text-decoration:underline\">Space is limited and by appointment only.<\/span><\/p>",
+        "button_text": "RESERVE YOUR SPOT",
+        "button_link": "https:\/\/calendly.com\/thisisj\/this-is-j-in-person-sample-sale-april?utm_source=Klaviyo&utm_medium=campaign&_kx=kP__xXBuyG1_sM9Jeq_YFw.RiaEVf",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "show_title": false,
+        "page_width": "medium"
+      }
+    },
+    "featured_content_cidUtc": {
+      "type": "featured-content",
+      "settings": {
+        "title": "",
+        "text": "<p>Can't make it in person? Our Online Sample Sale is coming soon. <a href=\"\/pages\/sample-sale-early-access\" title=\"Sample Sale Early Access\">Sign-up here<\/a> to get notified!<\/p><p><\/p>",
+        "align_text": "center",
+        "narrow_column": true,
+        "enlarge_text": true,
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "image_with_text_overlay_iJmKTi",
+    "rich_text_bWdPbN",
+    "main",
+    "featured_content_cidUtc"
+  ]
+}

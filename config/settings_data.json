@@ -1,0 +1,101 @@
+{
+  "current": {
+    "icon_stroke_width": 1,
+    "text_color": "#1c1b1b",
+    "background": "#fff",
+    "secondary_background": "#ffffff",
+    "success_color": "#d6bda7",
+    "header_background": "#ffffff",
+    "header_text_color": "#1c1b1b",
+    "footer_background": "#1c1b1b",
+    "footer_text_color": "#ffffff",
+    "primary_button_background": "#d6bda7",
+    "primary_button_text_color": "#ffffff",
+    "secondary_button_background": "#d6bda7",
+    "product_rating_color": "#000000",
+    "product_on_sale_accent": "#ad1527",
+    "product_sold_out_accent": "#000000",
+    "product_custom_label_background": "#000000",
+    "product_custom_label_2_background": "#d6bda7",
+    "heading_font": "cooper_bt_n2",
+    "heading_text_transform": "normal",
+    "text_font": "avenir_next_n4",
+    "text_font_size": 15,
+    "currency_code_enabled": true,
+    "stagger_blog_posts_apparition": true,
+    "round_color_swatches": true,
+    "color_swatch_config": "Black:#231F20\nBlue:#2A7DE1\nGreen:#949300\nGrey:#8C827A\nYellow:#F5A800\nPurple:#A576A6\nRed:#C10230\nPink:#E88697\nWhite:#F7E8DE\nOrange:#FF6C37\nBrown:#563722",
+    "show_secondary_image": false,
+    "show_discount": false,
+    "cart_show_free_shipping_threshold": true,
+    "cart_free_shipping_threshold": "USD:150,CAD:100",
+    "social_facebook": "https:\/\/www.facebook.com\/thisisjtextileaccessories",
+    "social_pinterest": "https:\/\/www.pinterest.ca\/thisisjsleepwear\/",
+    "social_instagram": "https:\/\/www.instagram.com\/this_is_j\/",
+    "favicon": "shopify:\/\/shop_images\/favicon.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/this-is-j-logo-black.png",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "large",
+    "checkout_sidebar_background_color": "#faf8f2",
+    "checkout_accent_color": "#d6bda7",
+    "checkout_button_color": "#030303",
+    "checkout_error_color": "#ff6d6d",
+    "sections": {
+      "mini-cart": {
+        "type": "mini-cart",
+        "settings": {
+          "show_order_note": true,
+          "show_checkout_button": true,
+          "empty_button_link": "shopify:\/\/collections\/new-arrivals",
+          "show_recommendations": true,
+          "recommendations_title": "You may also like"
+        }
+      }
+    },
+    "content_for_index": [
+
+    ],
+    "blocks": {
+      "12608439564960700138": {
+        "type": "shopify:\/\/apps\/sezzle-widget\/blocks\/widget-embed\/f3a53793-e118-4764-a86b-a79bfedb0d5f",
+        "disabled": false,
+        "settings": {
+          "heading": "Sezzle Widget",
+          "font_size": 14,
+          "font_family": "inherit"
+        }
+      },
+      "855628211100114053": {
+        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "8962992520437913685": {
+        "type": "shopify:\/\/apps\/yotpo-loyalty-rewards\/blocks\/loader-app-embed-block\/2f9660df-5018-4e02-9868-ee1fb88d6ccd",
+        "disabled": false,
+        "settings": {
+          "inject_modules_loader": true,
+          "inject_sdk_loader": false
+        }
+      },
+      "7570552984445421165": {
+        "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/settings\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "1744161739547163668": {
+        "type": "shopify:\/\/apps\/countdown-timer-bar-hextom\/blocks\/ctb-embeded-block\/f7b88b6e-2e87-46bc-87a9-3e3638a24fa9",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
+  },
+  "platform_customizations": {
+    "custom_css": [
+
+    ]
+  }
+}

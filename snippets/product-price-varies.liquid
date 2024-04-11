@@ -1,0 +1,13 @@
+{%- capture price_min -%}
+  {%- if settings.currency_code_enabled -%}
+    {{- price | money_with_currency -}}
+  {%- else -%}
+    {{- price | money -}}
+  {%- endif -%}
+{%- endcapture -%}
+
+{%- if product.price_varies -%}
+  {{- 'collection.product.from_price_html' | t: price_min: price_min -}}
+{%- else -%}
+  {{- price_min -}}
+{%- endif -%}

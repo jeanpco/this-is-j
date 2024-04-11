@@ -1,0 +1,202 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [
+        "h1 {font-family: \"BV Celine\"; text-transform: none;}"
+      ],
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "b523c626-4a86-4aae-9bdd-3c9c17db6fe2": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "auto",
+        "image": "shopify:\/\/shop_images\/HolidayGifting_Header-FairIsle_Black_FlatLay_W_Packagining_GiftBoxes.jpg",
+        "subheading": "",
+        "title": "Holiday Gift Guide",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+        "overlay_opacity": 30
+      }
+    },
+    "c59e590c-d7d6-4f88-bcfa-ebcc9427e2fd": {
+      "type": "multi-column",
+      "blocks": {
+        "template--21547606475033__c59e590c-d7d6-4f88-bcfa-ebcc9427e2fd-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard_89socials_copy.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "gifts for her",
+            "link_url": "https:\/\/thisisj.com\/collections\/the-holiday-collection",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "template--21547606475033__c59e590c-d7d6-4f88-bcfa-ebcc9427e2fd-item-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard_89_2socials_copy.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "gifts for kids",
+            "link_url": "https:\/\/thisisj.com\/collections\/kid-jammers",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "template--21547606475033__c59e590c-d7d6-4f88-bcfa-ebcc9427e2fd-item-3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard_89_1socials_copy.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "gifts for him",
+            "link_url": "https:\/\/thisisj.com\/collections\/the-holiday-collection?sort_by=manual&filter.p.m.custom.category=Men",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "template--21547606475033__c59e590c-d7d6-4f88-bcfa-ebcc9427e2fd-item-1",
+        "template--21547606475033__c59e590c-d7d6-4f88-bcfa-ebcc9427e2fd-item-2",
+        "template--21547606475033__c59e590c-d7d6-4f88-bcfa-ebcc9427e2fd-item-3"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "medium",
+        "desktop_item_size": "large",
+        "spacing": "tight",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "85ca1a43-c515-4129-8aa3-589b0a13fb5a": {
+      "type": "multi-column",
+      "blocks": {
+        "template--21547606475033__85ca1a43-c515-4129-8aa3-589b0a13fb5a-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard_89_3socials_copy.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "gifts for friends",
+            "link_url": "https:\/\/thisisj.com\/collections\/pj-loungewear-separates",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "template--21547606475033__85ca1a43-c515-4129-8aa3-589b0a13fb5a-item-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard_89_5socials_copy.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "stocking stuffers",
+            "link_url": "https:\/\/thisisj.com\/collections\/stocking-stuffers",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "template--21547606475033__85ca1a43-c515-4129-8aa3-589b0a13fb5a-item-3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard_89_4socials_copy.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "family pjs",
+            "link_url": "https:\/\/thisisj.com\/pages\/family-matching",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "template--21547606475033__85ca1a43-c515-4129-8aa3-589b0a13fb5a-item-1",
+        "template--21547606475033__85ca1a43-c515-4129-8aa3-589b0a13fb5a-item-2",
+        "template--21547606475033__85ca1a43-c515-4129-8aa3-589b0a13fb5a-item-3"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "medium",
+        "desktop_item_size": "large",
+        "spacing": "tight",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "61117084-da71-4f43-8228-8cb68cdf600a": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "auto",
+        "image": "shopify:\/\/shop_images\/2_1.jpg",
+        "subheading": "",
+        "title": "We Made Too Much",
+        "content": "",
+        "button_text": "family pjs on sale",
+        "button_link": "https:\/\/thisisj.com\/collections\/we-made-too-much",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "bottom_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+        "overlay_opacity": 30
+      }
+    }
+  },
+  "order": [
+    "main",
+    "b523c626-4a86-4aae-9bdd-3c9c17db6fe2",
+    "c59e590c-d7d6-4f88-bcfa-ebcc9427e2fd",
+    "85ca1a43-c515-4129-8aa3-589b0a13fb5a",
+    "61117084-da71-4f43-8228-8cb68cdf600a"
+  ]
+}

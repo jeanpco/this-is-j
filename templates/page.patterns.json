@@ -1,0 +1,909 @@
+{
+  "sections": {
+    "bcd16921-ce9d-4288-9d05-d560fec930e4": {
+      "type": "rich-text",
+      "custom_css": [
+        "h3 {font-size: 48px;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Our Patterns",
+        "content": "<p>There is something about patterned pajamas that reminds us of our childhood. We try to instill a bit of that care-free comfort and joy with our fun, playful fabric patterns.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "#faf8f2",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "b7e16cda-98a6-47ee-b593-7b88b504e356": {
+      "type": "image-with-text-overlay",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "small",
+        "image": "shopify:\/\/shop_images\/Headers-Family-Matching-Sketch-Flower-Heather-Grey.jpg",
+        "subheading": "",
+        "title": "Sketch Flower",
+        "content": "<p>Capturing the nostalgic charm of handcrafted embroidery. Sketched lines mimic needle stitches adding depth and dimension to each hand drawn flower.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "boxed",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+        "overlay_opacity": 25
+      }
+    },
+    "50f6138f-cfa6-44ed-8966-16ca3a42ba6e": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--17915522580761__50f6138f-cfa6-44ed-8966-16ca3a42ba6e-1683900611e05c10e1-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "sketch-flower-heather-grey",
+            "label": "Sketch flower heather grey",
+            "button_text": "View Collection",
+            "button_url": "shopify:\/\/collections\/sketch-flower-collection"
+          }
+        },
+        "3ec999ac-9c24-4617-8b12-5be3cd5e0e08": {
+          "type": "collection",
+          "settings": {
+            "collection": "sketch-flower",
+            "label": "Sketch flower black",
+            "button_text": "View Collection",
+            "button_url": "shopify:\/\/collections\/sketch-flower-collection"
+          }
+        }
+      },
+      "block_order": [
+        "template--17915522580761__50f6138f-cfa6-44ed-8966-16ca3a42ba6e-1683900611e05c10e1-0",
+        "3ec999ac-9c24-4617-8b12-5be3cd5e0e08"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "products_count": 50,
+        "products_per_row": 6,
+        "stack_products": false,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "e211d227-68d6-4f4a-9f72-bd390e613d7f": {
+      "type": "image-with-text-overlay",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "small",
+        "image": "shopify:\/\/shop_images\/EmmyFlower_CollectionHeader_v2.jpg",
+        "subheading": "",
+        "title": "Emmy Flower",
+        "content": "<p>Hello again, Emmy Flower! This pattern remains one of our most loved and sought after florals for its whimsical illustration, soft floral details and tranquil design. Experience the comfort of Emmy Flower in two new colourways.  <\/p>",
+        "button_text": "",
+        "button_link": "https:\/\/thisisj.com\/collections\/emmy-flower",
+        "link_style": "link",
+        "background_type": "boxed",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+        "overlay_opacity": 25
+      }
+    },
+    "6822df82-bc43-4b0e-ac16-2e6683486830": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--17915522580761__6822df82-bc43-4b0e-ac16-2e6683486830-168389959488378107-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "emmy-flower-brown",
+            "label": "EMMY FLOWER BROWN & PINK",
+            "button_text": "View Collection",
+            "button_url": "shopify:\/\/collections\/emmy-flower-brown"
+          }
+        },
+        "collection_iK8rnj": {
+          "type": "collection",
+          "settings": {
+            "collection": "emmy-flower-charcoal-blue",
+            "label": "EMMY FLOWER CHARCOAL & BLUE",
+            "button_text": "VIEW COLLECTION",
+            "button_url": "https:\/\/thisisj.com\/collections\/emmy-flower"
+          }
+        }
+      },
+      "block_order": [
+        "template--17915522580761__6822df82-bc43-4b0e-ac16-2e6683486830-168389959488378107-0",
+        "collection_iK8rnj"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "products_count": 50,
+        "products_per_row": 6,
+        "stack_products": false,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "06c1a025-0d3c-4ee8-b354-17326a5259b5": {
+      "type": "image-with-text-overlay",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "small",
+        "image": "shopify:\/\/shop_images\/Collection-Feature-Ikat-2.jpg",
+        "subheading": "",
+        "title": "Ikat Marks",
+        "content": "<p>A hand-sketched pattern born from yarn dyed techniques, Ikat Marks blends artistry and tradition to create a bold statement. With distinctive brush marks that layer seamlessly, it introduces a dynamic texture that captivates and beckons to be touched. The use of contrasting colours heightens the pattern’s vibrancy and infuses it with a modern edge. Guaranteed to brighten any bedtime ensemble!<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "boxed",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+        "overlay_opacity": 25
+      }
+    },
+    "2c5be0bf-8b7e-4d15-a00b-69e3e41d8490": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--20427016470809__2c5be0bf-8b7e-4d15-a00b-69e3e41d8490-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "ikat-marks",
+            "label": "",
+            "button_text": "View Collection",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20427016470809__2c5be0bf-8b7e-4d15-a00b-69e3e41d8490-collection-1"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "products_count": 6,
+        "products_per_row": 6,
+        "stack_products": false,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "60b930f4-b477-4be7-98cf-10282589118f": {
+      "type": "image-with-text-overlay",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "small",
+        "image": "shopify:\/\/shop_images\/ThisisJ_220812_5543_HIRES_70sFlower_FamilyMatching_copy.jpg",
+        "subheading": "",
+        "title": "70s Flower",
+        "content": "<p>Groove into comfort with this 70s inspired retro flower print. Bold pops of colour grounded against contrasting fabric choices are reminiscent of lazy Sundays lying around the house while listening to your favourite record on repeat.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "boxed",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+        "overlay_opacity": 25
+      }
+    },
+    "330bd8a1-3d08-4d5c-81e5-26cea4725813": {
+      "type": "featured-collections",
+      "blocks": {
+        "a9319579-eba7-4c6c-bd0f-9dc7bd7701b8": {
+          "type": "collection",
+          "settings": {
+            "collection": "70s-flower-navy",
+            "label": "70s Flower Navy",
+            "button_text": "View Collection",
+            "button_url": "shopify:\/\/collections\/70s-flower"
+          }
+        },
+        "437c1ca3-3c00-4645-954c-fb39a007a3b7": {
+          "type": "collection",
+          "settings": {
+            "collection": "70s-flower-pink",
+            "label": "70s Flower Pink",
+            "button_text": "View Collection",
+            "button_url": "shopify:\/\/collections\/70s-flower"
+          }
+        },
+        "template--17915522580761__330bd8a1-3d08-4d5c-81e5-26cea4725813-168389959488378107-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "70s-flower-cream",
+            "label": "70s Flower Cream",
+            "button_text": "View Collection",
+            "button_url": "shopify:\/\/collections\/70s-flower"
+          }
+        }
+      },
+      "block_order": [
+        "a9319579-eba7-4c6c-bd0f-9dc7bd7701b8",
+        "437c1ca3-3c00-4645-954c-fb39a007a3b7",
+        "template--17915522580761__330bd8a1-3d08-4d5c-81e5-26cea4725813-168389959488378107-0"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "products_count": 50,
+        "products_per_row": 6,
+        "stack_products": false,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "e940f348-120f-4474-bc71-fd379082f906": {
+      "type": "image-with-text-overlay",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "small",
+        "image": "shopify:\/\/shop_images\/Fair-Isle-Collection_Header-3000x800.jpg",
+        "subheading": "",
+        "title": "Fair Isle",
+        "content": "<p>Known for its warmth and coziness, our Fair Isle is a hand-illustrated version of a classic and timeless design that will add a touch of tradition, color, and charm to your nighttime routine.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "boxed",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+        "overlay_opacity": 25
+      }
+    },
+    "999f5bc6-a6b8-49d8-b963-4746b09411a8": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--17915522580761__999f5bc6-a6b8-49d8-b963-4746b09411a8-168389959488378107-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "fair-isle-cream-burgundy",
+            "label": "Fair Isle Cream & Burgundy",
+            "button_text": "View Collection",
+            "button_url": "shopify:\/\/collections\/fair-isle-collection"
+          }
+        },
+        "e305bdab-defe-4f2a-8290-000f62b85331": {
+          "type": "collection",
+          "settings": {
+            "collection": "fair-isle-black-heather-grey",
+            "label": "Fair Isle Black & Heather Grey",
+            "button_text": "View Collection",
+            "button_url": "shopify:\/\/collections\/fair-isle-collection"
+          }
+        }
+      },
+      "block_order": [
+        "template--17915522580761__999f5bc6-a6b8-49d8-b963-4746b09411a8-168389959488378107-0",
+        "e305bdab-defe-4f2a-8290-000f62b85331"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "products_count": 50,
+        "products_per_row": 6,
+        "stack_products": false,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "7080d869-ae89-492b-834f-a2016d624449": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "small",
+        "image": "shopify:\/\/shop_images\/Tartan_2022_Carousel_WebsiteHeader.jpg",
+        "subheading": "",
+        "title": "Seasonal Sleepwear",
+        "content": "<p>Seasonal sleepwear that captures the cozy essence of the winter months. Keeping you temperature regulated while looking and feeling your best.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "boxed",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+        "overlay_opacity": 25
+      }
+    },
+    "d3ca5367-b7dd-4392-87d8-5cb0519b39bc": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--21262577303833__d3ca5367-b7dd-4392-87d8-5cb0519b39bc-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "tartan-collection",
+            "label": "",
+            "button_text": "VIEW COLLECTION",
+            "button_url": "https:\/\/thisisj.com\/collections\/the-holiday-collection"
+          }
+        },
+        "collection_eyFJW6": {
+          "type": "collection",
+          "settings": {
+            "collection": "scandinavian-collection",
+            "label": "Scandinavian collection",
+            "button_text": "VIEW COLLECTION",
+            "button_url": "https:\/\/thisisj.com\/collections\/scandinavian-collection"
+          }
+        }
+      },
+      "block_order": [
+        "template--21262577303833__d3ca5367-b7dd-4392-87d8-5cb0519b39bc-collection-1",
+        "collection_eyFJW6"
+      ],
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "products_count": 50,
+        "products_per_row": 6,
+        "stack_products": false,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "c71f741b-65dd-4857-bf38-803bd6952848": {
+      "type": "image-with-text-overlay",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "small",
+        "image": "shopify:\/\/shop_images\/Header-Tie-Dye-Black-v2.jpg",
+        "subheading": "",
+        "title": "Tie Dye",
+        "content": "<p>Embracing peace, love and comfort, the free flowing spirit of our Tie Dye reduces stress and induces everlasting cozy moments. Hand dyed to produce beautiful variations in colour placement, size, and blend making each set truly one of a kind.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "boxed",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+        "overlay_opacity": 25
+      }
+    },
+    "79b994f3-a6f3-4be0-937b-39d6aa7f3653": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_iXTHTL": {
+          "type": "collection",
+          "settings": {
+            "collection": "tie-dye-black",
+            "label": "",
+            "button_text": "View Collection",
+            "button_url": "https:\/\/thisisj.com\/collections\/tie-dye-black"
+          }
+        },
+        "template--20427016470809__79b994f3-a6f3-4be0-937b-39d6aa7f3653-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "tie-dye-lavender-haze",
+            "label": "",
+            "button_text": "View Collection",
+            "button_url": "shopify:\/\/collections\/sunset-slumber-tie-dye-collection"
+          }
+        },
+        "f321d6e0-c59e-421f-b2bf-61fea8f0a1d3": {
+          "type": "collection",
+          "settings": {
+            "collection": "tie-dye-golden-hour",
+            "label": "",
+            "button_text": "View Collection",
+            "button_url": "shopify:\/\/collections\/sunset-slumber-tie-dye-collection"
+          }
+        },
+        "343cffcb-1ea3-4ff7-8902-f96a84a5aa0a": {
+          "type": "collection",
+          "settings": {
+            "collection": "tie-dye-electric-dreams",
+            "label": "",
+            "button_text": "View Collection",
+            "button_url": "shopify:\/\/collections\/sunset-slumber-tie-dye-collection"
+          }
+        }
+      },
+      "block_order": [
+        "collection_iXTHTL",
+        "template--20427016470809__79b994f3-a6f3-4be0-937b-39d6aa7f3653-collection-1",
+        "f321d6e0-c59e-421f-b2bf-61fea8f0a1d3",
+        "343cffcb-1ea3-4ff7-8902-f96a84a5aa0a"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "products_count": 6,
+        "products_per_row": 6,
+        "stack_products": false,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "2acc6dbe-8e22-4f69-a721-1ded8c8f70f1": {
+      "type": "image-with-text-overlay",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "small",
+        "image": "shopify:\/\/shop_images\/Safari_Jade-Carousel_1463_HIRES_copy.jpg",
+        "subheading": "",
+        "title": "Safari Flower",
+        "content": "<p>A vintage This is J print, originally drawn in 2010 combining floral sketches from travels abroad to create a delicate, free flowing, hand-sketched flower compilation. The soft lines of leaves and thorns anchor the design while spontaneous bold pops colour create whimsy - both working together in a delicate and harmonious way.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "boxed",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+        "overlay_opacity": 25
+      }
+    },
+    "3c3f1770-874e-40e5-9463-f5cc211b590f": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--17915522580761__3c3f1770-874e-40e5-9463-f5cc211b590f-168389959488378107-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "safari-flower-black",
+            "label": "Safari Flower Black",
+            "button_text": "View Collection",
+            "button_url": "shopify:\/\/collections\/safari-flower-collection"
+          }
+        },
+        "30643d47-a357-483a-bfaf-867803019d46": {
+          "type": "collection",
+          "settings": {
+            "collection": "safari-flower-jade",
+            "label": "Safari Flower Jade",
+            "button_text": "View Collection",
+            "button_url": "shopify:\/\/collections\/safari-flower-collection"
+          }
+        }
+      },
+      "block_order": [
+        "template--17915522580761__3c3f1770-874e-40e5-9463-f5cc211b590f-168389959488378107-0",
+        "30643d47-a357-483a-bfaf-867803019d46"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "products_count": 50,
+        "products_per_row": 6,
+        "stack_products": false,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "3bafd0ec-8c7c-440f-9d53-448247aa5764": {
+      "type": "image-with-text-overlay",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "small",
+        "image": "shopify:\/\/shop_images\/Carousel_BookhouLongWeekendSale_4357x1723_ba2ea9f9-ebd0-43b2-8b3c-7c33192e4f42.jpg",
+        "subheading": "",
+        "title": "Bookhou x This is J",
+        "content": "<p>When Art Meets Comfort. A lino cut, hand stamped pattern created by Bookhou designer, Arounna Khounnoraj, in collaboration with This is J. The distinctive neutral palette was inspired by Arounna Khounnoraj’s style and brought to life as a repeat pattern on signature This is J fabric soft stretch fabric.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "boxed",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+        "overlay_opacity": 25
+      }
+    },
+    "1dd14fad-f1dc-405c-a1a1-e3e8c5f4c5dd": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--17915522580761__1dd14fad-f1dc-405c-a1a1-e3e8c5f4c5dd-1683900611e05c10e1-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "bookhou-x-this-is-j-black-white",
+            "label": "Bookhou x TIJ Black & White",
+            "button_text": "View Collection",
+            "button_url": "shopify:\/\/collections\/bookhou-x-this-is-j"
+          }
+        },
+        "0e39e8ad-8151-49af-acd4-c922f23a1b85": {
+          "type": "collection",
+          "settings": {
+            "collection": "bookhou-x-this-is-j-charcoal",
+            "label": "Bookhou x TIJ Charcoal",
+            "button_text": "View Collection",
+            "button_url": "shopify:\/\/collections\/bookhou-x-this-is-j"
+          }
+        }
+      },
+      "block_order": [
+        "template--17915522580761__1dd14fad-f1dc-405c-a1a1-e3e8c5f4c5dd-1683900611e05c10e1-0",
+        "0e39e8ad-8151-49af-acd4-c922f23a1b85"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "products_count": 50,
+        "products_per_row": 6,
+        "stack_products": false,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "fd3b1c53-a685-4442-8d8c-867972771539": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "small",
+        "image": "shopify:\/\/shop_images\/Carousel_Varsity.jpg",
+        "subheading": "",
+        "title": "Varsity Stripe",
+        "content": "<p>Varsity Stripe is team comfort all the way! Drawing inspiration from classic collegiate aesthetics, Varsity Stripe seamlessly blends bold yet harmonious parallel lines to create timeless and versatile striped patterns that exude comfort. So soft to the touch that it feels like being wrapped in a warm hug - reminiscent of those cozy college sweatshirts that once adorned your dorm room chair. <\/p>",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "boxed",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+        "overlay_opacity": 25
+      }
+    },
+    "3ffe6cd2-9d08-4ba7-8d20-385796e18434": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--20427016470809__3ffe6cd2-9d08-4ba7-8d20-385796e18434-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "varsity-stripe-fuchsia-black",
+            "label": "Varsity Stripe Fuchsia Black",
+            "button_text": "view collection",
+            "button_url": "shopify:\/\/collections\/varsity-stripe-collection"
+          }
+        },
+        "5ee648a9-acc8-466d-bef2-c60a94314ec3": {
+          "type": "collection",
+          "settings": {
+            "collection": "varsity-stripe-dark-navy",
+            "label": "VARSITY STRIPE DARK NAVY",
+            "button_text": "View Collection",
+            "button_url": "shopify:\/\/collections\/varsity-stripe-collection"
+          }
+        }
+      },
+      "block_order": [
+        "template--20427016470809__3ffe6cd2-9d08-4ba7-8d20-385796e18434-collection-1",
+        "5ee648a9-acc8-466d-bef2-c60a94314ec3"
+      ],
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "products_count": 8,
+        "products_per_row": 6,
+        "stack_products": false,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "acbdf988-9f5e-4c80-a99d-b954a874c312": {
+      "type": "collection-list",
+      "blocks": {
+        "f21e3a96-c746-4dd0-ae33-52120822673d": {
+          "type": "collection",
+          "settings": {
+            "collection": "solid-collection",
+            "image": "shopify:\/\/shop_images\/1_2-2.jpg",
+            "subheading": "",
+            "title": "Solids",
+            "link_text": "VIEW COLLECTION",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 25
+          }
+        },
+        "f6e53f8a-f37a-4f59-aa50-a2f4b1c4158d": {
+          "type": "collection",
+          "settings": {
+            "collection": "stripes-collection",
+            "image": "shopify:\/\/shop_images\/1_4-stripes.jpg",
+            "subheading": "",
+            "title": "Stripes",
+            "link_text": "VIEW COLLECTION",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 25
+          }
+        },
+        "collection_RzTKNE": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Headers-01.jpg",
+            "subheading": "",
+            "title": "Plaid",
+            "link_text": "VIEW COLLECTION",
+            "link_url": "https:\/\/thisisj.com\/collections\/the-plaid-collection",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 15
+          }
+        },
+        "334f692f-51a6-4dd0-9581-61ec18e5d0fb": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "checkerboard-collection",
+            "image": "shopify:\/\/shop_images\/Artboard_88.jpg",
+            "subheading": "",
+            "title": "Checkerboard",
+            "link_text": "VIEW COLLECTION",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 25
+          }
+        },
+        "0892eca5-4944-4395-ad26-28a1ebd320ac": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "sketch-flower",
+            "image": "shopify:\/\/shop_images\/Patterns-Sketch-Flower-Black-7832-1100x1400.jpg",
+            "subheading": "",
+            "title": "Sketch Flower",
+            "link_text": "VIEW COLLECTION",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 25
+          }
+        },
+        "ee011ebe-2817-4e59-8d06-52a68f7edb10": {
+          "type": "collection",
+          "settings": {
+            "collection": "the-tie-dye-collection",
+            "image": "shopify:\/\/shop_images\/1_4-4.jpg",
+            "subheading": "",
+            "title": "Tie Dye",
+            "link_text": "VIEW COLLECTION",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 25
+          }
+        },
+        "d1c0a003-bfd4-4d8a-aaae-85c392612900": {
+          "type": "collection",
+          "settings": {
+            "collection": "colour-block-capsule",
+            "image": "shopify:\/\/shop_images\/1_4-3.jpg",
+            "subheading": "",
+            "title": "Colour Block",
+            "link_text": "VIEW COLLECTION",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 25
+          }
+        },
+        "ec481d8d-6c85-41fd-90f7-b852cdd0d92e": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "the-graphic-collection",
+            "image": "shopify:\/\/shop_images\/1.jpg",
+            "subheading": "",
+            "title": "Graphics",
+            "link_text": "VIEW COLLECTION",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 25
+          }
+        }
+      },
+      "block_order": [
+        "f21e3a96-c746-4dd0-ae33-52120822673d",
+        "f6e53f8a-f37a-4f59-aa50-a2f4b1c4158d",
+        "collection_RzTKNE",
+        "334f692f-51a6-4dd0-9581-61ec18e5d0fb",
+        "0892eca5-4944-4395-ad26-28a1ebd320ac",
+        "ee011ebe-2817-4e59-8d06-52a68f7edb10",
+        "d1c0a003-bfd4-4d8a-aaae-85c392612900",
+        "ec481d8d-6c85-41fd-90f7-b852cdd0d92e"
+      ],
+      "custom_css": [
+        "p {letter-spacing: 1px; font-weight: 700;}",
+        ".link {text-decoration-thickness: 1.5px;}"
+      ],
+      "settings": {
+        "reveal_on_scroll": false,
+        "layout": "carousel",
+        "subheading": "Discover",
+        "title": "More Collections",
+        "background": "#faf8f2",
+        "text_color": "#1c1b1b",
+        "text_shadow_color": "rgba(0,0,0,0)"
+      }
+    },
+    "main": {
+      "type": "main-list-collections",
+      "blocks": {
+        "f1c787ac-b80c-4c8d-9bd2-ef2b5be01d18": {
+          "type": "collection",
+          "settings": {
+            "collection": "colour-block-capsule",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10
+          }
+        },
+        "9b5df00c-ade2-4584-a9f0-06fec10f0b07": {
+          "type": "collection",
+          "settings": {
+            "collection": "varsity-stripe-collection",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "1d9db22f-c8a5-4898-bd67-870400f57be0": {
+          "type": "collection",
+          "settings": {
+            "collection": "the-graphic-collection",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "f1c787ac-b80c-4c8d-9bd2-ef2b5be01d18",
+        "9b5df00c-ade2-4584-a9f0-06fec10f0b07",
+        "1d9db22f-c8a5-4898-bd67-870400f57be0"
+      ],
+      "disabled": true,
+      "settings": {
+        "collections_to_show": "selected",
+        "show_collection_title": true
+      }
+    }
+  },
+  "order": [
+    "bcd16921-ce9d-4288-9d05-d560fec930e4",
+    "b7e16cda-98a6-47ee-b593-7b88b504e356",
+    "50f6138f-cfa6-44ed-8966-16ca3a42ba6e",
+    "e211d227-68d6-4f4a-9f72-bd390e613d7f",
+    "6822df82-bc43-4b0e-ac16-2e6683486830",
+    "06c1a025-0d3c-4ee8-b354-17326a5259b5",
+    "2c5be0bf-8b7e-4d15-a00b-69e3e41d8490",
+    "60b930f4-b477-4be7-98cf-10282589118f",
+    "330bd8a1-3d08-4d5c-81e5-26cea4725813",
+    "e940f348-120f-4474-bc71-fd379082f906",
+    "999f5bc6-a6b8-49d8-b963-4746b09411a8",
+    "7080d869-ae89-492b-834f-a2016d624449",
+    "d3ca5367-b7dd-4392-87d8-5cb0519b39bc",
+    "c71f741b-65dd-4857-bf38-803bd6952848",
+    "79b994f3-a6f3-4be0-937b-39d6aa7f3653",
+    "2acc6dbe-8e22-4f69-a721-1ded8c8f70f1",
+    "3c3f1770-874e-40e5-9463-f5cc211b590f",
+    "3bafd0ec-8c7c-440f-9d53-448247aa5764",
+    "1dd14fad-f1dc-405c-a1a1-e3e8c5f4c5dd",
+    "fd3b1c53-a685-4442-8d8c-867972771539",
+    "3ffe6cd2-9d08-4ba7-8d20-385796e18434",
+    "acbdf988-9f5e-4c80-a99d-b954a874c312",
+    "main"
+  ]
+}

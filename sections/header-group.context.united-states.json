@@ -1,0 +1,20 @@
+{
+  "parent": "header-group.json",
+  "context": {
+    "market": "united-states"
+  },
+  "sections": {
+    "announcement-bar": {
+      "disabled": false,
+      "settings": {
+      },
+      "blocks": {
+        "message-1": {
+          "settings": {
+            "text": "Free Shipping on Orders Over $150"
+          }
+        }
+      }
+    }
+  }
+}

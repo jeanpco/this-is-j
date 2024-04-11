@@ -1,0 +1,161 @@
+<div class="rewards" style="background-color: {{ section.settings.bg }}">
+  {%- if section.settings.heading != blank -%}
+    <h2>{{ section.settings.heading }}</h2>
+  {%- endif -%}
+
+  <ul class="rewards__list">
+    {%- for block in section.blocks -%}
+      <li id="{{ block.settings.text | handleize }}" class="reward">
+        {%- liquid
+          if block.settings.image
+            echo block.settings.image | image_url: width: 800 | image_tag: class: 'reward__icon'
+          endif
+        -%}
+        <p class="reward__title">{{ block.settings.text }}</p>
+
+        {% comment %} Loyalty documentation: https://loyaltyapi.yotpo.com/reference/campaigns-1 {% endcomment %}
+        {%- if block.settings.link != blank -%}
+          <a class="reward__button" href="{{ block.settings.link }}">
+            {{- block.settings.button -}}
+          </a>
+        {%- else -%}
+          {%- if customer -%}
+            <button type="button"
+              class="reward__button swell-campaign-link"
+              data-campaign-id="{{ block.settings.campaign }}"
+              data-display-mode="modal"
+            >
+              {{- block.settings.button -}}
+            </button>
+          {%- else -%}
+            <a class="reward__button" href="{{ routes.account_url }}">
+              {{- block.settings.button -}}
+            </a>
+          {%- endif -%}
+        {%- endif -%}
+      </li>
+    {%- endfor -%}
+  </ul>
+</div>
+
+<style>
+  .rewards {
+    margin: 0;
+    padding: 8rem 1rem;
+  }
+
+  .rewards h2 {
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .rewards__list {
+    grid-template-columns: repeat(3, 1fr);
+    list-style: none;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0;
+  }
+
+  @media only screen and (min-width: 769px) {
+    .rewards__list {
+      column-gap: 2rem;
+      display: grid;
+      margin: 2rem auto;
+    }
+  }
+
+  .reward {
+    margin: 2rem 0;
+    text-align: center;
+    scroll-margin-top: 100px;
+  }
+
+  #refer {
+    scroll-margin-top: 75px;
+  }
+
+  .reward__title {
+    font-weight: bold;
+  }
+
+  .reward__icon {
+    height: auto;
+    max-width: 300px;
+  }
+
+  .reward__button {
+    background-color: #000;
+    border-radius: 1.25rem;
+    color: #fff;
+    font-size: .8rem;
+    font-weight: 700;
+    letter-spacing: .1em;
+    padding: .5rem 1rem;
+    text-transform: uppercase;
+    transition: background .3s ease-in-out;
+  }
+
+  .reward__button:hover,
+  .reward__button:focus {
+    background: #555;
+    color: #fff;
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Loyalty Rewards",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Ways to Earn Points"
+    },
+    {
+      "type": "color",
+      "id": "bg",
+      "label": "Background",
+      "default": "#F9F8F5"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "reward",
+      "name": "Reward",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Text",
+          "default": "Reward name"
+        },
+        {
+          "type": "text",
+          "id": "button",
+          "label": "Button text",
+          "default": "Redeem"
+        },
+        {
+          "type": "text",
+          "id": "campaign",
+          "label": "Yotpo campaign ID"
+        },
+        {
+          "type": "text",
+          "id": "link",
+          "label": "Link to section",
+          "info": "If filled, the Yotpo redemption will be ignored and the customer will be redirected when clicking the button."
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

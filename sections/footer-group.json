@@ -1,0 +1,107 @@
+{
+  "type": "footer",
+  "name": "Footer group",
+  "sections": {
+    "text-with-icons": {
+      "type": "text-with-icons",
+      "blocks": {
+        "e221ba5b-9149-4255-b58c-6ba412d88af7": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-love",
+            "custom_icon": "shopify:\/\/shop_images\/Icon_Comfort-Club.png",
+            "custom_icon_width": 100,
+            "title": "Comfort Club",
+            "content": "<p>Earn rewards and get access to our biggest sales of the year. <a href=\"\/pages\/loyalty\" title=\"Loyalty\">Learn More<\/a><\/p>"
+          }
+        },
+        "item-3": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-email",
+            "custom_icon": "shopify:\/\/shop_images\/Icon_Contact.png",
+            "custom_icon_width": 100,
+            "title": "Contact Us",
+            "content": "<p>We're here for you! Reach out to us at <a href=\"mailto:us@thisisj.com\" target=\"_blank\" title=\"mailto:us@thisisj.com\">us@thisisj.com<\/a> with any questions.<\/p>"
+          }
+        },
+        "6f62784e-b1ed-4101-bb19-6e62a2a5bf2d": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-gift",
+            "custom_icon": "shopify:\/\/shop_images\/Icon_Give20-Get20.png",
+            "custom_icon_width": 100,
+            "title": "Give $20, Get $20",
+            "content": "<p>It's a win-win! Refer a friend and you both save. <a href=\"\/pages\/refer-a-friend\" title=\"Give $20, Get $20\">Get My Link<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "e221ba5b-9149-4255-b58c-6ba412d88af7",
+        "item-3",
+        "6f62784e-b1ed-4101-bb19-6e62a2a5bf2d"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "background": "#faf8f2",
+        "text_color": "#1c1b1b"
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "links": {
+          "type": "links",
+          "settings": {
+            "menu": "customer-care"
+          }
+        },
+        "64a3ebc1-a5d4-44eb-a24f-6b39b7ab5fee": {
+          "type": "links",
+          "settings": {
+            "menu": "about-this-is-j"
+          }
+        },
+        "1b4425d7-9ab6-47c0-9975-ff0bf180a39a": {
+          "type": "links",
+          "settings": {
+            "menu": "size-guides"
+          }
+        },
+        "4a988cf1-e853-4c69-9ff8-22084419224c": {
+          "type": "social_media",
+          "settings": {
+            "title": "Follow us",
+            "content": ""
+          }
+        },
+        "newsletter": {
+          "type": "newsletter",
+          "settings": {
+            "title": "Sign Up & Save",
+            "content": "<p>Subscribe to get special offers and to be eligible to win free pajamas for a year.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "links",
+        "64a3ebc1-a5d4-44eb-a24f-6b39b7ab5fee",
+        "1b4425d7-9ab6-47c0-9975-ff0bf180a39a",
+        "4a988cf1-e853-4c69-9ff8-22084419224c",
+        "newsletter"
+      ],
+      "settings": {
+        "show_payment_icons": false,
+        "enable_follow_on_shop": true,
+        "show_country_selector": true,
+        "show_locale_selector": true
+      }
+    }
+  },
+  "order": [
+    "text-with-icons",
+    "footer"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "cb070486-d049-45c9-8362-16c4ea0b0a97": {
+      "type": "contact-form",
+      "blocks": {
+        "c1c74fd2-1342-492e-a3fb-09870668f134": {
+          "type": "text",
+          "settings": {
+            "title": "Order\/Invoice Number",
+            "use_long_text": false,
+            "is_required": true
+          }
+        },
+        "ce347da0-2219-403b-9eb5-30d6aa1c85cd": {
+          "type": "text",
+          "settings": {
+            "title": "Item(s) For Exchange",
+            "use_long_text": true,
+            "is_required": false
+          }
+        },
+        "404632e7-6e32-4d1d-b10b-534d0f20e8e4": {
+          "type": "text",
+          "settings": {
+            "title": "Item(s) For Return",
+            "use_long_text": true,
+            "is_required": false
+          }
+        }
+      },
+      "block_order": [
+        "c1c74fd2-1342-492e-a3fb-09870668f134",
+        "ce347da0-2219-403b-9eb5-30d6aa1c85cd",
+        "404632e7-6e32-4d1d-b10b-534d0f20e8e4"
+      ],
+      "settings": {
+        "title": "",
+        "content": "",
+        "text_1_heading": "",
+        "text_1_text": "",
+        "text_2_heading": "",
+        "text_2_text": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "cb070486-d049-45c9-8362-16c4ea0b0a97"
+  ]
+}

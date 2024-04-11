@@ -1,0 +1,307 @@
+{
+  "type": "header",
+  "name": "Header group",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "message-1": {
+          "type": "message",
+          "settings": {
+            "text": "Free shipping on Orders Over $100",
+            "text_link": "shopify:\/\/pages\/shipping-information",
+            "learn_more_text": "Learn More",
+            "title": "",
+            "content": "",
+            "button_text": "",
+            "button_link": "shopify:\/\/pages\/shipping-information"
+          }
+        },
+        "609903ea-b137-4089-840a-0e0c8321b5da": {
+          "type": "message",
+          "settings": {
+            "text": "Subscribe & Save 10% off your First Purchase",
+            "text_link": "",
+            "learn_more_text": "",
+            "image": "shopify:\/\/shop_images\/Carousel_Ikat-Marks-Chair.jpg",
+            "title": "Subscribe & Save",
+            "content": "<p>Sign up to our Newsletter and get 10% Off your First Purchase<\/p>",
+            "button_text": "Subscribe Now",
+            "button_link": "shopify:\/\/pages\/subscribe"
+          }
+        }
+      },
+      "block_order": [
+        "message-1",
+        "609903ea-b137-4089-840a-0e0c8321b5da"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "announcement_bar_position": "non_sticky",
+        "announcement_text_size": "normal",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "#1c1b1b",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#1c1b1b"
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "d13fa5fa-1e26-493c-877b-c9f7822aa04e": {
+          "type": "mega_menu",
+          "settings": {
+            "brand": "all",
+            "menu_item": "What's New",
+            "images_position": "right",
+            "image_1": "shopify:\/\/shop_images\/Womens_EmmyFLower_Bed_011920211_560x420_1f8c23d5-6012-4500-ad7c-94e8869796b8.jpg",
+            "image_1_heading": "GET INTO BED WITH OUR NEWEST ARRIVALS",
+            "image_1_text": "",
+            "image_1_link": "shopify:\/\/collections\/new-arrivals",
+            "image_2_heading": "",
+            "image_2_text": "",
+            "image_2_link": "",
+            "image_3_heading": "",
+            "image_3_text": "",
+            "image_3_link": "",
+            "image_4_heading": "",
+            "image_4_text": "",
+            "image_4_link": "",
+            "image_5_heading": "",
+            "image_5_text": "",
+            "image_5_link": "",
+            "image_6_heading": "",
+            "image_6_text": "",
+            "image_6_link": ""
+          }
+        },
+        "257f2dd3-5426-4dd3-95de-aef0f2f023e3": {
+          "type": "mega_menu",
+          "settings": {
+            "brand": "all",
+            "menu_item": "Women",
+            "images_position": "right",
+            "image_1": "shopify:\/\/shop_images\/Womens_Mixed_Henley-Harem_560x420_060336fd-f154-49a8-843a-ae093e2191c8.jpg",
+            "image_1_heading": "Our #1 Selling Style - The Henley Harem Set",
+            "image_1_text": "",
+            "image_1_link": "shopify:\/\/products\/henley-harem-set-emmy-flower-brown",
+            "image_2_heading": "",
+            "image_2_text": "",
+            "image_2_link": "",
+            "image_3_heading": "",
+            "image_3_text": "",
+            "image_3_link": "",
+            "image_4_heading": "",
+            "image_4_text": "",
+            "image_4_link": "",
+            "image_5_heading": "",
+            "image_5_text": "",
+            "image_5_link": "",
+            "image_6_heading": "",
+            "image_6_text": "",
+            "image_6_link": ""
+          }
+        },
+        "e5ae2d8c-7286-46d8-8213-1fd8518e289e": {
+          "type": "mega_menu",
+          "settings": {
+            "brand": "all",
+            "menu_item": "Men",
+            "images_position": "right",
+            "image_1": "shopify:\/\/shop_images\/Mens_Thumbnail_560x420_aeba2dd6-ffbe-4936-aab8-48f7d8b27871.jpg",
+            "image_1_heading": "Live Life Comfortably",
+            "image_1_text": "",
+            "image_1_link": "shopify:\/\/collections\/mens-black-heather-grey-loungewear",
+            "image_2_heading": "",
+            "image_2_text": "",
+            "image_2_link": "",
+            "image_3_heading": "",
+            "image_3_text": "",
+            "image_3_link": "",
+            "image_4_heading": "",
+            "image_4_text": "",
+            "image_4_link": "",
+            "image_5_heading": "",
+            "image_5_text": "",
+            "image_5_link": "",
+            "image_6_heading": "",
+            "image_6_text": "",
+            "image_6_link": ""
+          }
+        },
+        "72a3cb4b-22c1-4f4e-a335-49fb4cb8f590": {
+          "type": "mega_menu",
+          "settings": {
+            "brand": "all",
+            "menu_item": "Kids",
+            "images_position": "right",
+            "image_1": "shopify:\/\/shop_images\/Thumbnail_kids_560x420_e5f40670-63cd-4978-956b-96de4cc8df55.jpg",
+            "image_1_heading": "Monochromatic Matching",
+            "image_1_text": "",
+            "image_1_link": "shopify:\/\/collections\/sketch-flower-heather-grey",
+            "image_2_heading": "",
+            "image_2_text": "",
+            "image_2_link": "",
+            "image_3_heading": "",
+            "image_3_text": "",
+            "image_3_link": "",
+            "image_4_heading": "",
+            "image_4_text": "",
+            "image_4_link": "",
+            "image_5_heading": "",
+            "image_5_text": "",
+            "image_5_link": "",
+            "image_6_heading": "",
+            "image_6_text": "",
+            "image_6_link": ""
+          }
+        },
+        "0602b6a2-e280-4de9-85cc-7eb7ca2f876b": {
+          "type": "mega_menu",
+          "settings": {
+            "brand": "all",
+            "menu_item": "Patterns",
+            "images_position": "right",
+            "image_1": "shopify:\/\/shop_images\/Artboard_9_4-100.jpg",
+            "image_1_heading": "Sketch Flower",
+            "image_1_text": "Heather Grey & Black",
+            "image_1_link": "shopify:\/\/collections\/sketch-flower-collection",
+            "image_2": "shopify:\/\/shop_images\/Fabric-Swatch-70sNavy.jpg",
+            "image_2_heading": "70s Flower",
+            "image_2_text": "Pink, Navy & Cream",
+            "image_2_link": "shopify:\/\/collections\/70s-flower",
+            "image_3": "shopify:\/\/shop_images\/Headers-12_e98ef3c1-4ee8-4d6b-a7ee-dc4db065487d.jpg",
+            "image_3_heading": "Emmy Flower",
+            "image_3_text": "Brown & Charcoal",
+            "image_3_link": "shopify:\/\/collections\/emmy-flower",
+            "image_4": "shopify:\/\/shop_images\/Headers.jpg",
+            "image_4_heading": "Ikat Marks",
+            "image_4_text": "Cream",
+            "image_4_link": "shopify:\/\/collections\/ikat-marks",
+            "image_5": "shopify:\/\/shop_images\/Fabric-Swatch-Stripe.jpg",
+            "image_5_heading": "View All Patterns →",
+            "image_5_text": "",
+            "image_5_link": "shopify:\/\/pages\/our-patterns",
+            "image_6_heading": "",
+            "image_6_text": "",
+            "image_6_link": "#"
+          }
+        },
+        "ed0b03ff-2392-497d-9df1-1643a48696ac": {
+          "type": "mega_menu",
+          "settings": {
+            "brand": "all",
+            "menu_item": "Sample Sale",
+            "images_position": "right",
+            "image_1_heading": "",
+            "image_1_text": "",
+            "image_1_link": "",
+            "image_2_heading": "",
+            "image_2_text": "",
+            "image_2_link": "",
+            "image_3_heading": "",
+            "image_3_text": "",
+            "image_3_link": "",
+            "image_4_heading": "",
+            "image_4_text": "",
+            "image_4_link": "",
+            "image_5_heading": "",
+            "image_5_text": "",
+            "image_5_link": "",
+            "image_6_heading": "",
+            "image_6_text": "",
+            "image_6_link": ""
+          }
+        },
+        "mega_menu_qVg9QY": {
+          "type": "mega_menu",
+          "settings": {
+            "brand": "all",
+            "menu_item": "Sale",
+            "images_position": "right",
+            "image_1_heading": "",
+            "image_1_text": "",
+            "image_1_link": "",
+            "image_2_heading": "",
+            "image_2_text": "",
+            "image_2_link": "",
+            "image_3_heading": "",
+            "image_3_text": "",
+            "image_3_link": "",
+            "image_4_heading": "",
+            "image_4_text": "",
+            "image_4_link": "",
+            "image_5_heading": "",
+            "image_5_text": "",
+            "image_5_link": "",
+            "image_6_heading": "",
+            "image_6_text": "",
+            "image_6_link": ""
+          }
+        },
+        "dc9e7dc0-977e-4f13-8253-26938423eaaf": {
+          "type": "brand",
+          "settings": {
+            "title": "This is J",
+            "logo": "shopify:\/\/shop_images\/this-is-j-logo-black.png",
+            "home": "\/",
+            "color": "#d6bda7",
+            "navigation_menu": "main-menu",
+            "sidebar_navigation_menu": "",
+            "brand_logo": "shopify:\/\/shop_images\/logo-black.png",
+            "brand_logo_active": "shopify:\/\/shop_images\/logo-white.png"
+          }
+        },
+        "60c4a2b4-2fbb-43b7-ab3d-87ba13e2b059": {
+          "type": "brand",
+          "disabled": true,
+          "settings": {
+            "title": "Harris",
+            "logo": "shopify:\/\/shop_images\/harris-logo.png",
+            "home": "shopify:\/\/pages\/harris",
+            "color": "#405464",
+            "navigation_menu": "main-menu",
+            "sidebar_navigation_menu": "",
+            "brand_logo": "shopify:\/\/shop_images\/Harris_logo_1.png",
+            "brand_logo_active": "shopify:\/\/shop_images\/Harris_Logo_--_White_1.png"
+          }
+        }
+      },
+      "block_order": [
+        "d13fa5fa-1e26-493c-877b-c9f7822aa04e",
+        "257f2dd3-5426-4dd3-95de-aef0f2f023e3",
+        "e5ae2d8c-7286-46d8-8213-1fd8518e289e",
+        "72a3cb4b-22c1-4f4e-a335-49fb4cb8f590",
+        "0602b6a2-e280-4de9-85cc-7eb7ca2f876b",
+        "ed0b03ff-2392-497d-9df1-1643a48696ac",
+        "mega_menu_qVg9QY",
+        "dc9e7dc0-977e-4f13-8253-26938423eaaf",
+        "60c4a2b4-2fbb-43b7-ab3d-87ba13e2b059"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "enable_sticky_header": true,
+        "logo_max_width": 100,
+        "mobile_logo_max_width": 70,
+        "header_layout": "logo_center_search_open",
+        "show_icons": true,
+        "reduce_desktop_padding": true,
+        "show_locale_selector": true,
+        "show_country_selector": true,
+        "enable_transparent_header": false,
+        "transparent_header_text_color": "#1c1b1b",
+        "search_menu": ""
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}

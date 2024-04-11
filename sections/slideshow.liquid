@@ -1,0 +1,622 @@
+<style>
+  .template-index  #shopify-section-{{ section.id }} p {
+    font-family: "Avenir";
+    letter-spacing: 0.2px;
+    font-size: 20px;
+    margin-top: 0px;
+  }
+
+  #shopify-section-{{ section.id }} h3 {
+    margin-bottom: 20px;
+  }
+
+  #shopify-section-{{ section.id }} {
+    --progress-bar-color: {{ section.blocks.first.settings.text_color.red }}, {{ section.blocks.first.settings.text_color.green }}, {{ section.blocks.first.settings.text_color.blue }};
+    --section-autoplay-duration: {% if section.settings.autoplay %}{{ section.settings.cycle_speed }}s{% else %}0s{% endif %};
+    --section-animation-play-state: paused;
+    background-color: {{ section.settings.background }}; /* Allows to set a placeholder color while loading */
+
+  }
+
+  {%- for block in section.blocks -%}
+    {%- assign text_position = block.settings.text_position | split: '_' | first -%}
+
+    {%- case text_position -%}
+      {%- when 'top' -%}
+        {%- assign section_items_alignment = 'flex-start' -%}
+      {%- when 'middle' -%}
+        {%- assign section_items_alignment = 'center' -%}
+      {%- when 'bottom' -%}
+        {%- assign section_items_alignment = 'flex-end' -%}
+    {%- endcase -%}
+
+    #block-{{ section.id }}-{{ block.id }} {
+      --heading-color: {{ block.settings.text_color.red }}, {{ block.settings.text_color.green }}, {{ block.settings.text_color.blue }};
+      --text-color: {{ block.settings.text_color.red }}, {{ block.settings.text_color.green }}, {{ block.settings.text_color.blue }};
+      --primary-button-background: {{ block.settings.button_background.red }}, {{ block.settings.button_background.green }}, {{ block.settings.button_background.blue }};
+      --primary-button-text-color: {{ block.settings.button_text_color.red }}, {{ block.settings.button_text_color.green }}, {{ block.settings.button_text_color.blue }};
+      --section-blocks-alignment: {{ section_items_alignment }};
+      --heading-small-font-size: {{ block.settings.subheading_font_size_m}}px;
+      --heading-large-font-size: {{ block.settings.heading_font_size_m }}px;
+    }
+
+    {% if block.settings.video %}
+      [aria-controls="block-{{ section.id }}-{{ block.id }}"] {
+        --section-autoplay-duration: {{ block.settings.video.duration | divided_by: 1000 }}s;
+      }
+    {% endif %}
+
+    #block-{{ section.id }}-{{ block.id }} {
+      --section-blocks-overlay-color: {{ block.settings.overlay_color }};
+      --section-blocks-overlay-opacity: {{ block.settings.overlay_opacity | divided_by: 100.0 }};
+      --slideshow-font: {{ block.settings.font }};
+    }
+
+    @media screen and (min-width: 741px) {
+      #block-{{ section.id }}-{{ block.id }} {
+        --heading-large-font-size: {{ block.settings.heading_font_size_d | times: 0.82 }}px;
+      }
+    }
+
+    @media screen and (min-width: 1200px) {
+      #block-{{ section.id }}-{{ block.id }} {
+        --heading-small-font-size: {{ block.settings.subheading_font_size_d}}px;
+        --heading-large-font-size: {{ block.settings.heading_font_size_d }}px;
+      }
+    }
+  {%- endfor -%}
+</style>
+
+<section class="section section--flush">
+  <slide-show
+    reveal-on-scroll
+    {% if section.settings.autoplay %}
+      auto-play
+    {% endif %}
+    transition-type="{{ section.settings.transition_type | escape }}"
+    class="slideshow slideshow--{{ section.settings.section_height }}"
+  >
+    <div class="slideshow__slide-list">
+      {%- for block in section.blocks -%}
+        {%- comment -%}
+          ------------------------------------------------------------------------------------------------------------------
+          IMAGE PART
+          ------------------------------------------------------------------------------------------------------------------
+        {%- endcomment -%}
+
+        {%- assign image = block.settings.image -%}
+        {%- assign split_image = block.settings.split_image -%}
+        {%- assign mobile_image = block.settings.mobile_image -%}
+
+        {%- assign image_aspect_ratio = image.aspect_ratio | default: 2.63 -%}
+
+        {%- comment -%}
+          If the image is split and that we want to preserve the ratio, we have to multiply the ratio by 2 (as each image
+          only account for half the screen size)
+        {%- endcomment -%}
+
+        {%- if image != blank and split_image != blank and section.settings.section_height == 'auto' -%}
+          {%- assign image_aspect_ratio = image_aspect_ratio | times: 2.0 -%}
+        {%- endif -%}
+
+        {%- if forloop.index > 2 -%}
+          {%- assign loading_attribute_value = 'lazy' -%}
+        {%- else -%}
+          {%- assign loading_attribute_value = 'eager' -%}
+        {%- endif -%}
+
+        {%- capture slide_content -%}
+          {% if block.settings.video %}
+            <div class="hero__video">
+              {%- assign video_id = 'video--' | append: block.id -%}
+              {{ block.settings.video | video_tag: id: video_id, muted: true }}
+            </div>
+
+            {% if block.settings.mute_toggle and block.settings.video %}
+              <button class="hero__video-mute" type="button" data-mute="video--{{ block.id }}" title="Mute/Unmute">
+                <span class="muted">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4.34005 2.93005L2.93005 4.34005L7.29005 8.70005L7.00005 9.00005H3.00005V15.0001H7.00005L12.0001 20.0001V13.4101L16.1801 17.5901C15.5301 18.0801 14.8001 18.4701 14.0001 18.7001V20.7601C15.3401 20.4601 16.5701 19.8401 17.6101 19.0101L19.6601 21.0601L21.0701 19.6501L4.34005 2.93005ZM10.0001 15.1701L7.83005 13.0001H5.00005V11.0001H7.83005L8.71005 10.1201L10.0001 11.4101V15.1701ZM19.0001 12.0001C19.0001 12.8201 18.8501 13.6101 18.5901 14.3401L20.1201 15.8701C20.6801 14.7001 21.0001 13.3901 21.0001 12.0001C21.0001 7.72005 18.0101 4.14005 14.0001 3.23005V5.29005C16.8901 6.15005 19.0001 8.83005 19.0001 12.0001ZM12.0001 4.00005L10.1201 5.88005L12.0001 7.76005V4.00005ZM16.5001 12.0001C16.5001 10.2301 15.4801 8.71005 14.0001 7.97005V9.76005L16.4801 12.2401C16.4901 12.1601 16.5001 12.0801 16.5001 12.0001Z" fill="#323232"/>
+                  </svg>
+                </span>
+                <span class="unmuted">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3 8.99998V15H7L12 20V3.99998L7 8.99998H3ZM10 8.82998V15.17L7.83 13H5V11H7.83L10 8.82998ZM16.5 12C16.5 10.23 15.48 8.70998 14 7.96998V16.02C15.48 15.29 16.5 13.77 16.5 12ZM14 3.22998V5.28998C16.89 6.14998 19 8.82998 19 12C19 15.17 16.89 17.85 14 18.71V20.77C18.01 19.86 21 16.28 21 12C21 7.71998 18.01 4.13998 14 3.22998Z" fill="#323232"/>
+                  </svg>
+                </span>
+              </button>
+            {% endif %}
+          {% else %}
+            <div class="slideshow__image-wrapper {% if mobile_image != blank %}hidden-pocket{% endif %}" {% if section.settings.transition_type == 'reveal' %}reveal-visibility{% endif %}>
+              {%- if image != blank -%}
+                {%- capture sizes_attributes -%}
+                  {% if split_image != blank %}(min-width: 1000px) 50vw{% else %}100vw{% endif %}
+                {%- endcapture -%}
+                {{- image | image_url: width: 3000 | image_tag: loading: loading_attribute_value, draggable: false, class: 'slideshow__image', sizes: sizes_attributes, widths: '600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000' -}}
+              {%- else -%}
+                {% capture image_name %}lifestyle-{% cycle '1', '2' %}{%- endcapture -%}
+                {{- image_name | placeholder_svg_tag: 'slideshow__image slideshow__image--placeholder' -}}
+              {%- endif -%}
+            </div>
+
+            {%- comment -%}If a second image (split image) is uploaded, we use it. Note that we use the same ratio as the first image (to have equal column height){% endcomment %}
+            {%- if image != blank and split_image != blank -%}
+              <div class="slideshow__image-wrapper slideshow__image-wrapper--secondary hidden-pocket" {% if section.settings.transition_type == 'reveal' %}reveal-visibility{% endif %}>
+                {{- split_image | image_url: width: 3000 | image_tag: loading: loading_attribute_value, draggable: false, class: 'slideshow__image', sizes: '50vw', widths: '600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000' -}}
+              </div>
+            {%- endif -%}
+
+            {%- if mobile_image != blank -%}
+              <div class="slideshow__image-wrapper hidden-lap-and-up" {% if section.settings.transition_type == 'reveal' %}reveal-visibility{% endif %}>
+                {{- mobile_image | image_url: width: 3000 | image_tag: loading: loading_attribute_value, draggable: false, class: 'slideshow__image', sizes: '100vw', widths: '600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000' -}}
+              </div>
+            {%- endif -%}
+          {% endif %}
+
+          {%- comment -%}
+          ----------------------------------------------------------------------------------------------------------------
+          CONTENT PART
+          ----------------------------------------------------------------------------------------------------------------
+          {%- endcomment -%}
+
+          {%- capture section_content -%}
+            {%- if block.settings.subheading != blank -%}
+              <h2 class="heading heading--small">
+                <split-lines {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>{{ block.settings.subheading | escape }}</split-lines>
+              </h2>
+            {%- endif -%}
+
+            {%- if block.settings.title != blank -%}
+              <h3 class="heading heading--large">
+                <split-lines {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>{{ block.settings.title | escape }}</split-lines>
+              </h3>
+            {%- endif -%}
+
+            {%- if block.settings.description != blank -%}
+              <p class="heading h5 text-initial">
+                <split-lines {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>{{ block.settings.description | escape }}</split-lines>
+              </p>
+            {%- endif -%}
+
+            {%- capture buttons -%}
+              {%- if block.settings.button_1_text != blank -%}
+                <a href="{{ block.settings.button_1_link }}" class="button button--primary">{{ block.settings.button_1_text | escape }}</a>
+              {%- endif -%}
+
+              {%- if block.settings.button_2_text != blank -%}
+                <a href="{{ block.settings.button_2_link }}" class="button button--primary">{{ block.settings.button_2_text | escape }}</a>
+              {%- endif -%}
+            {%- endcapture -%}
+
+            {%- if block.settings.button_1_text != blank and block.settings.button_2_text != blank -%}
+              <div class="button-group" {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>
+                <div class="button-group__wrapper">
+                  {{- buttons -}}
+                </div>
+              </div>
+            {%- elsif buttons != blank -%}
+              <div class="button-wrapper" {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>
+                {{- buttons -}}
+              </div>
+            {%- endif -%}
+          {%- endcapture -%}
+
+          {%- if section_content != blank -%}
+            <div class="container">
+              {%- assign text_alignment = block.settings.text_position | split: '_' | first -%}
+              {%- assign text_position = block.settings.text_position | split: '_' | last -%}
+
+              <div class="slideshow__text-wrapper slideshow__text-wrapper--{{ text_alignment }} vertical-breather">
+                <div class="content-box content-box--medium content-box--text-{{ text_position }} content-box--{{ text_position }} text-container">
+                  {{- section_content -}}
+                </div>
+              </div>
+            </div>
+          {%- endif -%}
+        {%- endcapture -%}
+
+        {%- comment -%}If only the button 1 link is filled, then we make the whole slide clickable{%- endcomment -%}
+
+        {%- capture slide_attributes -%}
+          {{ block.shopify_attributes }}
+          id="block-{{ section.id }}-{{ block.id }}"
+          class="slideshow__slide {% if split_image != blank %}slideshow__slide--split{% endif %} {% if section.settings.transition_type == 'sweep' %}slideshow__slide--sweep{% endif %}"
+          {% unless forloop.first %}hidden{% endunless %}
+          {% if section.settings.section_height == 'auto' %}
+            style="--image-aspect-ratio: {{ image_aspect_ratio }}; --mobile-image-aspect-ratio: {{ mobile_image.aspect_ratio | default: image_aspect_ratio | default: 1 }};"
+          {% endif %}
+        {%- endcapture -%}
+
+        <slide-show-item
+          {% if section.settings.transition_type != 'reveal' %}
+            reveal-visibility
+          {% endif %}
+          {{ slide_attributes }}
+        >
+          {%- if block.settings.button_1_link != blank
+            and block.settings.button_1_text == blank
+            and block.settings.button_2_text == blank
+          -%}
+            <a class="slideshow__slide-inner" href="{{ block.settings.button_1_link }}">
+              {{- slide_content -}}
+            </a>
+          {%- else -%}
+            <div class="slideshow__slide-inner">
+              {{- slide_content -}}
+            </div>
+          {%- endif -%}
+        </slide-show-item>
+      {%- endfor -%}
+    </div>
+
+    {%- if section.blocks.size > 1 -%}
+      <page-dots
+        {% if section.settings.autoplay %}
+          animation-timer
+        {% endif %}
+        class="slideshow__nav container"
+      >
+        {%- for block in section.blocks -%}
+          <button
+            class="slideshow__progress-bar"
+            aria-controls="block-{{ section.id }}-{{ block.id }}"
+            {% if forloop.first %}
+              aria-current="true"
+            {% endif %}
+          >
+            <span class="visually-hidden">{{ 'general.accessibility.go_to_slide' | t: num: forloop.index }}</span>
+          </button>
+        {%- endfor -%}
+      </page-dots>
+    {%- endif -%}
+  </slide-show>
+</section>
+
+{% javascript %}
+  (function () {
+    function bindMuteToggles() {
+      const toggles = document.querySelectorAll('[data-mute]');
+      toggles.forEach((toggle) => {
+        // this would retrieve the value for <tag data-loaded="someValueForLoaded"></tag>
+        // it will initially not exist which will then go into this if statement
+        if (!toggle.dataset.loaded) {
+          const id = toggle.dataset.mute;
+          const video = document.getElementById(id);
+
+          if (video) {
+            toggle.dataset.loaded = true;
+            toggle.addEventListener('click', () => {
+              video.muted = !video.muted;
+              toggle.classList.toggle('is-active', !video.muted);
+            });
+          }
+        }
+      });
+    }
+
+    document.addEventListener('shopify:section:load', () => {
+      bindMuteToggles();
+    });
+
+    window.addEventListener('load', () => {
+      bindMuteToggles();
+    });
+  })();
+{% endjavascript %}
+
+{% schema %}
+{
+  "name": "Slideshow",
+  "class": "shopify-section--slideshow",
+  "disabled_on": {
+    "groups": ["header", "custom.overlay"]
+  },
+  "max_blocks": 12,
+  "settings": [
+    {
+      "type": "select",
+      "id": "section_height",
+      "label": "Section height",
+      "options": [
+        {
+          "value": "auto",
+          "label": "Original image ratio"
+        },
+        {
+          "value": "small",
+          "label": "Small"
+        },
+        {
+          "value": "medium",
+          "label": "Medium"
+        },
+        {
+          "value": "large",
+          "label": "Large"
+        },
+        {
+          "value": "fit",
+          "label": "Fit screen height"
+        }
+      ],
+      "info": "Choose \"Original image ratio\" to not cut images. [Learn more](https://help.shopify.com/en/manual/online-store/images/theme-images#best-practices-for-slideshows-and-full-width-images)",
+      "default": "auto"
+    },
+    {
+      "type": "select",
+      "id": "transition_type",
+      "label": "Transition type",
+      "options": [
+        {
+          "value": "sweep",
+          "label": "Sweep"
+        },
+        {
+          "value": "reveal",
+          "label": "Reveal"
+        },
+        {
+          "value": "fade",
+          "label": "Fade"
+        }
+      ],
+      "default": "sweep"
+    },
+    {
+      "type": "checkbox",
+      "id": "autoplay",
+      "label": "Auto rotate between slides",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "cycle_speed",
+      "min": 4,
+      "max": 20,
+      "step": 1,
+      "unit": "sec",
+      "label": "Change slides every",
+      "default": 5
+    },
+    {
+      "type": "color",
+      "id": "background",
+      "label": "Background",
+      "info": "Used while slideshow image is loading",
+      "default": "rgba(0,0,0,0)"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "image",
+      "name": "Image",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "info": "2160 x 1080px .jpg recommended, 1080 x 1080px .jpg recommended if split",
+          "label": "Image"
+        },
+        {
+          "type": "video",
+          "id": "video",
+          "label": "Video"
+        },
+        {
+          "type": "checkbox",
+          "id": "mute_toggle",
+          "label": "Video unmute button",
+          "info": "Display a mute/unmute toggle button"
+        },
+        {
+          "type": "image_picker",
+          "id": "split_image",
+          "info": "1080 x 1080px .jpg recommended. Won't show up on mobile.",
+          "label": "Split image"
+        },
+        {
+          "type": "image_picker",
+          "id": "mobile_image",
+          "label": "Mobile image",
+          "info": "1000 x 1400px .jpg recommended. If none is set, desktop image will be used."
+        },
+        {
+          "type": "header",
+          "content": "Content"
+        },
+        {
+          "type": "select",
+          "id": "font",
+          "label": "Font",
+          "options": [
+            { "value": "'Cooper BT', serif", "label": "Cooper BT" },
+            { "value": "'BV Celine', serif", "label": "BV Celine" }
+          ],
+          "default": "'Cooper BT', serif"
+        },
+        {
+          "type": "select",
+          "id": "text_position",
+          "label": "Text position",
+          "options": [
+            {
+              "value": "top_left",
+              "label": "Top left"
+            },
+            {
+              "value": "top_center",
+              "label": "Top center"
+            },
+            {
+              "value": "top_right",
+              "label": "Top right"
+            },
+            {
+              "value": "middle_left",
+              "label": "Middle left"
+            },
+            {
+              "value": "middle_center",
+              "label": "Middle center"
+            },
+            {
+              "value": "middle_right",
+              "label": "Middle right"
+            },
+            {
+              "value": "bottom_left",
+              "label": "Bottom left"
+            },
+            {
+              "value": "bottom_center",
+              "label": "Bottom center"
+            },
+            {
+              "value": "bottom_right",
+              "label": "Bottom right"
+            }
+          ],
+          "default": "middle_center"
+        },
+        {
+          "type": "text",
+          "id": "subheading",
+          "label": "Subheading",
+          "default": "Tell your story"
+        },
+
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Slide title"
+        },
+        {
+          "type": "header",
+          "content": "Heading font sizing"
+        },
+        {
+          "type": "range",
+          "id": "subheading_font_size_m",
+          "label": "Subheading font size mobile",
+          "min": 12,
+          "max": 28,
+          "step": 1,
+          "default": 12
+        },
+        {
+          "type": "range",
+          "id": "subheading_font_size_d",
+          "label": "Subheading font size desktop",
+          "min": 12,
+          "max": 28,
+          "step": 1,
+          "default": 13
+        },
+        {
+          "type": "range",
+          "id": "heading_font_size_m",
+          "label": "Heading font size mobile",
+          "min": 26,
+          "max": 68,
+          "step": 1,
+          "default": 36
+        },
+        {
+          "type": "range",
+          "id": "heading_font_size_d",
+          "label": "Heading font size desktop",
+          "min": 26,
+          "max": 68,
+          "step": 1,
+          "default": 64
+        },
+        {
+          "type": "textarea",
+          "id": "description",
+          "label": "Description"
+        },
+
+        {
+          "type": "text",
+          "id": "button_1_text",
+          "label": "Button 1 text"
+        },
+        {
+          "type": "url",
+          "id": "button_1_link",
+          "label": "Button 1 link",
+          "info": "Leave the \"Button 1 text\" and \"Button 2\" settings empty to make the slide fully clickable."
+        },
+        {
+          "type": "text",
+          "id": "button_2_text",
+          "label": "Button 2 text"
+        },
+        {
+          "type": "url",
+          "id": "button_2_link",
+          "label": "Button 2 link"
+        },
+        {
+          "type": "header",
+          "content": "Colors"
+        },
+        {
+          "type": "color",
+          "id": "text_color",
+          "label": "Text",
+          "default": "#ffffff"
+        },
+        {
+          "type": "color",
+          "id": "button_background",
+          "label": "Button background",
+          "default": "#ffffff"
+        },
+        {
+          "type": "color",
+          "id": "button_text_color",
+          "label": "Button text",
+          "default": "#000000"
+        },
+        {
+          "type": "color_background",
+          "id": "overlay_color",
+          "label": "Overlay",
+          "default": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)"
+        },
+        {
+          "type": "range",
+          "id": "overlay_opacity",
+          "label": "Overlay opacity",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "%",
+          "default": 25
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Slideshow",
+      "blocks": [
+        {
+          "type": "image",
+          "settings": {
+            "title": "Slide 1"
+          }
+        },
+        {
+          "type": "image",
+          "settings": {
+            "title": "Slide 2"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

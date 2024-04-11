@@ -1,0 +1,250 @@
+{
+  "sections": {
+    "shogun-helper": {
+      "type": "shogun-helper",
+      "settings": {
+      }
+    },
+    "shogun-above": {
+      "type": "shogun-above",
+      "settings": {
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "000df3a6-2cef-4181-9640-8fb6837765f6": {
+          "type": "shopify:\/\/apps\/sezzle-widget\/blocks\/widget-block\/f3a53793-e118-4764-a86b-a79bfedb0d5f",
+          "settings": {
+            "heading": "Sezzle Widget",
+            "font_size": 14,
+            "font_family": "inherit"
+          }
+        },
+        "5e53d7ca-d59f-48d6-8237-0a5e1381d10b": {
+          "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/star-rating\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": ""
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "color_mode": "color",
+            "selector_mode": "block",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "82c603e3-226f-4a1f-af2e-d0ea606d2b78": {
+          "type": "inventory",
+          "settings": {
+            "low_inventory_threshold": 3
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": false,
+            "atc_button_background": "#d6bda7",
+            "atc_button_text_color": "#ffffff",
+            "buy_now_button_background": "rgba(0,0,0,0)",
+            "buy_now_button_text_color": "rgba(0,0,0,0)"
+          }
+        },
+        "98635072-6996-4e5d-a929-b6f472e9425c": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "complementary_products": {
+          "type": "complementary_products",
+          "settings": {
+            "title": "{{ product.metafields.custom.complementary_products_heading | metafield_text }}"
+          }
+        }
+      },
+      "block_order": [
+        "000df3a6-2cef-4181-9640-8fb6837765f6",
+        "5e53d7ca-d59f-48d6-8237-0a5e1381d10b",
+        "variant_picker",
+        "quantity_selector",
+        "82c603e3-226f-4a1f-af2e-d0ea606d2b78",
+        "buy_buttons",
+        "98635072-6996-4e5d-a929-b6f472e9425c",
+        "complementary_products"
+      ],
+      "custom_css": [
+        ".product-content__featured-products-title {font-size: 16px; padding-top: 10px;}",
+        ".complementary-product-title {font-size: 15px;}"
+      ],
+      "settings": {
+        "show_vendor": false,
+        "show_sku": false,
+        "show_taxes_included": false,
+        "show_product_rating": false,
+        "show_sticky_add_to_cart": true,
+        "show_share_buttons": false,
+        "help_page": "",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "show_thumbnails_on_mobile": false,
+        "desktop_thumbnails_position": "left",
+        "transition_effect": "fade"
+      }
+    },
+    "product-content": {
+      "type": "product-content",
+      "blocks": {
+        "2c447d5e-0b6a-40b0-9683-507bcb0d4f87": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "f72c75dd-cda4-4ff3-a5c1-b0a644f96232": {
+          "type": "content",
+          "settings": {
+            "title": "Fit & Feel",
+            "content": "{{ product.metafields.custom.fit_feel | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "d3380f50-4703-4ec8-bbad-8470918c1329": {
+          "type": "trust",
+          "settings": {
+            "icon_1": "picto-delivery-truck",
+            "title_1": "Shipping",
+            "content_1": "<p><strong>General Carrier Delivery Guidelines:<\/strong><\/p><p><strong>Free shipping on Canadian orders over $100 and US orders over $150.<\/strong><\/p><p><strong>CANADA*<\/strong><br\/><strong>Ontario + Quebec:<\/strong> 1-3 business days in transit.<br\/><strong>Rest of Canada:<\/strong> 5-7 business days in transit.<\/p><p><strong>Expedited Shipping*: <\/strong>Quoted in cart at checkout based on delivery address.<br\/><strong>Ontario + Quebec:<\/strong> 1-2 business day in transit.<br\/><strong>Rest of Canada:<\/strong> 4-5 business days in transit.<\/p><p><strong>Local Delivery*:<\/strong><br\/>Toronto Courier - 1-2 business day delivery.<\/p><p><strong>UNITED STATES*<\/strong><br\/>5 -10 business days in transit. This includes all duties, taxes, and brokerage and ensures your order arrives without any additional border crossing fees.<\/p><p><\/p><p><\/p><p><strong>Processing Timelines:<\/strong><br\/>Please allow 1-3 business days for our team to pack and ship your order. Delivery timelines do not include processing times.<\/p><p>*Note that all shipping timelines are estimates and are not guaranteed.<\/p><p><strong> <\/strong><\/p><p> <\/p>",
+            "icon_2": "picto-return-box",
+            "title_2": "Returns",
+            "content_2": "<p><strong>Holiday Return Policy 2023<br\/><\/strong>Shop with confidence this holiday knowing that anything purchased between October 15th 2023 and December 24th, 2023 can be exchanged for a different item or online store credit up until January 15th, 2024 (Unless otherwise indicated. Must be in new unworn condition). Proof of purchase must be present for any return to be accepted.<\/p><p><strong>Return Policy<\/strong><br\/>Our policy lasts 30 days. You must contact us within 30 days of receiving your goods for an exchange or refund. Once confirmed, you have 10 days to ship the goods back. To be eligible for a return, your item must be in its original packaging, unused, and in the same condition that you received it. To complete your return, we require a receipt or proof of purchase from our website (an order number works). Fill out our <a href=\"https:\/\/thisisj.com\/pages\/return-and-exchange-form\" title=\"This is J - Return and Exchange Form\">Returns & Exchanges form here<\/a>.<\/p><p>Gift cards are non-refundable.<\/p><p>The following items are final sale and are not eligible for return or exchange:  <\/p><ul><li>Products marked \"Final Sale\".<\/li><li>Products discounted more than 20%.<\/li><li>Products purchased from our Sample Sale.<\/li><\/ul>",
+            "icon_3": "picto-mobile",
+            "title_3": "",
+            "content_3": ""
+          }
+        }
+      },
+      "block_order": [
+        "2c447d5e-0b6a-40b0-9683-507bcb0d4f87",
+        "f72c75dd-cda4-4ff3-a5c1-b0a644f96232",
+        "d3380f50-4703-4ec8-bbad-8470918c1329"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+      }
+    },
+    "16980194664ff0dc65": {
+      "type": "apps",
+      "blocks": {
+        "8e2eb500-9ef4-4dea-839c-82c4b1487382": {
+          "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/reviews\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "{{product}}"
+          }
+        }
+      },
+      "block_order": [
+        "8e2eb500-9ef4-4dea-839c-82c4b1487382"
+      ],
+      "settings": {
+        "include_horizontal_margins": true,
+        "include_vertical_margins": true
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "You may also like",
+        "recommendations_count": 4,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "d31256e8-bcf7-40b5-888e-de9637c9bd63": {
+      "type": "faq",
+      "blocks": {
+        "template--17915522842905__d31256e8-bcf7-40b5-888e-de9637c9bd63-167880593214d3579d-1": {
+          "type": "question",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+          }
+        },
+        "template--17915522842905__d31256e8-bcf7-40b5-888e-de9637c9bd63-167880593214d3579d-2": {
+          "type": "question",
+          "settings": {
+            "title": "How long will it take to get my order?",
+            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+          }
+        },
+        "template--17915522842905__d31256e8-bcf7-40b5-888e-de9637c9bd63-167880593214d3579d-4": {
+          "type": "question",
+          "settings": {
+            "title": "Any question?",
+            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17915522842905__d31256e8-bcf7-40b5-888e-de9637c9bd63-167880593214d3579d-1",
+        "template--17915522842905__d31256e8-bcf7-40b5-888e-de9637c9bd63-167880593214d3579d-2",
+        "template--17915522842905__d31256e8-bcf7-40b5-888e-de9637c9bd63-167880593214d3579d-4"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "h1 {font-family: \"BV Celine\"; text-transform: none;}"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "FAQ",
+        "content": "",
+        "background": "#faf8f2",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "ac4e3f1b-1a02-4a88-9051-b7819e60f7b1": {
+      "type": "recently-viewed-products",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Recently viewed",
+        "products_count": 12,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "shogun-below": {
+      "type": "shogun-below",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "shogun-helper",
+    "shogun-above",
+    "main",
+    "product-content",
+    "16980194664ff0dc65",
+    "product-recommendations",
+    "d31256e8-bcf7-40b5-888e-de9637c9bd63",
+    "ac4e3f1b-1a02-4a88-9051-b7819e60f7b1",
+    "shogun-below"
+  ]
+}

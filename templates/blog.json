@@ -1,0 +1,62 @@
+{
+  "sections": {
+    "3eac9026-cc64-4a7b-a9c3-8537bc7ec2de": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": false,
+        "section_height": "small",
+        "image": "shopify:\/\/shop_images\/Artboard_1_CarouselHeader_FINAL_v3.png",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_d4M9je": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<p>Welcome to <em><strong>The Comfort Series<\/strong><\/em>, a monthly Q&A with a notable member (or members) of the <em>This Is J<\/em> comfort-loving community. We'll ask them about what being cozy means to them, find out what their wellness and sleep rituals are like, and get personal about their work and life. <em>We're so excited to introduce you to...<\/em><\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "main": {
+      "type": "main-blog",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "show_blog_title": false,
+        "show_tags": false,
+        "show_category": false,
+        "show_excerpt": true,
+        "articles_per_page": 6
+      }
+    }
+  },
+  "order": [
+    "3eac9026-cc64-4a7b-a9c3-8537bc7ec2de",
+    "rich_text_d4M9je",
+    "main"
+  ]
+}

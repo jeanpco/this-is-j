@@ -1,0 +1,182 @@
+{
+  "sections": {
+    "hero": {
+      "type": "hero-loyalty",
+      "blocks": {
+        "8848b213-83b9-470d-a367-50b83eb4af46": {
+          "type": "cta",
+          "settings": {
+            "url": "\/account\/register",
+            "text": "Join Now",
+            "color": "#d49553"
+          }
+        },
+        "a6010c1f-079b-4350-8f36-1fe6da8d8c30": {
+          "type": "cta",
+          "settings": {
+            "url": "\/account\/login",
+            "text": "Sign In",
+            "color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "8848b213-83b9-470d-a367-50b83eb4af46",
+        "a6010c1f-079b-4350-8f36-1fe6da8d8c30"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "The Comfort Club",
+        "text": "<p>Earn rewards on the products you love, redeem them for discounts, and get closer to the comfort you've been dreaming of.<\/p>",
+        "image": "shopify:\/\/shop_images\/TIJ_001_Loyalty-Program_Banner_V4.gif",
+        "bg": "#f0eee7"
+      }
+    },
+    "steps": {
+      "type": "steps",
+      "blocks": {
+        "c9510138-d8f9-44ab-9183-63b8f927728f": {
+          "type": "step",
+          "settings": {
+            "title": "Sign Up",
+            "text": "Earn 25 points for creating an account."
+          }
+        },
+        "ab290d6e-8226-418b-9072-6f83b1f3c0a3": {
+          "type": "step",
+          "settings": {
+            "title": "Earn Points",
+            "text": "Earn 1 point every <sup>$<\/sup>1 spent when you shop."
+          }
+        },
+        "d6d1fba0-8b83-4566-91cb-b63bd1c03aad": {
+          "type": "step",
+          "settings": {
+            "title": "Redeem Points",
+            "text": "Redeem <sup>$<\/sup>10 every 100 points."
+          }
+        }
+      },
+      "block_order": [
+        "c9510138-d8f9-44ab-9183-63b8f927728f",
+        "ab290d6e-8226-418b-9072-6f83b1f3c0a3",
+        "d6d1fba0-8b83-4566-91cb-b63bd1c03aad"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "How it Works:",
+        "bg": "#b5c7c5"
+      }
+    },
+    "comparison": {
+      "type": "page-content",
+      "disabled": true,
+      "settings": {
+        "page": "loyalty-comparison"
+      }
+    },
+    "loyalty-rewards": {
+      "type": "loyalty-rewards",
+      "blocks": {
+        "2a5cf05f-9a81-4bfb-9ec5-2d62a444aa90": {
+          "type": "reward",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TIJ_001_Create-an-account.png",
+            "text": "Create an Account",
+            "button": "25 points",
+            "campaign": "1109444",
+            "link": ""
+          }
+        },
+        "3bd0da4c-a1e0-44e4-ad75-86b66efeacd0": {
+          "type": "reward",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TIJ_001_Birthday-Discount.png",
+            "text": "Happy Birthday!",
+            "button": "Birthday discount",
+            "campaign": "1109445",
+            "link": ""
+          }
+        },
+        "4a557db6-ddcb-4f01-9d19-a6dc63659408": {
+          "type": "reward",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TIJ_001_Write-a-Review.png",
+            "text": "Write a Review",
+            "button": "25 points",
+            "campaign": "1109446",
+            "link": ""
+          }
+        },
+        "4b2c1ff0-d987-4ef6-883a-86e1b5f494fb": {
+          "type": "reward",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TIJ_001_Picture-Review.png",
+            "text": "Submit a Photo Review",
+            "button": "40 points",
+            "campaign": "1109447",
+            "link": ""
+          }
+        },
+        "f51455c0-854a-4aaf-ba46-b18bebc56402": {
+          "type": "reward",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TIJ_001_Follow-Us.png",
+            "text": "Follow Us on Instagram",
+            "button": "10 points",
+            "campaign": "1109449",
+            "link": ""
+          }
+        },
+        "68a50472-8671-4d4a-a527-42b986c613df": {
+          "type": "reward",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TIJ_001_Refer-a-Friend.png",
+            "text": "Refer a Friend",
+            "button": "20% OFF",
+            "campaign": "1103469",
+            "link": "javascript:scrollTo('yotpoReferralTitleText')"
+          }
+        }
+      },
+      "block_order": [
+        "2a5cf05f-9a81-4bfb-9ec5-2d62a444aa90",
+        "3bd0da4c-a1e0-44e4-ad75-86b66efeacd0",
+        "4a557db6-ddcb-4f01-9d19-a6dc63659408",
+        "4b2c1ff0-d987-4ef6-883a-86e1b5f494fb",
+        "f51455c0-854a-4aaf-ba46-b18bebc56402",
+        "68a50472-8671-4d4a-a527-42b986c613df"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Ways to Earn Points",
+        "bg": "#f9f8f5"
+      }
+    },
+    "image-with-text-1": {
+      "type": "image-with-text-loyalty",
+      "disabled": true,
+      "settings": {
+        "bg": "#ffffff",
+        "title": "Redeem and Save",
+        "content": "<p>Save 'em up or spend 'em, apply your points at checkout for a discount.<\/p>\n<p style=\"border-bottom: 1px solid #000; padding-bottom: 1rem;\">\n  <strong>100 Points = <sup>$<\/sup>10<\/strong>\n  <a class=\"swell-redemption-link redeem-button\" data-redeem=\"100\" data-redemption-option-id=\"646204\" href=\"javascript:void(0)\">Redeem<\/a>\n<\/p>\n<p style=\"border-bottom: 1px solid #000; padding-bottom: 1rem;\">\n  <strong>200 Points = <sup>$<\/sup>20<\/strong>\n  <a class=\"swell-redemption-link redeem-button\" data-redeem=\"200\" data-redemption-option-id=\"646205\" href=\"javascript:void(0)\">Redeem<\/a>\n<\/p>\n<p style=\"border-bottom: 1px solid #000; padding-bottom: 1rem;\">\n  <strong>300 Points = <sup>$<\/sup>30<\/strong>\n  <a class=\"swell-redemption-link redeem-button\" data-redeem=\"300\" data-redemption-option-id=\"646206\" href=\"javascript:void(0)\">Redeem<\/a>\n<\/p>\n<p>\n  <strong>400 Points = <sup>$<\/sup>40<\/strong>\n  <a class=\"swell-redemption-link redeem-button\" data-redeem=\"400\" data-redemption-option-id=\"646207\" href=\"javascript:void(0)\">Redeem<\/a>\n<\/p>\n\n<style>\n  .redeem-button {\n    background-color: #000;\n    border-radius: 1.25rem;\n    color: #fff;\n    display: none;\n    font-size: .6rem;\n    font-weight: 700;\n    letter-spacing: .1em;\n    margin-left: 5px;\n    padding: .5rem 1rem;\n    text-transform: uppercase;\n    transition: background .3s ease-in-out;\n  }\n\n  .redeem-button:focus,\n  .redeem-button:hover {\n    background: #555;\n    color: #fff;\n  }\n<\/style>",
+        "image": "shopify:\/\/shop_images\/TIJ_001_Loyalty-Program_MWK_V3.gif",
+        "order": "left"
+      }
+    },
+    "custom-code": {
+      "type": "custom-code",
+      "settings": {
+        "code": "<div class=\"octane-ai-quiz \" data-quiz-id=\"f3XfU8S1Yzk0HT9W\" data-embed-type=\"fullpage\" data-mobile-height=\"match_browser\" data-desktop-height=\"match_browser\"><\/div><script src=\"https:\/\/app.octaneai.com\/kiyf7nkssqu1zwjg\/quiz.js\" async defer><\/script>"
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "steps",
+    "comparison",
+    "loyalty-rewards",
+    "image-with-text-1",
+    "custom-code"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-blog",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "show_blog_title": false,
+        "show_tags": false,
+        "show_category": false,
+        "show_excerpt": true,
+        "articles_per_page": 6
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

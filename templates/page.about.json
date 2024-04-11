@@ -1,0 +1,632 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "90be0c27-262b-4c24-9976-f26a9777f604": {
+      "type": "rich-text",
+      "custom_css": [
+        "h2 {font-size: 18px;}"
+      ],
+      "settings": {
+        "subheading": "2003-2023",
+        "title": "Celebrating 20 Years in Business",
+        "content": "",
+        "button_text": "WATCH FULL ANNIVERSARY VIDEO",
+        "button_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/0f2a29d3d7f54f168a06c9156b814e2c.mp4",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "#1c1b1b",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#1c1b1b"
+      }
+    },
+    "6582e3ca-d4af-43b3-bfc5-32b4a4c3cb4f": {
+      "type": "video",
+      "custom_css": [
+        ".vertical-breather {padding-top: 0px;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "video": "shopify:\/\/files\/videos\/ThisIsJ - 20 Years - APPROVED R04-Banner-7500.mp4",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "background_type": "boxed",
+        "video_size": "medium",
+        "autoplay": true,
+        "show_video_controls": false,
+        "background": "#1c1b1b",
+        "text_color": "#ffffff"
+      }
+    },
+    "f36eb28b-6d2a-4c21-b6f0-97fdd9fa8ce2": {
+      "type": "rich-text",
+      "custom_css": [
+        "h3 {font-size: 48px;}",
+        "p {font-size: 18px;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "This is Comfort. This is J.",
+        "content": "<p>Our vision is to provide comfortable, stylish, and ethically made products that you can feel good in and good about.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "#ffffff",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "7a3fd399-092c-4a23-b077-08a40a3e6924": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--20849202954521__7a3fd399-092c-4a23-b077-08a40a3e6924-item-3": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-lock",
+            "custom_icon": "shopify:\/\/shop_images\/Artboard_21_11Circle.jpg",
+            "custom_icon_width": 150,
+            "title": "Ethically Manufactured",
+            "content": "<p>Our products are 100% made in Canada by people in our community.<\/p>"
+          }
+        },
+        "template--20849202954521__7a3fd399-092c-4a23-b077-08a40a3e6924-item-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-box",
+            "custom_icon": "shopify:\/\/shop_images\/Artboard_21_13Circle.jpg",
+            "custom_icon_width": 150,
+            "title": "Hand Illustrated",
+            "content": "<p>We design, dye & print all of our own fabrics.<\/p>"
+          }
+        },
+        "template--20849202954521__7a3fd399-092c-4a23-b077-08a40a3e6924-item-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-phone",
+            "custom_icon": "shopify:\/\/shop_images\/Artboard_21_9Circle.jpg",
+            "custom_icon_width": 150,
+            "title": "Moisture-Wicking",
+            "content": "<p>Our signature fabric pulls away moisture from your skin, keeping you comfortable.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20849202954521__7a3fd399-092c-4a23-b077-08a40a3e6924-item-3",
+        "template--20849202954521__7a3fd399-092c-4a23-b077-08a40a3e6924-item-1",
+        "template--20849202954521__7a3fd399-092c-4a23-b077-08a40a3e6924-item-2"
+      ],
+      "custom_css": [
+        ".heading--small {letter-spacing: 1px;}",
+        ".vertical-breather {padding-top: 0px; padding-bottom: 80px;}"
+      ],
+      "settings": {
+        "background": "#ffffff",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "d0e082c7-6ea1-4a49-a386-ee007b884b58": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--20849202954521__d0e082c7-6ea1-4a49-a386-ee007b884b58-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Functional-Fashion-Image-1200x880.jpg",
+            "tab_label": "",
+            "subheading": "",
+            "title": "Functional Fashion",
+            "content": "<p>This Is J evolved from simple necessity: a headband to keep your hair out of your face, and pajamas that double as loungewear. This functional approach to fashion continues to be the driving force behind all our products. <\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20849202954521__d0e082c7-6ea1-4a49-a386-ee007b884b58-item-1"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "both",
+        "image_position": "left",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "#faf8f2",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "0a9ae547-afb4-4d4c-b6ee-c128054f2efb": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--20849202954521__0a9ae547-afb4-4d4c-b6ee-c128054f2efb-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/76cd24e2-7b84-4de9-9e9c-351a7cca504b.jpg",
+            "tab_label": "",
+            "subheading": "",
+            "title": "Our Hand Drawn Patterns",
+            "content": "<p>From concept to reality, our illustrated textile designs are inspired by scouring antique markets, traveling off the beaten path, and observing natural textures in nature. <\/p><p>A love of vintage florals and nostalgic themes often show up in our work. <\/p>",
+            "button_text": "Browse Our Patterns",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20849202954521__0a9ae547-afb4-4d4c-b6ee-c128054f2efb-item-1"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "both",
+        "image_position": "right",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "#faf8f2",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "#1c1b1b",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "adb9962b-7578-4eff-b698-d3789b9745a6": {
+      "type": "multi-column",
+      "blocks": {
+        "template--20849202954521__adb9962b-7578-4eff-b698-d3789b9745a6-item-1": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "200K+",
+            "content": "<p>Pajamas made<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "template--20849202954521__adb9962b-7578-4eff-b698-d3789b9745a6-item-2": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "20+",
+            "content": "<p>Years manufacturing in Canada<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "template--20849202954521__adb9962b-7578-4eff-b698-d3789b9745a6-item-3": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "1,000+",
+            "content": "<p>Hand Illustrated Patterns Created<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "template--20849202954521__adb9962b-7578-4eff-b698-d3789b9745a6-item-4": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "5000+",
+            "content": "<p>5 Star Reviews<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "template--20849202954521__adb9962b-7578-4eff-b698-d3789b9745a6-item-1",
+        "template--20849202954521__adb9962b-7578-4eff-b698-d3789b9745a6-item-2",
+        "template--20849202954521__adb9962b-7578-4eff-b698-d3789b9745a6-item-3",
+        "template--20849202954521__adb9962b-7578-4eff-b698-d3789b9745a6-item-4"
+      ],
+      "custom_css": [
+        ".h5 {font-family: \"BV Celine\"; font-weight: 700; font-size: 42px; letter-spacing: 1px;}"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "subheading": "By the numbers",
+        "title": "",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "medium",
+        "desktop_item_size": "medium",
+        "spacing": "normal",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "4144dc67-07b1-4ad7-8bb5-b3b2e138b7f1": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--20849202954521__4144dc67-07b1-4ad7-8bb5-b3b2e138b7f1-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard_1-manufacturing-cut_sew.jpg",
+            "tab_label": "",
+            "subheading": "",
+            "title": "100% Made in Canada",
+            "content": "<p>Our products are proudly made in Canada. Manufacturing close to home means that we get to take a hands on approach to our process while working with people in our community.<\/p><p>We believe in quality driven, ethically created, hand made clothing.<\/p><p><\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20849202954521__4144dc67-07b1-4ad7-8bb5-b3b2e138b7f1-item-1"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "both",
+        "image_position": "left",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "#ffffff",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "f405366a-583f-47f8-b1b9-25da9b563f84": {
+      "type": "multi-column",
+      "blocks": {
+        "template--20849202954521__f405366a-583f-47f8-b1b9-25da9b563f84-item-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ethical-Manufacturing-Fabric-B_W.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Importance of Quality",
+            "content": "<p>We knit, dye and print our fabrics using a closed loop water system. They are delivered to you ready to wear and washer & dryer friendly.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "template--20849202954521__f405366a-583f-47f8-b1b9-25da9b563f84-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ethical-Manufacturing-Cut-Sew-B_W.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Ethically Made",
+            "content": "<p>100% Made in Canada. Employing a local work force at an above minimum wage rate.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "template--20849202954521__f405366a-583f-47f8-b1b9-25da9b563f84-item-3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ethical-Manufacturing-Packaging-B_W.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Recyclable Packaging",
+            "content": "<p>Packaging is made from FSC certified recycled material and can be recycled again when you’re done with it. <\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "template--20849202954521__f405366a-583f-47f8-b1b9-25da9b563f84-item-2",
+        "template--20849202954521__f405366a-583f-47f8-b1b9-25da9b563f84-item-1",
+        "template--20849202954521__f405366a-583f-47f8-b1b9-25da9b563f84-item-3"
+      ],
+      "custom_css": [
+        ".h5 {font-family: \"BV Celine\"; text-transform: none; letter-spacing: 0.5px; font-size: 22px;}"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "large",
+        "desktop_item_size": "large",
+        "spacing": "normal",
+        "background": "#ffffff",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "793053e0-d557-4c9b-b650-f84287babe16": {
+      "type": "video",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "video": "shopify:\/\/files\/videos\/Bookhou-Teaser-Video.mp4",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "background_type": "full_width",
+        "video_size": "small",
+        "autoplay": true,
+        "show_video_controls": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "34ae2b4e-b2fd-4558-9780-db2dc3d3845d": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--20849202954521__34ae2b4e-b2fd-4558-9780-db2dc3d3845d-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard_6-manufacturing-printing.jpg",
+            "tab_label": "",
+            "subheading": "",
+            "title": "Screen Printed With Love",
+            "content": "<p>Each layer of colour in our designs is made into a single sheet of film, that gets burned onto a screen. Our Pantone matched colours get poured layer by layer onto the corresponding screen. Squeegee rollers pass gently and rhythmically over each screen one at a time to lay down a soft layer of ink. As the screens are lifted back, the design slowly reveals itself.<\/p><p>The fabric then passes through the dryer to set the inks before being reframed to its original shape. Our last step is washing the fabric to pre-shrink and prepare it for cutting.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20849202954521__34ae2b4e-b2fd-4558-9780-db2dc3d3845d-item-1"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "both",
+        "image_position": "left",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "#faf8f2",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "d39981cd-26d3-41dd-a951-e9e38b0d36bd": {
+      "type": "gallery",
+      "blocks": {
+        "template--20849202954521__d39981cd-26d3-41dd-a951-e9e38b0d36bd-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard_5-manufacturing-printing.jpg",
+            "caption": ""
+          }
+        },
+        "b4e60fc0-3fb2-4cca-acdb-fc0639cb45fc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard_3-manufacturing-printing-2.jpg",
+            "caption": ""
+          }
+        },
+        "4ed0d42b-01bc-49ae-b564-bd8b7cea2107": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard_1-manufacturing-printing.jpg",
+            "caption": ""
+          }
+        },
+        "ba236a29-0e43-4961-aea5-10e2f2b6873e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard_2-manufacturing-printing-2.jpg",
+            "caption": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20849202954521__d39981cd-26d3-41dd-a951-e9e38b0d36bd-image-3",
+        "b4e60fc0-3fb2-4cca-acdb-fc0639cb45fc",
+        "4ed0d42b-01bc-49ae-b564-bd8b7cea2107",
+        "ba236a29-0e43-4961-aea5-10e2f2b6873e"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "show_arrows": false,
+        "background": "#faf8f2",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1cffbbdb-637c-4d3a-b008-edd48ace784a": {
+      "type": "slideshow",
+      "blocks": {
+        "template--21262577467673__1cffbbdb-637c-4d3a-b008-edd48ace784a-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Comfort-Image-Fabric-Manufacturing-038-4044-1920x1080.jpg",
+            "mute_toggle": false,
+            "font": "'Cooper BT', serif",
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "",
+            "description": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--21262577467673__1cffbbdb-637c-4d3a-b008-edd48ace784a-image-1"
+      ],
+      "settings": {
+        "section_height": "small",
+        "transition_type": "sweep",
+        "autoplay": false,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "dbddf297-2435-4b1d-a789-70f4e4f65c83": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--20849202954521__dbddf297-2435-4b1d-a789-70f4e4f65c83-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard_3-manufacturing-fabric-mill.jpg",
+            "tab_label": "",
+            "subheading": "",
+            "title": "Comfort Lovers",
+            "content": "<p>Functionality is at our core which leads us to approach comfort from a tactile and emotional perspective treating fit and feel as equally important parts.<\/p><p>We start with the feel of the fabric, ensuring that our textiles have a soft hand and gentle touch. Our fabrics are tested to ensure moisture wicking properties that provide the utmost comfort.<\/p><p>We then perfect the fit of the garment and how the fabric drapes with each shape.<\/p><p>We appreciate that all bodies are unique and that fit and feel are very personal to the individual so we strive to create a solid foundation in our styles to allow the wearer to find something that makes them feel good.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20849202954521__dbddf297-2435-4b1d-a789-70f4e4f65c83-item-1"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "10da723d-43c7-4abb-a3e1-d88f14ab7105": {
+      "type": "faq",
+      "blocks": {
+        "template--20849202954521__10da723d-43c7-4abb-a3e1-d88f14ab7105-question-1": {
+          "type": "question",
+          "settings": {
+            "title": "Are all your products made of bamboo?",
+            "answer": "<p>No, we work with lots of different fabrics, including but not limited to acrylic, cotton, spandex and bamboo. We tend to veer towards fibers that are soft, washable and hypo-allergenic. We often mix fibers to create optimal fabric blends that enhance performance, stretch, wash ability and printability.<\/p>"
+          }
+        },
+        "template--20849202954521__10da723d-43c7-4abb-a3e1-d88f14ab7105-question-2": {
+          "type": "question",
+          "settings": {
+            "title": "What is the difference between bamboo, bamboo viscose and rayon from bamboo fabrics?",
+            "answer": "<p>They are all bamboo fabric, just labelled differently to meet North American labelling requirements. Unlike cotton, which can be picked and then spun into a yarn, bamboo needs to be processed from its raw format as a hard plant into a fibre. This process is a man made process similar to viscose or rayon, hence the name.<\/p>"
+          }
+        },
+        "template--20849202954521__10da723d-43c7-4abb-a3e1-d88f14ab7105-question-3": {
+          "type": "question",
+          "settings": {
+            "title": "Where is your fabric made?",
+            "answer": "<p>We work with Canadian mills to produce our proprietary fabric blends. The different fibres we use grow natively in tropical and subtropical regions of the world and we work with suppliers in those areas to bring the yarns to Canada to knit the fabric.<\/p>"
+          }
+        },
+        "b4e5d9f5-bfd6-4f02-9946-81de2288cc9f": {
+          "type": "question",
+          "settings": {
+            "title": "Your fabrics are very soft and stretchy, should I size down?",
+            "answer": "<p>It's true, our pajama and loungewear fabrics are all knit for us using a soft tension with a little bit of spandex added for shape retention. This soft stretch will give as it relaxes to your body shape the first time you wear it. Since the fabric does give, we recommend sizing down if you find yourself in between sizes.<\/p>"
+          }
+        },
+        "b57e8ccb-09b8-4496-a37d-b75df3e56613": {
+          "type": "question",
+          "settings": {
+            "title": "Why do you like working with bamboo?",
+            "answer": "<p>For lots of great reasons! Here are a few:<\/p><p>⤔ Fast growing and require much less water than other crops (including cotton) in it's growth and harvesting.<br\/>⤔ Bamboo shoots are harvested at their base leaving the root system in tact for regeneration without need for replanting.<br\/>⤔ It is said that Bamboo crops minimize CO2 and produce 35% more oxygen than an equivalent amount of trees.<br\/>⤔ Requires no pesticide use in it's growth.<br\/>⤔ It is inherently anti-bacterial, anti-fungal, odour resistant, moisture wicking and durable.<br\/>⤔ Bamboo grows natively in tropical and subtropical regions of the world and has a low impact on the environment.<br\/>⤔ Creates an unbelievably soft fiber and washes well.<\/p>"
+          }
+        },
+        "74e1e9b9-9cf7-4020-b606-054aea2a8be9": {
+          "type": "question",
+          "settings": {
+            "title": "What makes your fabric moisture-wicking?",
+            "answer": "<p>The fibrous quality of our signature fabrics create small fiber \"hairs\" within the yarn that pull moisture away from your skin to help regulate body temperature. Sometimes mistaken for piling, these fibres are actually the essence of our fabric's amazing wicking capabilities. We finish the fabric with a gentle heat set during our dyeing process to keep the appearance of the fibres to a minimum, but they can be more visible on some colour fabrics that others. Just remember, they are there for a good reason - to keep you unbelievably comfortable!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20849202954521__10da723d-43c7-4abb-a3e1-d88f14ab7105-question-1",
+        "template--20849202954521__10da723d-43c7-4abb-a3e1-d88f14ab7105-question-2",
+        "template--20849202954521__10da723d-43c7-4abb-a3e1-d88f14ab7105-question-3",
+        "b4e5d9f5-bfd6-4f02-9946-81de2288cc9f",
+        "b57e8ccb-09b8-4496-a37d-b75df3e56613",
+        "74e1e9b9-9cf7-4020-b606-054aea2a8be9"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "Comfort Q&A",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "90be0c27-262b-4c24-9976-f26a9777f604",
+    "6582e3ca-d4af-43b3-bfc5-32b4a4c3cb4f",
+    "f36eb28b-6d2a-4c21-b6f0-97fdd9fa8ce2",
+    "7a3fd399-092c-4a23-b077-08a40a3e6924",
+    "d0e082c7-6ea1-4a49-a386-ee007b884b58",
+    "0a9ae547-afb4-4d4c-b6ee-c128054f2efb",
+    "adb9962b-7578-4eff-b698-d3789b9745a6",
+    "4144dc67-07b1-4ad7-8bb5-b3b2e138b7f1",
+    "f405366a-583f-47f8-b1b9-25da9b563f84",
+    "793053e0-d557-4c9b-b650-f84287babe16",
+    "34ae2b4e-b2fd-4558-9780-db2dc3d3845d",
+    "d39981cd-26d3-41dd-a951-e9e38b0d36bd",
+    "1cffbbdb-637c-4d3a-b008-edd48ace784a",
+    "dbddf297-2435-4b1d-a789-70f4e4f65c83",
+    "10da723d-43c7-4abb-a3e1-d88f14ab7105"
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "sections": {
+    "blog-post-banner": {
+      "type": "blog-post-banner",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "show_category": true,
+        "blog_header_background": "#faf8f2",
+        "blog_header_text_color": "#282828"
+      }
+    },
+    "6938ff0a-a880-487f-8874-a82fc5afbd0d": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "small",
+        "image": "shopify:\/\/shop_images\/Artboard_1_CarouselHeader_FINAL_v3.png",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+        "overlay_opacity": 0
+      }
+    },
+    "main": {
+      "type": "main-article",
+      "custom_css": [
+        "h3 {font-family: \"Cooper BT\"; text-transform: none; font-size: 24px; letter-spacing: 0em;}"
+      ],
+      "settings": {
+        "show_on_scroll_navigation": true,
+        "show_author": false,
+        "show_date": false,
+        "show_share_buttons": true
+      }
+    },
+    "b92113e0-a1c7-4f87-bab1-a03cb5bce409": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "Browse All Comfort Series Q&A Guests",
+        "button_link": "shopify:\/\/blogs\/comfort-series",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "#faf8f2",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "#1c1b1b",
+        "button_text_color": "#ffffff"
+      }
+    },
+    "blog-post-prev-next": {
+      "type": "blog-post-prev-next",
+      "custom_css": [
+        "h2 {font-family: \"BV Celine\"; text-transform: none;}"
+      ],
+      "settings": {
+      }
+    },
+    "blog-post-comments": {
+      "type": "blog-post-comments",
+      "disabled": true,
+      "settings": {
+        "show_gravatar": true
+      }
+    }
+  },
+  "order": [
+    "blog-post-banner",
+    "6938ff0a-a880-487f-8874-a82fc5afbd0d",
+    "main",
+    "b92113e0-a1c7-4f87-bab1-a03cb5bce409",
+    "blog-post-prev-next",
+    "blog-post-comments"
+  ]
+}

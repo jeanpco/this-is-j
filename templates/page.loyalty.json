@@ -1,0 +1,319 @@
+{
+  "sections": {
+    "hero": {
+      "type": "hero-loyalty",
+      "blocks": {
+        "8848b213-83b9-470d-a367-50b83eb4af46": {
+          "type": "cta",
+          "settings": {
+            "url": "\/account\/register",
+            "text": "Join Now",
+            "color": "#d49553"
+          }
+        },
+        "a6010c1f-079b-4350-8f36-1fe6da8d8c30": {
+          "type": "cta",
+          "settings": {
+            "url": "\/account\/login",
+            "text": "Sign In",
+            "color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "8848b213-83b9-470d-a367-50b83eb4af46",
+        "a6010c1f-079b-4350-8f36-1fe6da8d8c30"
+      ],
+      "custom_css": [
+        "h1 {font-family: \"Cooper BT\"; font-size: 36px; font-weight: 400;}"
+      ],
+      "settings": {
+        "heading": "The Comfort Club",
+        "text": "<p>Earn rewards on the products you love, redeem them for discounts, and get closer to the comfort you've been dreaming of.<\/p>",
+        "image": "shopify:\/\/shop_images\/TIJ_001_Loyalty-Program_Banner_V4.gif",
+        "bg": "#f0eee7"
+      }
+    },
+    "steps": {
+      "type": "steps",
+      "blocks": {
+        "c9510138-d8f9-44ab-9183-63b8f927728f": {
+          "type": "step",
+          "settings": {
+            "title": "Sign Up",
+            "text": "Earn 25 points for creating an account."
+          }
+        },
+        "ab290d6e-8226-418b-9072-6f83b1f3c0a3": {
+          "type": "step",
+          "settings": {
+            "title": "Earn Points",
+            "text": "Earn 1 point every <sup>$<\/sup>1 spent when you shop."
+          }
+        },
+        "d6d1fba0-8b83-4566-91cb-b63bd1c03aad": {
+          "type": "step",
+          "settings": {
+            "title": "Redeem Points",
+            "text": "Redeem <sup>$<\/sup>10 every 100 points."
+          }
+        }
+      },
+      "block_order": [
+        "c9510138-d8f9-44ab-9183-63b8f927728f",
+        "ab290d6e-8226-418b-9072-6f83b1f3c0a3",
+        "d6d1fba0-8b83-4566-91cb-b63bd1c03aad"
+      ],
+      "custom_css": [
+        "h2 {font-family: \"Cooper BT\"; font-size: 36px; font-weight: 400; letter-spacing: 0.5px;}"
+      ],
+      "settings": {
+        "heading": "How it Works:",
+        "bg": "#b5c7c5"
+      }
+    },
+    "62c838d0-587c-4f45-995b-d2a3705900a7": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "Get Comfortable, Earn More",
+        "html": "<p style=\"text-align: center\">Unlock Exclusive benefits and perks.<\/p>\n\n<style><!--\n.loyalty-comparison {\n    margin: auto;\n    max-width: 1000px;\n    padding: 0 1rem;\n    text-align: center;\n  }\n\n  .loyalty-comparison h2 {\n    font-weight: bold;\n  }\n\n  .loyalty-comparison table {\n    border-collapse: collapse;\n    margin-top: 4rem;\n  }\n\n  .loyalty-comparison h3 {\n    margin: .5rem 0;\n    font-weight: bold;\n    font-size: 1.2rem;\n  }\n\n  .loyalty-comparison th {\n    padding: 0;\n  }\n\n  .loyalty-comparison th > p {\n    margin: .5rem;\n  }\n\n  .loyalty-comparison td:nth-child(n+2),\n  .loyalty-comparison th:nth-child(n+2) {\n    border-left: 1px solid #000;\n    font-weight: normal;\n    text-align: center;\n  }\n\n  .loyalty-comparison td {\n    border-top: 1px solid #000;\n    padding: 1rem;\n  }\n\n  .tier-container {\n    padding: 1rem;\n    position: relative;\n  }\n\n  .tier-container::before,\n  .tier-container::after {\n    content: \"\";\n    opacity: 0;\n    transition: opacity .3s ease-in-out;\n  }\n\n  .tier-container.is-active-tier::before {\n    background: #000;\n    content: \"\";\n    display: block;\n    height: 20px;\n    left: 50%;\n    opacity: 1;\n    position: absolute;\n    top: -15px;\n    transform: translateX(-50%) rotate(45deg);\n    width: 20px;\n  }\n\n  .tier-container.is-active-tier::after {\n    background: #000;\n    color: #fff;\n    content: \"You are here\";\n    left: -1px;\n    opacity: 1;\n    padding: 5px;\n    position: absolute;\n    top: 0px;\n    transform: translateY(-100%);\n    width: calc(100% + 2px);\n  }\n\n  @media only screen and (max-width: 768px) {\n    .loyalty-table-wrapper {\n      box-sizing: border-box;\n      font-size: .8em;\n      overflow-x: scroll;\n      width: calc(100% + 1rem);\n    }\n\n    .tier-container {\n      padding: 0;\n    }\n\n    .loyalty-comparison h3 {\n      font-size: .8rem;\n    }\n\n    .loyalty-comparison th,\n    .loyalty-comparison td {\n      padding: .5rem;\n    }\n  }\n--><\/style>\n<div class=\"loyalty-comparison\">\n<div class=\"loyalty-table-wrapper\">\n<table>\n<thead>\n<tr>\n<th>\n<h3>Benefits:<\/h3>\n<\/th>\n<th style=\"background-color: #f0eee7;\">\n<div data-tier=\"14195\" class=\"tier-container\">\n<h3>Comfort Seeker<\/h3>\n<p>Free to Join<\/p>\n<\/div>\n<\/th>\n<th style=\"background-color: #4f5053; color: #fff;\">\n<div data-tier=\"14196\" class=\"tier-container\">\n<h3>Comfort Lover<\/h3>\n<p><sup>$<\/sup>500 annual spend<\/p>\n<\/div>\n<\/th>\n<th style=\"background-color: #d49553; color: #fff;\">\n<div data-tier=\"14197\" class=\"tier-container\">\n<h3>Comfort Connoisseur<\/h3>\n<p><sup>$<\/sup>1000 annual spend<\/p>\n<\/div>\n<\/th>\n<\/tr>\n<\/thead>\n<tbody>\n<tr>\n<td>Birthday Discount<\/td>\n<td>10% OFF<\/td>\n<td>15% OFF<\/td>\n<td>20% OFF<\/td>\n<\/tr>\n<tr>\n<td>\n<strong>Free<\/strong> Shipping:<br>CAD Orders Over $100<br>US Orders Over $150<\/td>\n<td><img alt=\"This is J logo\" height=\"17.7\" width=\"30\" src=\"\/\/cdn.shopify.com\/s\/files\/1\/0186\/2266\/files\/thisisj-icon_100x.png?v=1566914333\"><\/td>\n<td><img alt=\"This is J logo\" height=\"17.7\" width=\"30\" src=\"\/\/cdn.shopify.com\/s\/files\/1\/0186\/2266\/files\/thisisj-icon_100x.png?v=1566914333\"><\/td>\n<td><img alt=\"This is J logo\" height=\"17.7\" width=\"30\" src=\"\/\/cdn.shopify.com\/s\/files\/1\/0186\/2266\/files\/thisisj-icon_100x.png?v=1566914333\"><\/td>\n<\/tr>\n<tr>\n<td>Early Access to Sales &amp; New Product Launches<\/td>\n<td><\/td>\n<td><img alt=\"This is J logo\" height=\"17.7\" width=\"30\" src=\"\/\/cdn.shopify.com\/s\/files\/1\/0186\/2266\/files\/thisisj-icon_100x.png?v=1566914333\"><\/td>\n<td><img alt=\"This is J logo\" height=\"17.7\" width=\"30\" src=\"\/\/cdn.shopify.com\/s\/files\/1\/0186\/2266\/files\/thisisj-icon_100x.png?v=1566914333\"><\/td>\n<\/tr>\n<tr>\n<td>Access to Points Multiplier Events<\/td>\n<td><\/td>\n<td><img alt=\"This is J logo\" height=\"17.7\" width=\"30\" src=\"\/\/cdn.shopify.com\/s\/files\/1\/0186\/2266\/files\/thisisj-icon_100x.png?v=1566914333\"><\/td>\n<td><img alt=\"This is J logo\" height=\"17.7\" width=\"30\" src=\"\/\/cdn.shopify.com\/s\/files\/1\/0186\/2266\/files\/thisisj-icon_100x.png?v=1566914333\"><\/td>\n<\/tr>\n<tr>\n<td>Members Only Sales and Exclusive Offers<\/td>\n<td><\/td>\n<td><img alt=\"This is J logo\" height=\"17.7\" width=\"30\" src=\"\/\/cdn.shopify.com\/s\/files\/1\/0186\/2266\/files\/thisisj-icon_100x.png?v=1566914333\"><\/td>\n<td><img alt=\"This is J logo\" height=\"17.7\" width=\"30\" src=\"\/\/cdn.shopify.com\/s\/files\/1\/0186\/2266\/files\/thisisj-icon_100x.png?v=1566914333\"><\/td>\n<\/tr>\n<\/tbody>\n<\/table>\n<\/div>\n<\/div>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "comparison": {
+      "type": "page-content",
+      "disabled": true,
+      "custom_css": [
+        "h2 {font-family: \"Cooper BT\"; font-size: 36px; font-weight: 400; letter-spacing: 0.5px;}"
+      ],
+      "settings": {
+        "page": "loyalty-comparison"
+      }
+    },
+    "loyalty-rewards": {
+      "type": "loyalty-rewards",
+      "blocks": {
+        "2a5cf05f-9a81-4bfb-9ec5-2d62a444aa90": {
+          "type": "reward",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TIJ_001_Create-an-account.png",
+            "text": "Create an Account",
+            "button": "25 points",
+            "campaign": "1109444",
+            "link": ""
+          }
+        },
+        "3bd0da4c-a1e0-44e4-ad75-86b66efeacd0": {
+          "type": "reward",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TIJ_001_Birthday-Discount.png",
+            "text": "Happy Birthday!",
+            "button": "Birthday discount",
+            "campaign": "1109445",
+            "link": ""
+          }
+        },
+        "4a557db6-ddcb-4f01-9d19-a6dc63659408": {
+          "type": "reward",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TIJ_001_Write-a-Review.png",
+            "text": "Write a Review",
+            "button": "25 points",
+            "campaign": "1109446",
+            "link": ""
+          }
+        },
+        "4b2c1ff0-d987-4ef6-883a-86e1b5f494fb": {
+          "type": "reward",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TIJ_001_Picture-Review.png",
+            "text": "Submit a Photo Review",
+            "button": "40 points",
+            "campaign": "1109447",
+            "link": ""
+          }
+        },
+        "f51455c0-854a-4aaf-ba46-b18bebc56402": {
+          "type": "reward",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TIJ_001_Follow-Us.png",
+            "text": "Follow Us on Instagram",
+            "button": "10 points",
+            "campaign": "1109449",
+            "link": ""
+          }
+        },
+        "68a50472-8671-4d4a-a527-42b986c613df": {
+          "type": "reward",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TIJ_001_Refer-a-Friend.png",
+            "text": "Refer a Friend",
+            "button": "$20 OFF",
+            "campaign": "1103469",
+            "link": "javascript:scrollTo('yotpoReferralTitleText')"
+          }
+        }
+      },
+      "block_order": [
+        "2a5cf05f-9a81-4bfb-9ec5-2d62a444aa90",
+        "3bd0da4c-a1e0-44e4-ad75-86b66efeacd0",
+        "4a557db6-ddcb-4f01-9d19-a6dc63659408",
+        "4b2c1ff0-d987-4ef6-883a-86e1b5f494fb",
+        "f51455c0-854a-4aaf-ba46-b18bebc56402",
+        "68a50472-8671-4d4a-a527-42b986c613df"
+      ],
+      "custom_css": [
+        "h2 {font-family: \"Cooper BT\"; font-size: 36px; font-weight: 400; letter-spacing: 0.5px;}"
+      ],
+      "settings": {
+        "heading": "Ways to Earn Points",
+        "bg": "#f9f8f5"
+      }
+    },
+    "image-with-text-1": {
+      "type": "image-with-text-loyalty",
+      "custom_css": [
+        "h1 {font-family: \"Cooper BT\"; font-size: 36px; font-weight: 400;}"
+      ],
+      "settings": {
+        "bg": "#ffffff",
+        "title": "Redeem and Save",
+        "content": "<p>Save 'em up or spend 'em, apply your points at checkout for a discount.<\/p>\n<p style=\"border-bottom: 1px solid #000; padding-bottom: 1rem;\">\n  <strong>100 Points = <sup>$<\/sup>10<\/strong>\n  <a class=\"swell-redemption-link redeem-button\" data-redeem=\"100\" data-redemption-option-id=\"646204\" href=\"javascript:void(0)\">Redeem<\/a>\n<\/p>\n<p style=\"border-bottom: 1px solid #000; padding-bottom: 1rem;\">\n  <strong>200 Points = <sup>$<\/sup>20<\/strong>\n  <a class=\"swell-redemption-link redeem-button\" data-redeem=\"200\" data-redemption-option-id=\"646205\" href=\"javascript:void(0)\">Redeem<\/a>\n<\/p>\n<p style=\"border-bottom: 1px solid #000; padding-bottom: 1rem;\">\n  <strong>300 Points = <sup>$<\/sup>30<\/strong>\n  <a class=\"swell-redemption-link redeem-button\" data-redeem=\"300\" data-redemption-option-id=\"646206\" href=\"javascript:void(0)\">Redeem<\/a>\n<\/p>\n<p>\n  <strong>400 Points = <sup>$<\/sup>40<\/strong>\n  <a class=\"swell-redemption-link redeem-button\" data-redeem=\"400\" data-redemption-option-id=\"646207\" href=\"javascript:void(0)\">Redeem<\/a>\n<\/p>\n\n<style>\n  .redeem-button {\n    background-color: #000;\n    border-radius: 1.25rem;\n    color: #fff;\n    display: none;\n    font-size: .6rem;\n    font-weight: 700;\n    letter-spacing: .1em;\n    margin-left: 5px;\n    padding: .5rem 1rem;\n    text-transform: uppercase;\n    transition: background .3s ease-in-out;\n  }\n\n  .redeem-button:focus,\n  .redeem-button:hover {\n    background: #555;\n    color: #fff;\n  }\n<\/style>",
+        "image": "shopify:\/\/shop_images\/TIJ_001_Loyalty-Program_MWK_V3.gif",
+        "order": "left"
+      }
+    },
+    "custom-code": {
+      "type": "custom-code",
+      "custom_css": [
+        "h1 {font-family: \"Cooper BT\"; font-size: 36px; font-weight: 400;}"
+      ],
+      "settings": {
+        "code": "<div id=\"refer\">\n  <script src=\"https:\/\/cdn-widgetsrepository.yotpo.com\/v1\/loader\/ELJoE72BK50FwC69S4dMVw\" async><\/script>\n  <div class=\"yotpo-widget-instance\" data-yotpo-instance-id=\"189509\"><\/div>\n<\/div>"
+      }
+    },
+    "faq": {
+      "type": "faq",
+      "blocks": {
+        "9b5c0ffa-90aa-48ba-a673-1db838d88529": {
+          "type": "question",
+          "settings": {
+            "title": "How do I join the Comfort Club?",
+            "answer": "<p>Joining the Comfort Club is easy and free! All you need is a This is J account and you are automatically enrolled. If you don't already have an account, you can easily create one by clicking <a href=\"https:\/\/thisisj.com\/account\/register\" target=\"_blank\" title=\"https:\/\/thisisj.com\/account\/register\"><span style=\"text-decoration:underline\">here<\/span><\/a><span style=\"text-decoration:underline\">.<\/span> <\/p><p>We will reward you with 25 bonus points just for signing up. <\/p>"
+          }
+        },
+        "833bbb59-797b-4681-a83f-a0c32406d103": {
+          "type": "question",
+          "settings": {
+            "title": "How can I earn points?",
+            "answer": "<p>Earn points by joining the Comfort Club, making purchases, reviewing your purchases, following us on <a href=\"https:\/\/www.instagram.com\/this_is_j\" target=\"_blank\" title=\"This is J on Instagram\">Instagram<\/a> and more.<\/p>"
+          }
+        },
+        "c37c2ff1-5cff-4536-9fcf-a78a10a36f97": {
+          "type": "question",
+          "settings": {
+            "title": "How much is a point worth?",
+            "answer": "<p>Every 10 points is worth $1 of credit during redemption. Points can be redeemed in $10 increments to a maximum redemption of $40 per transaction and cannot be combined with any other discount code.<\/p>"
+          }
+        },
+        "9cc11832-1971-40c2-be11-c3e90a588696": {
+          "type": "question",
+          "settings": {
+            "title": "How do I use my points?",
+            "answer": "<p>Once eligible, a redemption button will appear on your loyalty page. Simply click on the Redeem button next to the value you would like to redeem and you will be provided with a unique discount code that you can use on your purchase. Missed your discount code? We will always send your redemption code to your inbox for easy access.<\/p><p>You will not be able to redeem Comfort Club points on any orders which include a promotional offer.<\/p>"
+          }
+        },
+        "28b3a964-6836-4c91-95c8-bd2c3f0c6c3e": {
+          "type": "question",
+          "settings": {
+            "title": "Do my points expire?",
+            "answer": "<p>Yes. Points expire after 365 days.<\/p>"
+          }
+        },
+        "6e0b5d9a-cbb8-4f32-b238-61258c55bf04": {
+          "type": "question",
+          "settings": {
+            "title": "How does my birthday discount work?",
+            "answer": "<p>Happy Birthday!! We will send you a unique birthday discount code via email to celebrate.  To claim your birthday discount just enter the unique birthday code in the discount code section at checkout.  Birthday discount codes expire 14 days after receipt and cannot be combined with any other promotional codes.<\/p>"
+          }
+        },
+        "2120050c-4e30-4e58-8ea3-8de7a968960b": {
+          "type": "question",
+          "settings": {
+            "title": "How do I submit a review?",
+            "answer": "<p>We will send you an email 14 days after you make a purchase requesting a review. Just complete the form and your review points will automatically be added to your account once your review is verified.<\/p><p>Including a photo in your review is the best way to help fellow shoppers and for you to earn even more points. <\/p>"
+          }
+        },
+        "4a2d79f7-37c4-4622-b13f-d69a6ba527f3": {
+          "type": "question",
+          "settings": {
+            "title": "What are some tips for taking a review photo?",
+            "answer": "<p>- Make sure there is lots of light. Natural light is always best! (Dim environments make it tricky to see the product clearly).<\/p><p>- Focus on the product and not the background.<\/p><p>- Hold your camera steady.<\/p><p>- Check the photo before uploading.   If the photo is blurry, dark or copped take a new one.<\/p>"
+          }
+        },
+        "c9d41c24-194e-45fa-a394-510ab1aa5e35": {
+          "type": "question",
+          "settings": {
+            "title": "How does the Refer a Friend program work?",
+            "answer": "<p>Share the love of comfort with your friend and get rewarded.  Share your unique referral link with friends via email.  Your friend will receive an email with a code for 20% off their first purchase.  Once your friend has made a purchase you will get an email with a 20% off discount code too.  It’s a win\/win.<\/p>"
+          }
+        },
+        "4504e1a3-ccc5-41f6-acfd-e8decc07a9d6": {
+          "type": "question",
+          "settings": {
+            "title": "What happens to my points if I make a return?",
+            "answer": "<p>We hope you love your purchase, but if you need to return or exchange you can find out how to do so <a href=\"https:\/\/thisisj.com\/pages\/return-policy\" target=\"_blank\" title=\"https:\/\/thisisj.com\/pages\/return-policy\"><span style=\"text-decoration:underline\">here<\/span><\/a>. Your points balance will be automatically adjusted to reflect returns and\/or exchanges once they are processed.  <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "9b5c0ffa-90aa-48ba-a673-1db838d88529",
+        "833bbb59-797b-4681-a83f-a0c32406d103",
+        "c37c2ff1-5cff-4536-9fcf-a78a10a36f97",
+        "9cc11832-1971-40c2-be11-c3e90a588696",
+        "28b3a964-6836-4c91-95c8-bd2c3f0c6c3e",
+        "6e0b5d9a-cbb8-4f32-b238-61258c55bf04",
+        "2120050c-4e30-4e58-8ea3-8de7a968960b",
+        "4a2d79f7-37c4-4622-b13f-d69a6ba527f3",
+        "c9d41c24-194e-45fa-a394-510ab1aa5e35",
+        "4504e1a3-ccc5-41f6-acfd-e8decc07a9d6"
+      ],
+      "custom_css": [
+        "h1 {font-family: \"Cooper BT\"; font-size: 36px; font-weight: 400;}"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "FAQ",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1656617120d57c5477": {
+      "type": "featured-content",
+      "settings": {
+        "title": "",
+        "text": "<p>Still have questions? We are here to help, just <a href=\"https:\/\/thisisj.com\/pages\/contact-us\" target=\"_blank\" title=\"https:\/\/thisisj.com\/pages\/contact-us\">contact us<br\/><br\/><br\/><\/a><\/p>",
+        "align_text": "center",
+        "narrow_column": false,
+        "enlarge_text": true,
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "steps",
+    "62c838d0-587c-4f45-995b-d2a3705900a7",
+    "comparison",
+    "loyalty-rewards",
+    "image-with-text-1",
+    "custom-code",
+    "faq",
+    "1656617120d57c5477"
+  ]
+}

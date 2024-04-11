@@ -1,0 +1,825 @@
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "5f50728c-97ef-40f0-9fa4-5ca1e43925bc": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Shopify-Carousel_is-LiveSampleSale-Carousel-Header.jpg",
+            "mute_toggle": false,
+            "font": "'BV Celine', serif",
+            "text_position": "bottom_center",
+            "subheading": "Up to 80% Off",
+            "title": "",
+            "subheading_font_size_m": 18,
+            "subheading_font_size_d": 12,
+            "heading_font_size_m": 26,
+            "heading_font_size_d": 68,
+            "description": "",
+            "button_1_text": "SHOP SAMPLE SALE",
+            "button_1_link": "shopify:\/\/collections\/spring-2024-sample-sale",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#1c1b1b",
+            "button_background": "#1c1b1b",
+            "button_text_color": "#ffffff",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 0
+          }
+        },
+        "2da0b997-5a90-4854-8226-9f11794b4268": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Header_Sketch-Flower-Heather-Grey_family-matching_v3.jpg",
+            "mute_toggle": false,
+            "font": "'BV Celine', serif",
+            "text_position": "bottom_center",
+            "subheading": "",
+            "title": "Matching PJs",
+            "subheading_font_size_m": 12,
+            "subheading_font_size_d": 13,
+            "heading_font_size_m": 36,
+            "heading_font_size_d": 64,
+            "description": "Monochromatic Dreams in Sketch Flower",
+            "button_1_text": "SHOP now",
+            "button_1_link": "shopify:\/\/collections\/sketch-flower-heather-grey",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#faf8f2",
+            "button_text_color": "#1c1b1b",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 31
+          }
+        },
+        "b24eb5a9-a144-43c5-aa6e-553164408fa6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/EmmyFlower_CollectionHeader_v2.jpg",
+            "mute_toggle": false,
+            "font": "'BV Celine', serif",
+            "text_position": "middle_center",
+            "subheading": "hello again",
+            "title": "Emmy Flower Sleepwear",
+            "subheading_font_size_m": 12,
+            "subheading_font_size_d": 13,
+            "heading_font_size_m": 36,
+            "heading_font_size_d": 64,
+            "description": "Whimsical Details & Delicate Flowers... Experience the Comfort",
+            "button_1_text": "SHOP EMMY FLOWER",
+            "button_1_link": "https:\/\/thisisj.com\/collections\/emmy-flower",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#f3efe0",
+            "button_text_color": "#000000",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1), rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 21
+          }
+        },
+        "41ae075a-1376-49e3-8690-26f8fc04c23e": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CarouselHeader_FairIsleBlack_v2.jpg",
+            "mute_toggle": false,
+            "font": "'BV Celine', serif",
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "Fair Isle Pajamas",
+            "subheading_font_size_m": 12,
+            "subheading_font_size_d": 13,
+            "heading_font_size_m": 36,
+            "heading_font_size_d": 64,
+            "description": "Feel Your Best in Matching Comfort",
+            "button_1_text": "SHOP THE COLLECTION",
+            "button_1_link": "https:\/\/thisisj.com\/collections\/fair-isle-collection",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#516e99",
+            "button_text_color": "#ffffff",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 15
+          }
+        },
+        "60beccfe-7cd8-448e-9d7f-23b6860fc3a4": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Carousel-Tartan-2023-v2.jpg",
+            "mute_toggle": false,
+            "font": "'BV Celine', serif",
+            "text_position": "bottom_center",
+            "subheading": "",
+            "title": "Cold Weather Comfort",
+            "subheading_font_size_m": 12,
+            "subheading_font_size_d": 13,
+            "heading_font_size_m": 36,
+            "heading_font_size_d": 64,
+            "description": "Your Seasonal Favs are Back in Stock!",
+            "button_1_text": "SHOP NEW PATTERNS",
+            "button_1_link": "shopify:\/\/collections\/the-holiday-collection",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#24274a",
+            "button_text_color": "#ffffff",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 25
+          }
+        },
+        "0a4416e7-5b14-4e98-a91e-08b416cbdb5e": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/EmmyFlower_CollectionHeader_v2.jpg",
+            "video": "shopify:\/\/files\/videos\/Emmy-Flower-Launch-Web-Final.mov",
+            "mute_toggle": true,
+            "font": "'BV Celine', serif",
+            "text_position": "middle_center",
+            "subheading": "Hello again",
+            "title": "Emmy Flower Sleepwear",
+            "subheading_font_size_m": 12,
+            "subheading_font_size_d": 13,
+            "heading_font_size_m": 36,
+            "heading_font_size_d": 64,
+            "description": "Whimsical Details & Delicate Flowers... Experience the Comfort",
+            "button_1_text": "",
+            "button_1_link": "https:\/\/thisisj.com\/collections\/emmy-flower",
+            "button_2_text": "SHOP EMMY FLOWER",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#f7e0c1",
+            "button_text_color": "#1c1b1b",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 10
+          }
+        },
+        "d614789a-a1dd-4a1f-824e-7fd99a25c6d7": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard_7carousel-v7.jpg",
+            "mute_toggle": false,
+            "mobile_image": "shopify:\/\/shop_images\/Artboard_7carousel-v8.jpg",
+            "font": "'BV Celine', serif",
+            "text_position": "bottom_center",
+            "subheading": "",
+            "title": "We Made Too Much!",
+            "subheading_font_size_m": 12,
+            "subheading_font_size_d": 13,
+            "heading_font_size_m": 36,
+            "heading_font_size_d": 64,
+            "description": "",
+            "button_1_text": "SHOP PLAID SALE",
+            "button_1_link": "https:\/\/thisisj.com\/collections\/we-made-too-much",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 25
+          }
+        },
+        "0d1dee9f-d68a-4bc0-8e73-d5f4aeb41afb": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Shopify-Carousel_is-LiveCarouselHeader.jpg",
+            "mute_toggle": false,
+            "font": "'BV Celine', serif",
+            "text_position": "bottom_center",
+            "subheading": "UP TO 80% OFF",
+            "title": "",
+            "subheading_font_size_m": 12,
+            "subheading_font_size_d": 13,
+            "heading_font_size_m": 36,
+            "heading_font_size_d": 64,
+            "description": "",
+            "button_1_text": "SHOP SAMPLE SALE",
+            "button_1_link": "https:\/\/thisisj.com\/collections\/winter-2023-sample-sale",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 0
+          }
+        },
+        "651bdab3-a6ac-4b78-aa18-f8b4cc25d911": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Carousel_SpaceDye.jpg",
+            "mute_toggle": false,
+            "font": "'BV Celine', serif",
+            "text_position": "bottom_center",
+            "subheading": "",
+            "title": "Space Dye",
+            "subheading_font_size_m": 12,
+            "subheading_font_size_d": 13,
+            "heading_font_size_m": 36,
+            "heading_font_size_d": 64,
+            "description": "Float into Outer Space and Dream among the Stars",
+            "button_1_text": "EXPLORE SPACE DYE",
+            "button_1_link": "shopify:\/\/collections\/the-space-dye-collection",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#f3efe0",
+            "button_text_color": "#000000",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1), rgba(255, 255, 255, 0) 55%)",
+            "overlay_opacity": 25
+          }
+        },
+        "image_qjRPmG": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CarouselHeader_Tartan_Scandi_Sale.jpg",
+            "mute_toggle": false,
+            "font": "'BV Celine', serif",
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "30% Off Sale!",
+            "subheading_font_size_m": 12,
+            "subheading_font_size_d": 13,
+            "heading_font_size_m": 36,
+            "heading_font_size_d": 64,
+            "description": "Bye Bye Tartan & Scandi",
+            "button_1_text": "SHOP SALE",
+            "button_1_link": "https:\/\/thisisj.com\/collections\/tartan-and-scandinavian",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#1c1b1b",
+            "button_text_color": "#ffffff",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 25
+          }
+        },
+        "2af3691f-48a8-40da-b6a5-be47cf654e2d": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CarouselHeader_ValentinesDaySale-v2.jpg",
+            "mute_toggle": false,
+            "font": "'BV Celine', serif",
+            "text_position": "bottom_center",
+            "subheading": "",
+            "title": "Valentine's Day SALE!",
+            "subheading_font_size_m": 12,
+            "subheading_font_size_d": 13,
+            "heading_font_size_m": 36,
+            "heading_font_size_d": 64,
+            "description": "One Day Only! 30% off full price PJs & loungewear with code: HEART30",
+            "button_1_text": "SHOP NOW!",
+            "button_1_link": "shopify:\/\/collections\/pj-loungewear-sets",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ff6d6d",
+            "button_text_color": "#ffffff",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1), rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 13
+          }
+        },
+        "63738099-eeb5-4d1b-9068-d3d0bbb3158a": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "video": "shopify:\/\/files\/videos\/Bookhou_x_This_Is_J_Cut_Web_NoLogo.mp4",
+            "mute_toggle": true,
+            "font": "'BV Celine', serif",
+            "text_position": "bottom_center",
+            "subheading": "",
+            "title": "Bookhou x This Is J",
+            "subheading_font_size_m": 12,
+            "subheading_font_size_d": 13,
+            "heading_font_size_m": 36,
+            "heading_font_size_d": 64,
+            "description": "The Collaboration You've Been Dreaming Of...",
+            "button_1_text": "SHOP THE COLLECTION",
+            "button_1_link": "shopify:\/\/collections\/bookhou-x-this-is-j",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#e9c19a",
+            "button_text_color": "#ffffff",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "5f50728c-97ef-40f0-9fa4-5ca1e43925bc",
+        "2da0b997-5a90-4854-8226-9f11794b4268",
+        "b24eb5a9-a144-43c5-aa6e-553164408fa6",
+        "41ae075a-1376-49e3-8690-26f8fc04c23e",
+        "60beccfe-7cd8-448e-9d7f-23b6860fc3a4",
+        "0a4416e7-5b14-4e98-a91e-08b416cbdb5e",
+        "d614789a-a1dd-4a1f-824e-7fd99a25c6d7",
+        "0d1dee9f-d68a-4bc0-8e73-d5f4aeb41afb",
+        "651bdab3-a6ac-4b78-aa18-f8b4cc25d911",
+        "image_qjRPmG",
+        "2af3691f-48a8-40da-b6a5-be47cf654e2d",
+        "63738099-eeb5-4d1b-9068-d3d0bbb3158a"
+      ],
+      "custom_css": [
+        "p {letter-spacing: 0.2px; font-size: 20px; margin-top: 0px;}"
+      ],
+      "settings": {
+        "section_height": "medium",
+        "transition_type": "fade",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "225993b7-76de-4fbe-806c-c35b2948f3af": {
+      "type": "rich-text",
+      "custom_css": [
+        "p {font-size: 18px;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Welcome to Comfort",
+        "content": "<p>Pajamas & Loungewear for more than just the bedroom.<\/p><p>We make ultra-soft, moisture-wicking, stylish sleepwear & loungewear — <br\/>hand printed with our unique and vibrant designs. <\/p><p>Ethically made in Canada.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "#faf8f2",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "7f890758-5f6c-452b-babb-2afba829183d": {
+      "type": "collection-list",
+      "blocks": {
+        "template--17915522122009__7f890758-5f6c-452b-babb-2afba829183d-167634349865f93a48-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "bamboo-jammers",
+            "image": "shopify:\/\/shop_images\/Women_3MainPage.jpg",
+            "subheading": "SHOP ALL",
+            "title": "WOMEN",
+            "link_text": "",
+            "link_url": "shopify:\/\/collections\/bamboo-jammers",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 20
+          }
+        },
+        "963bc00e-0774-4f89-93d6-feee8d937962": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "loungewear",
+            "image": "shopify:\/\/shop_images\/Bamboo-Loungewear-Swing-Muscle-Tank-Bermuda-Short-Black-2811_70725d70-212f-4a8f-a01e-38d8b12d8101.jpg",
+            "subheading": "WOMEN",
+            "title": "Separates",
+            "link_text": "Shop Now →",
+            "link_url": "shopify:\/\/collections\/loungewear",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 25
+          }
+        },
+        "template--17915522122009__7f890758-5f6c-452b-babb-2afba829183d-167634349865f93a48-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "harris-loungewear",
+            "image": "shopify:\/\/shop_images\/Men_4MainPage.jpg",
+            "subheading": "SHOP ALL",
+            "title": "MEN",
+            "link_text": "",
+            "link_url": "shopify:\/\/collections\/harris-loungewear",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 20
+          }
+        },
+        "f8770bb7-d8e0-425f-870d-8588b2083fb8": {
+          "type": "collection",
+          "settings": {
+            "collection": "kid-jammers",
+            "image": "shopify:\/\/shop_images\/KidsFamily_5MainPage.jpg",
+            "subheading": "SHOP ALL",
+            "title": "KIDS",
+            "link_text": "",
+            "link_url": "shopify:\/\/collections\/kid-jammers",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "template--17915522122009__7f890758-5f6c-452b-babb-2afba829183d-167634349865f93a48-0",
+        "963bc00e-0774-4f89-93d6-feee8d937962",
+        "template--17915522122009__7f890758-5f6c-452b-babb-2afba829183d-167634349865f93a48-1",
+        "f8770bb7-d8e0-425f-870d-8588b2083fb8"
+      ],
+      "custom_css": [
+        "h2 {font-size: 18px;}",
+        "p {font-weight: 700; font-family: \"BV Celine\"; text-transform: none; letter-spacing: 1px;}",
+        ".heading--small {font-weight: 700; font-family: \"Avenir Next\";}"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "layout": "grid",
+        "subheading": "Discover Our Pajamas & Loungewear",
+        "title": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "text_shadow_color": "rgba(0,0,0,0)"
+      }
+    },
+    "0b66a79c-f620-44ef-b547-dcd702ada368": {
+      "type": "featured-collections",
+      "blocks": {
+        "b4237bd7-efab-4d5d-afd2-bd64ddd09866": {
+          "type": "collection",
+          "settings": {
+            "collection": "emmy-flower-brown",
+            "label": "Emmy Flower Brown",
+            "button_text": "VIEW COLLECTION",
+            "button_url": "shopify:\/\/collections\/emmy-flower-brown"
+          }
+        },
+        "14c55113-a7c2-45db-ad2e-f2c840d4eb36": {
+          "type": "collection",
+          "settings": {
+            "collection": "emmy-flower-charcoal-blue",
+            "label": "Emmy Flower Charcoal",
+            "button_text": "VIEW COLLECTION",
+            "button_url": "shopify:\/\/collections\/emmy-flower-charcoal-blue"
+          }
+        },
+        "1d0d589f-470b-4725-a0d1-ce66fc0c4517": {
+          "type": "collection",
+          "settings": {
+            "collection": "sketch-flower-heather-grey",
+            "label": "SKETCH FLOWER",
+            "button_text": "VIEW COLLECTION",
+            "button_url": "shopify:\/\/collections\/sketch-flower-heather-grey"
+          }
+        },
+        "89a5a7f6-cbd3-4761-afe4-b400e5ff692f": {
+          "type": "collection",
+          "settings": {
+            "collection": "70s-flower-navy",
+            "label": "70s Flower Navy",
+            "button_text": "VIEW COLLECTION",
+            "button_url": "shopify:\/\/collections\/70s-flower-navy"
+          }
+        },
+        "collection_gqHEp9": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "b4237bd7-efab-4d5d-afd2-bd64ddd09866",
+        "14c55113-a7c2-45db-ad2e-f2c840d4eb36",
+        "1d0d589f-470b-4725-a0d1-ce66fc0c4517",
+        "89a5a7f6-cbd3-4761-afe4-b400e5ff692f",
+        "collection_gqHEp9"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Explore Our Latest Patterns",
+        "content": "<p>There is something about patterned pajamas that reminds us of our childhood. We try to instill a bit of that care-free comfort and joy with our fun, playful fabric patterns.<\/p>",
+        "products_count": 8,
+        "products_per_row": 4,
+        "stack_products": false,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "4b62d8de-d374-444b-acf9-e0277149dd5f": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--21626974568729__4b62d8de-d374-444b-acf9-e0277149dd5f-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "womens-sample-sale-sets",
+            "label": "Womens Sets",
+            "button_text": "SHOP ALL SAMPLE SALE",
+            "button_url": "shopify:\/\/collections\/winter-2023-sample-sale"
+          }
+        },
+        "8dacc9b8-81c6-435e-a2c6-0839de061787": {
+          "type": "collection",
+          "settings": {
+            "collection": "womens-sample-sale-separates",
+            "label": "Womens Separates",
+            "button_text": "SHOP ALL SAMPLE SALE",
+            "button_url": "shopify:\/\/collections\/winter-2023-sample-sale"
+          }
+        },
+        "e183821e-58af-4607-bc14-960f9c146d62": {
+          "type": "collection",
+          "settings": {
+            "collection": "mens-sample-sale",
+            "label": "Mens",
+            "button_text": "SHOP ALL SAMPLE SALE",
+            "button_url": "shopify:\/\/collections\/winter-2023-sample-sale"
+          }
+        },
+        "f040d1fa-f272-4730-9554-53c3319423b2": {
+          "type": "collection",
+          "settings": {
+            "collection": "kids-sample-sale",
+            "label": "Kids",
+            "button_text": "SHOP ALL SAMPLE SALE",
+            "button_url": "shopify:\/\/collections\/winter-2023-sample-sale"
+          }
+        }
+      },
+      "block_order": [
+        "template--21626974568729__4b62d8de-d374-444b-acf9-e0277149dd5f-collection-1",
+        "8dacc9b8-81c6-435e-a2c6-0839de061787",
+        "e183821e-58af-4607-bc14-960f9c146d62",
+        "f040d1fa-f272-4730-9554-53c3319423b2"
+      ],
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Our Top Sample Sale Picks",
+        "content": "",
+        "products_count": 20,
+        "products_per_row": 4,
+        "stack_products": false,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "6f76f51a-e243-4b89-82c0-0099be584f05": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--20427016306969__6f76f51a-e243-4b89-82c0-0099be584f05-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ThisisJ_JaimieHarris_Headshot_5537_Black_White_ForWebsite_39de0c51-9a44-4fb9-9d43-7e8f66f03b54.jpg",
+            "tab_label": "",
+            "subheading": "ABOUT THIS IS J",
+            "title": "Meet Jaimie",
+            "content": "<p>\"I started This is J to fill a personal need for comfortable accessories that were both fashionable and functional. 20 years have gone by since selling our first headband and I feel an even stronger calling to provide beautiful products that play a part in your everyday life.\"<\/p>",
+            "button_text": "Learn More",
+            "button_link": "shopify:\/\/pages\/about-us"
+          }
+        }
+      },
+      "block_order": [
+        "template--20427016306969__6f76f51a-e243-4b89-82c0-0099be584f05-item-1"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "#faf8f2",
+        "text_color": "#1c1b1b",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "6f61ab2a-cfc9-421a-9acc-f8d5fe0bdaab": {
+      "type": "featured-collections",
+      "blocks": {
+        "f63d4d84-8a88-4f4a-998a-01d9b950a42f": {
+          "type": "collection",
+          "settings": {
+            "collection": "jaimies-picks",
+            "label": "",
+            "button_text": "Shop All",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "f63d4d84-8a88-4f4a-998a-01d9b950a42f"
+      ],
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "Shop Jaimie's Picks",
+        "content": "",
+        "products_count": 4,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "#ffffff",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "cfc469f0-6994-4b65-ad5d-e0aedcbc6c4e": {
+      "type": "slideshow",
+      "blocks": {
+        "template--20427016306969__cfc469f0-6994-4b65-ad5d-e0aedcbc6c4e-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Comfort-Club-Website-Banner-Bookhou.jpg",
+            "mute_toggle": false,
+            "mobile_image": "shopify:\/\/shop_images\/Comfort-Club-Website-Banner-Bookhou-Mobile.jpg",
+            "font": "'BV Celine', serif",
+            "text_position": "bottom_left",
+            "subheading": "Get Rewarded",
+            "title": "Comfort Club",
+            "subheading_font_size_m": 12,
+            "subheading_font_size_d": 13,
+            "heading_font_size_m": 36,
+            "heading_font_size_d": 64,
+            "description": "",
+            "button_1_text": "Join Now",
+            "button_1_link": "shopify:\/\/pages\/loyalty",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#1c1b1b",
+            "overlay_color": "#faf8f2",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--20427016306969__cfc469f0-6994-4b65-ad5d-e0aedcbc6c4e-image-1"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "section_height": "small",
+        "transition_type": "reveal",
+        "autoplay": false,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "e003ed7d-2ba7-4dc3-a071-4be953ea5930": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--17915522122009__e003ed7d-2ba7-4dc3-a071-4be953ea5930-168237298567ef5e4f-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17915522122009__e003ed7d-2ba7-4dc3-a071-4be953ea5930-168237298567ef5e4f-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "subheading": "Your title",
+        "title": "Collection",
+        "content": "",
+        "products_count": 8,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "c2aa3483-db5f-4794-b603-15913185f1a0": {
+      "type": "logo-list",
+      "blocks": {
+        "template--20427016306969__c2aa3483-db5f-4794-b603-15913185f1a0-logo-1": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/thisisj-intouch-600x400-v2.png",
+            "link": ""
+          }
+        },
+        "template--20427016306969__c2aa3483-db5f-4794-b603-15913185f1a0-logo-2": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/thisisj-usweekly-600x400.png",
+            "link": ""
+          }
+        },
+        "template--20427016306969__c2aa3483-db5f-4794-b603-15913185f1a0-logo-3": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/thisisj-houseandhome-600x400.png",
+            "link": ""
+          }
+        },
+        "bb488124-d946-4157-b0b5-6604a7721f8c": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/thisisj-buzzfeed-600x400.png",
+            "link": ""
+          }
+        },
+        "template--20427016306969__c2aa3483-db5f-4794-b603-15913185f1a0-logo-4": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/thisisj-people-600x400.png",
+            "link": ""
+          }
+        },
+        "6a047c01-cda2-41ce-9b6a-7b2d6ce34855": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/thisisj-nationalpost-600x400.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20427016306969__c2aa3483-db5f-4794-b603-15913185f1a0-logo-1",
+        "template--20427016306969__c2aa3483-db5f-4794-b603-15913185f1a0-logo-2",
+        "template--20427016306969__c2aa3483-db5f-4794-b603-15913185f1a0-logo-3",
+        "bb488124-d946-4157-b0b5-6604a7721f8c",
+        "template--20427016306969__c2aa3483-db5f-4794-b603-15913185f1a0-logo-4",
+        "6a047c01-cda2-41ce-9b6a-7b2d6ce34855"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "subheading": "AS SEEN IN",
+        "title": "",
+        "button_text": "",
+        "button_link": "",
+        "stack_logos": true,
+        "background": "#faf8f2",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)",
+        "logo_background": "rgba(0,0,0,0)"
+      }
+    },
+    "163108d7-e266-4758-88d4-8858f759871c": {
+      "type": "blog-posts",
+      "custom_css": [
+        "h3 {font-size: 22px;}"
+      ],
+      "settings": {
+        "blog": "comfort-series",
+        "subheading": "OUR BLOG",
+        "title": "The Comfort Series",
+        "articles_count": 3,
+        "stack_mobile": false,
+        "show_category": true,
+        "show_excerpt": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "225993b7-76de-4fbe-806c-c35b2948f3af",
+    "7f890758-5f6c-452b-babb-2afba829183d",
+    "0b66a79c-f620-44ef-b547-dcd702ada368",
+    "4b62d8de-d374-444b-acf9-e0277149dd5f",
+    "6f76f51a-e243-4b89-82c0-0099be584f05",
+    "6f61ab2a-cfc9-421a-9acc-f8d5fe0bdaab",
+    "cfc469f0-6994-4b65-ad5d-e0aedcbc6c4e",
+    "e003ed7d-2ba7-4dc3-a071-4be953ea5930",
+    "c2aa3483-db5f-4794-b603-15913185f1a0",
+    "163108d7-e266-4758-88d4-8858f759871c"
+  ]
+}

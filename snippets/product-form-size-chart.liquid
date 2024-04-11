@@ -1,0 +1,16 @@
+{%- liquid
+  assign type_handle = product.type | handleize
+  assign metaobject = shop.metaobjects.size_guide[type_handle]
+  assign id = 'now' | date: '%N' | modulo: 100
+-%}
+{%- if metaobject.chart -%}
+  <button
+    type="button"
+    data-chart-open="{{ id }}"
+    class="link product-form__size-chart"
+  >
+    {{- 'product.general.size_chart' | t -}}
+  </button>
+
+  {% render 'product-size-chart', product: product, id: id, metaobject: metaobject %}
+{%- endif -%}

@@ -1,0 +1,9 @@
+<div class="size-chart" data-chart-modal="{{ id }}">
+  <div class="size-chart__overlay" data-chart-close="{{ id }}"></div>
+  <div class="size-chart__content">
+    {{ metaobject.chart | image_url: width: 1400 | image_tag }}
+    <button type="button" data-chart-close="{{ id }}">
+      {% render 'icon' with 'close' %}
+    </button>
+  </div>
+</div>
