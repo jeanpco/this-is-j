@@ -602,9 +602,23 @@
       BUY BUTTONS
       ----------------------------------------------------------------------------------------------------------------
       {%- endcomment -%}
+      {% comment %} Check if coming soon product {% endcomment %}
+      {%- assign coming_product_tag = 'comingsoon::' | append: product.selected_or_first_available_variant.option1 -%}
+
+      {%- for tag in product.tags -%}
+        {% if tag contains 'comingsoon' or tag contains coming_product_tag %}
+          {% assign coming_tag_found = true %}
+        {%- endif -%}
+      {%- endfor -%}
+
       {%- when 'buy_buttons' -%}
       {%- if request.page_type != 'password' -%}
-        <div class="product-form__buy-buttons" {{ block.shopify_attributes }}>
+        <div class="product-form__buy-buttons" {{ block.shopify_attributes }} 
+        data-selected-variant-title="{{ product.selected_or_first_available_variant.option1 }}"
+        data-comingsoon-tag="{{ coming_product_tag }}"
+        data-comingsoon-found={{ coming_tag_found }}
+        
+        >
           {%- form 'product', product, is: 'product-form', id: product_form_id -%}
             {%- if product.gift_card? and block.settings.show_gift_card_recipient -%}
               <gift-card-recipient class="gift-card-recipient">
@@ -682,7 +696,10 @@
               form-id="{{ product_form_id }}"
               {% if update_url %}id="MainPaymentContainer"{% endif %}
               class="product-form__payment-container"
-              {{ block.shopify_attributes }}>
+              {{ block.shopify_attributes }}
+              data-selected-variant-title="{{ product.selected_or_first_available_variant.option1 }}"
+              data-comingsoon-tag="{{ comingsoon_tag }}"
+              data-comingsoon-found={{ comingsoon_found }} >
               <button
                 id="AddToCart"
                 type="submit"

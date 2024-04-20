@@ -1,5 +1,15 @@
 {%- capture product_form_id -%}product-form-{{ section.id }}-{{ product.id }}{%- endcapture -%}
 <div class="product__info">
+
+  {% comment %} Check if coming soon product {% endcomment %}
+  {%- assign coming_product_tag = 'comingsoon::' | append: product.selected_or_first_available_variant.option1 -%}
+  {% assign coming_tag_found = false %}
+  {% for tag in product.tags %}
+    {% if tag contains 'comingsoon' or tag contains coming_product_tag %}
+      {% assign coming_tag_found = true %}
+    {% endif %}
+  {% endfor %}
+
   <product-meta form-id="{{ product_form_id }}" price-class="price--large" class="product-meta">
     {%- if section.settings.show_vendor -%}
       <h2 class="product-meta__vendor heading heading--small">
@@ -60,33 +70,41 @@
       </div>
 
       <div class="product-meta__label-list label-list" data-product-label-list>
-        {%- unless product.available -%}
-          {%- assign show_restock_label = false -%}
-          {%- assign restock_product_tag = 'restock::' | append: product.selected_or_first_available_variant.option1 -%}
-          {%- assign restock_product_tag_cap = 'Restock::' | append: product.selected_or_first_available_variant.option1 -%}
-          {%- for tag in product_tags -%}
-            {%- if tag == restock_product_tag or tag ==  restock_product_tag_cap -%}
-              {%- assign show_restock_label = true -%}
-              {%- break -%}
-            {%- endif -%}
-          {%- endfor -%}
+        {%- if coming_tag_found -%}
           <span class="label label--subdued">          
-            {%- if show_restock_label -%}
-              {{ 'collection.product.restock' | t}}
-              {%- else -%}
-              {{ 'collection.product.sold_out' | t }}
-            {%- endif -%}
+            {{ 'collection.product.comingsoon' | t}}
           </span>
+        {% else %}
+          {%- unless product.available  -%}
+            {%- assign show_restock_label = false -%}
+            {%- assign restock_product_tag = 'restock::' | append: product.selected_or_first_available_variant.option1 -%}
+            {%- assign restock_product_tag_cap = 'Restock::' | append: product.selected_or_first_available_variant.option1 -%}
+            {%- for tag in product_tags -%}
+              {%- if tag == restock_product_tag or tag ==  restock_product_tag_cap -%}
+                {%- assign show_restock_label = true -%}
+                {%- break -%}
+              {%- endif -%}
+            {%- endfor -%}
+            <span class="label label--subdued">          
+              {%- if coming_tag_found -%}
+                coming soon
+              {%- elsif show_restock_label -%}
+                {{ 'collection.product.restock' | t}}
+              {%- else -%}
+                {{ 'collection.product.sold_out' | t }}
+              {%- endif -%}
+            </span>
 
-        {%- elsif product.selected_or_first_available_variant.compare_at_price > product.selected_or_first_available_variant.price -%}
-          {%- if settings.discount_mode == 'percentage' -%}
-            {%- assign savings = product.selected_or_first_available_variant.compare_at_price | minus: product.selected_or_first_available_variant.price | times: 100.0 | divided_by: product.selected_or_first_available_variant.compare_at_price | round | append: '%' -%}
-          {%- else -%}
-            {%- capture savings -%}{{ product.selected_or_first_available_variant.compare_at_price | minus: product.selected_or_first_available_variant.price | money }}{%- endcapture -%}
-          {%- endif -%}
+          {%- elsif product.selected_or_first_available_variant.compare_at_price > product.selected_or_first_available_variant.price -%}
+            {%- if settings.discount_mode == 'percentage' -%}
+              {%- assign savings = product.selected_or_first_available_variant.compare_at_price | minus: product.selected_or_first_available_variant.price | times: 100.0 | divided_by: product.selected_or_first_available_variant.compare_at_price | round | append: '%' -%}
+            {%- else -%}
+              {%- capture savings -%}{{ product.selected_or_first_available_variant.compare_at_price | minus: product.selected_or_first_available_variant.price | money }}{%- endcapture -%}
+            {%- endif -%}
 
-          <span class="label label--highlight">{{ 'collection.product.discount_html' | t: savings: savings }}</span>
-        {%- endunless -%}
+            <span class="label label--highlight">{{ 'collection.product.discount_html' | t: savings: savings }}</span>
+          {%- endunless -%}
+        {%- endif -%}
       </div>
     </div>
 
@@ -175,7 +193,7 @@
                   # We only show the first variant in the product recommendation
                   for color in product.options_by_name['color'].values limit: 1
                     assign variant = product.variants | where: 'option1', color | first
-                    render 'complementary-product', product: product, reduced_content: true, reduced_font_size: true, sizes_attribute: '(max-width: 740px) 105px, 215px', variant: variant, show_cta: true
+                    render 'complementary-product', product: product, coming_tag_found: coming_tag_found, reduced_content: true, reduced_font_size: true, sizes_attribute: '(max-width: 740px) 105px, 215px', variant: variant, show_cta: true
                   endfor
                 -%}
   
