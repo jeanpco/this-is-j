@@ -8,11 +8,16 @@
   {%- assign product_url_contains_query = false -%}
 {%- endif -%}
 
+
+{% comment %} Check if coming soon product {% endcomment %}
+{% assign coming_tag_found = false %}
+{%- assign coming_product_tag = 'comingsoon::' | append: variant.option1 -%}
 {% for tag in product.tags %}
   {% if tag contains 'comingsoon' or tag contains coming_product_tag %}
     {% assign coming_tag_found = true %}
   {% endif %}
 {% endfor %}
+
 
 <product-item
   data-complementary-product
@@ -23,14 +28,7 @@
   {% endif %}
 >
   {%- capture product_labels -%}
-
-    {% comment %} Check if coming soon product {% endcomment %}
-    {%- assign coming_product_tag = 'comingsoon::' | append: variant.option1 -%}
-
     {%- for tag in product.tags -%}
-      {% if tag contains 'comingsoon' or tag contains coming_product_tag %}
-        {% assign coming_tag_found = true %}
-      {%- endif -%}
       {%- if tag contains '__label' -%}
         <span class="label label--custom{% if tag contains '__label2' %}2{% endif %}">{{ tag | split: ':' | last }}</span>
       {%- endif -%}

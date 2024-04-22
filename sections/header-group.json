@@ -191,33 +191,7 @@
             "image_6_link": "#"
           }
         },
-        "ed0b03ff-2392-497d-9df1-1643a48696ac": {
-          "type": "mega_menu",
-          "settings": {
-            "brand": "all",
-            "menu_item": "Sample Sale",
-            "images_position": "right",
-            "image_1_heading": "",
-            "image_1_text": "",
-            "image_1_link": "",
-            "image_2_heading": "",
-            "image_2_text": "",
-            "image_2_link": "",
-            "image_3_heading": "",
-            "image_3_text": "",
-            "image_3_link": "",
-            "image_4_heading": "",
-            "image_4_text": "",
-            "image_4_link": "",
-            "image_5_heading": "",
-            "image_5_text": "",
-            "image_5_link": "",
-            "image_6_heading": "",
-            "image_6_text": "",
-            "image_6_link": ""
-          }
-        },
-        "mega_menu_qVg9QY": {
+        "mega_menu_qg7rXt": {
           "type": "mega_menu",
           "settings": {
             "brand": "all",
@@ -250,7 +224,7 @@
             "logo": "shopify:\/\/shop_images\/this-is-j-logo-black.png",
             "home": "\/",
             "color": "#d6bda7",
-            "navigation_menu": "main-menu-ss",
+            "navigation_menu": "main-menu",
             "sidebar_navigation_menu": "",
             "brand_logo": "shopify:\/\/shop_images\/logo-black.png",
             "brand_logo_active": "shopify:\/\/shop_images\/logo-white.png"
@@ -277,8 +251,7 @@
         "e5ae2d8c-7286-46d8-8213-1fd8518e289e",
         "72a3cb4b-22c1-4f4e-a335-49fb4cb8f590",
         "0602b6a2-e280-4de9-85cc-7eb7ca2f876b",
-        "ed0b03ff-2392-497d-9df1-1643a48696ac",
-        "mega_menu_qVg9QY",
+        "mega_menu_qg7rXt",
         "dc9e7dc0-977e-4f13-8253-26938423eaaf",
         "60c4a2b4-2fbb-43b7-ab3d-87ba13e2b059"
       ],

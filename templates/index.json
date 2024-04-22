@@ -3,26 +3,27 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
-        "0d1dee9f-d68a-4bc0-8e73-d5f4aeb41afb": {
+        "63738099-eeb5-4d1b-9068-d3d0bbb3158a": {
           "type": "image",
+          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Shopify-Carousel_is-LiveSampleSale-Carousel-Header.jpg",
-            "mute_toggle": false,
+            "video": "shopify:\/\/files\/videos\/Bookhou_x_This_Is_J_Cut_Web_NoLogo.mp4",
+            "mute_toggle": true,
             "font": "'BV Celine', serif",
             "text_position": "bottom_center",
-            "subheading": "UP TO 80% OFF",
-            "title": "",
-            "subheading_font_size_m": 18,
-            "subheading_font_size_d": 12,
-            "heading_font_size_m": 26,
-            "heading_font_size_d": 26,
-            "description": "",
-            "button_1_text": "SHOP SAMPLE SALE",
-            "button_1_link": "shopify:\/\/collections\/spring-2024-sample-sale",
+            "subheading": "",
+            "title": "Bookhou x This Is J",
+            "subheading_font_size_m": 12,
+            "subheading_font_size_d": 13,
+            "heading_font_size_m": 36,
+            "heading_font_size_d": 64,
+            "description": "The Collaboration You've Been Dreaming Of...",
+            "button_1_text": "SHOP THE COLLECTION",
+            "button_1_link": "shopify:\/\/collections\/bookhou-x-this-is-j",
             "button_2_text": "",
             "button_2_link": "",
-            "text_color": "#1c1b1b",
-            "button_background": "#1c1b1b",
+            "text_color": "#ffffff",
+            "button_background": "#e9c19a",
             "button_text_color": "#ffffff",
             "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
             "overlay_opacity": 0
@@ -287,36 +288,10 @@
             "overlay_color": "radial-gradient(rgba(0, 0, 0, 1), rgba(255, 255, 255, 0) 60%)",
             "overlay_opacity": 13
           }
-        },
-        "63738099-eeb5-4d1b-9068-d3d0bbb3158a": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "video": "shopify:\/\/files\/videos\/Bookhou_x_This_Is_J_Cut_Web_NoLogo.mp4",
-            "mute_toggle": true,
-            "font": "'BV Celine', serif",
-            "text_position": "bottom_center",
-            "subheading": "",
-            "title": "Bookhou x This Is J",
-            "subheading_font_size_m": 12,
-            "subheading_font_size_d": 13,
-            "heading_font_size_m": 36,
-            "heading_font_size_d": 64,
-            "description": "The Collaboration You've Been Dreaming Of...",
-            "button_1_text": "SHOP THE COLLECTION",
-            "button_1_link": "shopify:\/\/collections\/bookhou-x-this-is-j",
-            "button_2_text": "",
-            "button_2_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#e9c19a",
-            "button_text_color": "#ffffff",
-            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
-            "overlay_opacity": 0
-          }
         }
       },
       "block_order": [
-        "0d1dee9f-d68a-4bc0-8e73-d5f4aeb41afb",
+        "63738099-eeb5-4d1b-9068-d3d0bbb3158a",
         "2da0b997-5a90-4854-8226-9f11794b4268",
         "b24eb5a9-a144-43c5-aa6e-553164408fa6",
         "41ae075a-1376-49e3-8690-26f8fc04c23e",
@@ -326,8 +301,7 @@
         "5f50728c-97ef-40f0-9fa4-5ca1e43925bc",
         "651bdab3-a6ac-4b78-aa18-f8b4cc25d911",
         "image_qjRPmG",
-        "2af3691f-48a8-40da-b6a5-be47cf654e2d",
-        "63738099-eeb5-4d1b-9068-d3d0bbb3158a"
+        "2af3691f-48a8-40da-b6a5-be47cf654e2d"
       ],
       "custom_css": [
         "p {letter-spacing: 0.2px; font-size: 20px; margin-top: 0px;}"
@@ -500,7 +474,6 @@
         "89a5a7f6-cbd3-4761-afe4-b400e5ff692f",
         "collection_gqHEp9"
       ],
-      "disabled": true,
       "custom_css": [
 
       ],
@@ -509,79 +482,6 @@
         "title": "Explore Our Latest Patterns",
         "content": "<p>There is something about patterned pajamas that reminds us of our childhood. We try to instill a bit of that care-free comfort and joy with our fun, playful fabric patterns.<\/p>",
         "products_count": 8,
-        "products_per_row": 4,
-        "stack_products": false,
-        "show_cta": false,
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "4b62d8de-d374-444b-acf9-e0277149dd5f": {
-      "type": "featured-collections",
-      "blocks": {
-        "template--21626974568729__4b62d8de-d374-444b-acf9-e0277149dd5f-collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "womens-sample-sale-sets",
-            "label": "Womens Sets",
-            "button_text": "SHOP ALL SAMPLE SALE",
-            "button_url": "shopify:\/\/collections\/spring-2024-sample-sale"
-          }
-        },
-        "8dacc9b8-81c6-435e-a2c6-0839de061787": {
-          "type": "collection",
-          "settings": {
-            "collection": "womens-sample-sale-separates",
-            "label": "Womens Separates",
-            "button_text": "SHOP ALL SAMPLE SALE",
-            "button_url": "shopify:\/\/collections\/spring-2024-sample-sale"
-          }
-        },
-        "e183821e-58af-4607-bc14-960f9c146d62": {
-          "type": "collection",
-          "settings": {
-            "collection": "mens-sample-sale",
-            "label": "Mens",
-            "button_text": "SHOP ALL SAMPLE SALE",
-            "button_url": "shopify:\/\/collections\/spring-2024-sample-sale"
-          }
-        },
-        "f040d1fa-f272-4730-9554-53c3319423b2": {
-          "type": "collection",
-          "settings": {
-            "collection": "kids-sample-sale",
-            "label": "Kids",
-            "button_text": "SHOP ALL SAMPLE SALE",
-            "button_url": "shopify:\/\/collections\/spring-2024-sample-sale"
-          }
-        },
-        "collection_4BWP6x": {
-          "type": "collection",
-          "settings": {
-            "collection": "sample-sale-accessories",
-            "label": "ACCESSORIES",
-            "button_text": "SHOP ALL SAMPLE SALE",
-            "button_url": "shopify:\/\/collections\/spring-2024-sample-sale"
-          }
-        }
-      },
-      "block_order": [
-        "template--21626974568729__4b62d8de-d374-444b-acf9-e0277149dd5f-collection-1",
-        "8dacc9b8-81c6-435e-a2c6-0839de061787",
-        "e183821e-58af-4607-bc14-960f9c146d62",
-        "f040d1fa-f272-4730-9554-53c3319423b2",
-        "collection_4BWP6x"
-      ],
-      "custom_css": [
-
-      ],
-      "settings": {
-        "subheading": "",
-        "title": "Our Top Sample Sale Picks",
-        "content": "",
-        "products_count": 20,
         "products_per_row": 4,
         "stack_products": false,
         "show_cta": false,
@@ -823,7 +723,6 @@
     "225993b7-76de-4fbe-806c-c35b2948f3af",
     "7f890758-5f6c-452b-babb-2afba829183d",
     "0b66a79c-f620-44ef-b547-dcd702ada368",
-    "4b62d8de-d374-444b-acf9-e0277149dd5f",
     "6f76f51a-e243-4b89-82c0-0099be584f05",
     "6f61ab2a-cfc9-421a-9acc-f8d5fe0bdaab",
     "cfc469f0-6994-4b65-ad5d-e0aedcbc6c4e",
