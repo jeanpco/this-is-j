@@ -29,6 +29,83 @@
             "overlay_opacity": 0
           }
         },
+        "2af3691f-48a8-40da-b6a5-be47cf654e2d": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hp_hero_2_7.jpg",
+            "mute_toggle": false,
+            "font": "'BV Celine', serif",
+            "text_position": "bottom_center",
+            "subheading": "use code: 4MOM20",
+            "title": "",
+            "subheading_font_size_m": 12,
+            "subheading_font_size_d": 13,
+            "heading_font_size_m": 36,
+            "heading_font_size_d": 64,
+            "description": "Treat yourself to 20% off! Valid this weekend on all regular price merchandise.",
+            "button_1_text": "SHOP NOW!",
+            "button_1_link": "shopify:\/\/collections\/mothers-day",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#1c1b1b",
+            "button_background": "#bc345f",
+            "button_text_color": "#ffffff",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1), rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 0
+          }
+        },
+        "5f50728c-97ef-40f0-9fa4-5ca1e43925bc": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/24-05-01-MDay-Top_Picks_site_hero_V1-optimize.gif",
+            "mute_toggle": false,
+            "font": "'Cooper BT', serif",
+            "text_position": "bottom_center",
+            "subheading": "",
+            "title": "Playful Comfort for MOM",
+            "subheading_font_size_m": 12,
+            "subheading_font_size_d": 13,
+            "heading_font_size_m": 36,
+            "heading_font_size_d": 64,
+            "description": "Give her the gift of relaxation this Mother's Day.",
+            "button_1_text": "SHOP FOR MOM",
+            "button_1_link": "shopify:\/\/collections\/mothers-day",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#79f5ce",
+            "button_text_color": "#000000",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 16
+          }
+        },
+        "651bdab3-a6ac-4b78-aa18-f8b4cc25d911": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard_5cat_nat_Carousel_header.jpg",
+            "mute_toggle": false,
+            "font": "'BV Celine', serif",
+            "text_position": "bottom_center",
+            "subheading": "join the pj party",
+            "title": "Cat & Nat x This is J",
+            "subheading_font_size_m": 13,
+            "subheading_font_size_d": 13,
+            "heading_font_size_m": 28,
+            "heading_font_size_d": 56,
+            "description": "The perfect aesthetic of cute and cozy for moms and daughters alike.",
+            "button_1_text": "SHOP THE COLLAB",
+            "button_1_link": "shopify:\/\/collections\/cat-nat-x-this-is-j",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#fad3e3",
+            "button_text_color": "#000000",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1), rgba(255, 255, 255, 0) 55%)",
+            "overlay_opacity": 25
+          }
+        },
         "2da0b997-5a90-4854-8226-9f11794b4268": {
           "type": "image",
           "settings": {
@@ -185,58 +262,6 @@
             "overlay_opacity": 25
           }
         },
-        "5f50728c-97ef-40f0-9fa4-5ca1e43925bc": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/CarouselHeader_Clouds.jpg",
-            "mute_toggle": false,
-            "font": "'BV Celine', serif",
-            "text_position": "middle_center",
-            "subheading": "limited quantities @ extra special prices.",
-            "title": "Singles Sale!",
-            "subheading_font_size_m": 12,
-            "subheading_font_size_d": 13,
-            "heading_font_size_m": 36,
-            "heading_font_size_d": 64,
-            "description": "Get the final few before we retire them for good. This weekend only.",
-            "button_1_text": "SHOP THE SALE",
-            "button_1_link": "https:\/\/thisisj.com\/collections\/singles-sale",
-            "button_2_text": "",
-            "button_2_link": "",
-            "text_color": "#1c1b1b",
-            "button_background": "#7eb7f0",
-            "button_text_color": "#ffffff",
-            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
-            "overlay_opacity": 12
-          }
-        },
-        "651bdab3-a6ac-4b78-aa18-f8b4cc25d911": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Carousel_SpaceDye.jpg",
-            "mute_toggle": false,
-            "font": "'BV Celine', serif",
-            "text_position": "bottom_center",
-            "subheading": "",
-            "title": "Space Dye",
-            "subheading_font_size_m": 12,
-            "subheading_font_size_d": 13,
-            "heading_font_size_m": 36,
-            "heading_font_size_d": 64,
-            "description": "Float into Outer Space and Dream among the Stars",
-            "button_1_text": "EXPLORE SPACE DYE",
-            "button_1_link": "shopify:\/\/collections\/the-space-dye-collection",
-            "button_2_text": "",
-            "button_2_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#f3efe0",
-            "button_text_color": "#000000",
-            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1), rgba(255, 255, 255, 0) 55%)",
-            "overlay_opacity": 25
-          }
-        },
         "image_qjRPmG": {
           "type": "image",
           "disabled": true,
@@ -262,46 +287,20 @@
             "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
             "overlay_opacity": 25
           }
-        },
-        "2af3691f-48a8-40da-b6a5-be47cf654e2d": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/CarouselHeader_ValentinesDaySale-v2.jpg",
-            "mute_toggle": false,
-            "font": "'BV Celine', serif",
-            "text_position": "bottom_center",
-            "subheading": "",
-            "title": "Valentine's Day SALE!",
-            "subheading_font_size_m": 12,
-            "subheading_font_size_d": 13,
-            "heading_font_size_m": 36,
-            "heading_font_size_d": 64,
-            "description": "One Day Only! 30% off full price PJs & loungewear with code: HEART30",
-            "button_1_text": "SHOP NOW!",
-            "button_1_link": "shopify:\/\/collections\/pj-loungewear-sets",
-            "button_2_text": "",
-            "button_2_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ff6d6d",
-            "button_text_color": "#ffffff",
-            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1), rgba(255, 255, 255, 0) 60%)",
-            "overlay_opacity": 13
-          }
         }
       },
       "block_order": [
         "63738099-eeb5-4d1b-9068-d3d0bbb3158a",
+        "2af3691f-48a8-40da-b6a5-be47cf654e2d",
+        "5f50728c-97ef-40f0-9fa4-5ca1e43925bc",
+        "651bdab3-a6ac-4b78-aa18-f8b4cc25d911",
         "2da0b997-5a90-4854-8226-9f11794b4268",
         "b24eb5a9-a144-43c5-aa6e-553164408fa6",
         "41ae075a-1376-49e3-8690-26f8fc04c23e",
         "60beccfe-7cd8-448e-9d7f-23b6860fc3a4",
         "0a4416e7-5b14-4e98-a91e-08b416cbdb5e",
         "d614789a-a1dd-4a1f-824e-7fd99a25c6d7",
-        "5f50728c-97ef-40f0-9fa4-5ca1e43925bc",
-        "651bdab3-a6ac-4b78-aa18-f8b4cc25d911",
-        "image_qjRPmG",
-        "2af3691f-48a8-40da-b6a5-be47cf654e2d"
+        "image_qjRPmG"
       ],
       "custom_css": [
         "p {letter-spacing: 0.2px; font-size: 20px; margin-top: 0px;}"

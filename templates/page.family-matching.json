@@ -206,6 +206,61 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
+    "b513fa3f-026c-4917-aeee-0bb832404aab": {
+      "type": "image-with-text-overlay",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "small",
+        "image": "shopify:\/\/shop_images\/collection-neon-charcoal-stripe.jpg",
+        "subheading": "",
+        "title": "Neon Charcoal Stripe",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "boxed",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+        "overlay_opacity": 0
+      }
+    },
+    "6822df82-bc43-4b0e-ac16-2e6683486830": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--17915522580761__6822df82-bc43-4b0e-ac16-2e6683486830-168389959488378107-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "neon-charcoal-stripe",
+            "label": "Neon Charcoal Stripe",
+            "button_text": "View Full Collection",
+            "button_url": "shopify:\/\/collections\/neon-charcoal-stripe"
+          }
+        }
+      },
+      "block_order": [
+        "template--17915522580761__6822df82-bc43-4b0e-ac16-2e6683486830-168389959488378107-0"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "products_count": 50,
+        "products_per_row": 6,
+        "stack_products": false,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
     "69751068-d2f5-4f9f-8798-98e3556739b8": {
       "type": "image-with-text-overlay",
       "custom_css": [
@@ -594,73 +649,6 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
-    "b513fa3f-026c-4917-aeee-0bb832404aab": {
-      "type": "image-with-text-overlay",
-      "disabled": true,
-      "custom_css": [
-
-      ],
-      "settings": {
-        "reveal_on_scroll": true,
-        "section_height": "small",
-        "image": "shopify:\/\/shop_images\/SketchFlower.jpg",
-        "subheading": "",
-        "title": "Sketch Flower Black",
-        "content": "",
-        "button_text": "",
-        "button_link": "",
-        "link_style": "link",
-        "background_type": "boxed",
-        "text_width": "medium",
-        "text_position": "bottom_center",
-        "text_color": "#ffffff",
-        "button_background": "#ffffff",
-        "button_text_color": "#000000",
-        "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
-        "overlay_opacity": 0
-      }
-    },
-    "6822df82-bc43-4b0e-ac16-2e6683486830": {
-      "type": "featured-collections",
-      "blocks": {
-        "template--17915522580761__6822df82-bc43-4b0e-ac16-2e6683486830-168389959488378107-0": {
-          "type": "collection",
-          "settings": {
-            "collection": "sketch-flower",
-            "label": "Sketch Flower Black",
-            "button_text": "View Full Collection",
-            "button_url": ""
-          }
-        },
-        "2d5f2fba-967d-4c67-a44d-fbda2d38c1c5": {
-          "type": "collection",
-          "settings": {
-            "collection": "mens-black-loungewear",
-            "label": "",
-            "button_text": "",
-            "button_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--17915522580761__6822df82-bc43-4b0e-ac16-2e6683486830-168389959488378107-0",
-        "2d5f2fba-967d-4c67-a44d-fbda2d38c1c5"
-      ],
-      "disabled": true,
-      "settings": {
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "products_count": 50,
-        "products_per_row": 6,
-        "stack_products": false,
-        "show_cta": false,
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
     "f2295f00-4766-453f-b23b-efc975b87e45": {
       "type": "image-with-text-overlay",
       "custom_css": [
@@ -777,6 +765,8 @@
     "3c3f1770-874e-40e5-9463-f5cc211b590f",
     "9f31f741-98bb-4922-8ebb-7ea2f1063e65",
     "a9a34a73-f339-4a7d-bc30-b21cf8873d06",
+    "b513fa3f-026c-4917-aeee-0bb832404aab",
+    "6822df82-bc43-4b0e-ac16-2e6683486830",
     "69751068-d2f5-4f9f-8798-98e3556739b8",
     "2c5be0bf-8b7e-4d15-a00b-69e3e41d8490",
     "1dfbe0a0-e40a-49ce-8077-d2c2dbf6da4c",
@@ -789,8 +779,6 @@
     "1dd14fad-f1dc-405c-a1a1-e3e8c5f4c5dd",
     "8043961b-3d15-4968-aff4-6764e67724a0",
     "71b9e4d5-d557-4417-b716-5bb55c080508",
-    "b513fa3f-026c-4917-aeee-0bb832404aab",
-    "6822df82-bc43-4b0e-ac16-2e6683486830",
     "f2295f00-4766-453f-b23b-efc975b87e45",
     "e18c76af-8170-444e-80b7-6ed5d4391ea7",
     "main"

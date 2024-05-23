@@ -1,0 +1,583 @@
+{
+  "sections": {
+    "bcd16921-ce9d-4288-9d05-d560fec930e4": {
+      "type": "rich-text",
+      "custom_css": [
+        "h3 {font-size: 48px;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Comfort for the Whole Family",
+        "content": "<p>Pajamas for more than just the bedroom! Dream in comfort, lounge in style, and match with your family in our ethically made in Canada sleepwear.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "#faf8f2",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "shop_the_look_EY79C4": {
+      "type": "shop-the-look",
+      "blocks": {
+        "look_XnWRba": {
+          "type": "look",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/collection-neon-charcoal-stripe.jpg",
+            "dot_type": "inverted",
+            "product_1": "kids-long-sleeve-lounge-pant-pj-set-23",
+            "product_1_horizontal_position": 41,
+            "product_1_vertical_position": 81,
+            "product_1_horizontal_position_mobile": 30,
+            "product_1_vertical_position_mobile": 30,
+            "product_2": "lounge-set-t-shirt-lounge-short-3",
+            "product_2_horizontal_position": 50,
+            "product_2_vertical_position": 56,
+            "product_2_horizontal_position_mobile": 50,
+            "product_2_vertical_position_mobile": 50,
+            "product_3": "kids-t-shirt-sleep-short-pj-set-3",
+            "product_3_horizontal_position": 64,
+            "product_3_vertical_position": 83,
+            "product_3_horizontal_position_mobile": 70,
+            "product_3_vertical_position_mobile": 70
+          }
+        }
+      },
+      "block_order": [
+        "look_XnWRba"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "label": "Shop the looks"
+      }
+    },
+    "featured_collections_Ydj9cF": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_6QdPrN": {
+          "type": "collection",
+          "settings": {
+            "collection": "neon-charcoal-stripe",
+            "label": "",
+            "button_text": "VIEW THE COLLECTION",
+            "button_url": "shopify:\/\/collections\/neon-charcoal-stripe"
+          }
+        }
+      },
+      "block_order": [
+        "collection_6QdPrN"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Neon Charcoal Stripe",
+        "content": "",
+        "products_count": 4,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "shop_the_look_MmPy38": {
+      "type": "shop-the-look",
+      "blocks": {
+        "look_GJYzXp": {
+          "type": "look",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Header_Sketch-Flower-Heather-Grey_family-matching_v3.jpg",
+            "dot_type": "inverted",
+            "product_1": "kids-long-sleeve-lounge-pant-pj-set-sketch-flower-grey",
+            "product_1_horizontal_position": 31,
+            "product_1_vertical_position": 41,
+            "product_1_horizontal_position_mobile": 30,
+            "product_1_vertical_position_mobile": 30,
+            "product_2": "henley-harem-set-sketch-flower-heather-grey",
+            "product_2_horizontal_position": 46,
+            "product_2_vertical_position": 64,
+            "product_2_horizontal_position_mobile": 50,
+            "product_2_vertical_position_mobile": 50,
+            "product_3": "mens-t-shirt-12",
+            "product_3_horizontal_position": 62,
+            "product_3_vertical_position": 35,
+            "product_3_horizontal_position_mobile": 70,
+            "product_3_vertical_position_mobile": 70
+          }
+        }
+      },
+      "block_order": [
+        "look_GJYzXp"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "label": "Shop the looks"
+      }
+    },
+    "dbdf553a-cda6-4b3f-9cd4-43e17b52a7e1": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--21353354592537__dbdf553a-cda6-4b3f-9cd4-43e17b52a7e1-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "sketch-flower-heather-grey",
+            "label": "Sketch Flower Heather Grey",
+            "button_text": "View full collection",
+            "button_url": "shopify:\/\/collections\/sketch-flower-heather-grey"
+          }
+        },
+        "collection_zPxX49": {
+          "type": "collection",
+          "settings": {
+            "collection": "sketch-flower",
+            "label": "Sketch Flower Black",
+            "button_text": "View full collection",
+            "button_url": "shopify:\/\/collections\/sketch-flower-collection"
+          }
+        },
+        "collection_Rt4ziH": {
+          "type": "collection",
+          "settings": {
+            "collection": "mens-black-heather-grey-loungewear",
+            "label": "mens heather grey & black",
+            "button_text": "VIEW FULL COLLECTION",
+            "button_url": "shopify:\/\/collections\/mens-black-heather-grey-loungewear"
+          }
+        }
+      },
+      "block_order": [
+        "template--21353354592537__dbdf553a-cda6-4b3f-9cd4-43e17b52a7e1-collection-1",
+        "collection_zPxX49",
+        "collection_Rt4ziH"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Sketch Flower",
+        "content": "",
+        "products_count": 50,
+        "products_per_row": 6,
+        "stack_products": false,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "shop_the_look_dKJKyk": {
+      "type": "shop-the-look",
+      "blocks": {
+        "look_dhWD9C": {
+          "type": "look",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/download_2.webp",
+            "dot_type": "normal",
+            "product_1": "oversized-tee-harem-pant-set-7",
+            "product_1_horizontal_position": 41,
+            "product_1_vertical_position": 41,
+            "product_1_horizontal_position_mobile": 30,
+            "product_1_vertical_position_mobile": 30,
+            "product_2": "kids-long-sleeve-lounge-pant-pj-set-11",
+            "product_2_horizontal_position": 56,
+            "product_2_vertical_position": 44,
+            "product_2_horizontal_position_mobile": 50,
+            "product_2_vertical_position_mobile": 50,
+            "product_3": "",
+            "product_3_horizontal_position": 62,
+            "product_3_vertical_position": 50,
+            "product_3_horizontal_position_mobile": 70,
+            "product_3_vertical_position_mobile": 70
+          }
+        }
+      },
+      "block_order": [
+        "look_dhWD9C"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "label": "Shop the looks"
+      }
+    },
+    "3c3f1770-874e-40e5-9463-f5cc211b590f": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--17915522580761__3c3f1770-874e-40e5-9463-f5cc211b590f-168389959488378107-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "70s-flower-navy",
+            "label": "",
+            "button_text": "VIEW FULL COLLECTION",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17915522580761__3c3f1770-874e-40e5-9463-f5cc211b590f-168389959488378107-0"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "70s Flower Navy",
+        "content": "",
+        "products_count": 50,
+        "products_per_row": 6,
+        "stack_products": false,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "shop_the_look_rEW7yK": {
+      "type": "shop-the-look",
+      "blocks": {
+        "look_YwF97z": {
+          "type": "look",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Carousel_Safari_5552.jpg",
+            "dot_type": "normal",
+            "product_1": "t-shirt-set-15",
+            "product_1_horizontal_position": 50,
+            "product_1_vertical_position": 50,
+            "product_1_horizontal_position_mobile": 50,
+            "product_1_vertical_position_mobile": 50,
+            "product_2": "kids-long-sleeve-lounge-pant-pj-set-17",
+            "product_2_horizontal_position": 70,
+            "product_2_vertical_position": 70,
+            "product_2_horizontal_position_mobile": 70,
+            "product_2_vertical_position_mobile": 70,
+            "product_3": "",
+            "product_3_horizontal_position": 70,
+            "product_3_vertical_position": 70,
+            "product_3_horizontal_position_mobile": 70,
+            "product_3_vertical_position_mobile": 70
+          }
+        }
+      },
+      "block_order": [
+        "look_YwF97z"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "label": "Shop the looks"
+      }
+    },
+    "a9a34a73-f339-4a7d-bc30-b21cf8873d06": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--21353354592537__a9a34a73-f339-4a7d-bc30-b21cf8873d06-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "safari-flower-black",
+            "label": "",
+            "button_text": "VIEW FULL COLLECTION",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21353354592537__a9a34a73-f339-4a7d-bc30-b21cf8873d06-collection-1"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Safari Flower",
+        "content": "",
+        "products_count": 50,
+        "products_per_row": 6,
+        "stack_products": false,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "shop_the_look_MqW4Ww": {
+      "type": "shop-the-look",
+      "blocks": {
+        "look_EPz6tL": {
+          "type": "look",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Carousel_Fair-Isle-Black.webp",
+            "dot_type": "normal",
+            "product_1": "pajama-set-t-shirt-pajama-pant-13",
+            "product_1_horizontal_position": 41,
+            "product_1_vertical_position": 41,
+            "product_1_horizontal_position_mobile": 30,
+            "product_1_vertical_position_mobile": 30,
+            "product_2": "relaxed-long-sleeve-set-9",
+            "product_2_horizontal_position": 52,
+            "product_2_vertical_position": 64,
+            "product_2_horizontal_position_mobile": 50,
+            "product_2_vertical_position_mobile": 50,
+            "product_3": "kids-long-sleeve-lounge-pant-pj-set-25",
+            "product_3_horizontal_position": 65,
+            "product_3_vertical_position": 50,
+            "product_3_horizontal_position_mobile": 70,
+            "product_3_vertical_position_mobile": 70
+          }
+        }
+      },
+      "block_order": [
+        "look_EPz6tL"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "label": "Shop the looks"
+      }
+    },
+    "2c5be0bf-8b7e-4d15-a00b-69e3e41d8490": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--20427016470809__2c5be0bf-8b7e-4d15-a00b-69e3e41d8490-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "fair-isle-black-heather-grey",
+            "label": "",
+            "button_text": "VIEW FULL COLLECTION",
+            "button_url": "shopify:\/\/collections\/fair-isle-collection"
+          }
+        },
+        "fdbe53c1-847b-452a-973c-650e5f5d71cc": {
+          "type": "collection",
+          "settings": {
+            "collection": "fair-isle-cream-burgundy",
+            "label": "",
+            "button_text": "VIEW FULL COLLECTION",
+            "button_url": "shopify:\/\/collections\/fair-isle-collection"
+          }
+        }
+      },
+      "block_order": [
+        "template--20427016470809__2c5be0bf-8b7e-4d15-a00b-69e3e41d8490-collection-1",
+        "fdbe53c1-847b-452a-973c-650e5f5d71cc"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Fair Isle",
+        "content": "",
+        "products_count": 50,
+        "products_per_row": 6,
+        "stack_products": false,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "shop_the_look_gNjXPb": {
+      "type": "shop-the-look",
+      "blocks": {
+        "look_bnKYPx": {
+          "type": "look",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Comfort-Club-Website-Banner-Bookhou.jpg",
+            "dot_type": "inverted",
+            "product_1": "boxy-crop-top-pajama-pant-set-3",
+            "product_1_horizontal_position": 41,
+            "product_1_vertical_position": 41,
+            "product_1_horizontal_position_mobile": 30,
+            "product_1_vertical_position_mobile": 30,
+            "product_2": "",
+            "product_2_horizontal_position": 46,
+            "product_2_vertical_position": 64,
+            "product_2_horizontal_position_mobile": 50,
+            "product_2_vertical_position_mobile": 50,
+            "product_3": "",
+            "product_3_horizontal_position": 62,
+            "product_3_vertical_position": 50,
+            "product_3_horizontal_position_mobile": 70,
+            "product_3_vertical_position_mobile": 70
+          }
+        }
+      },
+      "block_order": [
+        "look_bnKYPx"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "label": "Shop the looks"
+      }
+    },
+    "71b9e4d5-d557-4417-b716-5bb55c080508": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--21349787074841__71b9e4d5-d557-4417-b716-5bb55c080508-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "bookhou-x-this-is-j-black-white",
+            "label": "",
+            "button_text": "VIEW FULL COLLECTION",
+            "button_url": ""
+          }
+        },
+        "c99850a9-5b49-45e9-b557-007881fe8c69": {
+          "type": "collection",
+          "settings": {
+            "collection": "mens-black-loungewear",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21349787074841__71b9e4d5-d557-4417-b716-5bb55c080508-collection-1",
+        "c99850a9-5b49-45e9-b557-007881fe8c69"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Bookhou x This is J",
+        "content": "",
+        "products_count": 50,
+        "products_per_row": 6,
+        "stack_products": false,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "shop_the_look_QKNRqL": {
+      "type": "shop-the-look",
+      "blocks": {
+        "look_g6fwqQ": {
+          "type": "look",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Family-Matching-Plaid-Spilt-Screen-1080x1080.jpg",
+            "dot_type": "normal",
+            "product_1": "bamboo-jammers-henley-harem-set-red-plaid",
+            "product_1_horizontal_position": 17,
+            "product_1_vertical_position": 70,
+            "product_1_horizontal_position_mobile": 30,
+            "product_1_vertical_position_mobile": 30,
+            "product_2": "kids-long-sleeve-lounge-pant-pj-set-red-plaid",
+            "product_2_horizontal_position": 35,
+            "product_2_vertical_position": 77,
+            "product_2_horizontal_position_mobile": 50,
+            "product_2_vertical_position_mobile": 50,
+            "product_3": "henley-harem-set-black-green-plaid",
+            "product_3_horizontal_position": 62,
+            "product_3_vertical_position": 50,
+            "product_3_horizontal_position_mobile": 70,
+            "product_3_vertical_position_mobile": 70
+          }
+        }
+      },
+      "block_order": [
+        "look_g6fwqQ"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "label": "Shop the looks"
+      }
+    },
+    "e18c76af-8170-444e-80b7-6ed5d4391ea7": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--21353354592537__e18c76af-8170-444e-80b7-6ed5d4391ea7-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "red-plaid-collection",
+            "label": "RED PLAID",
+            "button_text": "VIEW FULL COLLECTION",
+            "button_url": "shopify:\/\/collections\/the-plaid-collection"
+          }
+        },
+        "215cbaab-a689-40a1-8ba2-4975e6a0d91b": {
+          "type": "collection",
+          "settings": {
+            "collection": "green-plaid-collection",
+            "label": "GREEN PLAID",
+            "button_text": "VIEW FULL COLLECTION",
+            "button_url": "shopify:\/\/collections\/the-plaid-collection"
+          }
+        }
+      },
+      "block_order": [
+        "template--21353354592537__e18c76af-8170-444e-80b7-6ed5d4391ea7-collection-1",
+        "215cbaab-a689-40a1-8ba2-4975e6a0d91b"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Plaid",
+        "content": "",
+        "products_count": 50,
+        "products_per_row": 6,
+        "stack_products": false,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "main": {
+      "type": "main-list-collections",
+      "blocks": {
+        "f1c787ac-b80c-4c8d-9bd2-ef2b5be01d18": {
+          "type": "collection",
+          "settings": {
+            "collection": "colour-block-capsule",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10
+          }
+        },
+        "9b5df00c-ade2-4584-a9f0-06fec10f0b07": {
+          "type": "collection",
+          "settings": {
+            "collection": "varsity-stripe-collection",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "1d9db22f-c8a5-4898-bd67-870400f57be0": {
+          "type": "collection",
+          "settings": {
+            "collection": "the-graphic-collection",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "f1c787ac-b80c-4c8d-9bd2-ef2b5be01d18",
+        "9b5df00c-ade2-4584-a9f0-06fec10f0b07",
+        "1d9db22f-c8a5-4898-bd67-870400f57be0"
+      ],
+      "disabled": true,
+      "settings": {
+        "collections_to_show": "selected",
+        "show_collection_title": true
+      }
+    }
+  },
+  "order": [
+    "bcd16921-ce9d-4288-9d05-d560fec930e4",
+    "shop_the_look_EY79C4",
+    "featured_collections_Ydj9cF",
+    "shop_the_look_MmPy38",
+    "dbdf553a-cda6-4b3f-9cd4-43e17b52a7e1",
+    "shop_the_look_dKJKyk",
+    "3c3f1770-874e-40e5-9463-f5cc211b590f",
+    "shop_the_look_rEW7yK",
+    "a9a34a73-f339-4a7d-bc30-b21cf8873d06",
+    "shop_the_look_MqW4Ww",
+    "2c5be0bf-8b7e-4d15-a00b-69e3e41d8490",
+    "shop_the_look_gNjXPb",
+    "71b9e4d5-d557-4417-b716-5bb55c080508",
+    "shop_the_look_QKNRqL",
+    "e18c76af-8170-444e-80b7-6ed5d4391ea7",
+    "main"
+  ]
+}
