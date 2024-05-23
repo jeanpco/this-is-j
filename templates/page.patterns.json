@@ -21,6 +21,61 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
+    "fd3b1c53-a685-4442-8d8c-867972771539": {
+      "type": "image-with-text-overlay",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "small",
+        "image": "shopify:\/\/shop_images\/Artboard_4_3cat_nat_header-patterns-v6.jpg",
+        "subheading": "",
+        "title": "Cat & Nat x This is J",
+        "content": "<p>A soft & pretty toile vintage floral pattern in vibrant pink hues. This pattern embodies the preppy style and clean girl aesthetic that both moms, teens & kids can get cozy in together.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "boxed",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+        "overlay_opacity": 25
+      }
+    },
+    "3ffe6cd2-9d08-4ba7-8d20-385796e18434": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--20427016470809__3ffe6cd2-9d08-4ba7-8d20-385796e18434-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "cat-nat-x-this-is-j",
+            "label": "",
+            "button_text": "view collection",
+            "button_url": "shopify:\/\/collections\/cat-nat-x-this-is-j"
+          }
+        }
+      },
+      "block_order": [
+        "template--20427016470809__3ffe6cd2-9d08-4ba7-8d20-385796e18434-collection-1"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "products_count": 8,
+        "products_per_row": 6,
+        "stack_products": false,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
     "b7e16cda-98a6-47ee-b593-7b88b504e356": {
       "type": "image-with-text-overlay",
       "custom_css": [
@@ -151,6 +206,71 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
+    "2acc6dbe-8e22-4f69-a721-1ded8c8f70f1": {
+      "type": "image-with-text-overlay",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "small",
+        "image": "shopify:\/\/shop_images\/Safari_Jade-Carousel_1463_HIRES_copy.jpg",
+        "subheading": "",
+        "title": "Safari Flower",
+        "content": "<p>A vintage This is J print, originally drawn in 2010 combining floral sketches from travels abroad to create a delicate, free flowing, hand-sketched flower compilation. The soft lines of leaves and thorns anchor the design while spontaneous bold pops colour create whimsy - both working together in a delicate and harmonious way.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "boxed",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+        "overlay_opacity": 25
+      }
+    },
+    "3c3f1770-874e-40e5-9463-f5cc211b590f": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--17915522580761__3c3f1770-874e-40e5-9463-f5cc211b590f-168389959488378107-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "safari-flower-black",
+            "label": "Safari Flower Black",
+            "button_text": "View Collection",
+            "button_url": "shopify:\/\/collections\/safari-flower-collection"
+          }
+        },
+        "30643d47-a357-483a-bfaf-867803019d46": {
+          "type": "collection",
+          "settings": {
+            "collection": "safari-flower-jade",
+            "label": "Safari Flower Jade",
+            "button_text": "View Collection",
+            "button_url": "shopify:\/\/collections\/safari-flower-collection"
+          }
+        }
+      },
+      "block_order": [
+        "template--17915522580761__3c3f1770-874e-40e5-9463-f5cc211b590f-168389959488378107-0",
+        "30643d47-a357-483a-bfaf-867803019d46"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "products_count": 50,
+        "products_per_row": 6,
+        "stack_products": false,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
     "06c1a025-0d3c-4ee8-b354-17326a5259b5": {
       "type": "image-with-text-overlay",
       "custom_css": [
@@ -251,86 +371,11 @@
             "button_text": "View Collection",
             "button_url": "shopify:\/\/collections\/70s-flower"
           }
-        },
-        "template--17915522580761__330bd8a1-3d08-4d5c-81e5-26cea4725813-168389959488378107-0": {
-          "type": "collection",
-          "settings": {
-            "collection": "70s-flower-cream",
-            "label": "70s Flower Cream",
-            "button_text": "View Collection",
-            "button_url": "shopify:\/\/collections\/70s-flower"
-          }
         }
       },
       "block_order": [
         "a9319579-eba7-4c6c-bd0f-9dc7bd7701b8",
-        "437c1ca3-3c00-4645-954c-fb39a007a3b7",
-        "template--17915522580761__330bd8a1-3d08-4d5c-81e5-26cea4725813-168389959488378107-0"
-      ],
-      "settings": {
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "products_count": 50,
-        "products_per_row": 6,
-        "stack_products": false,
-        "show_cta": false,
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "e940f348-120f-4474-bc71-fd379082f906": {
-      "type": "image-with-text-overlay",
-      "custom_css": [
-
-      ],
-      "settings": {
-        "reveal_on_scroll": true,
-        "section_height": "small",
-        "image": "shopify:\/\/shop_images\/Fair-Isle-Collection_Header-3000x800.jpg",
-        "subheading": "",
-        "title": "Fair Isle",
-        "content": "<p>Known for its warmth and coziness, our Fair Isle is a hand-illustrated version of a classic and timeless design that will add a touch of tradition, color, and charm to your nighttime routine.<\/p>",
-        "button_text": "",
-        "button_link": "",
-        "link_style": "link",
-        "background_type": "boxed",
-        "text_width": "medium",
-        "text_position": "middle_center",
-        "text_color": "#ffffff",
-        "button_background": "#ffffff",
-        "button_text_color": "#000000",
-        "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
-        "overlay_opacity": 25
-      }
-    },
-    "999f5bc6-a6b8-49d8-b963-4746b09411a8": {
-      "type": "featured-collections",
-      "blocks": {
-        "template--17915522580761__999f5bc6-a6b8-49d8-b963-4746b09411a8-168389959488378107-0": {
-          "type": "collection",
-          "settings": {
-            "collection": "fair-isle-cream-burgundy",
-            "label": "Fair Isle Cream & Burgundy",
-            "button_text": "View Collection",
-            "button_url": "shopify:\/\/collections\/fair-isle-collection"
-          }
-        },
-        "e305bdab-defe-4f2a-8290-000f62b85331": {
-          "type": "collection",
-          "settings": {
-            "collection": "fair-isle-black-heather-grey",
-            "label": "Fair Isle Black & Heather Grey",
-            "button_text": "View Collection",
-            "button_url": "shopify:\/\/collections\/fair-isle-collection"
-          }
-        }
-      },
-      "block_order": [
-        "template--17915522580761__999f5bc6-a6b8-49d8-b963-4746b09411a8-168389959488378107-0",
-        "e305bdab-defe-4f2a-8290-000f62b85331"
+        "437c1ca3-3c00-4645-954c-fb39a007a3b7"
       ],
       "settings": {
         "subheading": "",
@@ -498,7 +543,7 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
-    "2acc6dbe-8e22-4f69-a721-1ded8c8f70f1": {
+    "e940f348-120f-4474-bc71-fd379082f906": {
       "type": "image-with-text-overlay",
       "custom_css": [
 
@@ -506,10 +551,10 @@
       "settings": {
         "reveal_on_scroll": true,
         "section_height": "small",
-        "image": "shopify:\/\/shop_images\/Safari_Jade-Carousel_1463_HIRES_copy.jpg",
+        "image": "shopify:\/\/shop_images\/Fair-Isle-Collection_Header-3000x800.jpg",
         "subheading": "",
-        "title": "Safari Flower",
-        "content": "<p>A vintage This is J print, originally drawn in 2010 combining floral sketches from travels abroad to create a delicate, free flowing, hand-sketched flower compilation. The soft lines of leaves and thorns anchor the design while spontaneous bold pops colour create whimsy - both working together in a delicate and harmonious way.<\/p>",
+        "title": "Fair Isle",
+        "content": "<p>Known for its warmth and coziness, our Fair Isle is a hand-illustrated version of a classic and timeless design that will add a touch of tradition, color, and charm to your nighttime routine.<\/p>",
         "button_text": "",
         "button_link": "",
         "link_style": "link",
@@ -523,31 +568,31 @@
         "overlay_opacity": 25
       }
     },
-    "3c3f1770-874e-40e5-9463-f5cc211b590f": {
+    "999f5bc6-a6b8-49d8-b963-4746b09411a8": {
       "type": "featured-collections",
       "blocks": {
-        "template--17915522580761__3c3f1770-874e-40e5-9463-f5cc211b590f-168389959488378107-0": {
+        "template--17915522580761__999f5bc6-a6b8-49d8-b963-4746b09411a8-168389959488378107-0": {
           "type": "collection",
           "settings": {
-            "collection": "safari-flower-black",
-            "label": "Safari Flower Black",
+            "collection": "fair-isle-cream-burgundy",
+            "label": "Fair Isle Cream & Burgundy",
             "button_text": "View Collection",
-            "button_url": "shopify:\/\/collections\/safari-flower-collection"
+            "button_url": "shopify:\/\/collections\/fair-isle-collection"
           }
         },
-        "30643d47-a357-483a-bfaf-867803019d46": {
+        "e305bdab-defe-4f2a-8290-000f62b85331": {
           "type": "collection",
           "settings": {
-            "collection": "safari-flower-jade",
-            "label": "Safari Flower Jade",
+            "collection": "fair-isle-black-heather-grey",
+            "label": "Fair Isle Black & Heather Grey",
             "button_text": "View Collection",
-            "button_url": "shopify:\/\/collections\/safari-flower-collection"
+            "button_url": "shopify:\/\/collections\/fair-isle-collection"
           }
         }
       },
       "block_order": [
-        "template--17915522580761__3c3f1770-874e-40e5-9463-f5cc211b590f-168389959488378107-0",
-        "30643d47-a357-483a-bfaf-867803019d46"
+        "template--17915522580761__999f5bc6-a6b8-49d8-b963-4746b09411a8-168389959488378107-0",
+        "e305bdab-defe-4f2a-8290-000f62b85331"
       ],
       "settings": {
         "subheading": "",
@@ -571,7 +616,7 @@
       "settings": {
         "reveal_on_scroll": true,
         "section_height": "small",
-        "image": "shopify:\/\/shop_images\/Carousel_BookhouLongWeekendSale_4357x1723_ba2ea9f9-ebd0-43b2-8b3c-7c33192e4f42.jpg",
+        "image": "shopify:\/\/shop_images\/Bookhou_x_ThisIsJ_CollectionHeader_Elsie.jpg",
         "subheading": "",
         "title": "Bookhou x This is J",
         "content": "<p>When Art Meets Comfort. A lino cut, hand stamped pattern created by Bookhou designer, Arounna Khounnoraj, in collaboration with This is J. The distinctive neutral palette was inspired by Arounna Khounnoraj’s style and brought to life as a repeat pattern on signature This is J fabric soft stretch fabric.<\/p>",
@@ -602,6 +647,7 @@
         },
         "0e39e8ad-8151-49af-acd4-c922f23a1b85": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "bookhou-x-this-is-j-charcoal",
             "label": "Bookhou x TIJ Charcoal",
@@ -619,73 +665,6 @@
         "title": "",
         "content": "",
         "products_count": 50,
-        "products_per_row": 6,
-        "stack_products": false,
-        "show_cta": false,
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "fd3b1c53-a685-4442-8d8c-867972771539": {
-      "type": "image-with-text-overlay",
-      "disabled": true,
-      "custom_css": [
-
-      ],
-      "settings": {
-        "reveal_on_scroll": true,
-        "section_height": "small",
-        "image": "shopify:\/\/shop_images\/Carousel_Varsity.jpg",
-        "subheading": "",
-        "title": "Varsity Stripe",
-        "content": "<p>Varsity Stripe is team comfort all the way! Drawing inspiration from classic collegiate aesthetics, Varsity Stripe seamlessly blends bold yet harmonious parallel lines to create timeless and versatile striped patterns that exude comfort. So soft to the touch that it feels like being wrapped in a warm hug - reminiscent of those cozy college sweatshirts that once adorned your dorm room chair. <\/p>",
-        "button_text": "",
-        "button_link": "",
-        "link_style": "link",
-        "background_type": "boxed",
-        "text_width": "medium",
-        "text_position": "middle_center",
-        "text_color": "#ffffff",
-        "button_background": "#ffffff",
-        "button_text_color": "#000000",
-        "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
-        "overlay_opacity": 25
-      }
-    },
-    "3ffe6cd2-9d08-4ba7-8d20-385796e18434": {
-      "type": "featured-collections",
-      "blocks": {
-        "template--20427016470809__3ffe6cd2-9d08-4ba7-8d20-385796e18434-collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "varsity-stripe-fuchsia-black",
-            "label": "Varsity Stripe Fuchsia Black",
-            "button_text": "view collection",
-            "button_url": "shopify:\/\/collections\/varsity-stripe-collection"
-          }
-        },
-        "5ee648a9-acc8-466d-bef2-c60a94314ec3": {
-          "type": "collection",
-          "settings": {
-            "collection": "varsity-stripe-dark-navy",
-            "label": "VARSITY STRIPE DARK NAVY",
-            "button_text": "View Collection",
-            "button_url": "shopify:\/\/collections\/varsity-stripe-collection"
-          }
-        }
-      },
-      "block_order": [
-        "template--20427016470809__3ffe6cd2-9d08-4ba7-8d20-385796e18434-collection-1",
-        "5ee648a9-acc8-466d-bef2-c60a94314ec3"
-      ],
-      "disabled": true,
-      "settings": {
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "products_count": 8,
         "products_per_row": 6,
         "stack_products": false,
         "show_cta": false,
@@ -883,26 +862,26 @@
   },
   "order": [
     "bcd16921-ce9d-4288-9d05-d560fec930e4",
+    "fd3b1c53-a685-4442-8d8c-867972771539",
+    "3ffe6cd2-9d08-4ba7-8d20-385796e18434",
     "b7e16cda-98a6-47ee-b593-7b88b504e356",
     "50f6138f-cfa6-44ed-8966-16ca3a42ba6e",
     "e211d227-68d6-4f4a-9f72-bd390e613d7f",
     "6822df82-bc43-4b0e-ac16-2e6683486830",
+    "2acc6dbe-8e22-4f69-a721-1ded8c8f70f1",
+    "3c3f1770-874e-40e5-9463-f5cc211b590f",
     "06c1a025-0d3c-4ee8-b354-17326a5259b5",
     "2c5be0bf-8b7e-4d15-a00b-69e3e41d8490",
     "60b930f4-b477-4be7-98cf-10282589118f",
     "330bd8a1-3d08-4d5c-81e5-26cea4725813",
-    "e940f348-120f-4474-bc71-fd379082f906",
-    "999f5bc6-a6b8-49d8-b963-4746b09411a8",
     "7080d869-ae89-492b-834f-a2016d624449",
     "d3ca5367-b7dd-4392-87d8-5cb0519b39bc",
     "c71f741b-65dd-4857-bf38-803bd6952848",
     "79b994f3-a6f3-4be0-937b-39d6aa7f3653",
-    "2acc6dbe-8e22-4f69-a721-1ded8c8f70f1",
-    "3c3f1770-874e-40e5-9463-f5cc211b590f",
+    "e940f348-120f-4474-bc71-fd379082f906",
+    "999f5bc6-a6b8-49d8-b963-4746b09411a8",
     "3bafd0ec-8c7c-440f-9d53-448247aa5764",
     "1dd14fad-f1dc-405c-a1a1-e3e8c5f4c5dd",
-    "fd3b1c53-a685-4442-8d8c-867972771539",
-    "3ffe6cd2-9d08-4ba7-8d20-385796e18434",
     "acbdf988-9f5e-4c80-a99d-b954a874c312",
     "main"
   ]

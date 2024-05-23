@@ -8,6 +8,17 @@
   {%- assign product_url_contains_query = false -%}
 {%- endif -%}
 
+
+{% comment %} Check if coming soon product {% endcomment %}
+{% assign coming_tag_found = false %}
+{%- assign coming_product_tag = 'comingsoon::' | append: variant.option1 -%}
+{% for tag in product.tags %}
+  {% if tag contains 'comingsoon' or tag contains coming_product_tag %}
+    {% assign coming_tag_found = true %}
+  {% endif %}
+{% endfor %}
+
+
 <product-item
   data-complementary-product
   handle="{{ product.handle }}"
@@ -23,9 +34,13 @@
       {%- endif -%}
     {%- endfor -%}
 
-    {%- unless product.available -%}
-      <span class="label label--subdued">{{ 'collection.product.sold_out' | t }}</span>
-    {%- endunless -%}
+    {%- if coming_tag_found -%}
+      <span class="label label--subdued">{{ 'collection.product.comingsoon' | t }}</span>
+    {% else %}  
+      {%- unless product.available -%}
+        <span class="label label--subdued">{{ 'collection.product.sold_out' | t }}</span>
+      {%- endunless -%}
+    {%- endif -%}
 
     {%- assign cheapest_variant = product.variants | sort: 'price' | first -%}
 
@@ -155,10 +170,31 @@
       {%- endif -%}
     </div>
 
-    {%- if product.available and reduced_content or show_cta -%}
+    {%- if coming_tag_found -%}
+      <div class="product-item__cta-wrapper">
+        <button
+          type="submit"
+          class="
+            button
+            complementary-product-form-add-to-cart-button
+            product-form__add-button
+            button--primary button--full
+            button--primary
+            {% if reduced_content %}
+              product-item__link link text--subdued
+            {% else %}
+              product-item__cta button button--primary
+            {% endif %}
+          "
+          disabled
+        >
+          {{ 'collection.product.comingsoon' | t }}
+        </button>
+      </div>
+    {%- elsif product.available and reduced_content or show_cta -%}
       <div class="product-item__cta-wrapper">
         {%- capture form_id -%}product_form_{{ section.id }}_{{ block.id }}_{{ product.id }}_{% increment product_form_index %}{%- endcapture -%}
-        {%- form 'product', product, is: 'product-form', id: form_id -%}
+        {%- form 'product', product, is: 'product-form', id: form_id, comingsoon_tag: coming_product_tag, comingsoon_found: coming_tag_found -%}
           <input type="hidden" name="quantity" value="1">
           {%- if product.variants.size == 1 -%}
             <input type="hidden" name="id" value="{{ product.first_available_variant.id }}">

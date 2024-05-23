@@ -7007,7 +7007,18 @@
         event.detail.variant &&
         this.inventories[event.detail.variant['id']] !== ''
       ) {
-        this.hidden = false;
+
+        const { tags = [], mergedTags = [] } =
+        window.allProductTags?.[event.detail.variant['product_id']] || {};
+        
+        const comingSoon = Boolean(
+          mergedTags.includes('comingsoon') ||
+            mergedTags.includes(`comingsoon::${event.detail.variant['option1']}`)
+        );
+
+        // hide if coming soon
+        this.hidden = comingSoon;
+        
         this.insertAdjacentHTML(
           'afterbegin',
           this.inventories[event.detail.variant['id']]
@@ -7021,6 +7032,32 @@
 
   // js/custom-element/section/product/payment-container.js
   var PaymentContainer = class extends HTMLElement {
+    constructor() {
+      super();
+
+      this.comingSoon = false;
+
+      // 
+      // if( this.closest(".product-form .product-form__buy-buttons") )
+
+      this.comingsoonFound = this.dataset.comingsoonFound === "true";
+      this.comingSoonTag = this.dataset.comingsoonTag;
+      this.selectedVariant = this.dataset.selectedVariantTitle;
+
+      if( !this.comingsoonFound && !this.comingSoonTag ){
+        const parentSection = this.closest(".product-form__buy-buttons");
+
+        if( parentSection ) {
+          this.comingsoonFound = parentSection.dataset.comingsoonFound === "true";
+          this.comingSoonTag   = parentSection.dataset.comingsoonTag;
+          this.selectedVariant = parentSection.dataset.selectedVariantTitle;
+        }
+      }
+
+      this.comingSoon = Boolean( this.comingsoonFound && this.comingSoonTag && this.comingSoonTag.includes(`comingsoon::${ this.selectedVariant }`) );
+
+      this.initButtonStates();
+    }
     connectedCallback() {
       var _a;
       (_a = document.getElementById(this.getAttribute('form-id'))) == null
@@ -7041,10 +7078,16 @@
     _updateAddToCartButton(variant) {
       const { tags = [], mergedTags = [] } =
         window.allProductTags?.[variant?.product_id] || {};
-      const comingSoon = Boolean(
-        mergedTags.includes('comingsoon') ||
-          mergedTags.includes(`comingsoon::${variant.option1}`)
-      );
+
+      if ( this.comingsoonFound ) {
+        this.comingSoon = Boolean( this.comingsoonFound && this.comingSoonTag && this.comingSoonTag.includes(`comingsoon::${variant.option1}`) );
+      }
+      else {
+        this.comingSoon = Boolean(
+          mergedTags.includes('comingsoon') ||
+            mergedTags.includes(`comingsoon::${variant.option1}`)
+        );
+      }
 
       let addToCartButtonElement = this.querySelector(
         '[data-product-add-to-cart-button]'
@@ -7074,7 +7117,7 @@
         addToCartButtonText =
           window.themeVariables.strings.productFormUnavailable;
       } else {
-        if (variant['available']) {
+        if (variant['available'] && !this.comingSoon) {
           addToCartButtonElement.removeAttribute('disabled');
           addToCartButtonElement.classList.remove('is-disabled');
           addToCartButtonElement.classList.add(
@@ -7089,24 +7132,29 @@
           addToCartButtonElement.setAttribute('disabled', 'disabled');
           addToCartButtonElement.classList.add('is-disabled');
           addToCartButtonElement.classList.add('button--ternary');
-          addToCartButtonText = comingSoon
+          addToCartButtonText = this.comingSoon
             ? window.themeVariables.strings.productFormComingSoon
             : window.themeVariables.strings.productFormSoldOut;
 
           if (notifyMeButtonElement && !tags.includes('Do Not Notify')) {
             notifyMeButtonElement.style.display = 'block';
 
-            if (!comingSoon) {
+            if ( !this.comingSoon ) {
               addToCartButtonElement.style.display = 'none';
             }
           }
         }
       }
       if (addToCartButtonElement.getAttribute('is') === 'loader-button') {
-        addToCartButtonElement.firstElementChild.innerHTML =
-          addToCartButtonText;
+        addToCartButtonElement.firstElementChild.innerHTML = addToCartButtonText;
       } else {
-        addToCartButtonElement.innerHTML = addToCartButtonText;
+        // addToCartButtonElement.innerHTML = addToCartButtonText;
+        addToCartButtonElement.innerHTML = '<span class="loader-button__text">' + addToCartButtonText + '</span>'
+                                           + '<span class="loader-button__loader" hidden=""> '
+                                           + '<div class="spinner"> '
+                                           + '<svg focusable="false" width="24" height="24" class="icon icon--spinner" viewBox="25 25 50 50"><circle cx="50" cy="50" r="20" fill="none" stroke="currentColor" stroke-width="5"></circle></svg>'
+                                           + '</div>'
+                                           + '</span>';
       }
     }
     _updateNotifyMeButton(variant) {
@@ -7137,8 +7185,42 @@
       if (!paymentButtonElement) {
         return;
       }
+
+      const { tags = [], mergedTags = [] } =
+        window.allProductTags?.[variant?.product_id] || {};
+
+      if ( this.comingsoonFound ) {
+        this.comingSoon = Boolean( this.comingsoonFound && this.comingSoonTag && this.comingSoonTag.includes(`comingsoon::${variant.option1}`) );
+      }
+      else {
+        this.comingSoon = Boolean(
+          mergedTags.includes('comingsoon') ||
+            mergedTags.includes(`comingsoon::${variant.option1}`)
+        );
+      }
+
       paymentButtonElement.style.display =
-        !variant || !variant['available'] ? 'none' : 'block';
+        !variant || !variant['available'] || this.comingSoon ? 'none' : 'block';
+    }
+    initButtonStates() {
+      let paymentButtonElement = this.querySelector( '.shopify-payment-button' );
+      let notifyMeButtonElement = this.querySelector( '[data-product-notify-me]' );
+      let addToCartButtonElement = this.querySelector( '[data-product-add-to-cart-button]' );
+
+      if (paymentButtonElement && this.comingSoon) paymentButtonElement.style.display = 'none';
+      if (notifyMeButtonElement && this.comingSoon) notifyMeButtonElement.style.display = 'block';
+      if (addToCartButtonElement && this.comingSoon) {
+          addToCartButtonElement.setAttribute('disabled', 'disabled');
+          addToCartButtonElement.classList.add('is-disabled');
+          addToCartButtonElement.classList.add('button--ternary');
+          addToCartButtonElement.style.display = 'block';
+          addToCartButtonElement.innerHTML = '<span class="loader-button__text">' + window.themeVariables.strings.productFormComingSoon + '</span>'
+                                           + '<span class="loader-button__loader" hidden=""> '
+                                           + '<div class="spinner"> '
+                                           + '<svg focusable="false" width="24" height="24" class="icon icon--spinner" viewBox="25 25 50 50"><circle cx="50" cy="50" r="20" fill="none" stroke="currentColor" stroke-width="5"></circle></svg>'
+                                           + '</div>'
+                                           + '</span>';
+      }
     }
   };
   window.customElements.define('product-payment-container', PaymentContainer);
@@ -7665,6 +7747,21 @@
           tag.trim().toLowerCase() ===
           `restock::${variant.option1}`.trim().toLowerCase()
       );
+
+      var comingsoonFound = this.dataset.comingsoonFound === "true";
+      const comingSoonTag = this.dataset.comingsoonTag;
+
+      var comingSoon = false;
+      if ( comingsoonFound ) {
+        comingSoon = Boolean( comingSoonTag.includes(`comingsoon::${variant.option1}`) );
+      }
+      else {
+        comingSoon = Boolean(
+          mergedTags.includes('comingsoon') ||
+            mergedTags.includes(`comingsoon::${variant.option1}`)
+        );
+      }
+
       let productLabelList = this.querySelector('[data-product-label-list]');
       if (!productLabelList) {
         return;
@@ -7673,31 +7770,35 @@
         productLabelList.innerHTML = '';
       } else {
         productLabelList.innerHTML = '';
-        if (
-          document.querySelector('.block-swatch__radio:checked') &&
-          !variant['available']
-        ) {
-          if (!!restockTag)
-            productLabelList.innerHTML = `<span class="label label--subdued">${window.themeVariables.strings.collectionRestock}</span>`;
-          else
-            productLabelList.innerHTML = `<span class="label label--subdued">${window.themeVariables.strings.collectionSoldOut}</span>`;
-        } else if (variant['compare_at_price'] > variant['price']) {
-          let savings = '';
-          if (window.themeVariables.settings.discountMode === 'percentage') {
-            savings = `${Math.round(
-              ((variant['compare_at_price'] - variant['price']) * 100) /
-                variant['compare_at_price']
-            )}%`;
-          } else {
-            savings = formatMoney(
-              variant['compare_at_price'] - variant['price']
-            );
-          }
-          productLabelList.innerHTML = `<span class="label label--highlight">${window.themeVariables.strings.collectionDiscount.replace(
-            '@savings@',
-            savings
-          )}</span>`;
-        }
+
+        if (!!comingSoon)
+            productLabelList.innerHTML = `<span class="label label--subdued">${window.themeVariables.strings.productFormComingSoon}</span>`;
+        else
+            if (
+              document.querySelector('.block-swatch__radio:checked') &&
+              !variant['available']
+            ) {
+              if (!!restockTag)
+                productLabelList.innerHTML = `<span class="label label--subdued">${window.themeVariables.strings.collectionRestock}</span>`;
+              else
+                productLabelList.innerHTML = `<span class="label label--subdued">${window.themeVariables.strings.collectionSoldOut}</span>`;
+            } else if (variant['compare_at_price'] > variant['price']) {
+              let savings = '';
+              if (window.themeVariables.settings.discountMode === 'percentage') {
+                savings = `${Math.round(
+                  ((variant['compare_at_price'] - variant['price']) * 100) /
+                    variant['compare_at_price']
+                )}%`;
+              } else {
+                savings = formatMoney(
+                  variant['compare_at_price'] - variant['price']
+                );
+              }
+              productLabelList.innerHTML = `<span class="label label--highlight">${window.themeVariables.strings.collectionDiscount.replace(
+                '@savings@',
+                savings
+              )}</span>`;
+            }
       }
     }
     _updatePrices(variant) {
@@ -7956,7 +8057,7 @@
       // this is the product id on the PDP
       this.mainProductId = document.querySelector(
         '[data-main-product-id]'
-      ).dataset.mainProductId;
+      ).dataset?.mainProductId;
       // this.product.id is the product id of the currently opened in the product-variant element/container
       this.currentProductId = this.product.id;
     }
@@ -7975,7 +8076,15 @@
 
     displayProductGallery({ product_id } = {}) {
       if (product_id) {
-        document
+        // first check if its drawer item
+        var parentElement = this.closest('product-item');
+
+        // if not,check if PDP gallery image
+        if( !parentElement ) var parentElement = this.closest('.product.product--thumbnails-left');
+
+        // Update display if parent elemment found
+        if( parentElement )
+        parentElement
           .querySelectorAll(`.product-medias[data-product]`)
           .forEach((gallery) => {
             gallery.classList.toggle(

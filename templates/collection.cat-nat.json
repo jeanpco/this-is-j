@@ -1,0 +1,331 @@
+{
+  "sections": {
+    "shop_the_look_mb4J36": {
+      "type": "shop-the-look",
+      "blocks": {
+        "look_4WtTh9": {
+          "type": "look",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cat_Nat_Group_Flowers_-2160x1080-slideshow1.jpg",
+            "dot_type": "inverted",
+            "product_1": "henley-tee-short-set",
+            "product_1_horizontal_position": 12,
+            "product_1_vertical_position": 74,
+            "product_1_horizontal_position_mobile": 30,
+            "product_1_vertical_position_mobile": 30,
+            "product_2": "kids-t-shirt-lounge-pant-pj-set-6",
+            "product_2_horizontal_position": 64,
+            "product_2_vertical_position": 66,
+            "product_2_horizontal_position_mobile": 50,
+            "product_2_vertical_position_mobile": 50,
+            "product_3": "henley-tee-short-set",
+            "product_3_horizontal_position": 93,
+            "product_3_vertical_position": 85,
+            "product_3_horizontal_position_mobile": 70,
+            "product_3_vertical_position_mobile": 70
+          }
+        }
+      },
+      "block_order": [
+        "look_4WtTh9"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "label": "Shop the looks"
+      }
+    },
+    "slideshow_iWR6BL": {
+      "type": "slideshow",
+      "blocks": {
+        "image_7xB3iM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cat_Nat_Group_Flowers_-2160x1080-slideshow1.jpg",
+            "mute_toggle": false,
+            "font": "'Cooper BT', serif",
+            "text_position": "middle_center",
+            "subheading": "Cat & nat x this is j",
+            "title": "Join the PJ Party!",
+            "subheading_font_size_m": 12,
+            "subheading_font_size_d": 13,
+            "heading_font_size_m": 35,
+            "heading_font_size_d": 45,
+            "description": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 12
+          }
+        },
+        "image_Pb9VQx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/kids_test_-2160x1080-slideshow1.jpg",
+            "mute_toggle": false,
+            "font": "'Cooper BT', serif",
+            "text_position": "middle_center",
+            "subheading": "Cat & Nat x this is j",
+            "title": "Teen-Tested & Kid-Approved",
+            "subheading_font_size_m": 12,
+            "subheading_font_size_d": 13,
+            "heading_font_size_m": 35,
+            "heading_font_size_d": 45,
+            "description": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 12
+          }
+        }
+      },
+      "block_order": [
+        "image_7xB3iM",
+        "image_Pb9VQx"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "collection-banner": {
+      "type": "collection-banner",
+      "disabled": true,
+      "custom_css": [
+        "h1 {font-size: 48px;}"
+      ],
+      "settings": {
+        "show_collection_image": true,
+        "show_collection_title": true,
+        "show_collection_description": true,
+        "section_height": "small",
+        "text_width": "medium",
+        "image_text_color": "#ffffff",
+        "image_description_color": "#1c1b1b",
+        "image_overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+        "image_overlay_opacity": 15,
+        "quick_links": ""
+      }
+    },
+    "rich_text_wifYVQ": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "Cat & nat x this is j",
+        "title": "Join the PJ Party!",
+        "content": "<p><strong>A SHARED LOVE OF COMFORT<\/strong><\/p><p>We've collaborated with our fave duo Cat & Nat - on a dreamy collection designed for moms and daughters, just in time for Mother’s Day!<\/p><p>Crafted with love and care, these custom-designed pajamas are more than just fabric – they were created to make cherished memories together. Whether it's late-night giggles or lazy Sunday mornings, we've designed these jammers to be the perfect blend of cute and cozy for moms and daughters alike (they’re even teenager approved!)<\/p><p><\/p><p>xo<br\/>Jaimie, Founder, This is J<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "#faf8f2",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "blocks": {
+        "908ea12c-3456-4fcd-ab73-cb1efb52c2f6": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/kids_test_-2400x800.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "middle_right",
+            "background": "#ffffff",
+            "text_color": "#1c1b1b",
+            "button_background": "#ffffff",
+            "button_text_color": "#1c1b1b"
+          }
+        }
+      },
+      "block_order": [
+        "908ea12c-3456-4fcd-ab73-cb1efb52c2f6"
+      ],
+      "settings": {
+        "show_sort_by": true,
+        "products_per_page": 48,
+        "mobile_products_per_row": "2",
+        "desktop_products_per_row": 3,
+        "show_filters": true,
+        "show_filter_group_name": true,
+        "show_color_swatch": true,
+        "open_first_filter_group": false,
+        "filter_position": "drawer",
+        "promotion_position": "top",
+        "promotion_height": "small"
+      }
+    },
+    "image_with_text_pj3bpw": {
+      "type": "image-with-text",
+      "blocks": {
+        "item_RwjnaX": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ThisisJ_240404_0211_HIRES_Edit_copy.jpg",
+            "tab_label": "",
+            "subheading": "",
+            "title": "",
+            "content": "<p>\"We realized our girls loved the fit & feel of our Bamboo Jammers, but were searching for a very specific vibe that fit their clean girl aesthetic and preppy style. With their input, we came up with the ultimate mom & daughter matching PJ style...just in time for Mother's Day!\"<\/p><p>- Cat & Nat<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_RwjnaX"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "both",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "#faf8f2",
+        "text_color": "#1c1b1b",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "shop_the_look_UbQ87F": {
+      "type": "shop-the-look",
+      "blocks": {
+        "look_MrgjyP": {
+          "type": "look",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/kids_test_-2160x1080-slideshow1.jpg",
+            "dot_type": "inverted",
+            "product_1": "henley-tee-short-set",
+            "product_1_horizontal_position": 33,
+            "product_1_vertical_position": 74,
+            "product_1_horizontal_position_mobile": 30,
+            "product_1_vertical_position_mobile": 30,
+            "product_2": "kids-t-shirt-lounge-pant-pj-set-6",
+            "product_2_horizontal_position": 46,
+            "product_2_vertical_position": 38,
+            "product_2_horizontal_position_mobile": 50,
+            "product_2_vertical_position_mobile": 50,
+            "product_3": "",
+            "product_3_horizontal_position": 62,
+            "product_3_vertical_position": 50,
+            "product_3_horizontal_position_mobile": 70,
+            "product_3_vertical_position_mobile": 70
+          }
+        }
+      },
+      "block_order": [
+        "look_MrgjyP"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "label": "Shop the looks"
+      }
+    },
+    "testimonials_MH8cgD": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_Y8rhfh": {
+          "type": "testimonial",
+          "settings": {
+            "content": "\"We realized our girls loved the fit & feel of our Bamboo Jammers, but were searching for a very specific vibe that fit their clean girl aesthetic and preppy style. With their input, we came up with the ultimate mom & daughter matching PJ style...just in time for Mother's Day!\"",
+            "author": "- Cat & Nat"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_Y8rhfh"
+      ],
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "subheading": "",
+        "title": "",
+        "background": "#faf8f2",
+        "text_color": "#1c1b1b"
+      }
+    },
+    "image_with_text_overlay_MdinUd": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "small",
+        "image": "{{ collection.image }}",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+        "overlay_opacity": 0
+      }
+    },
+    "0e110668-8a85-4fc9-8836-debd0255c9bf": {
+      "type": "recently-viewed-products",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Recently viewed",
+        "products_count": 12,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "34704ab1-2125-4ccc-a04f-8e93573b309b": {
+      "type": "faq-schema",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "namespace": "custom",
+        "key": "faq"
+      }
+    }
+  },
+  "order": [
+    "shop_the_look_mb4J36",
+    "slideshow_iWR6BL",
+    "collection-banner",
+    "rich_text_wifYVQ",
+    "main",
+    "image_with_text_pj3bpw",
+    "shop_the_look_UbQ87F",
+    "testimonials_MH8cgD",
+    "image_with_text_overlay_MdinUd",
+    "0e110668-8a85-4fc9-8836-debd0255c9bf",
+    "34704ab1-2125-4ccc-a04f-8e93573b309b"
+  ]
+}

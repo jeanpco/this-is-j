@@ -109,7 +109,7 @@
           {% if block.settings.video %}
             <div class="hero__video">
               {%- assign video_id = 'video--' | append: block.id -%}
-              {{ block.settings.video | video_tag: id: video_id, muted: true }}
+              {{ block.settings.video | video_tag: id: video_id, autoplay: true, muted: true }}
             </div>
 
             {% if block.settings.mute_toggle and block.settings.video %}

@@ -12625,6 +12625,10 @@ input:checked + .popover__choice-label::after,
 [dir='rtl'] .product-meta__label-list:not(:empty) {
   margin-right: 16px;
 }
+.quick-buy-product__info .product-meta__label-list:not(:empty) {
+  margin-top: 16px;
+  margin-left: 0;
+}
 
 .product-meta__reference {
   display: flex;
@@ -12713,6 +12717,7 @@ input:checked + .popover__choice-label::after,
   display: grid;
   grid-row-gap: 16px;
   row-gap: 16px;
+  margin-bottom: 24px;
 }
 
 .product-form__variants {
