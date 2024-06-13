@@ -8055,12 +8055,9 @@
         this.selectVariant(this.selectedVariant.id);
       }
       // this is the product id on the PDP
-      const mainProductIdElement = document.querySelector(
+      this.mainProductId = document.querySelector(
         '[data-main-product-id]'
-      );
-      if( mainProductIdElement ) {
-        this.mainProductId = mainProductIdElement.dataset?.mainProductId;
-      }
+      ).dataset?.mainProductId;
       // this.product.id is the product id of the currently opened in the product-variant element/container
       this.currentProductId = this.product.id;
     }
@@ -8131,13 +8128,12 @@
 
         // product-image-zoom only shows the dialog/modal of media of its 'product-handle' attribute
         // therefor we need to update product-image-zoom product handle everytime the variant is changed
-        const productImageZoomElement = document.querySelector('product-image-zoom');
-        if( productImageZoomElement ) {
-          productImageZoomElement.setAttribute(
-            'product-handle',
-            selectedVariantHandle
-          );
-        }
+        const productImageZoomElement =
+          document.querySelector('product-image-zoom');
+        productImageZoomElement.setAttribute(
+          'product-handle',
+          selectedVariantHandle
+        );
       }
       const variant = this._getVariantById(id);
       const options = this._getSelectedOptionValues();
