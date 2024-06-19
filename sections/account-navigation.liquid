@@ -1,0 +1,123 @@
+<div class="account-navigation">
+
+  <div class="link-bar hidden-phone">
+    <div class="container">
+      <div class="link-bar__wrapper">
+        <ul class="link-bar__linklist list--unstyled" role="list">
+          {% for block in section.blocks %}
+              {%- case block.type -%}
+                  {%- when 'custom-link' -%}
+                    <li class="link-bar__link-item">
+                      <a href="{{ block.settings.url }}" class="link-bar__link link--animated {% if current == 'comfort' %}text--underlined{% endif %}">{{ block.settings.label }}</a>
+                    </li>
+
+                  {%- when 'orders' -%}
+                    <li class="link-bar__link-item">
+                      <a href="{{ routes.account_url }}" class="link-bar__link link--animated {% if current == 'orders' %}text--underlined{% endif %}">{{ 'customer.orders.title' | t }}</a>
+                    </li>
+
+                  {%- when 'addresses' -%}
+                    <li class="link-bar__link-item">
+                      <a href="{{ routes.account_addresses_url }}" class="link-bar__link link--animated {% if current == 'addresses' %}text--underlined{% endif %}">{{ 'customer.addresses.title' | t }}</a>
+                    </li>
+
+                  {%- when 'logout' -%}
+                    <li class="link-bar__link-item">
+                      <a href="{{ routes.account_logout_url }}" class="link-bar__link link--animated text--subdued" data-no-instant>{{ 'customer.logout.title' | t }}</a>
+                    </li>
+              {%- endcase -%}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="mobile-toolbar hidden-tablet-and-up">
+    <button is="toggle-button" class="mobile-toolbar__item" aria-expanded="false" aria-controls="account-links-popover">{%- render 'page-title' -%} {%- render 'icon' with 'chevron' -%}</button>
+  </div>
+
+  <popover-content id="account-links-popover" class="popover">
+    <span class="popover__overlay"></span>
+
+    <header class="popover__header">
+      <span class="popover__title heading h6">{{- 'customer.general.title' | t -}}</span>
+
+      <button type="button" class="popover__close-button tap-area tap-area--large" data-action="close" title="{{ 'general.accessibility.close' | t | escape }}">
+        {%- render 'icon' with 'close' -%}
+      </button>
+    </header>
+
+    <div class="popover__content">
+      <div class="popover__choice-list">
+        {% for block in section.blocks %}
+          {%- case block.type -%}
+              {%- when 'custom-link' -%}
+                <a href="{{ block.settings.url }}" data-url="{{ block.settings.url }}" class="popover__choice-item">
+                  <span class="popover__choice-label" >{{ block.settings.label  }}</span>
+                </a>
+
+              {%- when 'orders' -%}
+                <a href="{{ routes.account_url }}" data-url="{{ routes.account_url }}" class="popover__choice-item">
+                  <span class="popover__choice-label" >{{ 'customer.orders.title' | t }}</span>
+                </a>
+
+              {%- when 'addresses' -%}
+                <a href="{{ routes.account_addresses_url }}" data-url="{{ routes.account_addresses_url }}" class="popover__choice-item">
+                  <span class="popover__choice-label" >{{ 'customer.addresses.title' | t }}</span>
+                </a>
+
+              {%- when 'logout' -%}
+                <a href="{{ routes.account_logout_url }}" data-url="{{ routes.account_logout_url }}" class="popover__choice-item text--subdued" data-no-instant>
+                  <span class="popover__choice-label" >{{ 'customer.logout.title' | t }}</span>
+                </a>
+          {%- endcase -%}
+        {% endfor %}
+      </div>
+    </div>
+  </popover-content>
+
+</div>
+
+{% schema %}
+{
+  "name": "Account navigation",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "comfort_club_status",
+      "label": "Enable Comfort Club link",
+      "default": false
+    }
+  ],
+  "blocks": [
+    {
+      "type": "custom-link",
+      "name": "Custom Link",
+      "settings": [
+        {
+          "type": "url",
+          "id": "url",
+          "label": "URL"
+        },
+        {
+          "type": "text",
+          "id": "label",
+          "label": "Label"
+        }
+      ]
+    },
+    {
+      "type": "orders",
+      "name": "Order details"
+    },
+    {
+      "type": "addresses",
+      "name": "Addresses details"
+    },
+    {
+      "type": "logout",
+      "name": "Logout"
+    }
+  ]
+}
+{% endschema %}

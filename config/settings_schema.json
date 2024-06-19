@@ -644,5 +644,41 @@
         "info": "96 x 96px .png recommended"
       }
     ]
+  },
+  {
+    "name": "Comfort Club",
+    "settings": [
+      {
+        "type": "radio",
+        "id": "comfort_club_status",
+        "label": "Comfort club status",
+        "info": "Comfort club account settings.",
+        "options": [
+          {
+            "value": "disabled",
+            "label": "disabled"
+          },
+          {
+            "value": "enabled",
+            "label": "Enabled"
+          }
+        ],
+        "default": "enabled"
+      },
+      {
+        "type": "text",
+        "id": "comfort_club_guid",
+        "label": "Account guid",
+        "default": "ELJoE72BK50FwC69S4dMVw",
+        "info": "from yopto account https://loyalty-app.yotpo.com/settings"
+      },
+      {
+        "type": "text",
+        "id": "comfort_club_api_key",
+        "label": "API key",
+        "default": "Lm0nGpearmctdVOJ4S9fIAtt",
+        "info": "from yopto account https://loyalty-app.yotpo.com/settings"
+      }
+    ]
   }
 ]

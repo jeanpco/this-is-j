@@ -1,0 +1,61 @@
+{% if section.settings.comfort_club_offers_status %}
+    {% style %}
+        .comfort-club-exclusive {
+            text-align: center;
+            margin: 2.5rem 0 3.5rem;
+        }   
+        .comfort-club-exclusive .comfort-club-exclusive__wrapper {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+        .comfort-club-exclusive .comfort-club-exclusive__wrapper .comfort-club-exclusive__item {
+            width: 100%;
+        }
+        .comfort-club-exclusive .comfort-club-exclusive__wrapper .comfort-club-exclusive__item-image {
+            width: 100%;
+            aspect-ratio: 16/7;
+            object-fit: cover;
+            margin-bottom: .75rem;
+        }
+        .comfort-club-exclusive .comfort-club-exclusive__wrapper .comfort-club-exclusive__item-content {
+            line-height: 1.3;
+            font-size: 20px;
+        }
+        .comfort-club-exclusive .comfort-club-exclusive__wrapper .comfort-club-exclusive__item-content p {
+            margin: 0;
+        }
+        @media only screen and (min-width: 769px) {
+            .comfort-club-exclusive .comfort-club-exclusive__wrapper {
+                flex-direction: row;
+                justify-content: space-around;
+                gap: 1rem;
+            }
+            .comfort-club-exclusive .comfort-club-exclusive__wrapper .comfort-club-exclusive__item {
+                width: calc(50% - 1rem);
+            }
+        }   
+    {% endstyle %}
+    <comfort-club-exclusive>
+        <div class="comfort-club-exclusive container">
+            {% if section.settings.comfort_club_offers_title != blank %}
+                <h2>{{ section.settings.comfort_club_offers_title }}</h2>
+            {% endif %}
+            <div class="comfort-club-exclusive__wrapper">
+                {% for block in section.blocks %}
+                    {% if block.type == "comfort-club-offer" %}
+                        <div class="comfort-club-exclusive__item {% if block.settings.url != blank %} js-block-link {% endif %}" {% if block.settings.url != blank %} data-block-target="{{ block.settings.url }}" data-blank {% endif %}>
+                            <img class="comfort-club-exclusive__item-image" src="{{ block.settings.image | img_url: 'master' }}" alt="{{ block.settings.title }}">
+                            <div class="comfort-club-exclusive__item-content">
+                                {{ block.settings.description }}
+                                {{ block.settings.note }}
+                            </div>
+                        </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </comfort-club-exclusive>
+{% endif %}

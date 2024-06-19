@@ -1,0 +1,183 @@
+{
+  "sections": {
+    "hero": {
+      "type": "hero-loyalty",
+      "blocks": {
+        "8848b213-83b9-470d-a367-50b83eb4af46": {
+          "type": "cta",
+          "settings": {
+            "url": "\/account\/register",
+            "text": "Join Now",
+            "color": "#d49553"
+          }
+        },
+        "a6010c1f-079b-4350-8f36-1fe6da8d8c30": {
+          "type": "cta",
+          "settings": {
+            "url": "\/account\/login",
+            "text": "Sign In",
+            "color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "8848b213-83b9-470d-a367-50b83eb4af46",
+        "a6010c1f-079b-4350-8f36-1fe6da8d8c30"
+      ],
+      "custom_css": [
+        "h1 {font-family: \"Cooper BT\"; font-size: 36px; font-weight: 400;}"
+      ],
+      "settings": {
+        "heading": "<p>Welcome to <br/>The Comfort Club</p>",
+        "text": "<p>Earn rewards on the products you love, redeem them for discounts, and get closer to the comfort you've been dreaming of.<\/p>",
+        "image": "shopify:\/\/shop_images\/TIJ_Header_Image_1.png",
+        "bg": "#f0eee7"
+      }
+    },
+    "account-nav": {
+      "type": "account-navigation",
+      "blocks": {
+        "link-custom": {
+          "type": "custom-link",
+          "settings": {
+            "label": "Comfort Club",
+            "url": "\/pages\/account-comfort-club"
+          }
+        },
+        "link-orders": {
+          "type": "orders"
+        },
+        "link-addresses": {
+          "type": "addresses"
+        },
+        "link-logout": {
+          "type": "logout"
+        }
+      },
+      "block_order": [
+        "link-custom",
+        "link-orders",
+        "link-addresses",
+        "link-logout"
+      ],
+      "settings": {
+        "current": "addresses"
+      }
+    },
+    "customers-comfort-club": {
+      "type": "customers-comfort-club",
+      "settings": {},
+      "blocks": {
+        "details-seekers": {
+          "type": "comfort-club-details",
+          "settings": {
+            "key": "Comfort Seeker",
+            "description": "<ul>\n<li>Free to join<\/li>\n<li>Exclusive offers<\/li>\n<li>Early access to new products<\/li>\n<li>Points for every purchase<\/li>\n<li>Redeem points for discounts<\/li>\n<\/ul>"
+          }
+        },
+        "exclusive-1": {
+          "type": "comfort-club-offer",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TIJ_001_Comfort-Club.png",
+            "link": "\/account\/register"
+          }
+        },
+        "exclusive-2": {
+          "type": "comfort-club-offer",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TIJ_001_Comfort-Club.png",
+            "link": "\/account\/register"
+          }
+        }
+      },
+      "block_order": [
+        "details-seekers",
+        "exclusive-1",
+        "exclusive-2"
+      ]
+    },
+    "loyalty-rewards": {
+      "type": "loyalty-rewards",
+      "blocks": {
+        "2a5cf05f-9a81-4bfb-9ec5-2d62a444aa90": {
+          "type": "reward",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TIJ_001_Create-an-account.png",
+            "text": "Create an Account",
+            "button": "25 points",
+            "campaign": "1109444",
+            "link": ""
+          }
+        },
+        "3bd0da4c-a1e0-44e4-ad75-86b66efeacd0": {
+          "type": "reward",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TIJ_001_Birthday-Discount.png",
+            "text": "Happy Birthday!",
+            "button": "Birthday discount",
+            "campaign": "1109445",
+            "link": ""
+          }
+        },
+        "4a557db6-ddcb-4f01-9d19-a6dc63659408": {
+          "type": "reward",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TIJ_001_Write-a-Review.png",
+            "text": "Write a Review",
+            "button": "25 points",
+            "campaign": "1109446",
+            "link": ""
+          }
+        },
+        "4b2c1ff0-d987-4ef6-883a-86e1b5f494fb": {
+          "type": "reward",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TIJ_001_Picture-Review.png",
+            "text": "Submit a Photo Review",
+            "button": "40 points",
+            "campaign": "1109447",
+            "link": ""
+          }
+        },
+        "f51455c0-854a-4aaf-ba46-b18bebc56402": {
+          "type": "reward",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TIJ_001_Follow-Us.png",
+            "text": "Follow Us on Instagram",
+            "button": "10 points",
+            "campaign": "1109449",
+            "link": ""
+          }
+        },
+        "68a50472-8671-4d4a-a527-42b986c613df": {
+          "type": "reward",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TIJ_001_Refer-a-Friend.png",
+            "text": "Refer a Friend",
+            "button": "$20 OFF",
+            "campaign": "1103469",
+            "link": "javascript:scrollTo('yotpoReferralTitleText')"
+          }
+        }
+      },
+      "block_order": [
+        "2a5cf05f-9a81-4bfb-9ec5-2d62a444aa90",
+        "3bd0da4c-a1e0-44e4-ad75-86b66efeacd0",
+        "4a557db6-ddcb-4f01-9d19-a6dc63659408",
+        "4b2c1ff0-d987-4ef6-883a-86e1b5f494fb",
+        "f51455c0-854a-4aaf-ba46-b18bebc56402",
+        "68a50472-8671-4d4a-a527-42b986c613df"
+      ],
+      "settings": {
+        "heading": "Earn more points",
+        "bg": "#fff"
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "account-nav",
+    "customers-comfort-club",
+    "loyalty-rewards"
+  ]
+}

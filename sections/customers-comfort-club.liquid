@@ -1,0 +1,100 @@
+{% if customer %}
+    {% comment %} <account-comfort-club data-customer="mmacmurtry@nspes.ca"> {% endcomment %}
+    <account-comfort-club data-customer="{{- customer.email -}}">
+        {%- comment -%}  section-comfort-loyalty {%- endcomment -%}
+        {%- render 'comfort-club-plan' -%}
+
+        {%- comment -%}  section-comfort-loyalty {%- endcomment -%}
+        {%- render 'comfort-club-exclusive' -%}
+
+        {%- comment -%}  section-comfort-loyalty {%- endcomment -%}
+        {%- render 'comfort-club-redeem' -%}
+    </account-comfort-club>
+{% else %}
+    <div style="text-align:center;margin:5rem;">
+        You need to be logged in to access this section. Login here
+    </div>        
+{% endif %} 
+
+
+{% schema %}
+{
+  "name": "Account Comfort Club",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "comfort_club_status",
+      "label": "Enable Comfort Club link",
+      "default": false
+    },
+    {
+      "type": "header",
+      "content": "Exclusive offers"
+    },
+    {
+      "type": "checkbox",
+      "id": "comfort_club_offers_status",
+      "label": "Enable Comfort Club offers",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "comfort_club_offers_title",
+      "label": "Offers Title",
+      "default": "Comfort Club Offers"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "comfort-club-offer",
+      "name": "Comfort Club Offer",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "richtext",
+          "id": "description",
+          "label": "Description",
+          "default": "<p>x the points on all purchases of our best-selling Henley Harem Set</p>"
+        },
+        {
+          "type": "richtext",
+          "id": "note",
+          "label": "Note",
+          "default": "<p>*Offer ends xx/yy at 11:59 p.m. est</p>"
+        },
+        {
+          "type": "url",
+          "id": "url",
+          "label": "Url"
+        }
+      ]
+    },
+    {
+      "type": "comfort-club-details",
+      "name": "Comfort Club Details",
+      "settings": [
+        {
+          "type": "text",
+          "id": "key",
+          "label": "Key",
+          "default": "Comfort Club"
+        },
+        {
+          "type": "url",
+          "id": "url",
+          "label": "Url"
+        },
+        {
+          "type": "richtext",
+          "id": "description",
+          "label": "Description"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

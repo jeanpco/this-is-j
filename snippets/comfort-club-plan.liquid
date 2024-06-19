@@ -1,0 +1,66 @@
+{% style %}
+    .comfort-club-plan {
+        margin: 2.5rem 0;
+    }
+
+    .comfort-club-plan__wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 2.5rem;
+        border: 2px solid black;
+    }
+
+    .comfort-club-plan__wrapper .comfort-club-plan__current,
+    .comfort-club-plan__wrapper .comfort-club-plan__advantages {
+        width: 100%;
+    }
+
+    @media only screen and (min-width: 769px) {
+        .comfort-club-plan__wrapper {
+            flex-direction: row;
+            justify-content: space-around;
+            gap: 2.5rem;
+        }
+
+        .comfort-club-plan__wrapper .comfort-club-plan__current,
+        .comfort-club-plan__wrapper .comfort-club-plan__advantages {
+            width: 40%;
+        }
+    }
+
+    .comfort-club-plan__wrapper .comfort-club-plan__current {
+        text-align: center;
+    }
+    .comfort-club-plan__wrapper .comfort-club-plan__current .comfort-club-plan__text {
+        margin: 0;
+    }
+    .comfort-club-plan__wrapper .comfort-club-plan__current .comfort-club-plan__heading {
+        margin: 0.5rem 0;
+    }
+{% endstyle %}
+
+
+<comfort-club-plan >
+    <div class="comfort-club-plan container">
+        <div class="comfort-club-plan__wrapper">
+            <div class="comfort-club-plan__current">
+                <p class="comfort-club-plan__text">You are currently a</p>
+                <h2 class="comfort-club-plan__heading" plan-name></h2>
+                <p class="comfort-club-plan__text" plan-upgrade-requirements></p>
+            </div>
+            <div class="comfort-club-plan__advantages" plan-advantages>
+                {% for block in section.blocks %}
+                    {% if block.type == "comfort-club-details" %}
+                        <div class="comfort-club-plan__advantage hidden" data-advantage-key="{{ block.settings.key | replace: ' ', '' | downcase }}" data-advantage-url="{{ block.settings.url }}">
+                            <div class="comfort-club-plan__advantage-description">{{ block.settings.description }}</div>
+                        </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</comfort-club-plan>
+

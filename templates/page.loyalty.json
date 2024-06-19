@@ -28,14 +28,15 @@
         "h1 {font-family: \"Cooper BT\"; font-size: 36px; font-weight: 400;}"
       ],
       "settings": {
-        "heading": "The Comfort Club",
+        "heading": "<p>Welcome to <br/>The Comfort Club</p>",
         "text": "<p>Earn rewards on the products you love, redeem them for discounts, and get closer to the comfort you've been dreaming of.<\/p>",
-        "image": "shopify:\/\/shop_images\/TIJ_001_Loyalty-Program_Banner_V4.gif",
+        "image": "shopify:\/\/shop_images\/TIJ_Header_Image_1.png",
         "bg": "#f0eee7"
       }
-    },
+    }, 
     "steps": {
       "type": "steps",
+      "disabled": true,
       "blocks": {
         "c9510138-d8f9-44ab-9183-63b8f927728f": {
           "type": "step",
@@ -166,16 +167,14 @@
         "f51455c0-854a-4aaf-ba46-b18bebc56402",
         "68a50472-8671-4d4a-a527-42b986c613df"
       ],
-      "custom_css": [
-        "h2 {font-family: \"Cooper BT\"; font-size: 36px; font-weight: 400; letter-spacing: 0.5px;}"
-      ],
       "settings": {
-        "heading": "Ways to Earn Points",
+        "heading": "Quick Ways to Earn",
         "bg": "#f9f8f5"
       }
     },
     "image-with-text-1": {
       "type": "image-with-text-loyalty",
+      "disabled": true,
       "custom_css": [
         "h1 {font-family: \"Cooper BT\"; font-size: 36px; font-weight: 400;}"
       ],
@@ -189,6 +188,7 @@
     },
     "custom-code": {
       "type": "custom-code",
+      "disabled": true,
       "custom_css": [
         "h1 {font-family: \"Cooper BT\"; font-size: 36px; font-weight: 400;}"
       ],
@@ -198,6 +198,7 @@
     },
     "faq": {
       "type": "faq",
+      "disabled": true,
       "blocks": {
         "9b5c0ffa-90aa-48ba-a673-1db838d88529": {
           "type": "question",
@@ -295,6 +296,7 @@
     },
     "1656617120d57c5477": {
       "type": "featured-content",
+      "disabled": true,
       "settings": {
         "title": "",
         "text": "<p>Still have questions? We are here to help, just <a href=\"https:\/\/thisisj.com\/pages\/contact-us\" target=\"_blank\" title=\"https:\/\/thisisj.com\/pages\/contact-us\">contact us<br\/><br\/><br\/><\/a><\/p>",

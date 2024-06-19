@@ -1,5 +1,45 @@
 {
   "sections": {
+    "hero": {
+      "type": "hero-loyalty",
+      "custom_css": [
+        "h1 {font-family: \"Cooper BT\"; font-size: 36px; font-weight: 400;}"
+      ],
+      "settings": {
+        "heading": "<p>Welcome to <br/>The comfort club</p>",
+        "text": "<p>descripion.<\/p>",
+        "image": "shopify:\/\/shop_images\/TIJ_Header_Image_1.png",
+        "bg": "#f0eee7"
+      }
+    },
+    "account-nav": {
+      "type": "account-navigation",
+      "blocks": {
+        "custom-link": {
+          "type": "custom-link",
+          "settings": {
+            "label": "Comfort Club",
+            "url": "\/pages\/account-comfort-club"
+          }
+        },
+        "orders": {
+          "type": "orders"
+        },
+        "addresses": {
+          "type": "addresses"
+        },
+        "logout": {
+          "type": "logout"
+        }
+      },
+      "block_order": [
+        "custom-link",
+        "orders",
+        "addresses",
+        "logout"
+      ], 
+      "settings": {}
+    },
     "main": {
       "type": "main-customers-account",
       "blocks": {
@@ -17,6 +57,8 @@
     }
   },
   "order": [
+    "hero",
+    "account-nav",
     "main"
   ]
 }

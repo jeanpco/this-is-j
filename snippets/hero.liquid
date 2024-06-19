@@ -1,119 +1,186 @@
-<div class="hero-cta" style="background-color: {{ section.settings.bg }};">
-  <div class="hero-cta__content-wrapper">
+{%- assign content_vertical = section.settings.content_position | split: '_' | first -%}
+{%- assign content_horizintal = section.settings.content_position | split: '_' | last -%}
+
+
+{%- case content_vertical -%}
+  {%- when 'top' -%}
+    {%- assign section_items_alignment = 'flex-start' -%}
+  {%- when 'middle' -%}
+    {%- assign section_items_alignment = 'center' -%}
+  {%- when 'bottom' -%}
+    {%- assign section_items_alignment = 'flex-end' -%}
+{%- endcase -%}
+
+{%- case content_horizintal -%}
+  {%- when 'left' -%}
+    {%- assign section_items_justify = 'flex-start' -%}
+  {%- when 'center' -%}
+    {%- assign section_items_justify = 'center' -%}
+  {%- when 'right' -%}
+    {%- assign section_items_justify = 'flex-end' -%}
+{%- endcase -%}
+
+
+{% comment %} Set default position connected users {% endcomment %}
+{%- if customer and loyalty -%}
+  {%- assign section_items_alignment = 'center' -%}
+  {%- assign section_items_justify = 'flex-start' -%}
+{% endif %}
+
+<div class="hero-cta" style="background-color: {{ section.settings.bg }};" >
+  <div class="hero-cta__image" >
+    {%- if section.settings.image -%}
+        {{ section.settings.image | image_url: width: 3000 | image_tag: loading: 'lazy', class: 'hidden-desk-and-up', sizes: '100vw', widths: '600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000' }}
+    {%- endif -%}
+    {%- if section.settings.mobile_image != blank -%}
+        {{- section.settings.mobile_image | image_url: width: 1000 | image_tag: loading: 'lazy', class: 'hidden-lap-and-up', sizes: '100vw', widths: '600,700,800,1000,1200' -}}
+    {%- endif -%}
+  </div>
+  <div class="container hero-cta__content-wrapper">
     <div class="hero-cta__content">
-      {%- if section.settings.heading != blank -%}
-        <h1>{{ section.settings.heading }}</h1>
-      {%- endif -%}
-      {%- if section.settings.text != blank -%}
-        <div>{{ section.settings.text }}</div>
-      {%- endif -%}
-
       {%- if customer and loyalty -%}
-        <p>
-          <strong>
-            {%- assign name = customer.first_name | default: customer.name | default: customer.email -%}
-            {{ 'loyalty.balance_html' | t: name: name }}
-          </strong>
-        </p>
+          {%- assign name = customer.first_name | default: customer.name | default: customer.email -%}
+          <h1 class="">Welcome back, {{ name }}! </h1>
+          <div class="hero-cta__text hero-cta__text--logged">
+              {{ 'loyalty.balance_html' | t }}
+          </div>
       {%- else -%}
-        <div class="hero-cta__buttons">
-          {%- for block in section.blocks -%}
-            {%- liquid
-              assign text_color = '#fff'
-              assign contrast_ratio = block.settings.color | color_contrast: '#ffffff'
+          {%- if section.settings.heading != blank -%}
+            <h1>{{ section.settings.heading }}</h1>
+          {%- endif -%}
+          {%- if section.settings.text != blank -%}
+            <div class="hero-cta__text">{{ section.settings.text }}</div>
+          {%- endif -%}
+          <div class="hero-cta__buttons">
+            {%- for block in section.blocks -%}
+              {%- liquid
+                assign text_color = '#fff'
+                assign contrast_ratio = block.settings.color | color_contrast: '#ffffff'
 
-              if contrast_ratio < 2.5
-                assign text_color = '#000'
-              endif
-            -%}
-            <a
-              class="btn"
-              href="{{ block.settings.url }}"
-              style="
-                background: {{ block.settings.color }};
-                border-color: {{ block.settings.color }};
-                color: {{ text_color }};
-              "
-            >
-              {{ block.settings.text }}
-            </a>
-          {%- endfor -%}
-        </div>
+                if contrast_ratio < 2.5
+                  assign text_color = '#000'
+                endif
+              -%}
+              <a
+                class="btn"
+                href="{{ block.settings.url }}"
+                style="
+                  background: {{ block.settings.color }};
+                  border-color: {{ block.settings.color }};
+                  color: {{ text_color }};
+                "
+              >
+                {{ block.settings.text }}
+              </a>
+            {%- endfor -%}
+          </div>
+          {%- if section.settings.note != blank -%}
+            <div class="hero-cta__note">{{ section.settings.note }}</div>
+          {%- endif -%}
       {%- endif -%}
     </div>
-  </div>
-  <div class="hero-cta__image">
-    {%- if section.settings.image -%}
-      {{ section.settings.image | image_url: width: 1800 | image_tag }}
-    {%- endif -%}
   </div>
 </div>
 
 <style>
-  .shopify-section--loyalty h1 {
-    font-family: 'Cooper BT';
+  .shopify-section--loyalty h1,
+  .shopify-section--loyalty h1 * {
+    font-family: 'BV Celine';
     font-size: 36px;
     font-weight: 400;
-  }
-
-  .hero-cta {
-    display: grid;
-    grid-template-areas: 'image' 'content';
-    grid-template-columns: 1fr;
+    line-height: 1;
+    letter-spacing: -0.05rem;
+    text-align: center;
   }
 
   @media only screen and (min-width: 769px) {
-    .hero-cta {
-      grid-template-areas: 'content image';
-      grid-template-columns: 2fr 3fr;
+    .shopify-section--loyalty h1,
+    .shopify-section--loyalty h1 * {
+      font-size: 60px;
+      line-height: 49.86px;
+      text-align: left;
     }
+  }
+  .hero-cta {
+    display: flex;
+    min-height: 45vh;
+    position: relative;
   }
 
   .hero-cta__content-wrapper {
-    grid-area: content;
+    display: flex;
+    position: relative;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    align-items: {{ section_items_alignment }};
+    justify-content: {{ section_items_justify }};
   }
 
   .hero-cta__content {
-    max-width: 400px;
-    margin: 12rem auto;
-    padding: 1rem;
+    width: 100%;
   }
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (min-width: 768px) {
+  .hero-cta__content-wrapper {
+    /* padding-top: 6rem;
+    padding-bottom: 6rem; */
+  }
     .hero-cta__content {
-      margin: 2rem auto;
-      text-align: center;
+      max-width: 50%;
     }
   }
 
+  .hero-cta__text {
+    margin-top: 1.5rem;
+    line-height: 20.49px;
+    width: 400px;
+    max-width: 100%;
+    text-align: center;
+  }
+  .hero-cta__text.hero-cta__text--logged {
+    margin-top: -1rem;
+    text-align: center;
+  }
+
+  @media only screen and (min-width: 768px) {
+    .hero-cta__text.hero-cta__text--logged {
+      margin-left: 3.5rem;
+      text-align: left;
+    }
+  }
   .hero-cta__image {
-    grid-area: image;
+    /* grid-area: image; */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
   }
 
   .hero-cta__image > img {
     height: 100%;
     object-fit: cover;
-    object-position: center;
+    object-position: left center;
     width: 100%;
   }
 
   .hero-cta__buttons {
-    margin-left: -0.5rem;
-    margin-right: -0.5rem;
     margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .hero-cta__note {
+    margin-top: 1.5rem;
   }
 
   @media only screen and (max-width: 768px) {
     .hero-cta__buttons {
-      margin-left: 0;
-      margin-right: 0;
       margin-top: 1rem;
     }
   }
 
   .hero-cta__buttons > .btn {
-    margin: 0.5rem;
-    padding: 0.75rem 2rem;
+    padding: 0.75rem 2.5rem;
   }
 
   @media only screen and (max-width: 768px) {

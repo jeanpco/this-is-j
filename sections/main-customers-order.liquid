@@ -24,10 +24,16 @@
 {%- endif -%}
 
 <section>
-  <div class="link-bar hidden-phone">
+  {% comment %} <div class="link-bar hidden-phone">
     <div class="container">
       <div class="link-bar__wrapper">
         <ul class="link-bar__linklist list--unstyled" role="list">
+          <!-- customers/account.liquid -->
+          <!-- Add this link where appropriate in your customer account navigation -->
+          <li class="link-bar__link-item">
+            <a href="{{ routes.account_login.url }}/comfort">Comfort Club</a>
+          </li>
+          
           <li class="link-bar__link-item">
             <a href="{{ routes.account_url }}" class="link-bar__link link--animated text--underlined">{{ 'customer.orders.title' | t }}</a>
           </li>
@@ -74,7 +80,10 @@
         </a>
       </div>
     </div>
-  </popover-content>
+  </popover-content> {% endcomment %}
+
+
+  {% comment %} {% render 'account-navigation', current: 'orders' %} {% endcomment %}
 
   <div class="account account--order">
     <div class="container container--small">

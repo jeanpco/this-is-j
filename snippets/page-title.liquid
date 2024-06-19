@@ -1,0 +1,19 @@
+<span>
+    {% if request.page_type == 'account' or request.page_type == 'customers/account' %}
+        {% if request.path == '/account/login' %}
+            {{ 'Login' }}
+        {% elsif request.path == '/account/register' %}
+            {{ 'Register' }}
+        {% elsif request.path == '/account' %}
+          {{ 'My Account' }}
+        {% elsif request.path == '/account/orders' %}
+          {{ 'Order History' }}
+        {% elsif request.path == '/account/addresses' %}
+          {{ 'Addresses' }}
+        {% else %}
+          {{ page.title }}
+        {% endif %}
+    {% else %}
+        {{ page.title }}
+    {% endif %}
+</span>
