@@ -28,15 +28,14 @@
         "h1 {font-family: \"Cooper BT\"; font-size: 36px; font-weight: 400;}"
       ],
       "settings": {
-        "heading": "<p>Welcome to <br/>The Comfort Club</p>",
-        "text": "<p>Earn rewards on the products you love, redeem them for discounts, and get closer to the comfort you've been dreaming of.<\/p>",
         "image": "shopify:\/\/shop_images\/TIJ_Header_Image_1.png",
-        "bg": "#f0eee7"
+        "bg": "#f0eee7",
+        "heading": "<p>Welcome to <br\/>The Comfort Club<\/p>",
+        "text": "<p>Earn rewards on the products you love, redeem them for discounts, and get closer to the comfort you've been dreaming of.<\/p>"
       }
-    }, 
+    },
     "steps": {
       "type": "steps",
-      "disabled": true,
       "blocks": {
         "c9510138-d8f9-44ab-9183-63b8f927728f": {
           "type": "step",
@@ -65,6 +64,7 @@
         "ab290d6e-8226-418b-9072-6f83b1f3c0a3",
         "d6d1fba0-8b83-4566-91cb-b63bd1c03aad"
       ],
+      "disabled": true,
       "custom_css": [
         "h2 {font-family: \"Cooper BT\"; font-size: 36px; font-weight: 400; letter-spacing: 0.5px;}"
       ],
@@ -198,7 +198,6 @@
     },
     "faq": {
       "type": "faq",
-      "disabled": true,
       "blocks": {
         "9b5c0ffa-90aa-48ba-a673-1db838d88529": {
           "type": "question",
@@ -283,6 +282,7 @@
         "c9d41c24-194e-45fa-a394-510ab1aa5e35",
         "4504e1a3-ccc5-41f6-acfd-e8decc07a9d6"
       ],
+      "disabled": true,
       "custom_css": [
         "h1 {font-family: \"Cooper BT\"; font-size: 36px; font-weight: 400;}"
       ],

@@ -63,12 +63,21 @@
         gap: 1rem;
         flex-direction: column;
     }
-    comfort-club-redeem .yotpo-coupons-redemption-widget .yotpo-redemption-option-container.yotpo-redemption-no-background:not(.yotpo-is-mobile){
+    comfort-club-redeem .yotpo-coupons-redemption-widget .yotpo-redemption-option-container.yotpo-redemption-no-background {
         width: 100%;
         border: none;
     }
     comfort-club-redeem .yotpo-coupons-redemption-widget .yotpo-redemption-option-grid {
         gap: 8px !important;
+    }
+
+    comfort-club-redeem .yotpo-coupons-redemption-widget .yotpo-coupouns-container.yotpo-is-mobile { 
+        width: 100%;
+    }
+    @media screen and (min-width: 768px) {
+        comfort-club-redeem .yotpo-coupons-redemption-widget .yotpo-coupouns-container.yotpo-is-mobile { 
+            width: 90%;
+        }
     }
 
     /*  */

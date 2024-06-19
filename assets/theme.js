@@ -2489,7 +2489,6 @@
     connectedCallback() {
       super.connectedCallback();
       this.delegate.on('click', '.popover__overlay', () => (this.open = false));
-      this.updateAriaCurrent();
     }
     attributeChangedCallback(name, oldValue, newValue) {
       super.attributeChangedCallback(name, oldValue, newValue);
@@ -2497,23 +2496,6 @@
         case 'open':
           document.documentElement.classList.toggle('lock-mobile', this.open);
       }
-    }
-
-    updateAriaCurrent() {
-      const currentUrl = window.location.href;
-      const links = this.querySelectorAll('.popover__choice-item');
-
-      links.forEach(link => {
-        const linkUrl = link.getAttribute('data-url');
-        const ariaCurrentLabel = link.querySelector('.popover__choice-label');
-        // ariaCurrentLabel.setAttribute('aria-current', 'false');
-        // if (currentUrl.includes(linkUrl)) {
-        //     ariaCurrentLabel.setAttribute('aria-current', 'true');
-        // } else {
-        //     ariaCurrentLabel.setAttribute('aria-current', 'false');
-        // }
-      });
-
     }
   };
   window.customElements.define('popover-content', PopoverContent);
@@ -9642,6 +9624,19 @@ class AccountComfortClub extends HTMLElement {
           .catch(error => console.error('Error fetching Redeem options:', error));
   }
 
+  updateVipTiers(data){
+    this.yoptoVipTiers = data;
+
+    // map object to add urls
+    this.yoptoVipTiers.map( tier => {
+      var planElement = [...this.planAdvantagesElements].filter( element => tier.name.toLowerCase().replace(' ', '').indexOf(element.dataset.advantageKey) >= 0 );
+      if(planElement.length > 0) {
+        tier.url = planElement[0].dataset.advantageUrl;
+      }
+      else tier.url = '#';
+    });
+  }
+
   updatePlanDetails(data) {
 
       this.yoptoCustomerData = data;
@@ -9652,8 +9647,8 @@ class AccountComfortClub extends HTMLElement {
         this.planNameElement.innerHTML = this.currentVipTiers.name;
         
         // Plan advantages
-        const advantageToDisplay = [...this.planAdvantagesElements].filter( element => element.dataset.advantageKey === this.currentVipTiers.name.toLowerCase().replace(' ', '') );
-        if(advantageToDisplay.length === 0) {
+        const advantageToDisplay = [...this.planAdvantagesElements].filter( element => this.currentVipTiers.name.toLowerCase().replace(' ', '').indexOf(element.dataset.advantageKey) >= 0 );
+        if(advantageToDisplay.length > 0) {
           this.planAdvantagesElements.forEach( element => element.classList.add('hidden') ); // hide all
           advantageToDisplay.forEach( element => element.classList.remove('hidden') ); // display relevent
         }
@@ -9662,25 +9657,18 @@ class AccountComfortClub extends HTMLElement {
         // Plan upgrage
         this.nextVipTiers = this.getNextVipTiersByName( this.yoptoCustomerData.vip_tier_name );
         if(this.nextVipTiers) {
-          const planDetails = `Spend another \$${this.yoptoCustomerData.vip_tier_upgrade_requirements['amount_cents_needed'] / 100} and become a ${this.nextVipTiers.name}.`;
+          const planDetails = `Spend another \$${this.yoptoCustomerData.vip_tier_upgrade_requirements['amount_cents_needed'] / 100} and become a <a href="${this.nextVipTiers.url}">${this.nextVipTiers.name}</a>.`;
           this.planUpgradeElement.innerHTML = planDetails;
 
           this.planUpgradeElement.classList.remove('hidden');
         }
         else this.planUpgradeElement.classList.add('hidden');
-      } // else this.planUpgradeElement.classList.add('hidden');
+
+
+      }
 
       //
       this.fetchRedeemOptions();
-  }
-
-  updateVipTiers(data){
-    this.yoptoVipTiers = data;
-
-    // map object to add urls
-    this.yoptoVipTiers.map( tier => {
-
-    });
   }
 
   updateRedeemOptions(data){

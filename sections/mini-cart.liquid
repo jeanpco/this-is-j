@@ -55,8 +55,22 @@
     </div>
   {%- else -%}
     <div class="drawer__content">
-      {%- if settings.cart_show_free_shipping_threshold and settings.cart_free_shipping_threshold != '' and cart.requires_shipping -%}
-        {%- assign free_shipping_thresholds = settings.cart_free_shipping_threshold | remove: ' ' | split: ',' -%}
+
+      {% assign cart_free_shipping_threshold = settings.cart_free_shipping_threshold  %}
+      {% if customer and settings.cart_show_free_shipping_threshold%}
+          {% if customer.tags contains 'swell_vip_comfort connoiseeur'  %}
+              {% assign cart_free_shipping_threshold = settings.cart_free_shipping_threshold_connoiseeur  %}
+            
+          {% elsif  customer.tags contains 'swell_vip_comfort lover'  %}
+              {% assign cart_free_shipping_threshold = settings.cart_free_shipping_threshold_lover  %}
+
+          {% elsif  customer.tags contains 'swell_vip_comfort seeker'  %}
+              {% assign cart_free_shipping_threshold = settings.cart_free_shipping_threshold_seeker  %}
+          {% endif %}
+      {% endif %}
+
+      {%- if settings.cart_show_free_shipping_threshold and cart_free_shipping_threshold != '' and cart.requires_shipping -%}
+        {%- assign free_shipping_thresholds = cart_free_shipping_threshold | remove: ' ' | split: ',' -%}
         {%- assign has_found_matching_threshold = false -%}
 
         {%- if free_shipping_thresholds.size > 1 -%}
@@ -107,7 +121,6 @@
           </free-shipping-bar>
         {%- endif -%}
       {%- endif -%}
-
 
       {%- if section.settings.comfort_club_note != blank -%}
         <div id="yotpo-product-points-widget" class="yotpo-cart yotpo-product-points-widget yotpo-widget-override-css">
