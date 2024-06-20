@@ -1,5 +1,4 @@
 {% if customer %}
-    {% comment %} <account-comfort-club data-customer="mmacmurtry@nspes.ca"> {% endcomment %}
     <account-comfort-club data-customer="{{- customer.email -}}">
         {%- comment -%}  section-comfort-loyalty {%- endcomment -%}
         {%- render 'comfort-club-plan' -%}
@@ -27,6 +26,44 @@
       "label": "Enable Comfort Club link",
       "default": false
     },
+    {
+      "type": "header",
+      "content": "Comfort Club Details",
+      "info": "Write down the details of the Comfort Club here. If content page exist, please provide the url too"
+    },
+        {
+          "type": "richtext",
+          "id": "seeker_description",
+          "label": "Comfort Seeker - Description",
+          "default": "<ul><li>Seeker advantage 1<\/li><li>Seeker advantage 2<\/li><li>Seeker advantage 3<\/li><li>Seeker advantage 4<\/li><li>etc..<\/li><\/ul>"
+        },
+        {
+          "type": "url",
+          "id": "seeker_url",
+          "label": "Comfort Seeker - Url"
+        },
+        {
+          "type": "richtext",
+          "id": "lover_description",
+          "label": "Comfort Lover - Description",
+          "default": "<ul><li>Lover advantage 1<\/li><li>Lover advantage 2<\/li><li>Lover advantage 3<\/li><li>Lover advantage 4<\/li><li>etc..<\/li><\/ul>"
+        },
+        {
+          "type": "url",
+          "id": "lover_url",
+          "label": "Comfort Lover - Url"
+        },
+        {
+          "type": "richtext",
+          "id": "connoiseeur_description",
+          "label": "Comfort Connoiseeur - Description",
+          "default": "<ul><li>Connoiseeur advantage 1<\/li><li>Connoiseeur advantage 2<\/li><li>Connoiseeur advantage 3<\/li><li>Connoiseeur advantage 4<\/li><li>etc..<\/li><\/ul>"
+        },
+        {
+          "type": "url",
+          "id": "connoiseeur_url",
+          "label": "Comfort Connoiseeur - Url"
+        },
     {
       "type": "header",
       "content": "Exclusive offers"
@@ -70,28 +107,6 @@
           "type": "url",
           "id": "url",
           "label": "Url"
-        }
-      ]
-    },
-    {
-      "type": "comfort-club-details",
-      "name": "Comfort Club Details",
-      "settings": [
-        {
-          "type": "text",
-          "id": "key",
-          "label": "Key",
-          "default": "Comfort Club"
-        },
-        {
-          "type": "url",
-          "id": "url",
-          "label": "Url"
-        },
-        {
-          "type": "richtext",
-          "id": "description",
-          "label": "Description"
         }
       ]
     }

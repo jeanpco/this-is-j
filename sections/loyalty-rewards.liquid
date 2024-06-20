@@ -4,41 +4,6 @@
   {%- endif -%}
 
   <div class="yotpo-widget-instance" data-yotpo-instance-id="779100"></div>
-
-  {% comment %} <ul class="rewards__list">
-    {%- for block in section.blocks -%}
-      <li id="{{ block.settings.text | handleize }}" class="reward">
-        {%- liquid
-          if block.settings.image
-            echo block.settings.image | image_url: width: 800 | image_tag: class: 'reward__icon'
-          endif
-        -%}
-        <div class="reward__wrapper">
-          <div></div>
-          <p class="reward__title">{{ block.settings.text }}</p>
-          {%- if block.settings.link != blank -%}
-            <a class="reward__button" href="{{ block.settings.link }}">
-              {{- block.settings.button -}}
-            </a>
-          {%- else -%}
-            {%- if customer -%}
-              <button type="button"
-                class="reward__button swell-campaign-link"
-                data-campaign-id="{{ block.settings.campaign }}"
-                data-display-mode="modal"
-              >
-                {{- block.settings.button -}}
-              </button>
-            {%- else -%}
-              <a class="reward__button" href="{{ routes.account_url }}">
-                {{- block.settings.button -}}
-              </a>
-            {%- endif -%}
-          {%- endif -%}
-        </div>
-      </li>
-    {%- endfor -%}
-  </ul> {% endcomment %}
 </div>
 
 <style>
@@ -85,8 +50,9 @@
     align-items: center;
   }
   .rewards .yotpo-description-text {
-      font-family: var(--heading-h2-font-family) !important;
+      font-size: 30px !important;
       line-height: 0.8;
+      font-family: var(--heading-h2-font-family) !important;
   }
   /* widget tiles */
   .rewards .yotpo-widget-campaign-widget .yotpo-outer-tile {
@@ -119,9 +85,17 @@
   }
   .rewards .yotpo-headline-center-element .yotpo-title-text {
     font-family: 'Avenir' !important;
-    font-size: 20px !important;
+    font-size: 14px !important;
     font-weight: 800 !important;
   }
+  @media only screen and (min-width: 769px) {
+      .rewards .yotpo-description-text {
+          font-size: 36px !important;
+      }
+      .rewards .yotpo-headline-center-element .yotpo-title-text {
+        font-size: 20px !important;
+      }
+  }  
 
   /*  */
   /* .rewards__list {
@@ -220,48 +194,6 @@
       "id": "bg",
       "label": "Background",
       "default": "#F9F8F5"
-    }
-  ],
-  "blocks": [
-    {
-      "type": "reward",
-      "name": "Reward",
-      "settings": [
-        {
-          "type": "image_picker",
-          "id": "image",
-          "label": "Image"
-        },
-        {
-          "type": "text",
-          "id": "title",
-          "label": "Title",
-          "default": "Title"
-        },
-        {
-          "type": "text",
-          "id": "text",
-          "label": "Text",
-          "default": "Reward name"
-        },
-        {
-          "type": "text",
-          "id": "button",
-          "label": "Button text",
-          "default": "Redeem"
-        },
-        {
-          "type": "text",
-          "id": "campaign",
-          "label": "Yotpo campaign ID"
-        },
-        {
-          "type": "text",
-          "id": "link",
-          "label": "Link to section",
-          "info": "If filled, the Yotpo redemption will be ignored and the customer will be redirected when clicking the button."
-        }
-      ]
     }
   ]
 }

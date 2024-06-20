@@ -103,7 +103,7 @@
   }
   .hero-cta {
     display: flex;
-    min-height: 45vh;
+    min-height: 25vh;
     position: relative;
   }
 
@@ -121,10 +121,13 @@
   }
 
   @media only screen and (min-width: 768px) {
-  .hero-cta__content-wrapper {
-    /* padding-top: 6rem;
-    padding-bottom: 6rem; */
-  }
+    .hero-cta {
+      min-height: 45vh;
+    }
+    .hero-cta__content-wrapper {
+      /* padding-top: 6rem;
+      padding-bottom: 6rem; */
+    }
     .hero-cta__content {
       max-width: 50%;
     }
@@ -143,6 +146,9 @@
   }
 
   @media only screen and (min-width: 768px) {
+    .hero-cta__text.hero-cta__text {
+      text-align: left;
+    }
     .hero-cta__text.hero-cta__text--logged {
       margin-left: 3.5rem;
       text-align: left;

@@ -2,7 +2,7 @@
     {% style %}
         .comfort-club-exclusive {
             text-align: center;
-            margin: 2.5rem 0 3.5rem;
+            margin: 2.5rem auto 3.5rem;
         }   
         .comfort-club-exclusive .comfort-club-exclusive__wrapper {
             display: flex;
@@ -21,11 +21,11 @@
             margin-bottom: .75rem;
         }
         .comfort-club-exclusive .comfort-club-exclusive__wrapper .comfort-club-exclusive__item-content {
-            line-height: 1.3;
-            font-size: 20px;
+            line-height: 1.2;
         }
         .comfort-club-exclusive .comfort-club-exclusive__wrapper .comfort-club-exclusive__item-content p {
             margin: 0;
+            font-size: 14px;
         }
         @media only screen and (min-width: 769px) {
             .comfort-club-exclusive .comfort-club-exclusive__wrapper {
@@ -35,6 +35,12 @@
             }
             .comfort-club-exclusive .comfort-club-exclusive__wrapper .comfort-club-exclusive__item {
                 width: calc(50% - 1rem);
+            }
+            .comfort-club-exclusive .comfort-club-exclusive__wrapper .comfort-club-exclusive__item-content {
+                line-height: 1.3;
+            }
+            .comfort-club-exclusive .comfort-club-exclusive__wrapper .comfort-club-exclusive__item-content p {
+                font-size: 20px;
             }
         }   
     {% endstyle %}

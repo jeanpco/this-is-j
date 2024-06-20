@@ -9563,6 +9563,7 @@ class AccountComfortClub extends HTMLElement {
       this.queryUrls['redeem_options'] = `https://loyalty.yotpo.com/api/v2/redemption_options?customer_email=${ this.customerEmail }&api_key=${window.themeVariables.settings.comfort_club_api_key}&guid=${window.themeVariables.settings.comfort_club_guid}`;
 
       this.planNameElement = this.querySelector('[plan-name]');
+      this.upgradePlanAmountElement = this.querySelector('[upgrade-amount]');
       this.planUpgradeElement = this.querySelector('[plan-upgrade-requirements]');
       this.planAdvantagesElements = this.querySelectorAll('[data-advantage-key]');
 
@@ -9644,25 +9645,28 @@ class AccountComfortClub extends HTMLElement {
       
       if(this.yoptoCustomerData && this.currentVipTiers) {
         // Plan name
-        this.planNameElement.innerHTML = this.currentVipTiers.name;
+        // this.planNameElement.innerHTML = this.currentVipTiers.name;
         
         // Plan advantages
-        const advantageToDisplay = [...this.planAdvantagesElements].filter( element => this.currentVipTiers.name.toLowerCase().replace(' ', '').indexOf(element.dataset.advantageKey) >= 0 );
-        if(advantageToDisplay.length > 0) {
-          this.planAdvantagesElements.forEach( element => element.classList.add('hidden') ); // hide all
-          advantageToDisplay.forEach( element => element.classList.remove('hidden') ); // display relevent
-        }
-        else this.planAdvantagesElements.forEach( element => element.classList.add('hidden') ); // hide all
+        // const advantageToDisplay = [...this.planAdvantagesElements].filter( element => this.currentVipTiers.name.toLowerCase().replace(' ', '').indexOf(element.dataset.advantageKey) >= 0 );
+        // if(advantageToDisplay.length > 0) {
+        //   this.planAdvantagesElements.forEach( element => element.classList.add('hidden') ); // hide all
+        //   advantageToDisplay.forEach( element => element.classList.remove('hidden') ); // display relevent
+        // }
+        // else this.planAdvantagesElements.forEach( element => element.classList.add('hidden') ); // hide all
         
         // Plan upgrage
-        this.nextVipTiers = this.getNextVipTiersByName( this.yoptoCustomerData.vip_tier_name );
-        if(this.nextVipTiers) {
-          const planDetails = `Spend another \$${this.yoptoCustomerData.vip_tier_upgrade_requirements['amount_cents_needed'] / 100} and become a <a href="${this.nextVipTiers.url}">${this.nextVipTiers.name}</a>.`;
-          this.planUpgradeElement.innerHTML = planDetails;
-
-          this.planUpgradeElement.classList.remove('hidden');
+        if(this.upgradePlanAmountElement) {
+          this.upgradePlanAmountElement.innerHTML = "$" + this.yoptoCustomerData.vip_tier_upgrade_requirements['amount_cents_needed'] / 100;
         }
-        else this.planUpgradeElement.classList.add('hidden');
+        // this.nextVipTiers = this.getNextVipTiersByName( this.yoptoCustomerData.vip_tier_name );
+        // if(this.nextVipTiers) {
+        //   const planDetails = `Spend another \$${this.yoptoCustomerData.vip_tier_upgrade_requirements['amount_cents_needed'] / 100} and become a <a href="${this.nextVipTiers.url}">${this.nextVipTiers.name}</a>.`;
+        //   this.planUpgradeElement.innerHTML = planDetails;
+
+        //   this.planUpgradeElement.classList.remove('hidden');
+        // }
+        // else this.planUpgradeElement.classList.add('hidden');
 
 
       }

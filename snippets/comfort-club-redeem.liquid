@@ -40,6 +40,11 @@
     comfort-club-redeem .yotpo-points-balance {
         display: none;
     }
+    comfort-club-redeem .yotpo-coupons-redemption-widget .yotpo-description {
+        font-size: 14px !important;
+        line-height: 1.3;
+        font-family: 'Avenir' !important;
+    }
     comfort-club-redeem .yotpo-redemption-option-cost {
         font-family: 'Avenir' !important;
         font-size: 20px !important;
@@ -60,12 +65,13 @@
     }
     comfort-club-redeem .yotpo-coupons-redemption-widget .yotpo-redemption-options-list {
         display: flex;
-        gap: 1rem;
         flex-direction: column;
+        align-items: center;
     }
     comfort-club-redeem .yotpo-coupons-redemption-widget .yotpo-redemption-option-container.yotpo-redemption-no-background {
         width: 100%;
         border: none;
+        padding: 0.5rem 0;
     }
     comfort-club-redeem .yotpo-coupons-redemption-widget .yotpo-redemption-option-grid {
         gap: 8px !important;
@@ -75,8 +81,16 @@
         width: 100%;
     }
     @media screen and (min-width: 768px) {
+        comfort-club-redeem .yotpo-coupons-redemption-widget .yotpo-description {
+            font-size: 16px !important;
+        }
         comfort-club-redeem .yotpo-coupons-redemption-widget .yotpo-coupouns-container.yotpo-is-mobile { 
             width: 90%;
+        }
+        comfort-club-redeem .yotpo-coupons-redemption-widget .yotpo-redemption-options-list {
+            display: grid;
+            gap: 1rem;
+            grid-template-columns: repeat(4, minmax(200px, 1fr));
         }
     }
 
@@ -94,11 +108,6 @@
         }
         comfort-club-redeem .redeem-redemption-history {
             margin-bottom: 3.5rem;
-        }
-        comfort-club-redeem .yotpo-coupons-redemption-widget .yotpo-redemption-options-list {
-            display: grid;
-            gap: 1rem;
-            grid-template-columns: repeat(4, minmax(200px, 1fr));
         }
     }
 
@@ -127,8 +136,8 @@
     comfort-club-redeem table tr {
         text-align: center;
     }
-    comfort-club-redeem table tbody tr {
-        border-bottom: 1px solid black;
+    comfort-club-redeem table tbody tr:not(:first-of-type) {
+        border-top: 1px solid black;
     }
     comfort-club-redeem table th.simple,
     comfort-club-redeem table td.simple {
@@ -142,7 +151,6 @@
         text-align: left;
     }
     @media screen and (min-width: 768px) {
-        
         comfort-club-redeem table td {
             font-size: 16px;
             line-height: 1.3;
