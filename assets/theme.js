@@ -8419,6 +8419,7 @@
       const addToCarts = this.querySelectorAll('[type="submit"]');
 
       if (addToCarts.length) {
+
         this.querySelectorAll('[name="id"]').forEach((el) => {
           el.addEventListener('change', () => {
             if (el.value) {
@@ -8427,6 +8428,10 @@
               });
             }
           });
+          if (el.localName ==  'input' && el.checked) 
+            addToCarts.forEach((submit) => {
+              submit.disabled = false;
+            });
         });
       }
     }
