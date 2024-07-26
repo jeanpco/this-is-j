@@ -80,7 +80,7 @@ IMPLEMENTATION NOTE: the header in Focal is pretty complex as it allows a lot of
       {%- for block in brand_blocks -%}
         {%- if block.settings.title != empty and block.settings.logo and block.settings.home -%}
           <li class="brand{% if block.settings.title == active_brand.settings.title %} brand--active{% endif %}">
-            <a class="brand__link" href="{{ block.settings.home }}">
+            <a class="brand__link" href="{{ block.settings.home }}?">
               {%- liquid
                 if block.settings.title == active_brand.settings.title and block.settings.brand_logo_active
                   assign logo = block.settings.brand_logo_active

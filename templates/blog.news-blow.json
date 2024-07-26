@@ -3,7 +3,7 @@
     "main": {
       "type": "main-blog",
       "custom_css": [
-
+        "h3 {font-size: 22px; font-family: BV Celine; font-weight: 400}"
       ],
       "settings": {
         "show_blog_title": false,

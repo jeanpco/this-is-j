@@ -3,6 +3,56 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "0a4416e7-5b14-4e98-a91e-08b416cbdb5e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard_1Caftan-carousel-header.jpg",
+            "mute_toggle": true,
+            "font": "'BV Celine', serif",
+            "text_position": "bottom_center",
+            "subheading": "the effortlessly chic",
+            "title": "Caftan",
+            "subheading_font_size_m": 12,
+            "subheading_font_size_d": 14,
+            "heading_font_size_m": 48,
+            "heading_font_size_d": 68,
+            "description": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "BROWSE CAFTANS",
+            "button_2_link": "https:\/\/thisisj.com\/collections\/caftans",
+            "text_color": "#ffffff",
+            "button_background": "#f58186",
+            "button_text_color": "#0b2136",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 34
+          }
+        },
+        "2af3691f-48a8-40da-b6a5-be47cf654e2d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ThisIsJ-SummerBliss-TieDye-Mixed-Colourway-May2425907_f6f95720-2559-4179-90b6-75ab3c7d68f7.jpg",
+            "mute_toggle": false,
+            "font": "'BV Celine', serif",
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "Summer Bliss",
+            "subheading_font_size_m": 14,
+            "subheading_font_size_d": 14,
+            "heading_font_size_m": 32,
+            "heading_font_size_d": 58,
+            "description": "The essence of sun-soaked days and balmy summer nights",
+            "button_1_text": "SHOP NEW TIE DYE PJs",
+            "button_1_link": "shopify:\/\/collections\/tie-dye-summer-bliss-collection",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1), rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 10
+          }
+        },
         "63738099-eeb5-4d1b-9068-d3d0bbb3158a": {
           "type": "image",
           "disabled": true,
@@ -29,56 +79,29 @@
             "overlay_opacity": 0
           }
         },
-        "2af3691f-48a8-40da-b6a5-be47cf654e2d": {
+        "5f50728c-97ef-40f0-9fa4-5ca1e43925bc": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/hp_hero_2_7.jpg",
+            "image": "shopify:\/\/shop_images\/Summer-Sale-2024-Carousel-Header.jpg",
             "mute_toggle": false,
             "font": "'BV Celine', serif",
-            "text_position": "bottom_center",
-            "subheading": "use code: 4MOM20",
-            "title": "",
+            "text_position": "middle_left",
+            "subheading": "",
+            "title": "Summer Sale",
             "subheading_font_size_m": 12,
             "subheading_font_size_d": 13,
-            "heading_font_size_m": 36,
-            "heading_font_size_d": 64,
-            "description": "Treat yourself to 20% off! Valid this weekend on all regular price merchandise.",
-            "button_1_text": "SHOP NOW!",
-            "button_1_link": "shopify:\/\/collections\/mothers-day",
+            "heading_font_size_m": 46,
+            "heading_font_size_d": 68,
+            "description": "Up to 60% off",
+            "button_1_text": "shop summer sale",
+            "button_1_link": "https:\/\/thisisj.com\/collections\/sale",
             "button_2_text": "",
             "button_2_link": "",
             "text_color": "#1c1b1b",
-            "button_background": "#bc345f",
-            "button_text_color": "#ffffff",
-            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1), rgba(255, 255, 255, 0) 60%)",
-            "overlay_opacity": 0
-          }
-        },
-        "5f50728c-97ef-40f0-9fa4-5ca1e43925bc": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/24-05-01-MDay-Top_Picks_site_hero_V1-optimize.gif",
-            "mute_toggle": false,
-            "font": "'Cooper BT', serif",
-            "text_position": "bottom_center",
-            "subheading": "",
-            "title": "Playful Comfort for MOM",
-            "subheading_font_size_m": 12,
-            "subheading_font_size_d": 13,
-            "heading_font_size_m": 36,
-            "heading_font_size_d": 64,
-            "description": "Give her the gift of relaxation this Mother's Day.",
-            "button_1_text": "SHOP FOR MOM",
-            "button_1_link": "shopify:\/\/collections\/mothers-day",
-            "button_2_text": "",
-            "button_2_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#79f5ce",
-            "button_text_color": "#000000",
+            "button_background": "#1c1b1b",
+            "button_text_color": "#faf8f2",
             "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
-            "overlay_opacity": 16
+            "overlay_opacity": 8
           }
         },
         "651bdab3-a6ac-4b78-aa18-f8b4cc25d911": {
@@ -208,33 +231,6 @@
             "overlay_opacity": 25
           }
         },
-        "0a4416e7-5b14-4e98-a91e-08b416cbdb5e": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/EmmyFlower_CollectionHeader_v2.jpg",
-            "video": "shopify:\/\/files\/videos\/Emmy-Flower-Launch-Web-Final.mov",
-            "mute_toggle": true,
-            "font": "'BV Celine', serif",
-            "text_position": "middle_center",
-            "subheading": "Hello again",
-            "title": "Emmy Flower Sleepwear",
-            "subheading_font_size_m": 12,
-            "subheading_font_size_d": 13,
-            "heading_font_size_m": 36,
-            "heading_font_size_d": 64,
-            "description": "Whimsical Details & Delicate Flowers... Experience the Comfort",
-            "button_1_text": "",
-            "button_1_link": "https:\/\/thisisj.com\/collections\/emmy-flower",
-            "button_2_text": "SHOP EMMY FLOWER",
-            "button_2_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#f7e0c1",
-            "button_text_color": "#1c1b1b",
-            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
-            "overlay_opacity": 10
-          }
-        },
         "d614789a-a1dd-4a1f-824e-7fd99a25c6d7": {
           "type": "image",
           "disabled": true,
@@ -290,15 +286,15 @@
         }
       },
       "block_order": [
-        "63738099-eeb5-4d1b-9068-d3d0bbb3158a",
+        "0a4416e7-5b14-4e98-a91e-08b416cbdb5e",
         "2af3691f-48a8-40da-b6a5-be47cf654e2d",
+        "63738099-eeb5-4d1b-9068-d3d0bbb3158a",
         "5f50728c-97ef-40f0-9fa4-5ca1e43925bc",
         "651bdab3-a6ac-4b78-aa18-f8b4cc25d911",
         "2da0b997-5a90-4854-8226-9f11794b4268",
         "b24eb5a9-a144-43c5-aa6e-553164408fa6",
         "41ae075a-1376-49e3-8690-26f8fc04c23e",
         "60beccfe-7cd8-448e-9d7f-23b6860fc3a4",
-        "0a4416e7-5b14-4e98-a91e-08b416cbdb5e",
         "d614789a-a1dd-4a1f-824e-7fd99a25c6d7",
         "image_qjRPmG"
       ],
@@ -419,22 +415,22 @@
     "0b66a79c-f620-44ef-b547-dcd702ada368": {
       "type": "featured-collections",
       "blocks": {
-        "b4237bd7-efab-4d5d-afd2-bd64ddd09866": {
+        "89a5a7f6-cbd3-4761-afe4-b400e5ff692f": {
           "type": "collection",
           "settings": {
-            "collection": "emmy-flower-brown",
-            "label": "Emmy Flower Brown",
+            "collection": "tie-dye-crush",
+            "label": "Tie Dye Crush",
             "button_text": "VIEW COLLECTION",
-            "button_url": "shopify:\/\/collections\/emmy-flower-brown"
+            "button_url": "shopify:\/\/collections\/tie-dye-crush"
           }
         },
         "14c55113-a7c2-45db-ad2e-f2c840d4eb36": {
           "type": "collection",
           "settings": {
-            "collection": "emmy-flower-charcoal-blue",
-            "label": "Emmy Flower Charcoal",
+            "collection": "tie-dye-tropical-breeze-collection",
+            "label": "Tie Dye Tropical Breeze",
             "button_text": "VIEW COLLECTION",
-            "button_url": "shopify:\/\/collections\/emmy-flower-charcoal-blue"
+            "button_url": "shopify:\/\/collections\/tie-dye-tropical-breeze-collection"
           }
         },
         "1d0d589f-470b-4725-a0d1-ce66fc0c4517": {
@@ -446,13 +442,13 @@
             "button_url": "shopify:\/\/collections\/sketch-flower-heather-grey"
           }
         },
-        "89a5a7f6-cbd3-4761-afe4-b400e5ff692f": {
+        "b4237bd7-efab-4d5d-afd2-bd64ddd09866": {
           "type": "collection",
           "settings": {
-            "collection": "70s-flower-navy",
-            "label": "70s Flower Navy",
+            "collection": "emmy-flower-brown",
+            "label": "Emmy Flower Brown",
             "button_text": "VIEW COLLECTION",
-            "button_url": "shopify:\/\/collections\/70s-flower-navy"
+            "button_url": "shopify:\/\/collections\/emmy-flower-brown"
           }
         },
         "collection_gqHEp9": {
@@ -467,10 +463,10 @@
         }
       },
       "block_order": [
-        "b4237bd7-efab-4d5d-afd2-bd64ddd09866",
+        "89a5a7f6-cbd3-4761-afe4-b400e5ff692f",
         "14c55113-a7c2-45db-ad2e-f2c840d4eb36",
         "1d0d589f-470b-4725-a0d1-ce66fc0c4517",
-        "89a5a7f6-cbd3-4761-afe4-b400e5ff692f",
+        "b4237bd7-efab-4d5d-afd2-bd64ddd09866",
         "collection_gqHEp9"
       ],
       "custom_css": [
@@ -702,7 +698,7 @@
     "163108d7-e266-4758-88d4-8858f759871c": {
       "type": "blog-posts",
       "custom_css": [
-        "h3 {font-size: 22px;}"
+        "h3 {font-size: 22px; font-family: BV Celine; font-weight: 400;}"
       ],
       "settings": {
         "blog": "comfort-series",

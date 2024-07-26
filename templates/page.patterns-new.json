@@ -1,0 +1,531 @@
+{
+  "sections": {
+    "bcd16921-ce9d-4288-9d05-d560fec930e4": {
+      "type": "rich-text",
+      "custom_css": [
+        "h3 {font-size: 48px;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Our Patterns",
+        "content": "<p>There is something about patterned pajamas that reminds us of our childhood. We try to instill a bit of that care-free comfort and joy with our fun, playful fabric patterns.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "#faf8f2",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "image_with_text_overlay_gzWzGN": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "small",
+        "image": "shopify:\/\/shop_images\/Artboard_5TieDyekids-v2.jpg",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "boxed",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+        "overlay_opacity": 12
+      }
+    },
+    "rich_text_qLqyHk": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Tie Dye",
+        "content": "<p>Bring to life the essence of sun-soaked days and balmy summer nights, perfect for remaining in blissful relaxation.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "79b994f3-a6f3-4be0-937b-39d6aa7f3653": {
+      "type": "featured-collections",
+      "blocks": {
+        "f321d6e0-c59e-421f-b2bf-61fea8f0a1d3": {
+          "type": "collection",
+          "settings": {
+            "collection": "tie-dye-summer-bliss-collection",
+            "label": "Summer bliss collection",
+            "button_text": "View Collection",
+            "button_url": "shopify:\/\/collections\/tie-dye-summer-bliss-collection"
+          }
+        },
+        "template--20427016470809__79b994f3-a6f3-4be0-937b-39d6aa7f3653-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "sunset-slumber-tie-dye-collection",
+            "label": "sunset slumber collection",
+            "button_text": "View Collection",
+            "button_url": "shopify:\/\/collections\/sunset-slumber-tie-dye-collection"
+          }
+        },
+        "collection_iXTHTL": {
+          "type": "collection",
+          "settings": {
+            "collection": "tie-dye-black",
+            "label": "",
+            "button_text": "View Collection",
+            "button_url": "https:\/\/thisisj.com\/collections\/tie-dye-black"
+          }
+        },
+        "343cffcb-1ea3-4ff7-8902-f96a84a5aa0a": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "tie-dye-electric-dreams",
+            "label": "",
+            "button_text": "View Collection",
+            "button_url": "shopify:\/\/collections\/sunset-slumber-tie-dye-collection"
+          }
+        }
+      },
+      "block_order": [
+        "f321d6e0-c59e-421f-b2bf-61fea8f0a1d3",
+        "template--20427016470809__79b994f3-a6f3-4be0-937b-39d6aa7f3653-collection-1",
+        "collection_iXTHTL",
+        "343cffcb-1ea3-4ff7-8902-f96a84a5aa0a"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "products_count": 6,
+        "products_per_row": 6,
+        "stack_products": false,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "b7e16cda-98a6-47ee-b593-7b88b504e356": {
+      "type": "image-with-text-overlay",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "small",
+        "image": "shopify:\/\/shop_images\/Headers-Family-Matching-Sketch-Flower-Heather-Grey.jpg",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "boxed",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+        "overlay_opacity": 25
+      }
+    },
+    "rich_text_KGnxyW": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Sketch Flower",
+        "content": "<p>Capturing the nostalgic charm of handcrafted embroidery. Sketched lines mimic needle stitches adding depth and dimension to each hand drawn flower.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "50f6138f-cfa6-44ed-8966-16ca3a42ba6e": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--17915522580761__50f6138f-cfa6-44ed-8966-16ca3a42ba6e-1683900611e05c10e1-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "sketch-flower-heather-grey",
+            "label": "Sketch flower heather grey",
+            "button_text": "View Collection",
+            "button_url": "shopify:\/\/collections\/sketch-flower-collection"
+          }
+        },
+        "3ec999ac-9c24-4617-8b12-5be3cd5e0e08": {
+          "type": "collection",
+          "settings": {
+            "collection": "sketch-flower",
+            "label": "Sketch flower black",
+            "button_text": "View Collection",
+            "button_url": "shopify:\/\/collections\/sketch-flower-collection"
+          }
+        }
+      },
+      "block_order": [
+        "template--17915522580761__50f6138f-cfa6-44ed-8966-16ca3a42ba6e-1683900611e05c10e1-0",
+        "3ec999ac-9c24-4617-8b12-5be3cd5e0e08"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "products_count": 50,
+        "products_per_row": 6,
+        "stack_products": false,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "e211d227-68d6-4f4a-9f72-bd390e613d7f": {
+      "type": "image-with-text-overlay",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "small",
+        "image": "shopify:\/\/shop_images\/EmmyFlower_CollectionHeader_v2.jpg",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "https:\/\/thisisj.com\/collections\/emmy-flower",
+        "link_style": "link",
+        "background_type": "boxed",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+        "overlay_opacity": 25
+      }
+    },
+    "rich_text_Xxpd9r": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Emmy Flower",
+        "content": "<p>Hello again, Emmy Flower! This pattern remains one of our most loved and sought after florals for its whimsical illustration, soft floral details and tranquil design. Experience the comfort of Emmy Flower in two new colourways.  <\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "6822df82-bc43-4b0e-ac16-2e6683486830": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--17915522580761__6822df82-bc43-4b0e-ac16-2e6683486830-168389959488378107-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "emmy-flower-brown",
+            "label": "EMMY FLOWER BROWN & PINK",
+            "button_text": "View Collection",
+            "button_url": "shopify:\/\/collections\/emmy-flower-brown"
+          }
+        },
+        "collection_iK8rnj": {
+          "type": "collection",
+          "settings": {
+            "collection": "emmy-flower-charcoal-blue",
+            "label": "EMMY FLOWER CHARCOAL & BLUE",
+            "button_text": "VIEW COLLECTION",
+            "button_url": "https:\/\/thisisj.com\/collections\/emmy-flower"
+          }
+        }
+      },
+      "block_order": [
+        "template--17915522580761__6822df82-bc43-4b0e-ac16-2e6683486830-168389959488378107-0",
+        "collection_iK8rnj"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "products_count": 50,
+        "products_per_row": 6,
+        "stack_products": false,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "acbdf988-9f5e-4c80-a99d-b954a874c312": {
+      "type": "collection-list",
+      "blocks": {
+        "f21e3a96-c746-4dd0-ae33-52120822673d": {
+          "type": "collection",
+          "settings": {
+            "collection": "solid-collection",
+            "image": "shopify:\/\/shop_images\/1_2-2.jpg",
+            "subheading": "",
+            "title": "Solids",
+            "link_text": "VIEW COLLECTION",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 25
+          }
+        },
+        "f6e53f8a-f37a-4f59-aa50-a2f4b1c4158d": {
+          "type": "collection",
+          "settings": {
+            "collection": "stripes-collection",
+            "image": "shopify:\/\/shop_images\/1_4-stripes.jpg",
+            "subheading": "",
+            "title": "Stripes",
+            "link_text": "VIEW COLLECTION",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 25
+          }
+        },
+        "collection_RzTKNE": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Headers-01.jpg",
+            "subheading": "",
+            "title": "Plaid",
+            "link_text": "VIEW COLLECTION",
+            "link_url": "https:\/\/thisisj.com\/collections\/the-plaid-collection",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 15
+          }
+        },
+        "334f692f-51a6-4dd0-9581-61ec18e5d0fb": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "checkerboard-collection",
+            "image": "shopify:\/\/shop_images\/Artboard_88.jpg",
+            "subheading": "",
+            "title": "Checkerboard",
+            "link_text": "VIEW COLLECTION",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 25
+          }
+        },
+        "0892eca5-4944-4395-ad26-28a1ebd320ac": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "sketch-flower",
+            "image": "shopify:\/\/shop_images\/Patterns-Sketch-Flower-Black-7832-1100x1400.jpg",
+            "subheading": "",
+            "title": "Sketch Flower",
+            "link_text": "VIEW COLLECTION",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 25
+          }
+        },
+        "ee011ebe-2817-4e59-8d06-52a68f7edb10": {
+          "type": "collection",
+          "settings": {
+            "collection": "the-tie-dye-collection",
+            "image": "shopify:\/\/shop_images\/1_4-4.jpg",
+            "subheading": "",
+            "title": "Tie Dye",
+            "link_text": "VIEW COLLECTION",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 25
+          }
+        },
+        "d1c0a003-bfd4-4d8a-aaae-85c392612900": {
+          "type": "collection",
+          "settings": {
+            "collection": "colour-block-capsule",
+            "image": "shopify:\/\/shop_images\/1_4-3.jpg",
+            "subheading": "",
+            "title": "Colour Block",
+            "link_text": "VIEW COLLECTION",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 25
+          }
+        },
+        "ec481d8d-6c85-41fd-90f7-b852cdd0d92e": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "the-graphic-collection",
+            "image": "shopify:\/\/shop_images\/1.jpg",
+            "subheading": "",
+            "title": "Graphics",
+            "link_text": "VIEW COLLECTION",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 25
+          }
+        }
+      },
+      "block_order": [
+        "f21e3a96-c746-4dd0-ae33-52120822673d",
+        "f6e53f8a-f37a-4f59-aa50-a2f4b1c4158d",
+        "collection_RzTKNE",
+        "334f692f-51a6-4dd0-9581-61ec18e5d0fb",
+        "0892eca5-4944-4395-ad26-28a1ebd320ac",
+        "ee011ebe-2817-4e59-8d06-52a68f7edb10",
+        "d1c0a003-bfd4-4d8a-aaae-85c392612900",
+        "ec481d8d-6c85-41fd-90f7-b852cdd0d92e"
+      ],
+      "custom_css": [
+        "p {letter-spacing: 1px; font-weight: 700;}",
+        ".link {text-decoration-thickness: 1.5px;}"
+      ],
+      "settings": {
+        "reveal_on_scroll": false,
+        "layout": "carousel",
+        "subheading": "Discover",
+        "title": "More Collections",
+        "background": "#faf8f2",
+        "text_color": "#1c1b1b",
+        "text_shadow_color": "rgba(0,0,0,0)"
+      }
+    },
+    "main": {
+      "type": "main-list-collections",
+      "blocks": {
+        "f1c787ac-b80c-4c8d-9bd2-ef2b5be01d18": {
+          "type": "collection",
+          "settings": {
+            "collection": "colour-block-capsule",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10
+          }
+        },
+        "9b5df00c-ade2-4584-a9f0-06fec10f0b07": {
+          "type": "collection",
+          "settings": {
+            "collection": "varsity-stripe-collection",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "1d9db22f-c8a5-4898-bd67-870400f57be0": {
+          "type": "collection",
+          "settings": {
+            "collection": "the-graphic-collection",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "f1c787ac-b80c-4c8d-9bd2-ef2b5be01d18",
+        "9b5df00c-ade2-4584-a9f0-06fec10f0b07",
+        "1d9db22f-c8a5-4898-bd67-870400f57be0"
+      ],
+      "disabled": true,
+      "settings": {
+        "collections_to_show": "selected",
+        "show_collection_title": true
+      }
+    },
+    "featured_collections_MWUjAU": {
+      "type": "featured-collections",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "products_count": 6,
+        "products_per_row": 6,
+        "stack_products": false,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "image_with_text_overlay_PVWEw7": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "auto",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+        "overlay_opacity": 30
+      }
+    }
+  },
+  "order": [
+    "bcd16921-ce9d-4288-9d05-d560fec930e4",
+    "image_with_text_overlay_gzWzGN",
+    "rich_text_qLqyHk",
+    "79b994f3-a6f3-4be0-937b-39d6aa7f3653",
+    "b7e16cda-98a6-47ee-b593-7b88b504e356",
+    "rich_text_KGnxyW",
+    "50f6138f-cfa6-44ed-8966-16ca3a42ba6e",
+    "e211d227-68d6-4f4a-9f72-bd390e613d7f",
+    "rich_text_Xxpd9r",
+    "6822df82-bc43-4b0e-ac16-2e6683486830",
+    "acbdf988-9f5e-4c80-a99d-b954a874c312",
+    "main",
+    "featured_collections_MWUjAU",
+    "image_with_text_overlay_PVWEw7"
+  ]
+}

@@ -1,40 +1,44 @@
 {
   "sections": {
+    "image_with_text_overlay_wF8X9E": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "auto",
+        "image": "shopify:\/\/shop_images\/Summer_Sale-header-2.jpg",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+        "overlay_opacity": 30
+      }
+    },
     "collection-banner": {
       "type": "collection-banner",
+      "disabled": true,
       "custom_css": [
-        "h1 {font-size: 48px;}"
+
       ],
       "settings": {
         "show_collection_image": true,
-        "show_collection_title": true,
+        "show_collection_title": false,
         "show_collection_description": true,
         "section_height": "small",
         "text_width": "medium",
         "image_text_color": "#ffffff",
         "image_description_color": "#1c1b1b",
         "image_overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
-        "image_overlay_opacity": 15,
+        "image_overlay_opacity": 18,
         "quick_links": ""
-      }
-    },
-    "rich_text_XnbfRq": {
-      "type": "rich-text",
-      "disabled": true,
-      "settings": {
-        "subheading": "",
-        "title": "{{ collection.metafields.custom.collection_description_header.value }}",
-        "content": "<p>{{ collection.metafields.custom.collection_description | metafield_tag }}<\/p>",
-        "button_text": "",
-        "button_link": "",
-        "background_type": "full_width",
-        "text_width": "medium",
-        "text_position": "center",
-        "text_alignment": "center",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
       }
     },
     "main": {
@@ -116,8 +120,8 @@
     }
   },
   "order": [
+    "image_with_text_overlay_wF8X9E",
     "collection-banner",
-    "rich_text_XnbfRq",
     "main",
     "0e110668-8a85-4fc9-8836-debd0255c9bf",
     "34704ab1-2125-4ccc-a04f-8e93573b309b"
