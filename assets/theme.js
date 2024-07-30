@@ -7037,9 +7037,6 @@
 
       this.comingSoon = false;
 
-      // 
-      // if( this.closest(".product-form .product-form__buy-buttons") )
-
       this.comingsoonFound = this.dataset.comingsoonFound === "true";
       this.comingSoonTag = this.dataset.comingsoonTag;
       this.selectedVariant = this.dataset.selectedVariantTitle;
@@ -7054,9 +7051,13 @@
         }
       }
 
+      this.notifyMeButtonElement = this.querySelector( '[data-product-notify-me]');
+      this.addToCartButtonElement = this.querySelector( '[data-product-add-to-cart-button]' );
+      this.paymentButtonElement = this.querySelector('.shopify-payment-button');
+  
       this.comingSoon = Boolean( this.comingsoonFound && this.comingSoonTag && this.comingSoonTag.includes(`comingsoon::${ this.selectedVariant }`) );
 
-      this.initButtonStates();
+      // this.initButtonStates();
     }
     connectedCallback() {
       var _a;
@@ -7089,67 +7090,60 @@
         );
       }
 
-      let addToCartButtonElement = this.querySelector(
-        '[data-product-add-to-cart-button]'
-      );
-      const notifyMeButtonElement = this.querySelector(
-        '[data-product-notify-me]'
-      );
-
-      if (!addToCartButtonElement) {
+      if (!this.addToCartButtonElement) {
         return;
       }
       let addToCartButtonText = '';
-      addToCartButtonElement.classList.remove(
+      this.addToCartButtonElement.classList.remove(
         'button--primary',
         'button--secondary',
         'button--ternary'
       );
 
-      addToCartButtonElement.style.display = 'block';
-      if (notifyMeButtonElement) {
-        notifyMeButtonElement.style.display = 'none';
+      this.addToCartButtonElement.style.display = 'block';
+      if (this.notifyMeButtonElement) {
+        this.notifyMeButtonElement.style.display = 'none';
       }
 
       if (!variant) {
-        addToCartButtonElement.setAttribute('disabled', 'disabled');
-        addToCartButtonElement.classList.add('button--ternary');
+        this.addToCartButtonElement.setAttribute('disabled', 'disabled');
+        this.addToCartButtonElement.classList.add('button--ternary');
         addToCartButtonText =
           window.themeVariables.strings.productFormUnavailable;
       } else {
         if (variant['available'] && !this.comingSoon) {
-          addToCartButtonElement.removeAttribute('disabled');
-          addToCartButtonElement.classList.remove('is-disabled');
-          addToCartButtonElement.classList.add(
-            addToCartButtonElement.hasAttribute('data-use-primary')
+          this.addToCartButtonElement.removeAttribute('disabled');
+          this.addToCartButtonElement.classList.remove('is-disabled');
+          this.addToCartButtonElement.classList.add(
+            this.addToCartButtonElement.hasAttribute('data-use-primary')
               ? 'button--primary'
               : 'button--secondary'
           );
-          addToCartButtonText = addToCartButtonElement.getAttribute(
+          addToCartButtonText = this.addToCartButtonElement.getAttribute(
             'data-button-content'
           );
         } else {
-          addToCartButtonElement.setAttribute('disabled', 'disabled');
-          addToCartButtonElement.classList.add('is-disabled');
-          addToCartButtonElement.classList.add('button--ternary');
+          this.addToCartButtonElement.setAttribute('disabled', 'disabled');
+          this.addToCartButtonElement.classList.add('is-disabled');
+          this.addToCartButtonElement.classList.add('button--ternary');
           addToCartButtonText = this.comingSoon
             ? window.themeVariables.strings.productFormComingSoon
             : window.themeVariables.strings.productFormSoldOut;
 
-          if (notifyMeButtonElement && !tags.includes('Do Not Notify')) {
-            notifyMeButtonElement.style.display = 'block';
+          if (this.notifyMeButtonElement && !tags.includes('Do Not Notify')) {
+            this.notifyMeButtonElement.style.display = 'block';
 
             if ( !this.comingSoon ) {
-              addToCartButtonElement.style.display = 'none';
+              this.addToCartButtonElement.style.display = 'none';
             }
           }
         }
       }
-      if (addToCartButtonElement.getAttribute('is') === 'loader-button') {
-        addToCartButtonElement.firstElementChild.innerHTML = addToCartButtonText;
+      if (this.addToCartButtonElement.getAttribute('is') === 'loader-button') {
+        this.addToCartButtonElement.firstElementChild.innerHTML = addToCartButtonText;
       } else {
         // addToCartButtonElement.innerHTML = addToCartButtonText;
-        addToCartButtonElement.innerHTML = '<span class="loader-button__text">' + addToCartButtonText + '</span>'
+        this.addToCartButtonElement.innerHTML = '<span class="loader-button__text">' + addToCartButtonText + '</span>'
                                            + '<span class="loader-button__loader" hidden=""> '
                                            + '<div class="spinner"> '
                                            + '<svg focusable="false" width="24" height="24" class="icon icon--spinner" viewBox="25 25 50 50"><circle cx="50" cy="50" r="20" fill="none" stroke="currentColor" stroke-width="5"></circle></svg>'
@@ -7158,15 +7152,12 @@
       }
     }
     _updateNotifyMeButton(variant) {
-      const notifyMeButtonElement = this.querySelector(
-        '[data-product-notify-me]'
-      );
 
-      if (!notifyMeButtonElement) {
+      if (!this.notifyMeButtonElement) {
         return;
       }
       const modalID =
-        notifyMeButtonElement?.getAttribute('aria-controls') || '';
+        this.notifyMeButtonElement?.getAttribute('aria-controls') || '';
       const form = document.querySelector(`#${modalID} form`);
 
       if (form) {
@@ -7179,10 +7170,13 @@
           form.product.value = productID;
         }
       }
+
+      // handle display of notify me button
+      if (this.notifyMeButtonElement && this.comingSoon) this.notifyMeButtonElement.style.display = 'block';
+      else this.notifyMeButtonElement.style.display = 'none';
     }
     _updateDynamicCheckoutButton(variant) {
-      let paymentButtonElement = this.querySelector('.shopify-payment-button');
-      if (!paymentButtonElement) {
+      if (!this.paymentButtonElement) {
         return;
       }
 
@@ -7199,22 +7193,19 @@
         );
       }
 
-      paymentButtonElement.style.display =
+      this.paymentButtonElement.style.display =
         !variant || !variant['available'] || this.comingSoon ? 'none' : 'block';
     }
     initButtonStates() {
-      let paymentButtonElement = this.querySelector( '.shopify-payment-button' );
-      let notifyMeButtonElement = this.querySelector( '[data-product-notify-me]' );
-      let addToCartButtonElement = this.querySelector( '[data-product-add-to-cart-button]' );
 
-      if (paymentButtonElement && this.comingSoon) paymentButtonElement.style.display = 'none';
-      if (notifyMeButtonElement && this.comingSoon) notifyMeButtonElement.style.display = 'block';
-      if (addToCartButtonElement && this.comingSoon) {
-          addToCartButtonElement.setAttribute('disabled', 'disabled');
-          addToCartButtonElement.classList.add('is-disabled');
-          addToCartButtonElement.classList.add('button--ternary');
-          addToCartButtonElement.style.display = 'block';
-          addToCartButtonElement.innerHTML = '<span class="loader-button__text">' + window.themeVariables.strings.productFormComingSoon + '</span>'
+      if (this.paymentButtonElement && this.comingSoon) this.paymentButtonElement.style.display = 'none';
+      if (this.notifyMeButtonElement && this.comingSoon) this.notifyMeButtonElement.style.display = 'block';
+      if (this.addToCartButtonElement && this.comingSoon) {
+          this.addToCartButtonElement.setAttribute('disabled', 'disabled');
+          this.addToCartButtonElement.classList.add('is-disabled');
+          this.addToCartButtonElement.classList.add('button--ternary');
+          this.addToCartButtonElement.style.display = 'block';
+          this.addToCartButtonElement.innerHTML = '<span class="loader-button__text">' + window.themeVariables.strings.productFormComingSoon + '</span>'
                                            + '<span class="loader-button__loader" hidden=""> '
                                            + '<div class="spinner"> '
                                            + '<svg focusable="false" width="24" height="24" class="icon icon--spinner" viewBox="25 25 50 50"><circle cx="50" cy="50" r="20" fill="none" stroke="currentColor" stroke-width="5"></circle></svg>'
@@ -8060,6 +8051,13 @@
       ).dataset?.mainProductId;
       // this.product.id is the product id of the currently opened in the product-variant element/container
       this.currentProductId = this.product.id;
+
+      // get block swatchs and click on option if only one is available
+      // const blockSwatches = document.querySelectorAll('.block-swatch');
+      // if( blockSwatches.length == 1 ) blockSwatches[0].querySelector('input').click();
+      // if( blockSwatches.length == 1 ) blockSwatches[0].querySelector('label').click();
+
+      // console.log( blockSwatches );
     }
     get selectedVariant() {
       return this._getVariantById(parseInt(this.masterSelector.value));
@@ -8419,6 +8417,7 @@
       const addToCarts = this.querySelectorAll('[type="submit"]');
 
       if (addToCarts.length) {
+
         this.querySelectorAll('[name="id"]').forEach((el) => {
           el.addEventListener('change', () => {
             if (el.value) {
@@ -8427,6 +8426,10 @@
               });
             }
           });
+          if (el.localName ==  'input' && el.checked) 
+            addToCarts.forEach((submit) => {
+              submit.disabled = false;
+            });
         });
       }
     }
