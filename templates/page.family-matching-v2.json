@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "bcd16921-ce9d-4288-9d05-d560fec930e4": {
@@ -538,6 +547,7 @@
       "block_order": [
         "look_bnKYPx"
       ],
+      "disabled": true,
       "settings": {
         "reveal_on_scroll": false,
         "label": "Shop the looks"
@@ -569,6 +579,7 @@
         "template--21349787074841__71b9e4d5-d557-4417-b716-5bb55c080508-collection-1",
         "c99850a9-5b49-45e9-b557-007881fe8c69"
       ],
+      "disabled": true,
       "settings": {
         "subheading": "",
         "title": "Bookhou x This is J",
