@@ -200,3 +200,44 @@ document.addEventListener('DOMContentLoaded', function() {
       });
   });
 });
+
+
+// / handle account url chamnges
+document.addEventListener("DOMContentLoaded", function() {
+  function showTab(tabId) {
+
+    var selectors = tabId === 'orders' ?
+                    '#main-customers-account-section' :
+                    '.main-customers-comfort-club, .main-loyalty-rewards';
+
+    // var tabs = document.querySelectorAll('.tab-content');
+    var tabs = document.querySelectorAll('#main-customers-account-section, .main-customers-comfort-club, .main-loyalty-rewards');
+    tabs.forEach(function(tab) {
+      // tab.style.display = 'none';
+      tab.classList.add('hideSection');
+    });
+
+    document.querySelectorAll(selectors).forEach( item => item.classList.remove('hideSection') );
+    // document.querySelectorAll(selectors).forEach( item => item.style.display = 'block' );
+  }
+
+  var hash = window.location.hash;
+  if (hash === "#orders") {
+    showTab('orders');
+  } else {
+    showTab('comfortClub');
+  }
+
+  // Optional: Update URL when tab changes
+  var links = document.querySelectorAll('.account-navigation .link-bar__link');
+  links.forEach(function(link) {
+    link.addEventListener('click', function() {
+      if( link.getAttribute('href').indexOf('/account#') === -1 ) return;
+      var targetId = link.getAttribute('href').split('#');
+      if( targetId.length > 0 ) {
+        showTab(targetId ? targetId[1] : 'comfortClub');
+        window.history.pushState(null, null, '#' + targetId);
+      }
+    });
+  });
+});

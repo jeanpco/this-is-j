@@ -10,6 +10,14 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Celine Sans';
+  src: url('./celinesans-webfont.woff2') format('woff2'),
+    url('./celinesans-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .hidden {
   display: none;
 }
@@ -3718,6 +3726,10 @@ p + .button-group,
   text-align: center;
 }
 
+.link-bar.no-shadow {
+  box-shadow: none;
+}
+
 .link-bar__wrapper {
   position: relative;
   display: inline-flex;
@@ -7186,7 +7198,9 @@ input:checked + .popover__choice-label::after,
 }
 
 /* Main account */
-
+#main-customers-account-section {
+  margin: 1rem auto;
+}
 .account__order-table-item:hover .link--animated::after {
   transform: scale(1);
   transform-origin: var(--transform-origin-start);
@@ -12022,6 +12036,11 @@ input:checked + .popover__choice-label::after,
   }
 }
 
+  
+.product__info [data-yotpo-instance-id] .yotpo-product-points-widget * {
+  border-radius: 0 !important;
+}
+
 /* Linklist */
 
 .predictive-search__linklist {
@@ -12257,6 +12276,10 @@ input:checked + .popover__choice-label::after,
     --product-info-width: calc(
       var(--grid-column-width) * 8 + var(--grid-gap) * 7
     );
+  }
+  
+  .product__info [data-yotpo-instance-id] {
+    margin-left: auto;
   }
 }
 
@@ -16100,3 +16123,11 @@ shopify-payment-terms {
   cursor: pointer;
 }
     
+
+.hideSection {
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+  transition: opacity 0.15s ease-out, height 0.1s ease-in;
+  transition-delay: 0s, 0.1s;
+}

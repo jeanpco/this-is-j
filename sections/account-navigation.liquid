@@ -1,6 +1,30 @@
 <div class="account-navigation">
 
-  <div class="link-bar hidden-phone">
+  <style>
+    .account-navigation {
+      padding: 1.5rem 0;
+    }
+    .account-navigation .link-bar__wrapper {
+      padding: .5rem 0;
+      border-bottom: 1px solid #D4D4D4;
+    }
+    .account-navigation .link-bar__wrapper .link-bar__link-item {
+      padding: 0;
+      font-family: Avenir;
+      font-size: 20px;
+      font-weight: 800;
+      line-height: 27.32px;
+      text-transform: uppercase;
+    }
+    .account-navigation .link--animated:after {
+      bottom: -8px;
+    }
+  </style>
+
+
+  {% assign current_url = request.path %}
+
+  <div class="link-bar no-shadow hidden-phone">
     <div class="container">
       <div class="link-bar__wrapper">
         <ul class="link-bar__linklist list--unstyled" role="list">
@@ -8,17 +32,22 @@
               {%- case block.type -%}
                   {%- when 'custom-link' -%}
                     <li class="link-bar__link-item">
-                      <a href="{{ block.settings.url }}" class="link-bar__link link--animated {% if current == 'comfort' %}text--underlined{% endif %}">{{ block.settings.label }}</a>
+                      <a href="{{ block.settings.url }}" class="link-bar__link link--animated {% if request.path ==  block.settings.url  %}text--underlined{% endif %}">{{ block.settings.label }}</a>
+                    </li>
+
+                  {%- when 'club' -%}
+                    <li class="link-bar__link-item">
+                      <a href="{{ routes.account_url }}#comfortClub" class="link-bar__link link--animated {% if request.path contains '#comfortClub' %}text--underlined{% endif %}">{{ 'customer.general.comfortClub' | t }}</a>
                     </li>
 
                   {%- when 'orders' -%}
                     <li class="link-bar__link-item">
-                      <a href="{{ routes.account_url }}" class="link-bar__link link--animated {% if current == 'orders' %}text--underlined{% endif %}">{{ 'customer.orders.title' | t }}</a>
+                      <a href="{{ routes.account_url }}#orders" class="link-bar__link link--animated {% if request.path contains '#orders' %}text--underlined{% endif %}">{{ 'customer.orders.title' | t }}</a>
                     </li>
 
                   {%- when 'addresses' -%}
                     <li class="link-bar__link-item">
-                      <a href="{{ routes.account_addresses_url }}" class="link-bar__link link--animated {% if current == 'addresses' %}text--underlined{% endif %}">{{ 'customer.addresses.title' | t }}</a>
+                      <a href="{{ routes.account_addresses_url }}" class="link-bar__link link--animated {% if request.path == routes.account_addresses_url%}text--underlined{% endif %}">{{ 'customer.addresses.title' | t }}</a>
                     </li>
 
                   {%- when 'logout' -%}
@@ -56,8 +85,13 @@
                   <span class="popover__choice-label" >{{ block.settings.label  }}</span>
                 </a>
 
+              {%- when 'club' -%}
+                <a href="{{ routes.account_url }}#comfortClub" data-url="{{ routes.account_url }}" class="popover__choice-item">
+                  <span class="popover__choice-label" >{{ 'customer.general.comfortClub' | t }}</span>
+                </a>
+
               {%- when 'orders' -%}
-                <a href="{{ routes.account_url }}" data-url="{{ routes.account_url }}" class="popover__choice-item">
+                <a href="{{ routes.account_url }}#orders" data-url="{{ routes.account_url }}" class="popover__choice-item">
                   <span class="popover__choice-label" >{{ 'customer.orders.title' | t }}</span>
                 </a>
 
@@ -105,6 +139,10 @@
           "label": "Label"
         }
       ]
+    },
+    {
+      "type": "club",
+      "name": "Comfort club"
     },
     {
       "type": "orders",

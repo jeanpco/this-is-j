@@ -2,9 +2,6 @@
   "sections": {
     "hero": {
       "type": "hero-loyalty",
-      "custom_css": [
-        "h1 {font-family: \"Cooper BT\"; font-size: 36px; font-weight: 400;}"
-      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/TIJ_Header_Image_1.png",
         "bg": "#f0eee7",
@@ -15,11 +12,9 @@
     "account-nav": {
       "type": "account-navigation",
       "blocks": {
-        "custom-link": {
-          "type": "custom-link",
+        "club": {
+          "type": "club",
           "settings": {
-            "url": "\/pages\/account-comfort-club",
-            "label": "Comfort Club"
           }
         },
         "orders": {
@@ -32,6 +27,13 @@
           "settings": {
           }
         },
+        "custom-link": {
+          "type": "custom-link",
+          "settings": {
+            "url": "\/pages\/loyalty",
+            "label": "Refer friends"
+          }
+        },
         "logout": {
           "type": "logout",
           "settings": {
@@ -39,14 +41,54 @@
         }
       },
       "block_order": [
-        "custom-link",
+        "club",
         "orders",
         "addresses",
+        "custom-link",
         "logout"
       ],
       "settings": {
       }
     },
+    "main-customers-comfort-club": {
+      "type": "customers-comfort-club",
+      "blocks": {
+        "exclusive-1": {
+          "type": "comfort-club-offer",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_2.png",
+            "description": "<p>x the points on all purchases of our best-selling Henley Harem Set<\/p>",
+            "note": "<p>*Offer ends xx\/yy at 11:59 p.m. est<\/p>",
+            "url": ""
+          }
+        },
+        "exclusive-2": {
+          "type": "comfort-club-offer",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_6.png",
+            "description": "<p>x the points on all purchases of our best-selling Henley Harem Set<\/p>",
+            "note": "<p>*Offer ends xx\/yy at 11:59 p.m. est<\/p>",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "exclusive-1",
+        "exclusive-2"
+      ],
+      "settings": {
+        "comfort_club_status": false,
+        "comfort_club_offers_status": true,
+        "comfort_club_offers_title": "Comfort Club Offers"
+      }
+    },
+    "main-loyalty-rewards": {
+      "type": "loyalty-rewards",
+      "settings": {
+        "heading": "Earn more points",
+        "bg": "#ffffff"
+      }
+    }, 
     "main": {
       "type": "main-customers-account",
       "blocks": {
@@ -66,6 +108,8 @@
   "order": [
     "hero",
     "account-nav",
+    "main-customers-comfort-club",
+    "main-loyalty-rewards", 
     "main"
   ]
 }

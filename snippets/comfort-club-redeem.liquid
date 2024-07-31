@@ -2,7 +2,7 @@
     comfort-club-redeem {
         display: block;
         padding: 4rem 0;
-        background-color: #F2EFE0;
+        background-color: rgb(249, 247, 240);
     }
     comfort-club-redeem .redeem-points-options {
         max-width: 900px;
@@ -31,11 +31,10 @@
         padding: 0 !important;
     }
     comfort-club-redeem .yotpo-coupons-redemption-widget .yotpo-headline {
-        font-size: var(--heading-h2-font-size) !important;
-        line-height: 1.13333333;
-        letter-spacing: -0.6px;
-        font-family: var(--heading-h2-font-family) !important;
-        font-weight: var(--heading-font-weight) !important;
+        font-family: Celine Sans !important;
+        font-size: 36px !important;
+        font-weight: 400 !important;
+        line-height: 41.55px !important;
     }
     comfort-club-redeem .yotpo-points-balance {
         display: none;
@@ -64,9 +63,9 @@
         color: black !important;
     }
     comfort-club-redeem .yotpo-coupons-redemption-widget .yotpo-redemption-options-list {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(2, minmax(200px, 1fr));
     }
     comfort-club-redeem .yotpo-coupons-redemption-widget .yotpo-redemption-option-container.yotpo-redemption-no-background {
         width: 100%;
@@ -75,12 +74,23 @@
     }
     comfort-club-redeem .yotpo-coupons-redemption-widget .yotpo-redemption-option-grid {
         gap: 8px !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     comfort-club-redeem .yotpo-coupons-redemption-widget .yotpo-coupouns-container.yotpo-is-mobile { 
         width: 100%;
     }
+    comfort-club-redeem  .yotpo-redemption-confirmation-title {
+        padding-bottom: .5rem !important;
+    }
     @media screen and (min-width: 768px) {
+        comfort-club-redeem .yotpo-coupons-redemption-widget .yotpo-headline {
+            font-size: 50px !important;
+            line-height: 41.55px;
+        }
         comfort-club-redeem .yotpo-coupons-redemption-widget .yotpo-description {
             font-size: 16px !important;
         }
@@ -90,7 +100,7 @@
         comfort-club-redeem .yotpo-coupons-redemption-widget .yotpo-redemption-options-list {
             display: grid;
             gap: 1rem;
-            grid-template-columns: repeat(4, minmax(200px, 1fr));
+            grid-template-columns: repeat(4, minmax(180px, 1fr));
         }
     }
 
@@ -101,6 +111,13 @@
     comfort-club-redeem .redeem-redemption-history {
         margin-bottom: 2.5rem;
     }
+    comfort-club-redeem .redeem-points-history h2,
+    comfort-club-redeem .redeem-redemption-history h2 {
+        font-family: Celine Sans;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 1.2;
+    }
 
     @media screen and (min-width: 768px) {
         comfort-club-redeem .redeem-points-history {
@@ -109,6 +126,12 @@
         comfort-club-redeem .redeem-redemption-history {
             margin-bottom: 3.5rem;
         }
+        comfort-club-redeem .redeem-points-history h2,
+        comfort-club-redeem .redeem-redemption-history h2 {
+            font-size: 50px;
+            line-height: 41.55px;
+        }
+
     }
 
     /* tables styles */
@@ -161,18 +184,20 @@
             line-height: 1.3;
         }
     }
+
+
+    .yotpo-coupons-redemption-widget .yotpo-redemption-option-container.yotpo-redemption-no-background:not(.yotpo-is-mobile) {
+        width: unset !important;
+    }
+    .yotpo-widgets-action-button.yotpo-button-with-width-limits {
+        max-width: 180px !important;
+    }
 {% endstyle %}
 
 
 
 <comfort-club-redeem>
     <div class="redeem-points-options container">
-        {% comment %} <h2 class="text-center">Redeem your points</h2>
-        <div>
-            Save 'em up or spend 'em, apply your points at checkout for a discount.
-        </div>
-        <div class="redeem-points-options__wrapper" points-options>
-        </div> {% endcomment %}
         <div class="yotpo-widget-instance" data-yotpo-instance-id="779042"></div>
     </div>
     <div class="redeem-points-history container">
@@ -208,3 +233,4 @@
         <p class="text-center hidden" redemption-history-none>Nothing found.</p>
     </div>
 </comfort-club-redeem>
+

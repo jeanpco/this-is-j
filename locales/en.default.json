@@ -289,7 +289,8 @@
   },
   "customer": {
     "general": {
-      "title": "My account"
+      "title": "My account",
+      "comfortClub": "Comfort Club"
     },
     "login": {
       "title": "Login",
@@ -337,7 +338,7 @@
       "login": "Login"
     },
     "orders": {
-      "title": "Orders",
+      "title": "My orders",
       "no_orders": "You have not placed any orders yet.",
       "start_shopping": "Start shopping",
       "back_to_orders": "Back to orders",
@@ -369,7 +370,7 @@
       "billing_address": "Billing address"
     },
     "addresses": {
-      "title": "Addresses",
+      "title": "My addresses",
       "no_address": "You have not saved any addresses yet.",
       "add_new": "Add a new address",
       "edit": "Edit",

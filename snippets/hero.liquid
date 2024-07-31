@@ -37,60 +37,63 @@
     {%- endif -%}
   </div>
   <div class="container hero-cta__content-wrapper">
-    <div class="hero-cta__content">
-      {%- if customer and loyalty -%}
-          {%- assign name = customer.first_name | default: customer.name | default: customer.email -%}
-          <h1 class="">Welcome back, {{ name }}! </h1>
-          <div class="hero-cta__text hero-cta__text--logged">
-              {{ 'loyalty.balance_html' | t }}
-          </div>
-      {%- else -%}
-          {%- if section.settings.heading != blank -%}
-            <h1>{{ section.settings.heading }}</h1>
-          {%- endif -%}
-          {%- if section.settings.text != blank -%}
-            <div class="hero-cta__text">{{ section.settings.text }}</div>
-          {%- endif -%}
-          <div class="hero-cta__buttons">
-            {%- for block in section.blocks -%}
-              {%- liquid
-                assign text_color = '#fff'
-                assign contrast_ratio = block.settings.color | color_contrast: '#ffffff'
+    {%- if customer and loyalty -%}
+        <div class="hero-cta__content hero-cta__content--logged">
+            {%- assign name = customer.first_name | default: customer.name | default: customer.email -%}
+            <h1 class="">Welcome back, {{ name }}! </h1>
+            <div class="hero-cta__text hero-cta__text--logged">
+                {{ 'loyalty.balance_html' | t }}
+            </div>
+        </div>
+    {%- else -%}
+        <div class="hero-cta__content">
+            {%- if section.settings.heading != blank -%}
+              <h1>{{ section.settings.heading }}</h1>
+            {%- endif -%}
+            {%- if section.settings.text != blank -%}
+              <div class="hero-cta__text">{{ section.settings.text }}</div>
+            {%- endif -%}
+            <div class="hero-cta__buttons">
+              {%- for block in section.blocks -%}
+                {%- liquid
+                  assign text_color = '#fff'
+                  assign contrast_ratio = block.settings.color | color_contrast: '#ffffff'
 
-                if contrast_ratio < 2.5
-                  assign text_color = '#000'
-                endif
-              -%}
-              <a
-                class="btn"
-                href="{{ block.settings.url }}"
-                style="
-                  background: {{ block.settings.color }};
-                  border-color: {{ block.settings.color }};
-                  color: {{ text_color }};
-                "
-              >
-                {{ block.settings.text }}
-              </a>
-            {%- endfor -%}
-          </div>
-          {%- if section.settings.note != blank -%}
-            <div class="hero-cta__note">{{ section.settings.note }}</div>
-          {%- endif -%}
-      {%- endif -%}
-    </div>
+                  if contrast_ratio < 2.5
+                    assign text_color = '#000'
+                  endif
+                -%}
+                <a
+                  class="btn"
+                  href="{{ block.settings.url }}"
+                  style="
+                    background: {{ block.settings.color }};
+                    border-color: {{ block.settings.color }};
+                    color: {{ text_color }};
+                  "
+                >
+                  {{ block.settings.text }}
+                </a>
+              {%- endfor -%}
+            </div>
+            {%- if section.settings.note != blank -%}
+              <div class="hero-cta__note">{{ section.settings.note }}</div>
+            {%- endif -%}
+        </div>
+    {%- endif -%}
   </div>
 </div>
 
 <style>
   .shopify-section--loyalty h1,
   .shopify-section--loyalty h1 * {
-    font-family: 'BV Celine';
+    font-family: 'Celine Sans';
     font-size: 36px;
     font-weight: 400;
     line-height: 1;
     letter-spacing: -0.05rem;
     text-align: center;
+    margin-bottom: .5rem;
   }
 
   @media only screen and (min-width: 769px) {
@@ -110,14 +113,24 @@
   .hero-cta__content-wrapper {
     display: flex;
     position: relative;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
     align-items: {{ section_items_alignment }};
     justify-content: {{ section_items_justify }};
   }
 
   .hero-cta__content {
     width: 100%;
+  }
+  .hero-cta__content.hero-cta__content--logged {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: auto;
+  }
+  .hero-cta__content.hero-cta__content--logged h1 {
+    text-align: center;
   }
 
   @media only screen and (min-width: 768px) {
@@ -129,20 +142,31 @@
       padding-bottom: 6rem; */
     }
     .hero-cta__content {
+      max-width: 60%;
+    }
+  }
+  @media only screen and (min-width: 1024px) {
+    .hero-cta__content {
       max-width: 50%;
     }
   }
 
   .hero-cta__text {
-    margin-top: 1.5rem;
+    font-family: Avenir;
+    font-size: 15px;
+    font-weight: 400;
     line-height: 20.49px;
     width: 400px;
     max-width: 100%;
     text-align: center;
   }
   .hero-cta__text.hero-cta__text--logged {
-    margin-top: -1rem;
+    /* margin-top: -1rem; */
     text-align: center;
+    font-family: Avenir;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
   }
 
   @media only screen and (min-width: 768px) {
@@ -150,8 +174,12 @@
       text-align: left;
     }
     .hero-cta__text.hero-cta__text--logged {
-      margin-left: 3.5rem;
-      text-align: left;
+      /* margin-left: 3.5rem; */
+      text-align: center;
+    }
+    .hero-cta__text.hero-cta__text--logged {
+      font-size: 24px;
+      line-height: 32.78px;
     }
   }
   .hero-cta__image {
@@ -170,29 +198,42 @@
   }
 
   .hero-cta__buttons {
-    margin-top: 2rem;
+    margin-top: 1rem;
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
+
+    font-family: Avenir;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 21.86px;
+    text-align: left;
   }
   .hero-cta__note {
-    margin-top: 1.5rem;
+    margin-top: .75rem;
+    font-family: Avenir;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20.49px;
+    text-align: center;
   }
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (min-width: 768px) {
     .hero-cta__buttons {
       margin-top: 1rem;
+    }
+    .hero-cta__note {
+      text-align: left;
     }
   }
 
   .hero-cta__buttons > .btn {
-    padding: 0.75rem 2.5rem;
+    padding: 0.5rem 2.25rem;
   }
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (min-width: 768px) {
     .hero-cta__buttons > .btn {
       margin: 0.5rem 0;
-      width: 100%;
     }
   }
 </style>

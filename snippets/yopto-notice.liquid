@@ -1,0 +1,32 @@
+{% style %}
+    .custom-yopto-cart-note {
+      font-size: 14px;
+      line-height: 1.3;
+      padding: .5rem;
+      margin: 1rem auto;
+      background-color: rgb(242, 239, 224);
+    }
+    .custom-yopto-cart-note.custom-yopto-cart-note--mini {
+        width: 120%;
+        margin-left: -10%;
+    }
+    .custom-yopto-cart-note .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+      gap: .75rem;
+    }
+    .custom-yopto-cart-note .container img {
+      margin: unset;
+    }
+{% endstyle %}
+
+<div class="custom-yopto-cart-note {% if isMiniCart %} custom-yopto-cart-note--mini {% endif %}">
+    <div class="container">
+        <span class="custom-yopto-cart-note-icon">
+        <img class="yotpo-custom-icon" src="https://cdn-widget-assets.yotpo.com/static_assets/ELJoE72BK50FwC69S4dMVw/images/image_2024_06_19_03_29_53_111" style="fill: rgb(28, 29, 33); width: 1.2em; height: 1.2em;">
+        </span>
+        <div class="custom-yopto-cart-note-text">{{ notice_text }}</div>
+    </div>
+</div>

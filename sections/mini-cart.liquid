@@ -1,22 +1,3 @@
-{%- if section.settings.comfort_club_note != blank -%}
-  {% style %}
-      .yotpo-cart {
-        margin: 1rem auto;
-      }
-      .yotpo-cart .yotpo-product-points-widget-potential-earning-points {
-        gap: 8px;
-      }
-      .yotpo-cart .yotpo-product-points-widget-potential-earning-points .yotpo-product-points-widget-icon {
-        min-width: 1.2rem;
-      }
-      .yotpo-cart .yotpo-product-points-widget-potential-earning-points .yotpo-product-points-widget-logged-in-view, 
-      .yotpo-cart .yotpo-product-points-widget-potential-earning-points .yotpo-product-points-widget-logged-in-view * {
-        font-size: 14px;
-        line-height: 1.3;
-      }
-  {% endstyle %}
-{% endif %}
-
 <cart-drawer section="{{ section.id }}" id="mini-cart" class="mini-cart drawer drawer--large">
   <span class="drawer__overlay"></span>
 
@@ -122,19 +103,9 @@
         {%- endif -%}
       {%- endif -%}
 
-      {%- if section.settings.comfort_club_note != blank -%}
-        <div id="yotpo-product-points-widget" class="yotpo-cart yotpo-product-points-widget yotpo-widget-override-css">
-          <div class="yotpo-widget-clear"></div>
-          <div style="border-radius: 4px; background-color: rgb(246, 241, 238); padding: 12px 12px 10px;">
-            <div class="yotpo-product-points-widget-potential-earning-points" style="font-size: 14px; font-style: normal; font-family: &quot;Avenir Next&quot;, sans-serif; color: rgb(28, 29, 33);">
-                <span class="yotpo-product-points-widget-icon">
-                  <img class="yotpo-custom-icon" src="https://cdn-widget-assets.yotpo.com/static_assets/ELJoE72BK50FwC69S4dMVw/images/image_2024_06_19_03_29_53_111" style="fill: rgb(28, 29, 33); width: 1.2em; height: 1.2em;">
-                </span>
-                <div class="yotpo-product-points-widget-logged-in-view">{{ section.settings.comfort_club_note }}</div>
-            </div>
-          </div>
-        </div>
-      {%- endif -%}
+      {%- unless customer or section.settings.comfort_club_note == blank -%}
+          {% render 'yopto-notice', isMiniCart: true, notice_text: section.settings.comfort_club_note %}  
+      {%- endunless -%}
 
       <form id="mini-cart-form" action="{{ routes.cart_url }}" novalidate method="post">
         <input type="hidden" name="checkout">
@@ -449,7 +420,7 @@
       "id": "comfort_club_note",
       "label": "Comfort Club Note",
       "info": "Banner text to display in cart",
-      "default": "<p>Members get free shipping on applicable orders. Login / Sign Up</p>"
+      "default": "<p>Members get free shipping on applicable orders. <a href='/account/login' title='/account/login'>Login / Sign Up</a></p>"
     },
     {
       "type": "checkbox",

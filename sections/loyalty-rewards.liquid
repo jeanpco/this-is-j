@@ -13,9 +13,11 @@
   }
   .rewards h2 {
     text-align: center;
-    font-size: var(--heading-h2-font-size);
-    font-family: var(--heading-h2-font-family);
-    font-weight: var(--heading-font-weight);
+    font-family: Celine Sans;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 41.55px;
+
   }
 
   /* Campaign */
@@ -51,8 +53,11 @@
   }
   .rewards .yotpo-description-text {
       font-size: 30px !important;
-      line-height: 0.8;
-      font-family: var(--heading-h2-font-family) !important;
+      line-height: 0.8 !important;
+      font-family: Celine Sans !important;
+      font-weight: 400 !important;
+      line-height: 29.92px !important;
+      text-align: left;
   }
   /* widget tiles */
   .rewards .yotpo-widget-campaign-widget .yotpo-outer-tile {
@@ -62,6 +67,12 @@
     border-radius: 0;
     border: none;
   }
+  .rewards .yotpo-widget-campaign-widget .yotpo-outer-tile:focus,
+  .rewards .yotpo-widget-campaign-widget .yotpo-outer-tile *:focus{
+    outline: none;
+    box-shadow: none;
+  }
+  
   .rewards .yotpo-widget-campaign-widget .yotpo-tile-wrapper {
     border-radius: 0 !important;
   }
@@ -76,12 +87,22 @@
   .rewards .yotpo-headline-center-element {
     margin-bottom: 32px;
     padding: 0.5rem 1rem;
-    background: black;
+    background: #252525;
+    min-width: 170px;
+    font-family: Avenir !important;
+    font-size: 16px !important;
+    font-weight: 800 !important;
+    line-height: 21.86px !important;
   }
   .rewards .yotpo-headline-center-element:has(.yotpo-completed-icon) {
     background: #D9D9D9;
-    /* border: 1px solid #D9D9D9 !important; */
+    text-transform: uppercase;
+  }
+  .rewards .yotpo-headline-center-element:has(.yotpo-completed-icon) .yotpo-title-text {
     color: black !important;
+  }
+  .rewards .yotpo-headline-center-element .yotpo-completed-icon {
+    display: none !important;
   }
   .rewards .yotpo-headline-center-element .yotpo-title-text {
     font-family: 'Avenir' !important;
@@ -91,9 +112,6 @@
   @media only screen and (min-width: 769px) {
       .rewards .yotpo-description-text {
           font-size: 36px !important;
-      }
-      .rewards .yotpo-headline-center-element .yotpo-title-text {
-        font-size: 20px !important;
       }
   }  
 
@@ -180,7 +198,7 @@
 {% schema %}
 {
   "name": "Loyalty Rewards",
-  "class": "section-comfort-loyalty",
+  "class": "section-comfort-loyalty main-loyalty-rewards",
   "tag": "section",
   "settings": [
     {
