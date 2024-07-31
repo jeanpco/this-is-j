@@ -472,7 +472,7 @@
     }
   },
   "loyalty": {
-    "balance_html": "You currently have <strong><span class=\"swell-point-balance\">––<\/span> points</strong>."
+    "balance_html": "Hi, {{ name }}!<br \/>You currently have <span class=\"swell-point-balance\">––<\/span> points."
   },
   "shopify": {
     "checkout": {

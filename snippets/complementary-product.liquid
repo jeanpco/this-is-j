@@ -197,7 +197,7 @@
         {%- form 'product', product, is: 'product-form', id: form_id, comingsoon_tag: coming_product_tag, comingsoon_found: coming_tag_found -%}
           <input type="hidden" name="quantity" value="1">
           {%- if product.variants.size == 1 -%}
-            <input type="hidden" name="id" value="{{ product.first_available_variant.id }}">
+            <input type="hidden" name="id" value="{{ product.first_available_variant.id }}" checked>
           {%- else -%}
             <select name="id">
               <option value="">

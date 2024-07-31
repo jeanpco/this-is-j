@@ -5,6 +5,19 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "message_g39wMG": {
+          "type": "message",
+          "disabled": true,
+          "settings": {
+            "text": "24 Hour FLASH SALE! 30% Off select items with code: TODAY30",
+            "text_link": "shopify:\/\/collections\/new-arrivals",
+            "learn_more_text": "Learn More",
+            "title": "",
+            "content": "",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
         "message-1": {
           "type": "message",
           "settings": {
@@ -32,6 +45,7 @@
         }
       },
       "block_order": [
+        "message_g39wMG",
         "message-1",
         "609903ea-b137-4089-840a-0e0c8321b5da"
       ],
@@ -58,13 +72,14 @@
             "brand": "all",
             "menu_item": "What's New",
             "images_position": "right",
-            "image_1": "shopify:\/\/shop_images\/Artboard_4-100.jpg",
-            "image_1_heading": "FATHER'S DAY GIFT GUIDE",
+            "image_1": "shopify:\/\/shop_images\/Summer-Essentials-Nav.jpg",
+            "image_1_heading": "Summer Essentials",
             "image_1_text": "",
-            "image_1_link": "shopify:\/\/pages\/fathers-day-gift-guide",
-            "image_2_heading": "",
+            "image_1_link": "https:\/\/thisisj.com\/pages\/summer-essentials",
+            "image_2": "shopify:\/\/shop_images\/Artboard_33nav_image-kids.jpg",
+            "image_2_heading": "NEW ARRIVALS",
             "image_2_text": "",
-            "image_2_link": "",
+            "image_2_link": "shopify:\/\/collections\/new-arrivals",
             "image_3_heading": "",
             "image_3_text": "",
             "image_3_link": "",
@@ -85,10 +100,10 @@
             "brand": "all",
             "menu_item": "Women",
             "images_position": "right",
-            "image_1": "shopify:\/\/shop_images\/Artboard_38spring-favs-560x420.jpg",
-            "image_1_heading": "Fav Spring Styles!",
+            "image_1": "shopify:\/\/shop_images\/Artboard_33nav_image-sleepmaske.jpg",
+            "image_1_heading": "Dreamy PJ Sets",
             "image_1_text": "",
-            "image_1_link": "shopify:\/\/collections\/fav-spring-styles",
+            "image_1_link": "shopify:\/\/collections\/pj-loungewear-sets",
             "image_2_heading": "",
             "image_2_text": "",
             "image_2_link": "",
@@ -139,10 +154,10 @@
             "brand": "all",
             "menu_item": "Kids",
             "images_position": "right",
-            "image_1": "shopify:\/\/shop_images\/Thumbnail_kids_560x420_e5f40670-63cd-4978-956b-96de4cc8df55.jpg",
-            "image_1_heading": "Monochromatic Matching",
+            "image_1": "shopify:\/\/shop_images\/Artboard_33nav_image-kids-2.jpg",
+            "image_1_heading": "Carefree Summer",
             "image_1_text": "",
-            "image_1_link": "shopify:\/\/collections\/sketch-flower-heather-grey",
+            "image_1_link": "shopify:\/\/collections\/kid-jammers",
             "image_2_heading": "",
             "image_2_text": "",
             "image_2_link": "",
@@ -166,10 +181,10 @@
             "brand": "all",
             "menu_item": "Patterns",
             "images_position": "right",
-            "image_1": "shopify:\/\/shop_images\/Artboard_9_4-100.jpg",
-            "image_1_heading": "Sketch Flower",
-            "image_1_text": "Heather Grey & Black",
-            "image_1_link": "shopify:\/\/collections\/sketch-flower-collection",
+            "image_1": "shopify:\/\/shop_images\/Artboard_9_6swatch-tie-dye.jpg",
+            "image_1_heading": "Tie Dye",
+            "image_1_text": "Tropical Breeze & Crush",
+            "image_1_link": "shopify:\/\/collections\/the-tie-dye-collection",
             "image_2": "shopify:\/\/shop_images\/Fabric-Swatch-70sNavy.jpg",
             "image_2_heading": "70s Flower",
             "image_2_text": "Pink, Navy & Cream",
@@ -221,27 +236,26 @@
           "type": "brand",
           "settings": {
             "title": "This is J",
-            "logo": "shopify:\/\/shop_images\/this-is-j-logo-black.png",
+            "logo": "shopify:\/\/shop_images\/ThisIsJ_Black_Logo-300x246.png",
             "home": "\/",
             "color": "#d6bda7",
             "navigation_menu": "main-menu",
             "sidebar_navigation_menu": "",
-            "brand_logo": "shopify:\/\/shop_images\/logo-black.png",
-            "brand_logo_active": "shopify:\/\/shop_images\/logo-white.png"
+            "brand_logo": "shopify:\/\/shop_images\/ThisIsJ_Black_Logo-300x246.png",
+            "brand_logo_active": "shopify:\/\/shop_images\/ThisIsJ_White_Logo-300x246.png"
           }
         },
         "60c4a2b4-2fbb-43b7-ab3d-87ba13e2b059": {
           "type": "brand",
-          "disabled": true,
           "settings": {
             "title": "Harris",
-            "logo": "shopify:\/\/shop_images\/harris-logo.png",
+            "logo": "shopify:\/\/shop_images\/Harris_Crest_spacing.png",
             "home": "shopify:\/\/pages\/harris",
-            "color": "#405464",
+            "color": "#415364",
             "navigation_menu": "main-menu",
-            "sidebar_navigation_menu": "",
-            "brand_logo": "shopify:\/\/shop_images\/Harris_logo_1.png",
-            "brand_logo_active": "shopify:\/\/shop_images\/Harris_Logo_--_White_1.png"
+            "sidebar_navigation_menu": "main-menu",
+            "brand_logo": "shopify:\/\/shop_images\/Harris_minimal_1.png",
+            "brand_logo_active": "shopify:\/\/shop_images\/harris_minimal_white_77e52b5a-4628-4e9f-8a57-a0fdc6dce05f.png"
           }
         }
       },

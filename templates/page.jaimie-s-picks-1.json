@@ -7,8 +7,8 @@
       ],
       "settings": {
         "subheading": "",
-        "title": "Comfort for the Whole Family",
-        "content": "<p>Pajamas for more than just the bedroom! Dream in comfort, lounge in style, and match with your family in our ethically made in Canada sleepwear.<\/p>",
+        "title": "Jaimie's Picks",
+        "content": "<p>\"Shedding the weight of the day as you change into your favourite pair of PJs is a feeling we strive to replicate with every product we make.\" <\/p><p>- Jaimie Harris, Founder & Creative Director <\/p>",
         "button_text": "",
         "button_link": "",
         "background_type": "full_width",
@@ -21,99 +21,25 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
-    "shop_the_look_jKp6XX": {
-      "type": "shop-the-look",
-      "blocks": {
-        "look_WkeJWq": {
-          "type": "look",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Tie-Dye-Crush-Family-Matching-2160x1000.jpg",
-            "dot_type": "normal",
-            "product_1": "kids-long-sleeve-lounge-pant-pj-set-tie-dye-crush",
-            "product_1_horizontal_position": 47,
-            "product_1_vertical_position": 82,
-            "product_1_horizontal_position_mobile": 29,
-            "product_1_vertical_position_mobile": 30,
-            "product_2": "lounge-set-t-shirt-lounge-short-white-tie-dye-crush-mix",
-            "product_2_horizontal_position": 45,
-            "product_2_vertical_position": 43,
-            "product_2_horizontal_position_mobile": 50,
-            "product_2_vertical_position_mobile": 50,
-            "product_3": "henley-harem-set-tie-dye-crush",
-            "product_3_horizontal_position": 62,
-            "product_3_vertical_position": 51,
-            "product_3_horizontal_position_mobile": 70,
-            "product_3_vertical_position_mobile": 70
-          }
-        }
-      },
-      "block_order": [
-        "look_WkeJWq"
-      ],
-      "settings": {
-        "reveal_on_scroll": false,
-        "label": "Shop the looks"
-      }
-    },
-    "featured_collections_LLWL7k": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_bCrCW7": {
-          "type": "collection",
-          "settings": {
-            "collection": "tie-dye-crush",
-            "label": "",
-            "button_text": "VIEW FULL COLLECTION",
-            "button_url": "shopify:\/\/collections\/tie-dye-crush"
-          }
-        },
-        "collection_an9Qzg": {
-          "type": "collection",
-          "settings": {
-            "collection": "tie-dye-tropical-breeze-collection",
-            "label": "Tie Dye Tropical breeze",
-            "button_text": "view full collection",
-            "button_url": "shopify:\/\/collections\/tie-dye-tropical-breeze-collection"
-          }
-        }
-      },
-      "block_order": [
-        "collection_bCrCW7",
-        "collection_an9Qzg"
-      ],
-      "settings": {
-        "subheading": "",
-        "title": "Tie Dye Summer Bliss",
-        "content": "",
-        "products_count": 50,
-        "products_per_row": 6,
-        "stack_products": false,
-        "show_cta": false,
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
     "shop_the_look_MmPy38": {
       "type": "shop-the-look",
       "blocks": {
         "look_GJYzXp": {
           "type": "look",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Header_Sketch-Flower-Heather-Grey_family-matching_v3.jpg",
-            "dot_type": "inverted",
-            "product_1": "kids-long-sleeve-lounge-pant-pj-set-sketch-flower-grey",
-            "product_1_horizontal_position": 31,
+            "image": "shopify:\/\/shop_images\/Mens-Stiver-Sleeping-Collection-Header-v5.jpg",
+            "dot_type": "normal",
+            "product_1": "lounge-set-t-shirt-lounge-pant-4",
+            "product_1_horizontal_position": 45,
             "product_1_vertical_position": 41,
             "product_1_horizontal_position_mobile": 30,
             "product_1_vertical_position_mobile": 30,
-            "product_2": "henley-harem-set-sketch-flower-heather-grey",
+            "product_2": "",
             "product_2_horizontal_position": 46,
             "product_2_vertical_position": 64,
             "product_2_horizontal_position_mobile": 50,
             "product_2_vertical_position_mobile": 50,
-            "product_3": "mens-t-shirt-12",
+            "product_3": "",
             "product_3_horizontal_position": 62,
             "product_3_vertical_position": 35,
             "product_3_horizontal_position_mobile": 70,
@@ -132,106 +58,22 @@
     "dbdf553a-cda6-4b3f-9cd4-43e17b52a7e1": {
       "type": "featured-collections",
       "blocks": {
-        "template--21353354592537__dbdf553a-cda6-4b3f-9cd4-43e17b52a7e1-collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "sketch-flower-heather-grey",
-            "label": "Sketch Flower Heather Grey",
-            "button_text": "View full collection",
-            "button_url": "shopify:\/\/collections\/sketch-flower-heather-grey"
-          }
-        },
-        "collection_zPxX49": {
-          "type": "collection",
-          "settings": {
-            "collection": "sketch-flower",
-            "label": "Sketch Flower Black",
-            "button_text": "View full collection",
-            "button_url": "shopify:\/\/collections\/sketch-flower-collection"
-          }
-        },
         "collection_Rt4ziH": {
           "type": "collection",
           "settings": {
-            "collection": "mens-black-heather-grey-loungewear",
+            "collection": "solids-for-men",
             "label": "mens heather grey & black",
-            "button_text": "VIEW FULL COLLECTION",
-            "button_url": "shopify:\/\/collections\/mens-black-heather-grey-loungewear"
+            "button_text": "SHOP SOLIDS FOR HIM",
+            "button_url": "https:\/\/thisisj.com\/collections\/solids-for-men"
           }
         }
       },
       "block_order": [
-        "template--21353354592537__dbdf553a-cda6-4b3f-9cd4-43e17b52a7e1-collection-1",
-        "collection_zPxX49",
         "collection_Rt4ziH"
       ],
       "settings": {
         "subheading": "",
-        "title": "Sketch Flower",
-        "content": "",
-        "products_count": 50,
-        "products_per_row": 6,
-        "stack_products": false,
-        "show_cta": false,
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "shop_the_look_AWYEDr": {
-      "type": "shop-the-look",
-      "blocks": {
-        "look_TDPU9T": {
-          "type": "look",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/family-emmy-flower-brown.jpg",
-            "dot_type": "normal",
-            "product_1": "kids-long-sleeve-lounge-pant-pj-set-emmy-flower-brown",
-            "product_1_horizontal_position": 41,
-            "product_1_vertical_position": 41,
-            "product_1_horizontal_position_mobile": 30,
-            "product_1_vertical_position_mobile": 30,
-            "product_2": "t-shirt-set-emmy-flower-brown",
-            "product_2_horizontal_position": 50,
-            "product_2_vertical_position": 52,
-            "product_2_horizontal_position_mobile": 50,
-            "product_2_vertical_position_mobile": 50,
-            "product_3": "lounge-set-t-shirt-lounge-short-brown",
-            "product_3_horizontal_position": 67,
-            "product_3_vertical_position": 66,
-            "product_3_horizontal_position_mobile": 70,
-            "product_3_vertical_position_mobile": 70
-          }
-        }
-      },
-      "block_order": [
-        "look_TDPU9T"
-      ],
-      "settings": {
-        "reveal_on_scroll": false,
-        "label": "Shop the looks"
-      }
-    },
-    "featured_collections_MzcczA": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_kU3xTK": {
-          "type": "collection",
-          "settings": {
-            "collection": "emmy-flower-brown",
-            "label": "",
-            "button_text": "VIEW FULL COLLECTION",
-            "button_url": "shopify:\/\/collections\/emmy-flower-brown"
-          }
-        }
-      },
-      "block_order": [
-        "collection_kU3xTK"
-      ],
-      "settings": {
-        "subheading": "",
-        "title": "Emmy Flower Brown",
+        "title": "Solids",
         "content": "",
         "products_count": 50,
         "products_per_row": 6,
@@ -280,26 +122,26 @@
     "featured_collections_Ydj9cF": {
       "type": "featured-collections",
       "blocks": {
-        "collection_6QdPrN": {
+        "collection_yrJpFn": {
           "type": "collection",
           "settings": {
-            "collection": "neon-charcoal-stripe",
+            "collection": "stripes-for-men",
             "label": "",
-            "button_text": "VIEW THE COLLECTION",
-            "button_url": "shopify:\/\/collections\/neon-charcoal-stripe"
+            "button_text": "SHOP STRIPES FOR HIM",
+            "button_url": "https:\/\/thisisj.com\/collections\/stripes-for-men"
           }
         }
       },
       "block_order": [
-        "collection_6QdPrN"
+        "collection_yrJpFn"
       ],
       "settings": {
         "subheading": "",
-        "title": "Neon Charcoal Stripe",
+        "title": "Stripes",
         "content": "",
-        "products_count": 50,
-        "products_per_row": 6,
-        "stack_products": false,
+        "products_count": 4,
+        "products_per_row": 4,
+        "stack_products": true,
         "show_cta": false,
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)",
@@ -313,14 +155,14 @@
         "look_dhWD9C": {
           "type": "look",
           "settings": {
-            "image": "shopify:\/\/shop_images\/download_2.webp",
+            "image": "shopify:\/\/shop_images\/Carousel_Tie_Dye_Black_Men_Kid.jpg",
             "dot_type": "normal",
-            "product_1": "oversized-tee-harem-pant-set-7",
-            "product_1_horizontal_position": 41,
-            "product_1_vertical_position": 41,
+            "product_1": "mens-pajama-pant",
+            "product_1_horizontal_position": 49,
+            "product_1_vertical_position": 68,
             "product_1_horizontal_position_mobile": 30,
             "product_1_vertical_position_mobile": 30,
-            "product_2": "kids-long-sleeve-lounge-pant-pj-set-11",
+            "product_2": "",
             "product_2_horizontal_position": 56,
             "product_2_vertical_position": 44,
             "product_2_horizontal_position_mobile": 50,
@@ -347,9 +189,9 @@
         "template--17915522580761__3c3f1770-874e-40e5-9463-f5cc211b590f-168389959488378107-0": {
           "type": "collection",
           "settings": {
-            "collection": "70s-flower-navy",
+            "collection": "tie-dye-for-men",
             "label": "",
-            "button_text": "VIEW FULL COLLECTION",
+            "button_text": "SHOP TIE DYE FOR HIM",
             "button_url": ""
           }
         }
@@ -359,7 +201,7 @@
       ],
       "settings": {
         "subheading": "",
-        "title": "70s Flower Navy",
+        "title": "Tie Dye",
         "content": "",
         "products_count": 50,
         "products_per_row": 6,
@@ -400,6 +242,7 @@
       "block_order": [
         "look_YwF97z"
       ],
+      "disabled": true,
       "settings": {
         "reveal_on_scroll": false,
         "label": "Shop the looks"
@@ -421,6 +264,7 @@
       "block_order": [
         "template--21353354592537__a9a34a73-f339-4a7d-bc30-b21cf8873d06-collection-1"
       ],
+      "disabled": true,
       "settings": {
         "subheading": "",
         "title": "Safari Flower",
@@ -464,6 +308,7 @@
       "block_order": [
         "look_EPz6tL"
       ],
+      "disabled": true,
       "settings": {
         "reveal_on_scroll": false,
         "label": "Shop the looks"
@@ -495,6 +340,7 @@
         "template--20427016470809__2c5be0bf-8b7e-4d15-a00b-69e3e41d8490-collection-1",
         "fdbe53c1-847b-452a-973c-650e5f5d71cc"
       ],
+      "disabled": true,
       "settings": {
         "subheading": "",
         "title": "Fair Isle",
@@ -538,6 +384,7 @@
       "block_order": [
         "look_bnKYPx"
       ],
+      "disabled": true,
       "settings": {
         "reveal_on_scroll": false,
         "label": "Shop the looks"
@@ -569,6 +416,7 @@
         "template--21349787074841__71b9e4d5-d557-4417-b716-5bb55c080508-collection-1",
         "c99850a9-5b49-45e9-b557-007881fe8c69"
       ],
+      "disabled": true,
       "settings": {
         "subheading": "",
         "title": "Bookhou x This is J",
@@ -612,6 +460,7 @@
       "block_order": [
         "look_g6fwqQ"
       ],
+      "disabled": true,
       "settings": {
         "reveal_on_scroll": false,
         "label": "Shop the looks"
@@ -637,37 +486,18 @@
             "button_text": "VIEW FULL COLLECTION",
             "button_url": "shopify:\/\/collections\/the-plaid-collection"
           }
-        },
-        "collection_bRkgMp": {
-          "type": "collection",
-          "settings": {
-            "collection": "light-blue-plaid",
-            "label": "LIGHT BLUE PLAID",
-            "button_text": "VIEW FULL COLLECTION",
-            "button_url": "shopify:\/\/collections\/light-blue-plaid"
-          }
-        },
-        "collection_WTDg8U": {
-          "type": "collection",
-          "settings": {
-            "collection": "dusty-rose-plaid",
-            "label": "DUSTY ROSE PLAID",
-            "button_text": "VIEW FULL COLLECTION",
-            "button_url": "shopify:\/\/collections\/dusty-rose-plaid"
-          }
         }
       },
       "block_order": [
         "template--21353354592537__e18c76af-8170-444e-80b7-6ed5d4391ea7-collection-1",
-        "215cbaab-a689-40a1-8ba2-4975e6a0d91b",
-        "collection_bRkgMp",
-        "collection_WTDg8U"
+        "215cbaab-a689-40a1-8ba2-4975e6a0d91b"
       ],
+      "disabled": true,
       "settings": {
         "subheading": "",
         "title": "Plaid",
         "content": "",
-        "products_count": 8,
+        "products_count": 50,
         "products_per_row": 6,
         "stack_products": false,
         "show_cta": false,
@@ -722,12 +552,8 @@
   },
   "order": [
     "bcd16921-ce9d-4288-9d05-d560fec930e4",
-    "shop_the_look_jKp6XX",
-    "featured_collections_LLWL7k",
     "shop_the_look_MmPy38",
     "dbdf553a-cda6-4b3f-9cd4-43e17b52a7e1",
-    "shop_the_look_AWYEDr",
-    "featured_collections_MzcczA",
     "shop_the_look_EY79C4",
     "featured_collections_Ydj9cF",
     "shop_the_look_dKJKyk",

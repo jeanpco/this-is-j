@@ -1,0 +1,271 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [
+        "h1 {font-family: \"BV Celine\"; text-transform: none;}"
+      ],
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "b523c626-4a86-4aae-9bdd-3c9c17db6fe2": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "small",
+        "image": "shopify:\/\/shop_images\/Summer-Essentials-header.jpg",
+        "subheading": "",
+        "title": "Summer Essentials",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#1c1b1b",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+        "overlay_opacity": 0
+      }
+    },
+    "c59e590c-d7d6-4f88-bcfa-ebcc9427e2fd": {
+      "type": "multi-column",
+      "blocks": {
+        "template--21547606475033__c59e590c-d7d6-4f88-bcfa-ebcc9427e2fd-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Website_Update_-_Summer_Essentials-20.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "caftans & nighties",
+            "link_url": "shopify:\/\/collections\/nighties",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "template--21547606475033__c59e590c-d7d6-4f88-bcfa-ebcc9427e2fd-item-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Website_Update_-_Summer_Essentials-21.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "TANKS & TEES",
+            "link_url": "https:\/\/thisisj.com\/collections\/tanks-tees",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "template--21547606475033__c59e590c-d7d6-4f88-bcfa-ebcc9427e2fd-item-3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Website_Update_-_Summer_Essentials-25.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "mens comfort",
+            "link_url": "shopify:\/\/collections\/mens-harris-loungewear",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "template--21547606475033__c59e590c-d7d6-4f88-bcfa-ebcc9427e2fd-item-1",
+        "template--21547606475033__c59e590c-d7d6-4f88-bcfa-ebcc9427e2fd-item-2",
+        "template--21547606475033__c59e590c-d7d6-4f88-bcfa-ebcc9427e2fd-item-3"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "medium",
+        "desktop_item_size": "large",
+        "spacing": "tight",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "85ca1a43-c515-4129-8aa3-589b0a13fb5a": {
+      "type": "multi-column",
+      "blocks": {
+        "template--21547606475033__85ca1a43-c515-4129-8aa3-589b0a13fb5a-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Website_Update_-_Summer_Essentials-24.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "shorts!",
+            "link_url": "https:\/\/thisisj.com\/collections\/shorts",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "template--21547606475033__85ca1a43-c515-4129-8aa3-589b0a13fb5a-item-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Website_Update_-_Summer_Essentials-22.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "Loungewear Sets",
+            "link_url": "https:\/\/thisisj.com\/collections\/loungewear-sets",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "template--21547606475033__85ca1a43-c515-4129-8aa3-589b0a13fb5a-item-3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Website_Update_-_Summer_Essentials-26.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "PAJAMA Sets",
+            "link_url": "shopify:\/\/collections\/tie-dye-summer-bliss-collection",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "template--21547606475033__85ca1a43-c515-4129-8aa3-589b0a13fb5a-item-1",
+        "template--21547606475033__85ca1a43-c515-4129-8aa3-589b0a13fb5a-item-2",
+        "template--21547606475033__85ca1a43-c515-4129-8aa3-589b0a13fb5a-item-3"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "medium",
+        "desktop_item_size": "large",
+        "spacing": "tight",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "multi_column_JDbAgz": {
+      "type": "multi-column",
+      "blocks": {
+        "item_8JXxdC": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Website_Update_-_Summer_Essentials-19.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "KIDS SHORT SETS",
+            "link_url": "https:\/\/thisisj.com\/collections\/kid-t-shirt-pj-sets",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_nBhy7J": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Website_Update_-_Summer_Essentials-23.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "T-shirt sets",
+            "link_url": "shopify:\/\/collections\/t-shirt-sets",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_EwTUpp": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Summer-Essentials-tank_set.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "",
+            "link_text": "tank sets",
+            "link_url": "https:\/\/thisisj.com\/collections\/tank-sets",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "item_8JXxdC",
+        "item_nBhy7J",
+        "item_EwTUpp"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "medium",
+        "desktop_item_size": "large",
+        "spacing": "tight",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "61117084-da71-4f43-8228-8cb68cdf600a": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "small",
+        "image": "shopify:\/\/shop_images\/Summer-Sale-2024-Carousel-Header.jpg",
+        "subheading": "Up to 60% Off",
+        "title": "",
+        "content": "<h1>Summer Sale<\/h1>",
+        "button_text": "SHOP SALE",
+        "button_link": "shopify:\/\/collections\/sale",
+        "link_style": "button",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "middle_center",
+        "text_color": "#1c1b1b",
+        "button_background": "#1c1b1b",
+        "button_text_color": "#ffffff",
+        "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+        "overlay_opacity": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "b523c626-4a86-4aae-9bdd-3c9c17db6fe2",
+    "c59e590c-d7d6-4f88-bcfa-ebcc9427e2fd",
+    "85ca1a43-c515-4129-8aa3-589b0a13fb5a",
+    "multi_column_JDbAgz",
+    "61117084-da71-4f43-8228-8cb68cdf600a"
+  ]
+}

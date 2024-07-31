@@ -18,6 +18,25 @@
         "quick_links": ""
       }
     },
+    "rich_text_XnbfRq": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "{{ collection.metafields.custom.collection_description_header.value }}",
+        "content": "<p>{{ collection.metafields.custom.collection_description | metafield_tag }}<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
     "main": {
       "type": "main-collection",
       "blocks": {
@@ -91,15 +110,14 @@
 
       ],
       "settings": {
-        "question_namespace": "faq",
-        "question_key": "question",
-        "answer_namespace": "faq",
-        "answer_key": "answer"
+        "namespace": "custom",
+        "key": "faq"
       }
     }
   },
   "order": [
     "collection-banner",
+    "rich_text_XnbfRq",
     "main",
     "0e110668-8a85-4fc9-8836-debd0255c9bf",
     "34704ab1-2125-4ccc-a04f-8e93573b309b"
