@@ -93,11 +93,11 @@
       "settings": {
         "comfort_club_status": false,
         "seeker_description": "<ul><li><strong>Free Shipping<\/strong> on orders over 100 CAD AND Free Shipping on orders over $200 USA<\/li><li>10% Off - Birthday Reward<\/li><li>And more...<\/li><\/ul>",
-        "seeker_url": "#",
+        "seeker_url": "#comfort_seeker_url",
         "lover_description": "<ul><li><strong>Free shipping<\/strong> on all orders over $125.<\/li><li>30% off one regular priced item on your birthday.<\/li><li>Double the points on top styles each month.<\/li><li>Access to point multiplyer events.<\/li><li>Vote on upcoming patterns.<\/li><li>And more...<\/li><\/ul>",
-        "lover_url": "#",
+        "lover_url": "#comfort_lover_url",
         "connoiseeur_description": "<ul><li><strong>Free shipping<\/strong> on all orders over $125.<\/li><li>30% off one regular priced item on your birthday.<\/li><li>Double the points on top styles each month.<\/li><li>Access to point multiplyer events.<\/li><li>Vote on upcoming patterns.<\/li><li>And more...<\/li><\/ul>",
-        "connoiseeur_url": "#",
+        "connoiseeur_url": "#comfort_connoisseeur_url",
         "comfort_club_offers_status": true,
         "comfort_club_offers_title": "Comfort Club Offers"
       }
