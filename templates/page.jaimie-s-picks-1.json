@@ -30,15 +30,35 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
+    "image_with_text_block_JcKgAK": {
+      "type": "image-with-text-block",
+      "settings": {
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/Henley-Harem-Set-Tie-Dye-Black-0346.jpg",
+        "subheading": "Tie dye black",
+        "title": "Henley Harem Set",
+        "content": "<p>The perfect mix of lounge set chic and dreamy PJ set. Cute enough to wear in and out of the bedroom! Set includes Henley Top, Harem Pant, and matching headband. <\/p><p>Available in 12+ patterns<\/p>",
+        "button_text": "SHOP HENLEY HAREMS",
+        "button_link": "shopify:\/\/collections\/henley-harem-sets",
+        "background_type": "full_width",
+        "text_position": "overlap_left",
+        "text_alignment": "left",
+        "text_background": "#ffffff",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
     "promotion_blocks_rPYrQ4": {
       "type": "promotion-blocks",
       "blocks": {
         "image_FiBBQ9": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Bamboo-Pajamas-T-Shirt-Short-Set-Safari-Black-40023795.jpg",
             "highlight": false,
-            "subheading": "Subheading",
-            "title": "Image with text",
+            "subheading": "",
+            "title": "",
             "link_text": "",
             "link_url": "",
             "link_style": "link",
@@ -53,19 +73,20 @@
           "type": "quote",
           "settings": {
             "highlight": false,
-            "subheading": "Subheading",
-            "content": "Use this text to share information about your brand with your customers.",
-            "author": "John S.",
-            "background": "#f7f8fd",
-            "text_color": "#1e316a"
+            "subheading": "founder tip",
+            "content": "Buy mulitple pieces from the same collection to be able to mix, match and be comfy in every season.",
+            "author": "Jaimie Harris, Founder",
+            "background": "#ffffff",
+            "text_color": "#212020"
           }
         },
         "image_dGDDzq": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Bamboo-Pajamas-Relaxed-Long-Sleeve-Set-Safari-Black-40023868.jpg",
             "highlight": false,
-            "subheading": "Subheading",
-            "title": "Image with text",
+            "subheading": "",
+            "title": "",
             "link_text": "",
             "link_url": "",
             "link_style": "link",
@@ -83,8 +104,8 @@
         "image_dGDDzq"
       ],
       "settings": {
-        "subheading": "Subheading",
-        "title": "Promotion blocks",
+        "subheading": "",
+        "title": "",
         "section_size": "medium",
         "stack_on_mobile": true,
         "background": "rgba(0,0,0,0)",
@@ -120,6 +141,7 @@
       "block_order": [
         "look_GJYzXp"
       ],
+      "disabled": true,
       "settings": {
         "reveal_on_scroll": false,
         "label": "Shop the looks"
@@ -141,6 +163,7 @@
       "block_order": [
         "collection_Rt4ziH"
       ],
+      "disabled": true,
       "settings": {
         "subheading": "",
         "title": "Solids",
@@ -184,6 +207,7 @@
       "block_order": [
         "look_XnWRba"
       ],
+      "disabled": true,
       "settings": {
         "reveal_on_scroll": false,
         "label": "Shop the looks"
@@ -205,6 +229,7 @@
       "block_order": [
         "collection_yrJpFn"
       ],
+      "disabled": true,
       "settings": {
         "subheading": "",
         "title": "Stripes",
@@ -248,6 +273,7 @@
       "block_order": [
         "look_dhWD9C"
       ],
+      "disabled": true,
       "settings": {
         "reveal_on_scroll": false,
         "label": "Shop the looks"
@@ -269,6 +295,7 @@
       "block_order": [
         "template--17915522580761__3c3f1770-874e-40e5-9463-f5cc211b590f-168389959488378107-0"
       ],
+      "disabled": true,
       "settings": {
         "subheading": "",
         "title": "Tie Dye",
@@ -632,29 +659,11 @@
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
       }
-    },
-    "image_with_text_block_JcKgAK": {
-      "type": "image-with-text-block",
-      "settings": {
-        "reveal_on_scroll": true,
-        "image": "shopify:\/\/shop_images\/Henley-Harem-Set-Tie-Dye-Black-0346.jpg",
-        "subheading": "Tie dye black",
-        "title": "Henley Harem Set",
-        "content": "<p>The perfect mix of lounge set chic and dreamy PJ set. Cute enough to wear in and out of the bedroom! Set includes Henley Top, Harem Pant, and matching headband. <\/p><p>Available in 12+ patterns<\/p>",
-        "button_text": "SHOP HENLEY HAREMS",
-        "button_link": "shopify:\/\/collections\/henley-harem-sets",
-        "background_type": "full_width",
-        "text_position": "overlap_left",
-        "text_alignment": "left",
-        "text_background": "#ffffff",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
     }
   },
   "order": [
     "bcd16921-ce9d-4288-9d05-d560fec930e4",
+    "image_with_text_block_JcKgAK",
     "promotion_blocks_rPYrQ4",
     "shop_the_look_MmPy38",
     "dbdf553a-cda6-4b3f-9cd4-43e17b52a7e1",
@@ -670,7 +679,6 @@
     "shop_the_look_QKNRqL",
     "e18c76af-8170-444e-80b7-6ed5d4391ea7",
     "main",
-    "featured_product_L6cYqc",
-    "image_with_text_block_JcKgAK"
+    "featured_product_L6cYqc"
   ]
 }
