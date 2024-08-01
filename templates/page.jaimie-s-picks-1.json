@@ -103,6 +103,7 @@
         "quote_Kt6cCd",
         "image_dGDDzq"
       ],
+      "disabled": true,
       "settings": {
         "subheading": "",
         "title": "",
@@ -709,6 +710,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
+            "image": "shopify:\/\/shop_images\/Artboard_1una.jpg",
             "subheading": "",
             "title": "",
             "link_text": "",
