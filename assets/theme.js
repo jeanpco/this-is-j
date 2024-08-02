@@ -7057,7 +7057,7 @@
   
       this.comingSoon = Boolean( this.comingsoonFound && this.comingSoonTag && this.comingSoonTag.includes(`comingsoon::${ this.selectedVariant }`) );
 
-      // this.initButtonStates();
+      this.initButtonStates();
     }
     connectedCallback() {
       var _a;
@@ -7172,7 +7172,7 @@
       }
 
       // handle display of notify me button
-      if (this.notifyMeButtonElement && this.comingSoon) this.notifyMeButtonElement.style.display = 'block';
+      if ((this.notifyMeButtonElement && this.comingSoon) || (this.notifyMeButtonElement && !variant.available)) this.notifyMeButtonElement.style.display = 'block';
       else this.notifyMeButtonElement.style.display = 'none';
     }
     _updateDynamicCheckoutButton(variant) {
@@ -7199,7 +7199,7 @@
     initButtonStates() {
 
       if (this.paymentButtonElement && this.comingSoon) this.paymentButtonElement.style.display = 'none';
-      if (this.notifyMeButtonElement && this.comingSoon) this.notifyMeButtonElement.style.display = 'block';
+      // if (this.notifyMeButtonElement && this.comingSoon) this.notifyMeButtonElement.style.display = 'block';
       if (this.addToCartButtonElement && this.comingSoon) {
           this.addToCartButtonElement.setAttribute('disabled', 'disabled');
           this.addToCartButtonElement.classList.add('is-disabled');
