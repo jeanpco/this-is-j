@@ -190,6 +190,7 @@
         },
         "b24eb5a9-a144-43c5-aa6e-553164408fa6": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/EmmyFlower_CollectionHeader_v2.jpg",
             "mute_toggle": false,
