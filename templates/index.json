@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "slideshow": {
@@ -260,28 +269,27 @@
         },
         "image_qjRPmG": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/CarouselHeader_Tartan_Scandi_Sale.jpg",
+            "image": "shopify:\/\/shop_images\/Carousel_Sale-On-Sale-10More.jpg",
             "mute_toggle": false,
             "font": "'BV Celine', serif",
             "text_position": "middle_center",
             "subheading": "",
-            "title": "30% Off Sale!",
+            "title": "SALE on SALE",
             "subheading_font_size_m": 12,
             "subheading_font_size_d": 13,
             "heading_font_size_m": 36,
-            "heading_font_size_d": 64,
-            "description": "Bye Bye Tartan & Scandi",
+            "heading_font_size_d": 68,
+            "description": "Extra 10% off our Summer Sale Collection with Code: 10MORE",
             "button_1_text": "SHOP SALE",
-            "button_1_link": "https:\/\/thisisj.com\/collections\/tartan-and-scandinavian",
+            "button_1_link": "shopify:\/\/collections\/sale",
             "button_2_text": "",
             "button_2_link": "",
             "text_color": "#ffffff",
-            "button_background": "#1c1b1b",
-            "button_text_color": "#ffffff",
+            "button_background": "#b4ece5",
+            "button_text_color": "#1c1b1b",
             "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
-            "overlay_opacity": 25
+            "overlay_opacity": 20
           }
         }
       },
