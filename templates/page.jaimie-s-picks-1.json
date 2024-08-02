@@ -153,6 +153,109 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
+    "collection_list_Y7TVUf": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_9JXQmE": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Artboard_1laroe.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_V6Qz3q": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Artboard_1una_plaid.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_yC7wQL": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Artboard_1dark_navy.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_mFdMcr": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_JJBpBc": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_9NmNxm": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_9JXQmE",
+        "collection_V6Qz3q",
+        "collection_yC7wQL",
+        "collection_mFdMcr",
+        "collection_JJBpBc",
+        "collection_9NmNxm"
+      ],
+      "settings": {
+        "reveal_on_scroll": false,
+        "layout": "carousel",
+        "subheading": "Subheading",
+        "title": "Collection list",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "text_shadow_color": "rgba(0,0,0,0)"
+      }
+    },
     "promotion_blocks_rPYrQ4": {
       "type": "promotion-blocks",
       "blocks": {
@@ -770,6 +873,7 @@
     "bcd16921-ce9d-4288-9d05-d560fec930e4",
     "collection_list_aWcAM3",
     "image_with_text_block_JcKgAK",
+    "collection_list_Y7TVUf",
     "promotion_blocks_rPYrQ4",
     "shop_the_look_MmPy38",
     "dbdf553a-cda6-4b3f-9cd4-43e17b52a7e1",
