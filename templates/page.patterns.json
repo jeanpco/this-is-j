@@ -749,6 +749,20 @@
             "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
             "overlay_opacity": 25
           }
+        },
+        "collection_ip67tR": {
+          "type": "collection",
+          "settings": {
+            "collection": "cat-nat-x-this-is-j",
+            "image": "shopify:\/\/shop_images\/Untitled_design.jpg",
+            "subheading": "",
+            "title": "Cat & Nat",
+            "link_text": "VIEW COLLECTION",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 30
+          }
         }
       },
       "block_order": [
@@ -756,7 +770,8 @@
         "f6e53f8a-f37a-4f59-aa50-a2f4b1c4158d",
         "collection_RzTKNE",
         "ee011ebe-2817-4e59-8d06-52a68f7edb10",
-        "d1c0a003-bfd4-4d8a-aaae-85c392612900"
+        "d1c0a003-bfd4-4d8a-aaae-85c392612900",
+        "collection_ip67tR"
       ],
       "custom_css": [
         "p {letter-spacing: 1px; font-weight: 700;}",
