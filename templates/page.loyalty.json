@@ -25,14 +25,14 @@
         "8848b213-83b9-470d-a367-50b83eb4af46"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/TIJ_Header_Image_1.png",
+        "image": "shopify:\/\/shop_images\/Untitled_design_9.png",
         "bg": "#f0eee7",
         "transition_type": "sweep",
         "content_position": "bottom_left",
         "content_alignment": "left",
         "heading": "<p>Welcome to <br\/>The Comfort Club<\/p>",
         "text": "<p>Earn rewards on the products you love, redeem them for discounts, and get closer to the comfort you've been dreaming of.<\/p>",
-        "note": "<p>Already a member? <a href='\/account\/login?return_url=\/pages\/account-comfort-club'>Log In Here<\/a>.<\/p>"
+        "note": "<p>Already a member? <a href=\"\/account\/login?return_url=\/pages\/account-comfort-club\">Log In Here<\/a>.<\/p>"
       }
     },
     "steps": {
