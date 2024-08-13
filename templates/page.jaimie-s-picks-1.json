@@ -139,9 +139,9 @@
       "settings": {
         "reveal_on_scroll": true,
         "image": "shopify:\/\/shop_images\/Henley-Harem-Set-Tie-Dye-Black-0346.jpg",
-        "subheading": "Tie dye black",
+        "subheading": "The style i reach for every night...",
         "title": "Henley Harem Set",
-        "content": "<p>The fit, feel and look of this set is unmatched. The perfect mix of lounge set chic and dreamy PJ set. Cute enough to wear in and out of the bedroom! Set includes Henley Top, Harem Pant, and matching headband. <\/p><p>Available in 12+ patterns<\/p>",
+        "content": "<p>The fit, feel and look of this set is unmatched! So cute that you'll want people to see you in your PJs.<\/p><p>Available in 12+ patterns<\/p>",
         "button_text": "SHOP HENLEY HAREMS",
         "button_link": "shopify:\/\/collections\/henley-harem-sets",
         "background_type": "full_width",
@@ -868,6 +868,24 @@
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
       }
+    },
+    "image_with_text_block_yYP7cz": {
+      "type": "image-with-text-block",
+      "settings": {
+        "reveal_on_scroll": true,
+        "subheading": "Subheading",
+        "title": "Image with text block",
+        "content": "<p>Use block text to give your customers insight into your brand. Select impactful text that relates to your brand and story.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_position": "left",
+        "text_alignment": "left",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
     }
   },
   "order": [
@@ -890,6 +908,7 @@
     "shop_the_look_QKNRqL",
     "e18c76af-8170-444e-80b7-6ed5d4391ea7",
     "main",
-    "featured_product_L6cYqc"
+    "featured_product_L6cYqc",
+    "image_with_text_block_yYP7cz"
   ]
 }
