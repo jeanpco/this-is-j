@@ -688,6 +688,28 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
+    "image_with_text_overlay_CD8Nwx": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "auto",
+        "image": "shopify:\/\/shop_images\/Varsity-Stripe-Kelly-Navy-Family-2160x800_v2.jpg",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+        "overlay_opacity": 30
+      }
+    },
     "shop_the_look_LEbfQD": {
       "type": "shop-the-look",
       "blocks": {
@@ -717,6 +739,7 @@
       "block_order": [
         "look_krJDa7"
       ],
+      "disabled": true,
       "settings": {
         "reveal_on_scroll": false,
         "label": "Shop the looks"
@@ -825,6 +848,7 @@
     "71b9e4d5-d557-4417-b716-5bb55c080508",
     "shop_the_look_QKNRqL",
     "e18c76af-8170-444e-80b7-6ed5d4391ea7",
+    "image_with_text_overlay_CD8Nwx",
     "shop_the_look_LEbfQD",
     "featured_collections_NYDmB6",
     "main"
