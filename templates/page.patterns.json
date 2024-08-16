@@ -725,6 +725,28 @@
         "collections_to_show": "selected",
         "show_collection_title": true
       }
+    },
+    "image_with_text_overlay_crxDdV": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "small",
+        "image": "shopify:\/\/shop_images\/S400_073024_43845_Edit-2000x980.jpg",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+        "overlay_opacity": 30
+      }
     }
   },
   "order": [
@@ -751,6 +773,7 @@
     "rich_text_YDTWnH",
     "999f5bc6-a6b8-49d8-b963-4746b09411a8",
     "acbdf988-9f5e-4c80-a99d-b954a874c312",
-    "main"
+    "main",
+    "image_with_text_overlay_crxDdV"
   ]
 }
