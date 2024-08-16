@@ -737,10 +737,10 @@
         "collection_t8Thgd": {
           "type": "collection",
           "settings": {
-            "collection": "",
-            "label": "",
-            "button_text": "",
-            "button_url": ""
+            "collection": "varsity-stripe-raspberry-black",
+            "label": "VARSITY STRiPE RASPBERRY BLACK",
+            "button_text": "VIEW FULL COLLECTION",
+            "button_url": "shopify:\/\/collections\/varsity-stripe-raspberry-black"
           }
         }
       },
