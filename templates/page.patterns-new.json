@@ -575,10 +575,10 @@
         "collection_3Kc7Eq": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "varsity-stripe-kelly-navy",
             "label": "VARSITY STRIPE KELLY NAVY",
             "button_text": "VIEW FULL COLLECTION",
-            "button_url": ""
+            "button_url": "shopify:\/\/collections\/varsity-stripe-kelly-navy"
           }
         }
       },
