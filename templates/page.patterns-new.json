@@ -484,7 +484,6 @@
     },
     "featured_collections_MWUjAU": {
       "type": "featured-collections",
-      "disabled": true,
       "settings": {
         "subheading": "",
         "title": "",
@@ -567,10 +566,10 @@
         "collection_FGdUdm": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "varsity-stripe-raspberry-black",
             "label": "VARSITY STRIPE RASPBERRY BLACK",
             "button_text": "VIEW FULL COLLECTION",
-            "button_url": ""
+            "button_url": "shopify:\/\/collections\/varsity-stripe-raspberry-black"
           }
         },
         "collection_3Kc7Eq": {
