@@ -294,7 +294,7 @@
       "settings": {
         "reveal_on_scroll": true,
         "section_height": "small",
-        "image": "shopify:\/\/shop_images\/Safari_Jade-Carousel_1463_HIRES_copy.jpg",
+        "image": "shopify:\/\/shop_images\/safari_flower_black-chin.jpg",
         "subheading": "",
         "title": "",
         "content": "",
@@ -340,20 +340,10 @@
             "button_text": "View Collection",
             "button_url": "shopify:\/\/collections\/safari-flower-collection"
           }
-        },
-        "30643d47-a357-483a-bfaf-867803019d46": {
-          "type": "collection",
-          "settings": {
-            "collection": "safari-flower-jade",
-            "label": "Safari Flower Jade",
-            "button_text": "View Collection",
-            "button_url": "shopify:\/\/collections\/safari-flower-collection"
-          }
         }
       },
       "block_order": [
-        "template--17915522580761__3c3f1770-874e-40e5-9463-f5cc211b590f-168389959488378107-0",
-        "30643d47-a357-483a-bfaf-867803019d46"
+        "template--17915522580761__3c3f1770-874e-40e5-9463-f5cc211b590f-168389959488378107-0"
       ],
       "settings": {
         "subheading": "",
