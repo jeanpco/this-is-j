@@ -717,7 +717,6 @@
       "block_order": [
         "look_krJDa7"
       ],
-      "disabled": true,
       "settings": {
         "reveal_on_scroll": false,
         "label": "Shop the looks"
@@ -728,17 +727,15 @@
       "blocks": {
         "collection_MymQhp": {
           "type": "collection",
-          "disabled": true,
           "settings": {
-            "collection": "",
-            "label": "",
-            "button_text": "",
-            "button_url": ""
+            "collection": "varsity-stripe-kelly-navy",
+            "label": "VARSITY STRIPE KELLY NAVY",
+            "button_text": "VIEW FULL COLLECTION",
+            "button_url": "shopify:\/\/collections\/varsity-stripe-kelly-navy"
           }
         },
         "collection_t8Thgd": {
           "type": "collection",
-          "disabled": true,
           "settings": {
             "collection": "",
             "label": "",
@@ -751,7 +748,6 @@
         "collection_MymQhp",
         "collection_t8Thgd"
       ],
-      "disabled": true,
       "settings": {
         "subheading": "",
         "title": "Varsity Stripe",
