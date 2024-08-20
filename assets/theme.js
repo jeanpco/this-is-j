@@ -9549,37 +9549,44 @@
   // custom-elements.js
 class AccountComfortClub extends HTMLElement {
   constructor() {
-      super();
+    super();
 
-      this.customerEmail = this.dataset.customer;
+    this.customerEmail = this.dataset.customer;
 
-      this.queryUrls= [];
-      this.yoptoVipTiers= [];
-      this.yoptoCustomerData = [];
-      this.yoptoRedeemOptions = [];
+    this.queryUrls = [];
+    this.yoptoVipTiers = [];
+    this.yoptoCustomerData = [];
+    this.yoptoRedeemOptions = [];
 
-      this.currentVipTiers = [];
-      this.nextVipTiers = [];
+    this.currentVipTiers = [];
+    this.nextVipTiers = [];
 
-      this.queryUrls['cutomers'] = `https://loyalty.yotpo.com/api/v2/customers?customer_email=${ this.customerEmail }&api_key=${window.themeVariables.settings.comfort_club_api_key}&guid=${window.themeVariables.settings.comfort_club_guid}&with_history=true`;
-      this.queryUrls['vip_tiers'] = `https://loyalty.yotpo.com/api/v2/vip_tiers?api_key=${window.themeVariables.settings.comfort_club_api_key}&guid=${window.themeVariables.settings.comfort_club_guid}`;
-      this.queryUrls['redeem_options'] = `https://loyalty.yotpo.com/api/v2/redemption_options?customer_email=${ this.customerEmail }&api_key=${window.themeVariables.settings.comfort_club_api_key}&guid=${window.themeVariables.settings.comfort_club_guid}`;
+    this.queryUrls[
+      'cutomers'
+    ] = `https://loyalty.yotpo.com/api/v2/customers?customer_email=${this.customerEmail}&api_key=${window.themeVariables.settings.comfort_club_api_key}&guid=${window.themeVariables.settings.comfort_club_guid}&with_history=true`;
+    this.queryUrls[
+      'vip_tiers'
+    ] = `https://loyalty.yotpo.com/api/v2/vip_tiers?api_key=${window.themeVariables.settings.comfort_club_api_key}&guid=${window.themeVariables.settings.comfort_club_guid}`;
+    this.queryUrls[
+      'redeem_options'
+    ] = `https://loyalty.yotpo.com/api/v2/redemption_options?customer_email=${this.customerEmail}&api_key=${window.themeVariables.settings.comfort_club_api_key}&guid=${window.themeVariables.settings.comfort_club_guid}`;
 
-      this.planNameElement = this.querySelector('[plan-name]');
-      this.upgradePlanAmountElement = this.querySelector('[upgrade-amount]');
-      this.planUpgradeElement = this.querySelector('[plan-upgrade-requirements]');
-      this.planAdvantagesElements = this.querySelectorAll('[data-advantage-key]');
+    this.planNameElement = this.querySelector('[plan-name]');
+    this.upgradePlanAmountElement = this.querySelector('[upgrade-amount]');
+    this.planUpgradeElement = this.querySelector('[plan-upgrade-requirements]');
+    this.planAdvantagesElements = this.querySelectorAll('[data-advantage-key]');
 
-      this.redeemPointOptionsBody = this.querySelector('[points-options]');
-      this.redeemPointHistory = this.querySelector('table[points-history]');
-      this.redeemPointHistoryNone = this.querySelector('[points-history-none]');
-      this.redeemRedeemHistory = this.querySelector('table[redemption-history]');
-      this.redeemRedeemHistoryNone = this.querySelector('[redemption-history-none]');
+    this.redeemPointOptionsBody = this.querySelector('[points-options]');
+    this.redeemPointHistory = this.querySelector('table[points-history]');
+    this.redeemPointHistoryNone = this.querySelector('[points-history-none]');
+    this.redeemRedeemHistory = this.querySelector('table[redemption-history]');
+    this.redeemRedeemHistoryNone = this.querySelector(
+      '[redemption-history-none]'
+    );
 
-      this.fetchVipsTiers();
+    this.fetchVipsTiers();
 
-      this.fetchCustomerInfos();
-
+    this.fetchCustomerInfos();
   }
 
   render() {
@@ -9587,211 +9594,224 @@ class AccountComfortClub extends HTMLElement {
   }
 
   fetchCustomerInfos() {
-
-      fetch(this.queryUrls['cutomers'], {
-          method: 'GET',
-          headers: {
-              'Content-Type': 'application/json',
-              'Accept': "application/json"
-          }
-      })
-          .then(response => response.json())
-          .then(data => this.updatePlanDetails(data))
-          .catch(error => console.error('Error fetching plan details:', error));
+    fetch(this.queryUrls['cutomers'], {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json',
+        Accept: 'application/json',
+      },
+    })
+      .then((response) => response.json())
+      .then((data) => this.updatePlanDetails(data))
+      .catch((error) => console.error('Error fetching plan details:', error));
   }
 
   fetchVipsTiers() {
-
-      fetch(this.queryUrls['vip_tiers'], {
-          method: 'GET',
-          headers: {
-              'Content-Type': 'application/json',
-              'Accept': "application/json"
-          }
-      })
-          .then(response => response.json())
-          .then(data => this.updateVipTiers(data))
-          .catch(error => console.error('Error fetching vip tiers details:', error));
+    fetch(this.queryUrls['vip_tiers'], {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json',
+        Accept: 'application/json',
+      },
+    })
+      .then((response) => response.json())
+      .then((data) => this.updateVipTiers(data))
+      .catch((error) =>
+        console.error('Error fetching vip tiers details:', error)
+      );
   }
 
   fetchRedeemOptions() {
-
-      fetch(this.queryUrls['redeem_options'], {
-          method: 'GET',
-          headers: {
-              'Content-Type': 'application/json',
-              'Accept': "application/json"
-          }
-      })
-          .then(response => response.json())
-          .then(data => this.updateRedeemOptions(data))
-          .catch(error => console.error('Error fetching Redeem options:', error));
+    fetch(this.queryUrls['redeem_options'], {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json',
+        Accept: 'application/json',
+      },
+    })
+      .then((response) => response.json())
+      .then((data) => this.updateRedeemOptions(data))
+      .catch((error) => console.error('Error fetching Redeem options:', error));
   }
 
-  updateVipTiers(data){
+  updateVipTiers(data) {
     this.yoptoVipTiers = data;
 
     // map object to add urls
-    this.yoptoVipTiers.map( tier => {
-      var planElement = [...this.planAdvantagesElements].filter( element => tier.name.toLowerCase().replace(' ', '').indexOf(element.dataset.advantageKey) >= 0 );
-      if(planElement.length > 0) {
+    this.yoptoVipTiers.map((tier) => {
+      var planElement = [...this.planAdvantagesElements].filter(
+        (element) =>
+          tier.name
+            .toLowerCase()
+            .replace(' ', '')
+            .indexOf(element.dataset.advantageKey) >= 0
+      );
+      if (planElement.length > 0) {
         tier.url = planElement[0].dataset.advantageUrl;
-      }
-      else tier.url = '#';
+      } else tier.url = '#';
     });
   }
 
   updatePlanDetails(data) {
+    this.yoptoCustomerData = data;
+    this.currentVipTiers = this.getCurrentVipTiers();
 
-      this.yoptoCustomerData = data;
-      this.currentVipTiers = this.getCurrentVipTiers();
-      
-      if(this.yoptoCustomerData && this.currentVipTiers) {
-        // Plan name
-        // this.planNameElement.innerHTML = this.currentVipTiers.name;
-        
-        // Plan advantages
-        // const advantageToDisplay = [...this.planAdvantagesElements].filter( element => this.currentVipTiers.name.toLowerCase().replace(' ', '').indexOf(element.dataset.advantageKey) >= 0 );
-        // if(advantageToDisplay.length > 0) {
-        //   this.planAdvantagesElements.forEach( element => element.classList.add('hidden') ); // hide all
-        //   advantageToDisplay.forEach( element => element.classList.remove('hidden') ); // display relevent
-        // }
-        // else this.planAdvantagesElements.forEach( element => element.classList.add('hidden') ); // hide all
-        
-        // Plan upgrage
-        if(this.upgradePlanAmountElement) {
-          this.upgradePlanAmountElement.innerHTML = "$" + this.yoptoCustomerData.vip_tier_upgrade_requirements['amount_cents_needed'] / 100;
-        }
-        // this.nextVipTiers = this.getNextVipTiersByName( this.yoptoCustomerData.vip_tier_name );
-        // if(this.nextVipTiers) {
-        //   const planDetails = `Spend another \$${this.yoptoCustomerData.vip_tier_upgrade_requirements['amount_cents_needed'] / 100} and become a <a href="${this.nextVipTiers.url}">${this.nextVipTiers.name}</a>.`;
-        //   this.planUpgradeElement.innerHTML = planDetails;
+    if (this.yoptoCustomerData && this.currentVipTiers) {
+      // Plan name
+      // this.planNameElement.innerHTML = this.currentVipTiers.name;
 
-        //   this.planUpgradeElement.classList.remove('hidden');
-        // }
-        // else this.planUpgradeElement.classList.add('hidden');
+      // Plan advantages
+      // const advantageToDisplay = [...this.planAdvantagesElements].filter( element => this.currentVipTiers.name.toLowerCase().replace(' ', '').indexOf(element.dataset.advantageKey) >= 0 );
+      // if(advantageToDisplay.length > 0) {
+      //   this.planAdvantagesElements.forEach( element => element.classList.add('hidden') ); // hide all
+      //   advantageToDisplay.forEach( element => element.classList.remove('hidden') ); // display relevent
+      // }
+      // else this.planAdvantagesElements.forEach( element => element.classList.add('hidden') ); // hide all
 
-
+      // Plan upgrage
+      if (this.upgradePlanAmountElement) {
+        this.upgradePlanAmountElement.innerHTML =
+          '$' +
+          this.yoptoCustomerData.vip_tier_upgrade_requirements[
+            'amount_cents_needed'
+          ] /
+            100;
       }
+      // this.nextVipTiers = this.getNextVipTiersByName( this.yoptoCustomerData.vip_tier_name );
+      // if(this.nextVipTiers) {
+      //   const planDetails = `Spend another \$${this.yoptoCustomerData.vip_tier_upgrade_requirements['amount_cents_needed'] / 100} and become a <a href="${this.nextVipTiers.url}">${this.nextVipTiers.name}</a>.`;
+      //   this.planUpgradeElement.innerHTML = planDetails;
 
-      //
-      this.fetchRedeemOptions();
+      //   this.planUpgradeElement.classList.remove('hidden');
+      // }
+      // else this.planUpgradeElement.classList.add('hidden');
+    }
+
+    //
+    this.fetchRedeemOptions();
   }
 
-  updateRedeemOptions(data){
+  updateRedeemOptions(data) {
     this.yoptoRedeemOptions = data;
-    
-    // Redeem options
-    // console.log( this.yoptoRedeemOptions )
-    // console.log( this.yoptoCustomerData.history_items )
-    // this.yoptoRedeemOptions.forEach( option => {
-    //     const redeemOption = document.createElement('div');
-    //     const redeemLabel = document.createElement('span');
-    //     const redeemCta = document.createElement('a');
 
-    //     redeemLabel.innerHTML = option.cost_text;
-
-    //     redeemCta.innerHTML = option.name;
-    //     redeemCta.href = '#' + option.name;
-    //     redeemCta.dataset['id'] = option.id;
-    //     redeemCta.classList = ['button button--full button--black'];
-
-    //     redeemOption.appendChild(redeemLabel);
-    //     redeemOption.appendChild(redeemCta);
-    //     redeemOption.classList.add('redeem-option-item');
-
-    //     this.redeemPointOptionsBody.appendChild(redeemOption);
-    // });
-
+    console.log('=====>', this.yoptoRedeemOptions);
 
     // Point history
-    const pointHistory = this.yoptoCustomerData.history_items.filter( item => item.points > 0 );
-    if(pointHistory.length > 0) {
-        pointHistory.forEach(item => {
-            const row = document.createElement('tr');
-    
-            const dateCell = document.createElement('td');
-            dateCell.textContent = item.date;
-            dateCell.classList.add('simple');
-            row.appendChild(dateCell);
-    
-            const descriptionCell = document.createElement('td');
-            descriptionCell.textContent = item.action;
-            descriptionCell.classList.add('large');
-            row.appendChild(descriptionCell);
-    
-            const redeemCell = document.createElement('td');
-            redeemCell.textContent = item.points + ' points';
-            redeemCell.classList.add('large');
-            row.appendChild(redeemCell);
-    
-            const statusCell = document.createElement('td');
-            statusCell.classList.add('simple');
-            statusCell.textContent = item.status;
-            row.appendChild(statusCell);
-    
-            this.redeemPointHistory.querySelector('tbody').appendChild(row);
+    let pointHistory = this.yoptoCustomerData.history_items.filter(
+      (item) => item.points > 0
+    );
 
-        });
-        // 
-        this.redeemPointHistory.classList.remove('hidden');
-        this.redeemPointHistoryNone.classList.add('hidden');
-    }
-    else {
+    // Sort pointHistory from newest to oldest
+    pointHistory.sort((a, b) => new Date(b.date) - new Date(a.date));
+
+    if (pointHistory.length > 0) {
+      pointHistory.forEach((item) => {
+        const row = document.createElement('tr');
+
+        const dateCell = document.createElement('td');
+        dateCell.textContent = item.date;
+        dateCell.classList.add('simple');
+        row.appendChild(dateCell);
+
+        const descriptionCell = document.createElement('td');
+        descriptionCell.textContent = item.action;
+        descriptionCell.classList.add('large');
+        row.appendChild(descriptionCell);
+
+        const redeemCell = document.createElement('td');
+        redeemCell.textContent = item.points + ' points';
+        redeemCell.classList.add('large');
+        row.appendChild(redeemCell);
+
+        if (item.status === 'Approved') {
+          item.status = 'Earned';
+        }
+
+        const statusCell = document.createElement('td');
+        statusCell.classList.add('simple');
+        statusCell.textContent = item.status;
+        row.appendChild(statusCell);
+
+        this.redeemPointHistory.querySelector('tbody').appendChild(row);
+      });
+
+      this.redeemPointHistory.classList.remove('hidden');
+      this.redeemPointHistoryNone.classList.add('hidden');
+    } else {
       this.redeemPointHistory.classList.add('hidden');
       this.redeemPointHistoryNone.classList.remove('hidden');
     }
 
     // Redemptions history
-    const redemptionHistory = this.yoptoCustomerData.history_items.filter( item => item.points < 0 );
-    if(redemptionHistory.length > 0) {
+    let redemptionHistory = this.yoptoCustomerData.history_items.filter(
+      (item) => item.points < 0
+    );
 
-      redemptionHistory.forEach(item => {
-          const row = document.createElement('tr');
+    // Sort redemptionHistory from newest to oldest
+    redemptionHistory.sort((a, b) => new Date(b.date) - new Date(a.date));
 
-          const dateCell = document.createElement('td');
-          dateCell.textContent = item.date;
-          dateCell.classList.add('simple');
-          row.appendChild(dateCell);
+    if (redemptionHistory.length > 0) {
+      redemptionHistory.forEach((item) => {
+        const row = document.createElement('tr');
 
-          const rewardCell = document.createElement('td');
-          rewardCell.textContent = item.action;
-          rewardCell.classList.add('large');
-          row.appendChild(rewardCell);
+        console.log('item.date =====>', item.date);
+        // DATE FORMAT = "2022-06-30"
 
-          const codeCell = document.createElement('td');
-          codeCell.textContent = item.status;
-          codeCell.classList.add('large');
-          row.appendChild(codeCell);
+        const dateCell = document.createElement('td');
+        dateCell.textContent = item.date;
+        dateCell.classList.add('simple');
+        row.appendChild(dateCell);
 
+        const rewardCell = document.createElement('td');
+        rewardCell.textContent = item.action;
+        rewardCell.classList.add('large');
+        row.appendChild(rewardCell);
 
-          const statusCell = document.createElement('td');
-          statusCell.textContent = item.status;
-          statusCell.classList.add('simple');
-          row.appendChild(statusCell);
+        const codeCell = document.createElement('td');
+        codeCell.textContent = item.status;
+        codeCell.classList.add('large');
+        row.appendChild(codeCell);
 
-          this.redeemRedeemHistory.querySelector('tbody').appendChild(row);
-      });
-        // 
-        this.redeemRedeemHistory.classList.remove('hidden');
-        this.redeemRedeemHistoryNone.classList.add('hidden');
-     }
-     else {
-       this.redeemRedeemHistory.classList.add('hidden');
-       this.redeemRedeemHistoryNone.classList.remove('hidden');
-     }
-  }
-
-
-  getCurrentVipTiers( ){
-    return this.yoptoVipTiers.find( tier => tier.name.toLowerCase().replace(' ', '') === this.yoptoCustomerData.vip_tier_name.toLowerCase().replace(' ', '') );
-  }
-
-  getNextVipTiersByName( tierName ){
-    for (let i = 0; i < this.yoptoVipTiers.length; i++) {
-        if (this.yoptoVipTiers[i].name.toLowerCase().replace(' ', '') === tierName.toLowerCase().replace(' ', '') ) {
-            return (i + 1 < this.yoptoVipTiers.length) ? this.yoptoVipTiers[i + 1] : null;
+        if (item.status === 'Approved') {
+          item.status = 'Earned';
         }
+
+        console.log('=====>', item)
+
+        const statusCell = document.createElement('td');
+        statusCell.textContent = item.status;
+        statusCell.classList.add('simple');
+        row.appendChild(statusCell);
+
+        this.redeemRedeemHistory.querySelector('tbody').appendChild(row);
+      });
+
+      this.redeemRedeemHistory.classList.remove('hidden');
+      this.redeemRedeemHistoryNone.classList.add('hidden');
+    } else {
+      this.redeemRedeemHistory.classList.add('hidden');
+      this.redeemRedeemHistoryNone.classList.remove('hidden');
+    }
+  }
+
+  getCurrentVipTiers() {
+    return this.yoptoVipTiers.find(
+      (tier) =>
+        tier.name.toLowerCase().replace(' ', '') ===
+        this.yoptoCustomerData.vip_tier_name.toLowerCase().replace(' ', '')
+    );
+  }
+
+  getNextVipTiersByName(tierName) {
+    for (let i = 0; i < this.yoptoVipTiers.length; i++) {
+      if (
+        this.yoptoVipTiers[i].name.toLowerCase().replace(' ', '') ===
+        tierName.toLowerCase().replace(' ', '')
+      ) {
+        return i + 1 < this.yoptoVipTiers.length
+          ? this.yoptoVipTiers[i + 1]
+          : null;
+      }
     }
     return null; // If the element is not found
   }

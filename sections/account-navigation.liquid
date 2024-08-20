@@ -32,27 +32,27 @@
               {%- case block.type -%}
                   {%- when 'custom-link' -%}
                     <li class="link-bar__link-item">
-                      <a href="{{ block.settings.url }}" class="link-bar__link link--animated {% if request.path ==  block.settings.url  %}text--underlined{% endif %}">{{ block.settings.label }}</a>
+                      <a href="{{ block.settings.url }}" class="link-bar__link link--animated" data-nav-link>{{ block.settings.label }}</a>
                     </li>
 
                   {%- when 'club' -%}
                     <li class="link-bar__link-item">
-                      <a href="{{ routes.account_url }}#comfortClub" class="link-bar__link link--animated {% if request.path contains '#comfortClub' %}text--underlined{% endif %}">{{ 'customer.general.comfortClub' | t }}</a>
+                      <a href="{{ routes.account_url }}#comfortClub" class="link-bar__link link--animated" data-nav-link>{{ 'customer.general.comfortClub' | t }}</a>
                     </li>
 
                   {%- when 'orders' -%}
                     <li class="link-bar__link-item">
-                      <a href="{{ routes.account_url }}#orders" class="link-bar__link link--animated {% if request.path contains '#orders' %}text--underlined{% endif %}">{{ 'customer.orders.title' | t }}</a>
+                      <a href="{{ routes.account_url }}#orders" class="link-bar__link link--animated" data-nav-link>{{ 'customer.orders.title' | t }}</a>
                     </li>
 
                   {%- when 'addresses' -%}
                     <li class="link-bar__link-item">
-                      <a href="{{ routes.account_addresses_url }}" class="link-bar__link link--animated {% if request.path == routes.account_addresses_url%}text--underlined{% endif %}">{{ 'customer.addresses.title' | t }}</a>
+                      <a href="{{ routes.account_addresses_url }}" class="link-bar__link link--animated" data-nav-link>{{ 'customer.addresses.title' | t }}</a>
                     </li>
 
                   {%- when 'logout' -%}
                     <li class="link-bar__link-item">
-                      <a href="{{ routes.account_logout_url }}" class="link-bar__link link--animated text--subdued" data-no-instant>{{ 'customer.logout.title' | t }}</a>
+                      <a href="{{ routes.account_logout_url }}" class="link-bar__link link--animated" data-no-instant>{{ 'customer.logout.title' | t }}</a>
                     </li>
               {%- endcase -%}
           {% endfor %}
@@ -111,6 +111,25 @@
   </popover-content>
 
 </div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const navLinks = document.querySelectorAll('[data-nav-link]');
+    const currentPath = window.location.pathname;
+    const currentHash = window.location.hash;
+
+    navLinks.forEach(link => {
+      const linkPath = new URL(link.href).pathname;
+      const linkHash = new URL(link.href).hash;
+
+      if (linkPath === currentPath && (!linkHash || linkHash === currentHash)) {
+        link.classList.add('text--underlined');
+      } else {
+        link.classList.remove('text--underlined');
+      }
+    });
+  });
+</script>
 
 {% schema %}
 {
