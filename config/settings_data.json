@@ -54,6 +54,7 @@
         "type": "mini-cart",
         "settings": {
           "show_order_note": true,
+          "comfort_club_note": "<p>Members get free shipping on applicable orders. <a href='\/account\/login' title='\/account\/login'>Login \/ Sign Up<\/a><\/p>",
           "show_checkout_button": true,
           "empty_button_link": "shopify:\/\/collections\/new-arrivals",
           "show_recommendations": true,
@@ -80,14 +81,6 @@
         "settings": {
         }
       },
-      "8962992520437913685": {
-        "type": "shopify:\/\/apps\/yotpo-loyalty-rewards\/blocks\/loader-app-embed-block\/2f9660df-5018-4e02-9868-ee1fb88d6ccd",
-        "disabled": false,
-        "settings": {
-          "inject_modules_loader": true,
-          "inject_sdk_loader": false
-        }
-      },
       "7570552984445421165": {
         "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/settings\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
         "disabled": false,
@@ -98,6 +91,14 @@
         "type": "shopify:\/\/apps\/countdown-timer-bar-hextom\/blocks\/ctb-embeded-block\/f7b88b6e-2e87-46bc-87a9-3e3638a24fa9",
         "disabled": false,
         "settings": {
+        }
+      },
+      "8962992520437913685": {
+        "type": "shopify:\/\/apps\/yotpo-loyalty-rewards\/blocks\/loader-app-embed-block\/2f9660df-5018-4e02-9868-ee1fb88d6ccd",
+        "disabled": false,
+        "settings": {
+          "inject_modules_loader": true,
+          "inject_sdk_loader": true
         }
       }
     }

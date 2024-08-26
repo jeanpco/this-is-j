@@ -36,8 +36,22 @@
     </div>
   {%- else -%}
     <div class="drawer__content">
-      {%- if settings.cart_show_free_shipping_threshold and settings.cart_free_shipping_threshold != '' and cart.requires_shipping -%}
-        {%- assign free_shipping_thresholds = settings.cart_free_shipping_threshold | remove: ' ' | split: ',' -%}
+
+      {% assign cart_free_shipping_threshold = settings.cart_free_shipping_threshold  %}
+      {% if customer and settings.cart_show_free_shipping_threshold%}
+          {% if customer.tags contains 'swell_vip_comfort connoiseeur'  %}
+              {% assign cart_free_shipping_threshold = settings.cart_free_shipping_threshold_connoiseeur  %}
+            
+          {% elsif  customer.tags contains 'swell_vip_comfort lover'  %}
+              {% assign cart_free_shipping_threshold = settings.cart_free_shipping_threshold_lover  %}
+
+          {% elsif  customer.tags contains 'swell_vip_comfort seeker'  %}
+              {% assign cart_free_shipping_threshold = settings.cart_free_shipping_threshold_seeker  %}
+          {% endif %}
+      {% endif %}
+
+      {%- if settings.cart_show_free_shipping_threshold and cart_free_shipping_threshold != '' and cart.requires_shipping -%}
+        {%- assign free_shipping_thresholds = cart_free_shipping_threshold | remove: ' ' | split: ',' -%}
         {%- assign has_found_matching_threshold = false -%}
 
         {%- if free_shipping_thresholds.size > 1 -%}
@@ -88,6 +102,10 @@
           </free-shipping-bar>
         {%- endif -%}
       {%- endif -%}
+
+      {%- unless customer or section.settings.comfort_club_note == blank -%}
+          {% render 'yopto-notice', isMiniCart: true, notice_text: section.settings.comfort_club_note %}  
+      {%- endunless -%}
 
       <form id="mini-cart-form" action="{{ routes.cart_url }}" novalidate method="post">
         <input type="hidden" name="checkout">
@@ -399,6 +417,13 @@
       "id": "show_order_note",
       "label": "Show order note",
       "default": true
+    },
+    {
+      "type": "richtext",
+      "id": "comfort_club_note",
+      "label": "Comfort Club Note",
+      "info": "Banner text to display in cart",
+      "default": "<p>Members get free shipping on applicable orders. <a href='/account/login' title='/account/login'>Login / Sign Up</a></p>"
     },
     {
       "type": "checkbox",

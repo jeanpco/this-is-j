@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin language editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "general": {
     "meta": {
@@ -290,7 +299,8 @@
   },
   "customer": {
     "general": {
-      "title": "My account"
+      "title": "My account",
+      "comfortClub": "Comfort Club"
     },
     "login": {
       "title": "Login",
@@ -338,7 +348,7 @@
       "login": "Login"
     },
     "orders": {
-      "title": "Orders",
+      "title": "My orders",
       "no_orders": "You have not placed any orders yet.",
       "start_shopping": "Start shopping",
       "back_to_orders": "Back to orders",
@@ -370,7 +380,7 @@
       "billing_address": "Billing address"
     },
     "addresses": {
-      "title": "Addresses",
+      "title": "My addresses",
       "no_address": "You have not saved any addresses yet.",
       "add_new": "Add a new address",
       "edit": "Edit",
@@ -472,7 +482,7 @@
     }
   },
   "loyalty": {
-    "balance_html": "Hi, {{ name }}!<br \/>You currently have <span class=\"swell-point-balance\">––<\/span> points."
+    "balance_html": "You currently have <strong><span class=\"swell-point-balance\">––<\/span> points<\/strong>."
   },
   "shopify": {
     "checkout": {

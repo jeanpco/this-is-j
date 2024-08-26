@@ -7007,18 +7007,19 @@
         event.detail.variant &&
         this.inventories[event.detail.variant['id']] !== ''
       ) {
-
         const { tags = [], mergedTags = [] } =
-        window.allProductTags?.[event.detail.variant['product_id']] || {};
-        
+          window.allProductTags?.[event.detail.variant['product_id']] || {};
+
         const comingSoon = Boolean(
           mergedTags.includes('comingsoon') ||
-            mergedTags.includes(`comingsoon::${event.detail.variant['option1']}`)
+            mergedTags.includes(
+              `comingsoon::${event.detail.variant['option1']}`
+            )
         );
 
         // hide if coming soon
         this.hidden = comingSoon;
-        
+
         this.insertAdjacentHTML(
           'afterbegin',
           this.inventories[event.detail.variant['id']]
@@ -7037,25 +7038,34 @@
 
       this.comingSoon = false;
 
-      this.comingsoonFound = this.dataset.comingsoonFound === "true";
+      this.comingsoonFound = this.dataset.comingsoonFound === 'true';
       this.comingSoonTag = this.dataset.comingsoonTag;
       this.selectedVariant = this.dataset.selectedVariantTitle;
 
-      if( !this.comingsoonFound && !this.comingSoonTag ){
-        const parentSection = this.closest(".product-form__buy-buttons");
+      if (!this.comingsoonFound && !this.comingSoonTag) {
+        const parentSection = this.closest('.product-form__buy-buttons');
 
-        if( parentSection ) {
-          this.comingsoonFound = parentSection.dataset.comingsoonFound === "true";
-          this.comingSoonTag   = parentSection.dataset.comingsoonTag;
+        if (parentSection) {
+          this.comingsoonFound =
+            parentSection.dataset.comingsoonFound === 'true';
+          this.comingSoonTag = parentSection.dataset.comingsoonTag;
           this.selectedVariant = parentSection.dataset.selectedVariantTitle;
         }
       }
 
-      this.notifyMeButtonElement = this.querySelector( '[data-product-notify-me]');
-      this.addToCartButtonElement = this.querySelector( '[data-product-add-to-cart-button]' );
+      this.notifyMeButtonElement = this.querySelector(
+        '[data-product-notify-me]'
+      );
+      this.addToCartButtonElement = this.querySelector(
+        '[data-product-add-to-cart-button]'
+      );
       this.paymentButtonElement = this.querySelector('.shopify-payment-button');
-  
-      this.comingSoon = Boolean( this.comingsoonFound && this.comingSoonTag && this.comingSoonTag.includes(`comingsoon::${ this.selectedVariant }`) );
+
+      this.comingSoon = Boolean(
+        this.comingsoonFound &&
+          this.comingSoonTag &&
+          this.comingSoonTag.includes(`comingsoon::${this.selectedVariant}`)
+      );
 
       this.initButtonStates();
     }
@@ -7080,10 +7090,13 @@
       const { tags = [], mergedTags = [] } =
         window.allProductTags?.[variant?.product_id] || {};
 
-      if ( this.comingsoonFound ) {
-        this.comingSoon = Boolean( this.comingsoonFound && this.comingSoonTag && this.comingSoonTag.includes(`comingsoon::${variant.option1}`) );
-      }
-      else {
+      if (this.comingsoonFound) {
+        this.comingSoon = Boolean(
+          this.comingsoonFound &&
+            this.comingSoonTag &&
+            this.comingSoonTag.includes(`comingsoon::${variant.option1}`)
+        );
+      } else {
         this.comingSoon = Boolean(
           mergedTags.includes('comingsoon') ||
             mergedTags.includes(`comingsoon::${variant.option1}`)
@@ -7133,26 +7146,29 @@
           if (this.notifyMeButtonElement && !tags.includes('Do Not Notify')) {
             this.notifyMeButtonElement.style.display = 'block';
 
-            if ( !this.comingSoon ) {
+            if (!this.comingSoon) {
               this.addToCartButtonElement.style.display = 'none';
             }
           }
         }
       }
       if (this.addToCartButtonElement.getAttribute('is') === 'loader-button') {
-        this.addToCartButtonElement.firstElementChild.innerHTML = addToCartButtonText;
+        this.addToCartButtonElement.firstElementChild.innerHTML =
+          addToCartButtonText;
       } else {
         // addToCartButtonElement.innerHTML = addToCartButtonText;
-        this.addToCartButtonElement.innerHTML = '<span class="loader-button__text">' + addToCartButtonText + '</span>'
-                                           + '<span class="loader-button__loader" hidden=""> '
-                                           + '<div class="spinner"> '
-                                           + '<svg focusable="false" width="24" height="24" class="icon icon--spinner" viewBox="25 25 50 50"><circle cx="50" cy="50" r="20" fill="none" stroke="currentColor" stroke-width="5"></circle></svg>'
-                                           + '</div>'
-                                           + '</span>';
+        this.addToCartButtonElement.innerHTML =
+          '<span class="loader-button__text">' +
+          addToCartButtonText +
+          '</span>' +
+          '<span class="loader-button__loader" hidden=""> ' +
+          '<div class="spinner"> ' +
+          '<svg focusable="false" width="24" height="24" class="icon icon--spinner" viewBox="25 25 50 50"><circle cx="50" cy="50" r="20" fill="none" stroke="currentColor" stroke-width="5"></circle></svg>' +
+          '</div>' +
+          '</span>';
       }
     }
     _updateNotifyMeButton(variant) {
-
       if (!this.notifyMeButtonElement) {
         return;
       }
@@ -7172,7 +7188,11 @@
       }
 
       // handle display of notify me button
-      if ((this.notifyMeButtonElement && this.comingSoon) || (this.notifyMeButtonElement && !variant.available)) this.notifyMeButtonElement.style.display = 'block';
+      if (
+        (this.notifyMeButtonElement && this.comingSoon) ||
+        (this.notifyMeButtonElement && !variant.available)
+      )
+        this.notifyMeButtonElement.style.display = 'block';
       else this.notifyMeButtonElement.style.display = 'none';
     }
     _updateDynamicCheckoutButton(variant) {
@@ -7183,10 +7203,13 @@
       const { tags = [], mergedTags = [] } =
         window.allProductTags?.[variant?.product_id] || {};
 
-      if ( this.comingsoonFound ) {
-        this.comingSoon = Boolean( this.comingsoonFound && this.comingSoonTag && this.comingSoonTag.includes(`comingsoon::${variant.option1}`) );
-      }
-      else {
+      if (this.comingsoonFound) {
+        this.comingSoon = Boolean(
+          this.comingsoonFound &&
+            this.comingSoonTag &&
+            this.comingSoonTag.includes(`comingsoon::${variant.option1}`)
+        );
+      } else {
         this.comingSoon = Boolean(
           mergedTags.includes('comingsoon') ||
             mergedTags.includes(`comingsoon::${variant.option1}`)
@@ -7197,20 +7220,23 @@
         !variant || !variant['available'] || this.comingSoon ? 'none' : 'block';
     }
     initButtonStates() {
-
-      if (this.paymentButtonElement && this.comingSoon) this.paymentButtonElement.style.display = 'none';
+      if (this.paymentButtonElement && this.comingSoon)
+        this.paymentButtonElement.style.display = 'none';
       // if (this.notifyMeButtonElement && this.comingSoon) this.notifyMeButtonElement.style.display = 'block';
       if (this.addToCartButtonElement && this.comingSoon) {
-          this.addToCartButtonElement.setAttribute('disabled', 'disabled');
-          this.addToCartButtonElement.classList.add('is-disabled');
-          this.addToCartButtonElement.classList.add('button--ternary');
-          this.addToCartButtonElement.style.display = 'block';
-          this.addToCartButtonElement.innerHTML = '<span class="loader-button__text">' + window.themeVariables.strings.productFormComingSoon + '</span>'
-                                           + '<span class="loader-button__loader" hidden=""> '
-                                           + '<div class="spinner"> '
-                                           + '<svg focusable="false" width="24" height="24" class="icon icon--spinner" viewBox="25 25 50 50"><circle cx="50" cy="50" r="20" fill="none" stroke="currentColor" stroke-width="5"></circle></svg>'
-                                           + '</div>'
-                                           + '</span>';
+        this.addToCartButtonElement.setAttribute('disabled', 'disabled');
+        this.addToCartButtonElement.classList.add('is-disabled');
+        this.addToCartButtonElement.classList.add('button--ternary');
+        this.addToCartButtonElement.style.display = 'block';
+        this.addToCartButtonElement.innerHTML =
+          '<span class="loader-button__text">' +
+          window.themeVariables.strings.productFormComingSoon +
+          '</span>' +
+          '<span class="loader-button__loader" hidden=""> ' +
+          '<div class="spinner"> ' +
+          '<svg focusable="false" width="24" height="24" class="icon icon--spinner" viewBox="25 25 50 50"><circle cx="50" cy="50" r="20" fill="none" stroke="currentColor" stroke-width="5"></circle></svg>' +
+          '</div>' +
+          '</span>';
       }
     }
   };
@@ -7739,14 +7765,15 @@
           `restock::${variant.option1}`.trim().toLowerCase()
       );
 
-      var comingsoonFound = this.dataset.comingsoonFound === "true";
+      var comingsoonFound = this.dataset.comingsoonFound === 'true';
       const comingSoonTag = this.dataset.comingsoonTag;
 
       var comingSoon = false;
-      if ( comingsoonFound ) {
-        comingSoon = Boolean( comingSoonTag.includes(`comingsoon::${variant.option1}`) );
-      }
-      else {
+      if (comingsoonFound) {
+        comingSoon = Boolean(
+          comingSoonTag.includes(`comingsoon::${variant.option1}`)
+        );
+      } else {
         comingSoon = Boolean(
           mergedTags.includes('comingsoon') ||
             mergedTags.includes(`comingsoon::${variant.option1}`)
@@ -7763,33 +7790,32 @@
         productLabelList.innerHTML = '';
 
         if (!!comingSoon)
-            productLabelList.innerHTML = `<span class="label label--subdued">${window.themeVariables.strings.productFormComingSoon}</span>`;
-        else
-            if (
-              document.querySelector('.block-swatch__radio:checked') &&
-              !variant['available']
-            ) {
-              if (!!restockTag)
-                productLabelList.innerHTML = `<span class="label label--subdued">${window.themeVariables.strings.collectionRestock}</span>`;
-              else
-                productLabelList.innerHTML = `<span class="label label--subdued">${window.themeVariables.strings.collectionSoldOut}</span>`;
-            } else if (variant['compare_at_price'] > variant['price']) {
-              let savings = '';
-              if (window.themeVariables.settings.discountMode === 'percentage') {
-                savings = `${Math.round(
-                  ((variant['compare_at_price'] - variant['price']) * 100) /
-                    variant['compare_at_price']
-                )}%`;
-              } else {
-                savings = formatMoney(
-                  variant['compare_at_price'] - variant['price']
-                );
-              }
-              productLabelList.innerHTML = `<span class="label label--highlight">${window.themeVariables.strings.collectionDiscount.replace(
-                '@savings@',
-                savings
-              )}</span>`;
-            }
+          productLabelList.innerHTML = `<span class="label label--subdued">${window.themeVariables.strings.productFormComingSoon}</span>`;
+        else if (
+          document.querySelector('.block-swatch__radio:checked') &&
+          !variant['available']
+        ) {
+          if (!!restockTag)
+            productLabelList.innerHTML = `<span class="label label--subdued">${window.themeVariables.strings.collectionRestock}</span>`;
+          else
+            productLabelList.innerHTML = `<span class="label label--subdued">${window.themeVariables.strings.collectionSoldOut}</span>`;
+        } else if (variant['compare_at_price'] > variant['price']) {
+          let savings = '';
+          if (window.themeVariables.settings.discountMode === 'percentage') {
+            savings = `${Math.round(
+              ((variant['compare_at_price'] - variant['price']) * 100) /
+                variant['compare_at_price']
+            )}%`;
+          } else {
+            savings = formatMoney(
+              variant['compare_at_price'] - variant['price']
+            );
+          }
+          productLabelList.innerHTML = `<span class="label label--highlight">${window.themeVariables.strings.collectionDiscount.replace(
+            '@savings@',
+            savings
+          )}</span>`;
+        }
       }
     }
     _updatePrices(variant) {
@@ -8057,7 +8083,7 @@
       // if( blockSwatches.length == 1 ) blockSwatches[0].querySelector('input').click();
       // if( blockSwatches.length == 1 ) blockSwatches[0].querySelector('label').click();
 
-      // console.log( blockSwatches );
+      //
     }
     get selectedVariant() {
       return this._getVariantById(parseInt(this.masterSelector.value));
@@ -8078,18 +8104,19 @@
         var parentElement = this.closest('product-item');
 
         // if not,check if PDP gallery image
-        if( !parentElement ) var parentElement = this.closest('.product.product--thumbnails-left');
+        if (!parentElement)
+          var parentElement = this.closest('.product.product--thumbnails-left');
 
         // Update display if parent elemment found
-        if( parentElement )
-        parentElement
-          .querySelectorAll(`.product-medias[data-product]`)
-          .forEach((gallery) => {
-            gallery.classList.toggle(
-              'hide',
-              Number(gallery.dataset.product) !== product_id
-            );
-          });
+        if (parentElement)
+          parentElement
+            .querySelectorAll(`.product-medias[data-product]`)
+            .forEach((gallery) => {
+              gallery.classList.toggle(
+                'hide',
+                Number(gallery.dataset.product) !== product_id
+              );
+            });
       }
     }
 
@@ -8417,7 +8444,6 @@
       const addToCarts = this.querySelectorAll('[type="submit"]');
 
       if (addToCarts.length) {
-
         this.querySelectorAll('[name="id"]').forEach((el) => {
           el.addEventListener('change', () => {
             if (el.value) {
@@ -8426,7 +8452,7 @@
               });
             }
           });
-          if (el.localName ==  'input' && el.checked) 
+          if (el.localName == 'input' && el.checked)
             addToCarts.forEach((submit) => {
               submit.disabled = false;
             });
@@ -9544,6 +9570,282 @@
 
     init();
   })();
+
+  // custom-elements.js
+  class AccountComfortClub extends HTMLElement {
+    constructor() {
+      super();
+
+      this.customerEmail = this.dataset.customer;
+
+      this.queryUrls = [];
+      this.yoptoVipTiers = [];
+      this.yoptoCustomerData = [];
+      this.yoptoRedeemOptions = [];
+
+      this.currentVipTiers = [];
+      this.nextVipTiers = [];
+
+      this.queryUrls[
+        'cutomers'
+      ] = `https://loyalty.yotpo.com/api/v2/customers?customer_email=${this.customerEmail}&api_key=${window.themeVariables.settings.comfort_club_api_key}&guid=${window.themeVariables.settings.comfort_club_guid}&with_history=true`;
+      this.queryUrls[
+        'vip_tiers'
+      ] = `https://loyalty.yotpo.com/api/v2/vip_tiers?api_key=${window.themeVariables.settings.comfort_club_api_key}&guid=${window.themeVariables.settings.comfort_club_guid}`;
+      this.queryUrls[
+        'redeem_options'
+      ] = `https://loyalty.yotpo.com/api/v2/redemption_options?customer_email=${this.customerEmail}&api_key=${window.themeVariables.settings.comfort_club_api_key}&guid=${window.themeVariables.settings.comfort_club_guid}`;
+
+      this.planNameElement = this.querySelector('[plan-name]');
+      this.upgradePlanAmountElement = this.querySelector('[upgrade-amount]');
+      this.planUpgradeElement = this.querySelector(
+        '[plan-upgrade-requirements]'
+      );
+      this.planAdvantagesElements = this.querySelectorAll(
+        '[data-advantage-key]'
+      );
+
+      this.redeemPointOptionsBody = this.querySelector('[points-options]');
+      this.redeemPointHistory = this.querySelector('table[points-history]');
+      this.redeemPointHistoryNone = this.querySelector('[points-history-none]');
+      this.redeemRedeemHistory = this.querySelector(
+        'table[redemption-history]'
+      );
+      this.redeemRedeemHistoryNone = this.querySelector(
+        '[redemption-history-none]'
+      );
+
+      this.fetchVipsTiers();
+
+      this.fetchCustomerInfos();
+    }
+
+    render() {
+      this.classList.add('ready');
+    }
+
+    fetchCustomerInfos() {
+      fetch(this.queryUrls['cutomers'], {
+        method: 'GET',
+        headers: {
+          'Content-Type': 'application/json',
+          Accept: 'application/json',
+        },
+      })
+        .then((response) => response.json())
+        .then((data) => this.updatePlanDetails(data))
+        .catch((error) => console.error('Error fetching plan details:', error));
+    }
+
+    fetchVipsTiers() {
+      fetch(this.queryUrls['vip_tiers'], {
+        method: 'GET',
+        headers: {
+          'Content-Type': 'application/json',
+          Accept: 'application/json',
+        },
+      })
+        .then((response) => response.json())
+        .then((data) => this.updateVipTiers(data))
+        .catch((error) =>
+          console.error('Error fetching vip tiers details:', error)
+        );
+    }
+
+    fetchRedeemOptions() {
+      fetch(this.queryUrls['redeem_options'], {
+        method: 'GET',
+        headers: {
+          'Content-Type': 'application/json',
+          Accept: 'application/json',
+        },
+      })
+        .then((response) => response.json())
+        .then((data) => this.updateRedeemOptions(data))
+        .catch((error) =>
+          console.error('Error fetching Redeem options:', error)
+        );
+    }
+
+    updateVipTiers(data) {
+      this.yoptoVipTiers = data;
+
+      // map object to add urls
+      this.yoptoVipTiers.map((tier) => {
+        var planElement = [...this.planAdvantagesElements].filter(
+          (element) =>
+            tier.name
+              .toLowerCase()
+              .replace(' ', '')
+              .indexOf(element.dataset.advantageKey) >= 0
+        );
+        if (planElement.length > 0) {
+          tier.url = planElement[0].dataset.advantageUrl;
+        } else tier.url = '#';
+      });
+    }
+
+    updatePlanDetails(data) {
+      this.yoptoCustomerData = data;
+      this.currentVipTiers = this.getCurrentVipTiers();
+
+      if (this.yoptoCustomerData && this.currentVipTiers) {
+        // Plan name
+        // this.planNameElement.innerHTML = this.currentVipTiers.name;
+
+        // Plan advantages
+        // const advantageToDisplay = [...this.planAdvantagesElements].filter( element => this.currentVipTiers.name.toLowerCase().replace(' ', '').indexOf(element.dataset.advantageKey) >= 0 );
+        // if(advantageToDisplay.length > 0) {
+        //   this.planAdvantagesElements.forEach( element => element.classList.add('hidden') ); // hide all
+        //   advantageToDisplay.forEach( element => element.classList.remove('hidden') ); // display relevent
+        // }
+        // else this.planAdvantagesElements.forEach( element => element.classList.add('hidden') ); // hide all
+
+        // Plan upgrage
+        if (this.upgradePlanAmountElement) {
+          this.upgradePlanAmountElement.innerHTML =
+            '$' +
+            this.yoptoCustomerData.vip_tier_upgrade_requirements[
+              'amount_cents_needed'
+            ] /
+              100;
+        }
+        // this.nextVipTiers = this.getNextVipTiersByName( this.yoptoCustomerData.vip_tier_name );
+        // if(this.nextVipTiers) {
+        //   const planDetails = `Spend another \$${this.yoptoCustomerData.vip_tier_upgrade_requirements['amount_cents_needed'] / 100} and become a <a href="${this.nextVipTiers.url}">${this.nextVipTiers.name}</a>.`;
+        //   this.planUpgradeElement.innerHTML = planDetails;
+
+        //   this.planUpgradeElement.classList.remove('hidden');
+        // }
+        // else this.planUpgradeElement.classList.add('hidden');
+      }
+
+      //
+      this.fetchRedeemOptions();
+    }
+
+    updateRedeemOptions(data) {
+      this.yoptoRedeemOptions = data;
+
+      // Point history
+      let pointHistory = this.yoptoCustomerData.history_items.filter(
+        (item) => item.points > 0
+      );
+
+      // Sort pointHistory from newest to oldest
+      pointHistory.sort((a, b) => new Date(b.date) - new Date(a.date));
+
+      if (pointHistory.length > 0) {
+        pointHistory.forEach((item) => {
+          const row = document.createElement('tr');
+
+          const dateCell = document.createElement('td');
+          dateCell.textContent = item.date;
+          dateCell.classList.add('simple');
+          row.appendChild(dateCell);
+
+          const descriptionCell = document.createElement('td');
+          descriptionCell.textContent = item.action;
+          descriptionCell.classList.add('large');
+          row.appendChild(descriptionCell);
+
+          const redeemCell = document.createElement('td');
+          redeemCell.textContent = item.points + ' points';
+          redeemCell.classList.add('large');
+          row.appendChild(redeemCell);
+
+          if (item.status === 'Approved') {
+            item.status = 'Earned';
+          }
+
+          const statusCell = document.createElement('td');
+          statusCell.classList.add('simple');
+          statusCell.textContent = item.status;
+          row.appendChild(statusCell);
+
+          this.redeemPointHistory.querySelector('tbody').appendChild(row);
+        });
+
+        this.redeemPointHistory.classList.remove('hidden');
+        this.redeemPointHistoryNone.classList.add('hidden');
+      } else {
+        this.redeemPointHistory.classList.add('hidden');
+        this.redeemPointHistoryNone.classList.remove('hidden');
+      }
+
+      // Redemptions history
+      let redemptionHistory = this.yoptoCustomerData.history_items.filter(
+        (item) => item.points < 0
+      );
+
+      // Sort redemptionHistory from newest to oldest
+      redemptionHistory.sort((a, b) => new Date(b.date) - new Date(a.date));
+
+      if (redemptionHistory.length > 0) {
+        redemptionHistory.forEach((item) => {
+          const row = document.createElement('tr');
+
+          // DATE FORMAT = "2022-06-30"
+
+          const dateCell = document.createElement('td');
+          dateCell.textContent = item.date;
+          dateCell.classList.add('simple');
+          row.appendChild(dateCell);
+
+          const rewardCell = document.createElement('td');
+          rewardCell.textContent = item.action;
+          rewardCell.classList.add('large');
+          row.appendChild(rewardCell);
+
+          const codeCell = document.createElement('td');
+          codeCell.textContent = item.status;
+          codeCell.classList.add('large');
+          row.appendChild(codeCell);
+
+          if (item.status === 'Approved') {
+            item.status = 'Earned';
+          }
+
+          const statusCell = document.createElement('td');
+          statusCell.textContent = item.status;
+          statusCell.classList.add('simple');
+          row.appendChild(statusCell);
+
+          this.redeemRedeemHistory.querySelector('tbody').appendChild(row);
+        });
+
+        this.redeemRedeemHistory.classList.remove('hidden');
+        this.redeemRedeemHistoryNone.classList.add('hidden');
+      } else {
+        this.redeemRedeemHistory.classList.add('hidden');
+        this.redeemRedeemHistoryNone.classList.remove('hidden');
+      }
+    }
+
+    getCurrentVipTiers() {
+      return this.yoptoVipTiers.find(
+        (tier) =>
+          tier.name.toLowerCase().replace(' ', '') ===
+          this.yoptoCustomerData.vip_tier_name.toLowerCase().replace(' ', '')
+      );
+    }
+
+    getNextVipTiersByName(tierName) {
+      for (let i = 0; i < this.yoptoVipTiers.length; i++) {
+        if (
+          this.yoptoVipTiers[i].name.toLowerCase().replace(' ', '') ===
+          tierName.toLowerCase().replace(' ', '')
+        ) {
+          return i + 1 < this.yoptoVipTiers.length
+            ? this.yoptoVipTiers[i + 1]
+            : null;
+        }
+      }
+      return null; // If the element is not found
+    }
+  }
+
+  customElements.define('account-comfort-club', AccountComfortClub);
 })();
 /*!
  * focus-trap 6.7.1

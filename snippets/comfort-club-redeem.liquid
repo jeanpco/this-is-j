@@ -1,0 +1,253 @@
+{% style %}
+    comfort-club-redeem {
+        display: block;
+        padding: 4rem 0;
+        background-color: rgb(249, 247, 240);
+    }
+    comfort-club-redeem .redeem-points-options {
+        max-width: 900px;
+        text-align: center;
+        margin: 0 auto 2.5rem;
+    }
+    comfort-club-redeem .redeem-points-options .redeem-points-options__wrapper {
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(4, minmax(200px, 1fr));
+    }
+    comfort-club-redeem .redeem-points-options .redeem-option-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    comfort-club-redeem .redeem-points-options .redeem-option-item a {
+        padding 1rem 1.5rem;
+        /* background-color: #000; */
+    }
+    @media screen and (min-width: 768px) {
+        comfort-club-redeem .redeem-points-options {
+            margin: 0 auto 5rem;
+        }
+    }
+
+
+    /* Plugin overide */
+    comfort-club-redeem .yotpo-coupons-redemption-widget .yotpo-coupons-redemption-widget-container {
+        padding: 0 !important;
+    }
+    comfort-club-redeem .yotpo-coupons-redemption-widget .yotpo-headline {
+        font-family: Celine Sans !important;
+        font-size: 36px !important;
+        font-weight: 400 !important;
+        line-height: 41.55px !important;
+    }
+    comfort-club-redeem .yotpo-points-balance {
+        display: none;
+    }
+    comfort-club-redeem .yotpo-coupons-redemption-widget .yotpo-description {
+        font-size: 14px !important;
+        line-height: 1.3;
+        font-family: 'Avenir' !important;
+    }
+    comfort-club-redeem .yotpo-redemption-option-cost {
+        font-family: 'Avenir' !important;
+        font-size: 20px !important;
+        font-weight: 800 !important;
+        line-height: 27.32px;
+        text-align: center;
+        color: black !important;
+    }
+    comfort-club-redeem .yotpo-widgets-action-button.yotpo-filled-button {
+        font-family: 'Avenir' !important;
+        font-size: 16px !important;
+        font-weight: 800 !important;
+    }
+    comfort-club-redeem .yotpo-widgets-action-button.yotpo-filled-button:disabled {
+        background: #D9D9D9 !important;
+        border: 1px solid #D9D9D9 !important;
+        color: black !important;
+    }
+    comfort-club-redeem .yotpo-coupons-redemption-widget .yotpo-redemption-options-list {
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(2, minmax(200px, 1fr));
+    }
+    comfort-club-redeem .yotpo-coupons-redemption-widget .yotpo-redemption-option-container.yotpo-redemption-no-background {
+        width: 100%;
+        border: none;
+        padding: 0.5rem 0;
+    }
+    comfort-club-redeem .yotpo-coupons-redemption-widget .yotpo-redemption-option-grid {
+        gap: 8px !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    comfort-club-redeem .yotpo-coupons-redemption-widget .yotpo-coupouns-container.yotpo-is-mobile { 
+        width: 100%;
+    }
+    comfort-club-redeem  .yotpo-redemption-confirmation-title {
+        padding-bottom: .5rem !important;
+    }
+    comfort-club-redeem .yotpo-coupons-redemption-widget .yotpo-redemption-confirmation .yotpo-redemption-confirmation-options:focus {
+        box-shadow: none;
+    }
+    comfort-club-redeem .yotpo-widgets-action-button.yotpo-rounded-btn-type {
+        border-radius: 0 !important;
+    }
+    @media screen and (min-width: 768px) {
+        comfort-club-redeem .yotpo-coupons-redemption-widget .yotpo-headline {
+            font-size: 50px !important;
+            line-height: 41.55px;
+        }
+        comfort-club-redeem .yotpo-coupons-redemption-widget .yotpo-description {
+            font-size: 16px !important;
+        }
+        comfort-club-redeem .yotpo-coupons-redemption-widget .yotpo-coupouns-container.yotpo-is-mobile { 
+            width: 90%;
+        }
+        comfort-club-redeem .yotpo-coupons-redemption-widget .yotpo-redemption-options-list {
+            display: grid;
+            gap: 1rem;
+            grid-template-columns: repeat(4, minmax(180px, 1fr));
+        }
+    }
+
+    /*  */
+    comfort-club-redeem .redeem-points-history {
+        margin-bottom: 2.5rem;
+    }
+    comfort-club-redeem .redeem-redemption-history {
+        margin-bottom: 2.5rem;
+    }
+    comfort-club-redeem .redeem-points-history h2,
+    comfort-club-redeem .redeem-redemption-history h2 {
+        font-family: Celine Sans;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 1.2;
+    }
+
+    @media screen and (min-width: 768px) {
+        comfort-club-redeem .redeem-points-history {
+            margin-bottom: 5rem;
+        }
+        comfort-club-redeem .redeem-redemption-history {
+            margin-bottom: 3.5rem;
+        }
+        comfort-club-redeem .redeem-points-history h2,
+        comfort-club-redeem .redeem-redemption-history h2 {
+            font-size: 50px;
+            line-height: 41.55px;
+        }
+
+    }
+
+    /* tables styles */
+    comfort-club-redeem table {
+        width: 100%;
+        max-width: 900px;
+        margin: 0 auto;
+        border: none;
+        font-size: 20px;
+        border-collapse: collapse;
+    }
+    comfort-club-redeem table thead {
+        border-collapse: collapse;
+    }
+    comfort-club-redeem table td {
+        padding: .25rem 0;
+        font-size: 14px;
+        line-height: 1;
+    }
+    comfort-club-redeem table th {
+        font-size: 12px;
+        line-height: 1;
+        padding-bottom: 1rem;
+    }
+    comfort-club-redeem table th,
+    comfort-club-redeem table tr {
+        text-align: center;
+    }
+    comfort-club-redeem table tbody tr:not(:first-of-type) {
+        border-top: 1px solid black;
+    }
+    comfort-club-redeem table th.simple,
+    comfort-club-redeem table td.simple {
+        width: 15%;
+        text-transform: capitalize;
+    }
+    comfort-club-redeem table th.large,
+    comfort-club-redeem table td.large {
+        width: 35%;
+    }
+    comfort-club-redeem table td.simple:first-of-type {
+        text-align: left;
+    }
+    @media screen and (min-width: 768px) {
+        comfort-club-redeem table td {
+            font-size: 16px;
+            line-height: 1.3;
+        }
+        
+        comfort-club-redeem table th {
+            font-size: 20px;
+            line-height: 1.3;
+        }
+    }
+
+
+    .yotpo-coupons-redemption-widget .yotpo-redemption-option-container.yotpo-redemption-no-background:not(.yotpo-is-mobile) {
+        width: unset !important;
+    }
+    .yotpo-widgets-action-button.yotpo-button-with-width-limits {
+        max-width: 180px !important;
+    }
+
+    .yotpo-button-label {
+        white-space: nowrap;
+    }
+{% endstyle %}
+
+
+
+<comfort-club-redeem>
+    <div class="redeem-points-options container">
+        <div class="yotpo-widget-instance" data-yotpo-instance-id="779042"></div>
+    </div>
+    <div class="redeem-points-history container">
+        <h2 class="text-center">Point history</h2>
+        <table class="" points-history>
+            <thead>
+                <tr>
+                    <th class="simple">Date</th>
+                    <th class="large">Description</th>
+                    <th class="large">Reward</th>
+                    <th class="simple">status</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        <p class="text-center hidden" points-history-none>Nothing found.</p>
+    </div>
+    <div class="redeem-redemption-history container">
+        <h2 class="text-center">Redemptions history</h2>
+        <table class="" redemption-history>
+            <thead>
+                <tr>
+                    <th class="simple">Date</th>
+                    <th class="large">Reward</th>
+                    <th class="large">Code</th>
+                    <th class="simple">status</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        <p class="text-center hidden" redemption-history-none>Nothing found.</p>
+    </div>
+</comfort-club-redeem>
+

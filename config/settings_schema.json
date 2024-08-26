@@ -547,6 +547,27 @@
         "label": "Free shipping minimum amount",
         "info": "Enter amount using number only. If using multiple currencies, separate each currency code with its amount (eg.: USD:50,EUR:60,JPY:9000)",
         "default": "50"
+      },
+      {
+        "type": "text",
+        "id": "cart_free_shipping_threshold_connoiseeur",
+        "label": "Comfort Connoiseeur - Free shipping minimum amount",
+        "info": "Enter amount using number only. If using multiple currencies, separate each currency code with its amount (eg.: USD:50,EUR:60,JPY:9000)",
+        "default": "USD:75,CAD:100"
+      },
+      {
+        "type": "text",
+        "id": "cart_free_shipping_threshold_lover",
+        "label": "Comfort Lover - Free shipping minimum amount",
+        "info": "Enter amount using number only. If using multiple currencies, separate each currency code with its amount (eg.: USD:50,EUR:60,JPY:9000)",
+        "default": "USD:100,CAD:125"
+      },
+      {
+        "type": "text",
+        "id": "cart_free_shipping_threshold_seeker",
+        "label": "Comfort Seeker - Free shipping minimum amount",
+        "info": "Enter amount using number only. If using multiple currencies, separate each currency code with its amount (eg.: USD:50,EUR:60,JPY:9000)",
+        "default": "USD:125,CAD:150"
       }
     ]
   },
@@ -642,6 +663,42 @@
         "id": "favicon",
         "label": "Image",
         "info": "96 x 96px .png recommended"
+      }
+    ]
+  },
+  {
+    "name": "Comfort Club",
+    "settings": [
+      {
+        "type": "radio",
+        "id": "comfort_club_status",
+        "label": "Comfort club status",
+        "info": "Comfort club account settings.",
+        "options": [
+          {
+            "value": "disabled",
+            "label": "disabled"
+          },
+          {
+            "value": "enabled",
+            "label": "Enabled"
+          }
+        ],
+        "default": "enabled"
+      },
+      {
+        "type": "text",
+        "id": "comfort_club_guid",
+        "label": "Account guid",
+        "default": "ELJoE72BK50FwC69S4dMVw",
+        "info": "from yopto account https://loyalty-app.yotpo.com/settings"
+      },
+      {
+        "type": "text",
+        "id": "comfort_club_api_key",
+        "label": "API key",
+        "default": "Lm0nGpearmctdVOJ4S9fIAtt",
+        "info": "from yopto account https://loyalty-app.yotpo.com/settings"
       }
     ]
   }

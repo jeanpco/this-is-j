@@ -3,53 +3,127 @@
     <h2>{{ section.settings.heading }}</h2>
   {%- endif -%}
 
-  <ul class="rewards__list">
-    {%- for block in section.blocks -%}
-      <li id="{{ block.settings.text | handleize }}" class="reward">
-        {%- liquid
-          if block.settings.image
-            echo block.settings.image | image_url: width: 800 | image_tag: class: 'reward__icon'
-          endif
-        -%}
-        <p class="reward__title">{{ block.settings.text }}</p>
-
-        {% comment %} Loyalty documentation: https://loyaltyapi.yotpo.com/reference/campaigns-1 {% endcomment %}
-        {%- if block.settings.link != blank -%}
-          <a class="reward__button" href="{{ block.settings.link }}">
-            {{- block.settings.button -}}
-          </a>
-        {%- else -%}
-          {%- if customer -%}
-            <button type="button"
-              class="reward__button swell-campaign-link"
-              data-campaign-id="{{ block.settings.campaign }}"
-              data-display-mode="modal"
-            >
-              {{- block.settings.button -}}
-            </button>
-          {%- else -%}
-            <a class="reward__button" href="{{ routes.account_url }}">
-              {{- block.settings.button -}}
-            </a>
-          {%- endif -%}
-        {%- endif -%}
-      </li>
-    {%- endfor -%}
-  </ul>
+  <div 
+    class="yotpo-widget-instance" 
+    data-yotpo-instance-id="779100"
+  ></div>
 </div>
 
 <style>
   .rewards {
     margin: 0;
-    padding: 8rem 1rem;
+    padding: 4rem 1.25rem;
   }
-
   .rewards h2 {
-    font-weight: bold;
     text-align: center;
+    font-family: Celine Sans;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 41.55px;
+
   }
 
-  .rewards__list {
+  /* Campaign */
+
+  .rewards .yotpo-widget-campaign-widget .yotpo-widget-campaign-widget-container {
+    padding: 0 !important;
+  }
+  
+  .rewards .yotpo-widget-campaign-widget .campaigns-wrapper {
+    
+      grid-template-columns: repeat(3, 1fr);
+      list-style: none;
+      margin: 0 auto;
+      max-width: 1200px;
+      padding: 0;
+  }
+  @media only screen and (min-width: 769px) {
+  .rewards {
+    margin: 0;
+    padding: 4rem 2.7rem;
+  }
+    .rewards .yotpo-widget-campaign-widget .campaigns-wrapper {
+      gap: 1.5rem;
+      display: grid;
+      margin: 2rem auto;
+    }
+  }
+  .rewards .yotpo-widget-campaign-widget .yotpo-tile {
+    justify-content: flex-end;
+  }
+  .rewards .yotpo-widget-campaign-widget .yotpo-tile [aria-label] {
+    min-height: 60%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .rewards .yotpo-description-text {
+      font-size: 30px !important;
+      line-height: 0.8 !important;
+      font-family: Celine Sans !important;
+      font-weight: 400 !important;
+      line-height: 29.92px !important;
+  }
+  /* widget tiles */
+  .rewards .yotpo-widget-campaign-widget .yotpo-outer-tile {
+    width: 100% !important;
+    padding-top: 100%;
+    overflow: hidden;
+    border-radius: 0;
+    border: none;
+  }
+  .rewards .yotpo-widget-campaign-widget .yotpo-outer-tile:focus,
+  .rewards .yotpo-widget-campaign-widget .yotpo-outer-tile *:focus{
+    outline: none;
+    box-shadow: none;
+  }
+  
+  .rewards .yotpo-widget-campaign-widget .yotpo-tile-wrapper {
+    border-radius: 0 !important;
+  }
+  .rewards .yotpo-widget-campaign-widget .yotpo-campaign-switcher-wrapper {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 0;
+  }
+  .rewards .yotpo-headline-center-element {
+    margin-bottom: 32px;
+    padding: 0.5rem 2rem;
+    background: #252525;
+    min-width: 170px;
+    font-family: Avenir !important;
+    font-size: 16px !important;
+    font-weight: 800 !important;
+    line-height: 21.86px !important;
+  }
+  .rewards .yotpo-headline-center-element:has(.yotpo-completed-icon) {
+    background: #D9D9D9;
+    text-transform: uppercase;
+  }
+  .rewards .yotpo-headline-center-element:has(.yotpo-completed-icon) .yotpo-title-text {
+    color: black !important;
+  }
+  .rewards .yotpo-headline-center-element .yotpo-completed-icon {
+    display: none !important;
+  }
+  .rewards .yotpo-headline-center-element .yotpo-title-text {
+    font-family: 'Avenir' !important;
+    font-size: 14px !important;
+    font-weight: 800 !important;
+    text-transform: uppercase;
+  }
+  @media only screen and (min-width: 1200px) {
+      .rewards .yotpo-description-text {
+          font-size: 36px !important;
+      }
+  }  
+
+  /*  */
+  /* .rewards__list {
     grid-template-columns: repeat(3, 1fr);
     list-style: none;
     margin: 0 auto;
@@ -59,39 +133,64 @@
 
   @media only screen and (min-width: 769px) {
     .rewards__list {
-      column-gap: 2rem;
+      gap: 1.5rem;
       display: grid;
       margin: 2rem auto;
     }
   }
 
   .reward {
-    margin: 2rem 0;
     text-align: center;
     scroll-margin-top: 100px;
+    position: relative;
+    display: flex;
+    padding-top: 100%;
   }
 
+  .reward__wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 4rem;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .reward__icon {
+    max-width: 300px;
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
   #refer {
     scroll-margin-top: 75px;
   }
 
   .reward__title {
-    font-weight: bold;
-  }
-
-  .reward__icon {
-    height: auto;
-    max-width: 300px;
+    font-weight: 300;
+    color: white;
+    font-size: 36px;
+    line-height: 1;
+    letter-spacing: -0.05rem;
+    font-family: 'BV Celine';
   }
 
   .reward__button {
-    background-color: #000;
-    border-radius: 1.25rem;
+    background-color: #252525;
     color: #fff;
     font-size: .8rem;
     font-weight: 700;
     letter-spacing: .1em;
-    padding: .5rem 1rem;
+    padding: .5rem 1.5rem;
     text-transform: uppercase;
     transition: background .3s ease-in-out;
   }
@@ -100,12 +199,13 @@
   .reward__button:focus {
     background: #555;
     color: #fff;
-  }
+  } */
 </style>
 
 {% schema %}
 {
   "name": "Loyalty Rewards",
+  "class": "section-comfort-loyalty main-loyalty-rewards",
   "tag": "section",
   "settings": [
     {
@@ -119,42 +219,6 @@
       "id": "bg",
       "label": "Background",
       "default": "#F9F8F5"
-    }
-  ],
-  "blocks": [
-    {
-      "type": "reward",
-      "name": "Reward",
-      "settings": [
-        {
-          "type": "image_picker",
-          "id": "image",
-          "label": "Image"
-        },
-        {
-          "type": "text",
-          "id": "text",
-          "label": "Text",
-          "default": "Reward name"
-        },
-        {
-          "type": "text",
-          "id": "button",
-          "label": "Button text",
-          "default": "Redeem"
-        },
-        {
-          "type": "text",
-          "id": "campaign",
-          "label": "Yotpo campaign ID"
-        },
-        {
-          "type": "text",
-          "id": "link",
-          "label": "Link to section",
-          "info": "If filled, the Yotpo redemption will be ignored and the customer will be redirected when clicking the button."
-        }
-      ]
     }
   ]
 }

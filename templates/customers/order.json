@@ -1,5 +1,64 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
+    "hero": {
+      "type": "hero-loyalty",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/TIJ_Header_Image_1.png",
+        "bg": "#f0eee7",
+        "heading": "<p>Welcome to <br\/>The comfort club<\/p>",
+        "text": "<p>descripion.<\/p>"
+      }
+    },
+    "account-nav": {
+      "type": "account-navigation",
+      "blocks": {
+        "club": {
+          "type": "club",
+          "settings": {
+          }
+        },
+        "orders": {
+          "type": "orders",
+          "settings": {
+          }
+        },
+        "addresses": {
+          "type": "addresses",
+          "settings": {
+          }
+        },
+        "custom-link": {
+          "type": "custom-link",
+          "settings": {
+            "url": "\/pages\/loyalty",
+            "label": "Refer friends"
+          }
+        },
+        "logout": {
+          "type": "logout",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "club",
+        "orders",
+        "addresses",
+        "custom-link",
+        "logout"
+      ],
+      "settings": {
+      }
+    },
     "main": {
       "type": "main-customers-order",
       "blocks": {
@@ -17,6 +76,8 @@
     }
   },
   "order": [
+    "hero",
+    "account-nav",
     "main"
   ]
 }

@@ -1,17 +1,123 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
-    "main": {
-      "type": "main-page",
+    "hero": {
+      "type": "hero-loyalty",
+      "blocks": {
+        "8848b213-83b9-470d-a367-50b83eb4af46": {
+          "type": "cta",
+          "settings": {
+            "url": "\/account\/register",
+            "text": "Join The Club",
+            "color": "#000"
+          }
+        }
+      },
+      "block_order": [
+        "8848b213-83b9-470d-a367-50b83eb4af46"
+      ],
       "custom_css": [
-
+        "h1 {font-family: \"Cooper BT\"; font-size: 36px; font-weight: 400;}"
       ],
       "settings": {
-        "show_title": true,
-        "page_width": "medium"
+        "image": "shopify:\/\/shop_images\/TIJ_Header_Image_1.png",
+        "bg": "#f0eee7",
+        "transition_type": "sweep",
+        "content_position": "bottom_left",
+        "content_alignment": "left",
+        "heading": "<p>Welcome to <br\/>The Comfort Club<\/p>",
+        "text": "<p>Earn rewards on the products you love, redeem them for discounts, and get closer to the comfort you've been dreaming of.<\/p>",
+        "note": "<p>Already a member? <a href='\/account\/login?return_url=\/pages\/account-comfort-club'>Log In Here<\/a>.<\/p>"
+      }
+    },
+    "account-nav": {
+      "type": "account-navigation",
+      "blocks": {
+        "link-custom": {
+          "type": "custom-link",
+          "settings": {
+            "url": "\/pages\/account-comfort-club",
+            "label": "Comfort Club"
+          }
+        },
+        "link-orders": {
+          "type": "orders",
+          "settings": {
+          }
+        },
+        "link-addresses": {
+          "type": "addresses",
+          "settings": {
+          }
+        },
+        "link-logout": {
+          "type": "logout",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "link-custom",
+        "link-orders",
+        "link-addresses",
+        "link-logout"
+      ],
+      "settings": {
+        "comfort_club_status": false
+      }
+    },
+    "customers-comfort-club": {
+      "type": "customers-comfort-club",
+      "blocks": {
+        "exclusive-1": {
+          "type": "comfort-club-offer",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_2.png",
+            "description": "<p>x the points on all purchases of our best-selling Henley Harem Set<\/p>",
+            "note": "<p>*Offer ends xx\/yy at 11:59 p.m. est<\/p>",
+            "url": ""
+          }
+        },
+        "exclusive-2": {
+          "type": "comfort-club-offer",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_6.png",
+            "description": "<p>x the points on all purchases of our best-selling Henley Harem Set<\/p>",
+            "note": "<p>*Offer ends xx\/yy at 11:59 p.m. est<\/p>",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "exclusive-1",
+        "exclusive-2"
+      ],
+      "settings": {
+        "comfort_club_status": false,
+        "comfort_club_offers_status": true,
+        "comfort_club_offers_title": "Comfort Club Offers"
+      }
+    },
+    "loyalty-rewards": {
+      "type": "loyalty-rewards",
+      "settings": {
+        "heading": "Earn more points",
+        "bg": "#ffffff"
       }
     }
   },
   "order": [
-    "main"
+    "hero",
+    "account-nav",
+    "customers-comfort-club",
+    "loyalty-rewards"
   ]
 }

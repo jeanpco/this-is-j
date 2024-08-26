@@ -1,0 +1,117 @@
+{% if customer %}
+    <account-comfort-club data-customer="{{- customer.email -}}">
+        {%- comment -%}  section-comfort-loyalty {%- endcomment -%}
+        {%- render 'comfort-club-plan' -%}
+
+        {%- comment -%}  section-comfort-loyalty {%- endcomment -%}
+        {%- render 'comfort-club-exclusive' -%}
+
+        {%- comment -%}  section-comfort-loyalty {%- endcomment -%}
+        {%- render 'comfort-club-redeem' -%}
+    </account-comfort-club>
+{% else %}
+    <div style="text-align:center;margin:5rem;">
+        You need to be logged in to access this section. Login here
+    </div>        
+{% endif %} 
+
+
+{% schema %}
+{
+  "name": "Account Comfort Club",
+  "tag": "section",
+  "class": "main-customers-comfort-club",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "comfort_club_status",
+      "label": "Enable Comfort Club link",
+      "default": false
+    },
+    {
+      "type": "header",
+      "content": "Comfort Club Details",
+      "info": "Write down the details of the Comfort Club here. If content page exist, please provide the url too"
+    },
+        {
+          "type": "richtext",
+          "id": "seeker_description",
+          "label": "Comfort Seeker - Description",
+          "default": "<ul><li>Seeker advantage 1<\/li><li>Seeker advantage 2<\/li><li>Seeker advantage 3<\/li><li>Seeker advantage 4<\/li><li>etc..<\/li><\/ul>"
+        },
+        {
+          "type": "url",
+          "id": "seeker_url",
+          "label": "Comfort Seeker - Url"
+        },
+        {
+          "type": "richtext",
+          "id": "lover_description",
+          "label": "Comfort Lover - Description",
+          "default": "<ul><li>Lover advantage 1<\/li><li>Lover advantage 2<\/li><li>Lover advantage 3<\/li><li>Lover advantage 4<\/li><li>etc..<\/li><\/ul>"
+        },
+        {
+          "type": "url",
+          "id": "lover_url",
+          "label": "Comfort Lover - Url"
+        },
+        {
+          "type": "richtext",
+          "id": "connoiseeur_description",
+          "label": "Comfort Connoiseeur - Description",
+          "default": "<ul><li>Connoiseeur advantage 1<\/li><li>Connoiseeur advantage 2<\/li><li>Connoiseeur advantage 3<\/li><li>Connoiseeur advantage 4<\/li><li>etc..<\/li><\/ul>"
+        },
+        {
+          "type": "url",
+          "id": "connoiseeur_url",
+          "label": "Comfort Connoiseeur - Url"
+        },
+    {
+      "type": "header",
+      "content": "Exclusive offers"
+    },
+    {
+      "type": "checkbox",
+      "id": "comfort_club_offers_status",
+      "label": "Enable Comfort Club offers",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "comfort_club_offers_title",
+      "label": "Offers Title",
+      "default": "Comfort Club Offers"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "comfort-club-offer",
+      "name": "Comfort Club Offer",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "richtext",
+          "id": "description",
+          "label": "Description",
+          "default": "<p>x the points on all purchases of our best-selling Henley Harem Set</p>"
+        },
+        {
+          "type": "richtext",
+          "id": "note",
+          "label": "Note",
+          "default": "<p>*Offer ends xx/yy at 11:59 p.m. est</p>"
+        },
+        {
+          "type": "url",
+          "id": "url",
+          "label": "Url"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

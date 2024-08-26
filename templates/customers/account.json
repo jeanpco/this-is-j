@@ -1,5 +1,114 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
+    "hero": {
+      "type": "hero-loyalty",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Collection_Header_Cat-and-Nat_Pillows_copy.jpg",
+        "bg": "#f0eee7",
+        "transition_type": "sweep",
+        "content_position": "bottom_left",
+        "content_alignment": "left",
+        "heading": "<p>Welcome to <br\/>The comfort club<\/p>",
+        "text": "<p>descripion.<\/p>",
+        "note": "<p>Already a member? Log In Here.<\/p>"
+      }
+    },
+    "account-nav": {
+      "type": "account-navigation",
+      "blocks": {
+        "club": {
+          "type": "club",
+          "settings": {
+          }
+        },
+        "orders": {
+          "type": "orders",
+          "settings": {
+          }
+        },
+        "addresses": {
+          "type": "addresses",
+          "settings": {
+          }
+        },
+        "custom-link": {
+          "type": "custom-link",
+          "settings": {
+            "url": "shopify:\/\/pages\/refer-a-friend",
+            "label": "Refer friends"
+          }
+        },
+        "logout": {
+          "type": "logout",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "club",
+        "orders",
+        "addresses",
+        "custom-link",
+        "logout"
+      ],
+      "settings": {
+        "comfort_club_status": false
+      }
+    },
+    "main-customers-comfort-club": {
+      "type": "customers-comfort-club",
+      "blocks": {
+        "exclusive-1": {
+          "type": "comfort-club-offer",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_2.png",
+            "description": "<p>x the points on all purchases of our best-selling Henley Harem Set<\/p>",
+            "note": "<p>*Offer ends xx\/yy at 11:59 p.m. est<\/p>",
+            "url": ""
+          }
+        },
+        "exclusive-2": {
+          "type": "comfort-club-offer",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_6.png",
+            "description": "<p>x the points on all purchases of our best-selling Henley Harem Set<\/p>",
+            "note": "<p>*Offer ends xx\/yy at 11:59 p.m. est<\/p>",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "exclusive-1",
+        "exclusive-2"
+      ],
+      "settings": {
+        "comfort_club_status": false,
+        "seeker_description": "<ul><li><strong>Free Shipping<\/strong> on orders over 100 CAD AND Free Shipping on orders over $200 USA<\/li><li>10% Off - Birthday Reward<\/li><li>And more...<\/li><\/ul>",
+        "seeker_url": "#seekers",
+        "lover_description": "<ul><li><strong>Free shipping<\/strong> on all orders over $125.<\/li><li>30% off one regular priced item on your birthday.<\/li><li>Double the points on top styles each month.<\/li><li>Access to point multiplyer events.<\/li><li>Vote on upcoming patterns.<\/li><li>And more...<\/li><\/ul>",
+        "lover_url": "#lovers",
+        "connoiseeur_description": "<ul><li><strong>Free shipping<\/strong> on all orders over $125.<\/li><li>30% off one regular priced item on your birthday.<\/li><li>Double the points on top styles each month.<\/li><li>Access to point multiplyer events.<\/li><li>Vote on upcoming patterns.<\/li><li>And more...<\/li><\/ul>",
+        "connoiseeur_url": "#connoisseeur",
+        "comfort_club_offers_status": true,
+        "comfort_club_offers_title": "Comfort Club Offers"
+      }
+    },
+    "main-loyalty-rewards": {
+      "type": "loyalty-rewards",
+      "settings": {
+        "heading": "Earn more points",
+        "bg": "#ffffff"
+      }
+    },
     "main": {
       "type": "main-customers-account",
       "blocks": {
@@ -13,10 +122,15 @@
         "orders"
       ],
       "settings": {
+        "account_landing": "comfort_club"
       }
     }
   },
   "order": [
+    "hero",
+    "account-nav",
+    "main-customers-comfort-club",
+    "main-loyalty-rewards",
     "main"
   ]
 }

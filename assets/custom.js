@@ -165,3 +165,79 @@ window.addEventListener('load', () => {
 document.addEventListener('shopify:section:load', () => {
   initializeSizeCharts();
 });
+
+
+/**
+ * JS BLOCK LINK
+ * Select all elements with the class .js-block-link, iterates over them, and adds an event 
+ * listener to each. When clicked, the browser will navigate to the URL specified 
+ * in the data-block-target attribute of each element. 
+ * If data-blank is present and its value is true then open in a new tab.
+ */
+document.addEventListener('DOMContentLoaded', function() {
+  // Select all elements with the class '.js-block-link'
+  var links = document.querySelectorAll('.js-block-link');
+
+  // Iterate over each element
+  links.forEach(function(link) {
+      // Add a click event listener to each link
+      link.addEventListener('click', function() {
+          // Retrieve the URL from the 'data-target' attribute
+          var url = link.getAttribute('data-block-target');
+          // Check if the 'data-blank' attribute is present
+          var openInNewTab = link.getAttribute('data-blank');
+
+          // Navigate to the URL
+          if (url) {
+              if (openInNewTab) {
+                  // If 'data-blank' is present, open the URL in a new tab/window
+                  window.open(url, '_blank');
+              } else {
+                  // Otherwise, navigate in the same tab
+                  window.location.href = url;
+              }
+          }
+      });
+  });
+});
+
+
+// / handle account url chamnges
+document.addEventListener("DOMContentLoaded", function() {
+  function showTab(tabId) {
+
+    var selectors = tabId === 'orders' ?
+                    '#main-customers-account-section' :
+                    '.main-customers-comfort-club, .main-loyalty-rewards';
+
+    // var tabs = document.querySelectorAll('.tab-content');
+    var tabs = document.querySelectorAll('#main-customers-account-section, .main-customers-comfort-club, .main-loyalty-rewards');
+    tabs.forEach(function(tab) {
+      // tab.style.display = 'none';
+      tab.classList.add('hideSection');
+    });
+
+    document.querySelectorAll(selectors).forEach( item => item.classList.remove('hideSection') );
+    // document.querySelectorAll(selectors).forEach( item => item.style.display = 'block' );
+  }
+
+  var hash = window.location.hash;
+  if (hash === "#orders") {
+    showTab('orders');
+  } else {
+    showTab('comfortClub');
+  }
+
+  // Optional: Update URL when tab changes
+  var links = document.querySelectorAll('.account-navigation .link-bar__link');
+  links.forEach(function(link) {
+    link.addEventListener('click', function() {
+      if( link.getAttribute('href').indexOf('/account#') === -1 ) return;
+      var targetId = link.getAttribute('href').split('#');
+      if( targetId.length > 0 ) {
+        showTab(targetId ? targetId[1] : 'comfortClub');
+        window.history.pushState(null, null, '#' + targetId);
+      }
+    });
+  });
+});

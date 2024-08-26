@@ -4,9 +4,22 @@
       <div class="page-header">
         <div class="page-header__text-wrapper text-container">
           <h1 class="heading h2">{{ 'cart.general.title' | t }}</h1>
+          
+          {% assign cart_free_shipping_threshold = settings.cart_free_shipping_threshold  %}
+          {% if customer and settings.cart_show_free_shipping_threshold %}
+              {% if customer.tags contains 'swell_vip_comfort connoiseeur'  %}
+                  {% assign cart_free_shipping_threshold = settings.cart_free_shipping_threshold_connoiseeur  %}
+                
+              {% elsif  customer.tags contains 'swell_vip_comfort lover'  %}
+                  {% assign cart_free_shipping_threshold = settings.cart_free_shipping_threshold_lover  %}
 
-          {%- if settings.cart_show_free_shipping_threshold and settings.cart_free_shipping_threshold != '' and cart.requires_shipping -%}
-            {%- assign free_shipping_thresholds = settings.cart_free_shipping_threshold | remove: ' ' | split: ',' -%}
+              {% elsif  customer.tags contains 'swell_vip_comfort seeker'  %}
+                  {% assign cart_free_shipping_threshold = settings.cart_free_shipping_threshold_seeker  %}
+              {% endif %}
+          {% endif %}
+
+          {%- if settings.cart_show_free_shipping_threshold and cart_free_shipping_threshold != '' and cart.requires_shipping -%}
+            {%- assign free_shipping_thresholds = cart_free_shipping_threshold | remove: ' ' | split: ',' -%}
             {%- assign has_found_matching_threshold = false -%}
 
             {%- if free_shipping_thresholds.size > 1 -%}
@@ -57,6 +70,10 @@
               </free-shipping-bar>
             {%- endif -%}
           {%- endif -%}
+
+          {%- unless customer or section.settings.comfort_club_note == blank -%}
+            {% render 'yopto-notice', notice_text: section.settings.comfort_club_note %}  
+          {%- endunless -%}
         </div>
       </div>
     {%- else -%}
@@ -468,6 +485,13 @@
       "id": "show_shipping_estimator",
       "label": "Show shipping rates calculator",
       "default": true
+    },
+    {
+      "type": "richtext",
+      "id": "comfort_club_note",
+      "label": "Comfort Club Note",
+      "info": "Banner text to display in cart",
+      "default": "<p>Members get free shipping on applicable orders. Login / Sign Up</p>"
     },
     {
       "type": "text",

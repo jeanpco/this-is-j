@@ -377,8 +377,12 @@ IMPLEMENTATION NOTE: the header in Focal is pretty complex as it allows a lot of
           {%- endif -%}
 
           {%- if shop.customer_accounts_enabled -%}
-            <a href="{% if customer %}{{ routes.account_url }}{% else %}{{ routes.account_login_url }}{% endif %}" class="header__icon-wrapper tap-area hidden-phone {% unless section.settings.show_icons %}hidden-desk{% endunless %}" aria-label="{% if customer %}{{ 'header.general.account' | t | escape }}{% else %}{{ 'header.general.login' | t | escape }}{% endif %}">
+            <a href="{% if customer %}{{ routes.account_url }}{% else %}{{ routes.account_login_url }}{% endif %}" class="header__icon-wrapper header__icon-wrapper--account tap-area hidden-phone {% unless section.settings.show_icons %}hidden-desk{% endunless %}" aria-label="{% if customer %}{{ 'header.general.account' | t | escape }}{% else %}{{ 'header.general.login' | t | escape }}{% endif %}">
               {%- render 'icon' with 'header-customer' -%}
+              {% if customer %}
+                {%- assign name = customer.first_name | default: customer.name | default: customer.email -%}
+                <span>Hi, {{ name }}</span>
+              {% endif %}
             </a>
           {%- endif -%}
 
