@@ -1603,6 +1603,7 @@ p + .button-group,
   }
 }
 
+
 /**
  * -------------------------------------------------------------
  * ANCHOR
@@ -1730,6 +1731,11 @@ p + .button-group,
 .section--tight {
   margin-top: var(--vertical-breather-tight);
   margin-bottom: var(--vertical-breather-tight);
+}
+
+.section--half-breather {
+  display: block;
+  margin: calc(var(--vertical-breather) / 2) 0;
 }
 
 .section:empty {

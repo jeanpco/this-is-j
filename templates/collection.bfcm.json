@@ -114,10 +114,6 @@
         "h1 {font-family: \"BV Celine\"; text-transform: none;}"
       ],
       "settings": {
-        "question_namespace": "faq",
-        "question_key": "question",
-        "answer_namespace": "faq",
-        "answer_key": "answer"
       }
     }
   },

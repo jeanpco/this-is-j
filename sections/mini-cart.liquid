@@ -177,16 +177,19 @@
                     {%- endif -%}
 
                     {%- unless line_item.properties == blank -%}
-                      <ul class="product-item-meta__property list--unstyled text--subdued text--xsmall" role="list">
+                      <ul class="product-item-meta__property list--unstyled text--subdued text--xsmall" data-test role="list">
                         {%- for property in line_item.properties -%}
                           {%- assign first_character_in_key = property.first | truncate: 1, '' -%}
 
                           {%- if property.last == blank or first_character_in_key == '_' -%}
                             {%- continue -%}
                           {%- endif -%}
-
-                          <li>{{ property.first }}: {{ property.last }}</li>
-                        {%- endfor -%}
+                          {%- if property.first == 'Sale' and property.last == 'Final' -%}
+                            <li>{{ 'cart.general.final_sale' | t }}</li>
+                          {%- else -%}
+                            <li>{{ property.first }}: {{ property.last }}</li>
+                            {%- endif -%}
+                          {%- endfor -%}
                       </ul>
                     {%- endunless -%}
                   {%- endcapture -%}

@@ -14,6 +14,31 @@
     "slideshow_bXbVjM": {
       "type": "slideshow",
       "blocks": {
+        "image_jiYDH9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/S400_073024_36594_Edit_Varsity-Stripe-Header.jpg",
+            "mute_toggle": false,
+            "font": "'Cooper BT', serif",
+            "text_position": "middle_left",
+            "subheading": "The Varsity Stripe Collection",
+            "title": "Join Team Comfort",
+            "subheading_font_size_m": 12,
+            "subheading_font_size_d": 13,
+            "heading_font_size_m": 31,
+            "heading_font_size_d": 57,
+            "description": "",
+            "button_1_text": "SHOP VARSITY STRIPE",
+            "button_1_link": "shopify:\/\/collections\/varsity-stripe-for-men",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 10
+          }
+        },
         "image_aXJMqj": {
           "type": "image",
           "settings": {
@@ -22,12 +47,12 @@
             "font": "'BV Celine', serif",
             "text_position": "middle_center",
             "subheading": "",
-            "title": "Summer Bliss",
+            "title": "Tie Dye Dreams",
             "subheading_font_size_m": 12,
             "subheading_font_size_d": 13,
             "heading_font_size_m": 36,
             "heading_font_size_d": 64,
-            "description": "The essence of sun-soaked days and balmy summer nights",
+            "description": "Soft. Breathable. Moisture-Wicking.",
             "button_1_text": "SHOP NEW TIE DYE PJS",
             "button_1_link": "shopify:\/\/collections\/tie-dye-summer-bliss-collection",
             "button_2_text": "",
@@ -91,6 +116,7 @@
         }
       },
       "block_order": [
+        "image_jiYDH9",
         "image_aXJMqj",
         "image_V8kDja",
         "image_Q4x9gb"

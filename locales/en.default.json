@@ -116,7 +116,8 @@
         "zero": "{{ count }} items",
         "one": "{{ count }} item",
         "other": "{{ count }} items"
-      }
+      },
+      "final_sale": "Final Sale"
     },
     "shipping_estimator": {
       "estimate_shipping": "Estimate shipping",
