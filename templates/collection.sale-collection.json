@@ -2,10 +2,11 @@
   "sections": {
     "image_with_text_overlay_wF8X9E": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "reveal_on_scroll": true,
         "section_height": "auto",
-        "image": "shopify:\/\/shop_images\/Summer_Sale-header-2.jpg",
+        "image": "shopify:\/\/shop_images\/CollectionHeader_SaleOnSale_1600x600_copy.jpg",
         "subheading": "",
         "title": "",
         "content": "",
@@ -24,14 +25,13 @@
     },
     "collection-banner": {
       "type": "collection-banner",
-      "disabled": true,
       "custom_css": [
 
       ],
       "settings": {
-        "show_collection_image": true,
+        "show_collection_image": false,
         "show_collection_title": false,
-        "show_collection_description": true,
+        "show_collection_description": false,
         "section_height": "small",
         "text_width": "medium",
         "image_text_color": "#ffffff",

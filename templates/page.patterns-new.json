@@ -30,6 +30,86 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
+    "image_with_text_overlay_kYicgE": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "small",
+        "image": "shopify:\/\/shop_images\/S400_073024_43845_Edit-2000x980.jpg",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "boxed",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+        "overlay_opacity": 30
+      }
+    },
+    "rich_text_YJ6ePU": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Varsity Stripe",
+        "content": "<p>Our modern take on a vintage collegiate stripe in modern colours. Join team comfort and style in Varsity Stripe.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "featured_collections_V9dP8R": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_FGdUdm": {
+          "type": "collection",
+          "settings": {
+            "collection": "varsity-stripe-raspberry-black",
+            "label": "VARSITY STRIPE RASPBERRY BLACK",
+            "button_text": "VIEW FULL COLLECTION",
+            "button_url": "shopify:\/\/collections\/varsity-stripe-raspberry-black"
+          }
+        },
+        "collection_3Kc7Eq": {
+          "type": "collection",
+          "settings": {
+            "collection": "varsity-stripe-kelly-navy",
+            "label": "VARSITY STRIPE KELLY NAVY",
+            "button_text": "VIEW FULL COLLECTION",
+            "button_url": "shopify:\/\/collections\/varsity-stripe-kelly-navy"
+          }
+        }
+      },
+      "block_order": [
+        "collection_FGdUdm",
+        "collection_3Kc7Eq"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "products_count": 8,
+        "products_per_row": 6,
+        "stack_products": false,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
     "image_with_text_overlay_gzWzGN": {
       "type": "image-with-text-overlay",
       "settings": {
@@ -484,7 +564,6 @@
     },
     "featured_collections_MWUjAU": {
       "type": "featured-collections",
-      "disabled": true,
       "settings": {
         "subheading": "",
         "title": "",
@@ -501,6 +580,7 @@
     },
     "image_with_text_overlay_PVWEw7": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "reveal_on_scroll": true,
         "section_height": "auto",
@@ -523,6 +603,9 @@
   },
   "order": [
     "bcd16921-ce9d-4288-9d05-d560fec930e4",
+    "image_with_text_overlay_kYicgE",
+    "rich_text_YJ6ePU",
+    "featured_collections_V9dP8R",
     "image_with_text_overlay_gzWzGN",
     "rich_text_qLqyHk",
     "79b994f3-a6f3-4be0-937b-39d6aa7f3653",

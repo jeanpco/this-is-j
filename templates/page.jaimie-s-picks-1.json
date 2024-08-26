@@ -30,13 +30,304 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
+    "collection_list_aWcAM3": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_C6RV6H": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Artboard_1una.jpg",
+            "subheading": "for sunday mornings",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_4LYPGr": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Artboard_1Heather-Grey-1100x1400.jpg",
+            "subheading": "for lounging around",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_EattLP": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Artboard_12-Sketch-Heather-Grey-1100x1400.jpg",
+            "subheading": "for relaxing with friends",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_rNbdQW": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Artboard_1marcia.jpg",
+            "subheading": "for entertaining at home",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_TUwBdz": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_qCa4zg": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_C6RV6H",
+        "collection_4LYPGr",
+        "collection_EattLP",
+        "collection_rNbdQW",
+        "collection_TUwBdz",
+        "collection_qCa4zg"
+      ],
+      "settings": {
+        "reveal_on_scroll": false,
+        "layout": "carousel",
+        "subheading": "comfort On repeat.",
+        "title": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "text_shadow_color": "rgba(0,0,0,0)"
+      }
+    },
+    "image_with_text_block_JcKgAK": {
+      "type": "image-with-text-block",
+      "settings": {
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/Henley-Harem-Set-Tie-Dye-Black-0346.jpg",
+        "subheading": "The style i reach for every night...",
+        "title": "Henley Harem Set",
+        "content": "<p>The fit, feel and look of this set is unmatched! So cute that you'll want people to see you in your PJs.<\/p><p>Available in 12+ patterns<\/p>",
+        "button_text": "SHOP HENLEY HAREMS",
+        "button_link": "shopify:\/\/collections\/henley-harem-sets",
+        "background_type": "full_width",
+        "text_position": "overlap_left",
+        "text_alignment": "left",
+        "text_background": "#ffffff",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "collection_list_Y7TVUf": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_9JXQmE": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Artboard_1laroe.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_V6Qz3q": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Artboard_1una_plaid.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_yC7wQL": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Artboard_1dark_navy.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_mFdMcr": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Artboard_1tie_dye_tropical_breeze.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_JJBpBc": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_9NmNxm": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_9JXQmE",
+        "collection_V6Qz3q",
+        "collection_yC7wQL",
+        "collection_mFdMcr",
+        "collection_JJBpBc",
+        "collection_9NmNxm"
+      ],
+      "settings": {
+        "reveal_on_scroll": false,
+        "layout": "carousel",
+        "subheading": "shades of calming blue.",
+        "title": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "text_shadow_color": "rgba(0,0,0,0)"
+      }
+    },
+    "promotion_blocks_rPYrQ4": {
+      "type": "promotion-blocks",
+      "blocks": {
+        "image_FiBBQ9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bamboo-Pajamas-T-Shirt-Short-Set-Safari-Black-40023795.jpg",
+            "highlight": false,
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "middle_center",
+            "background": "#f7f8fd",
+            "text_color": "#1e316a",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        },
+        "quote_Kt6cCd": {
+          "type": "quote",
+          "settings": {
+            "highlight": false,
+            "subheading": "founder tip",
+            "content": "Buy mulitple pieces from the same collection to be able to mix, match and be comfy in every season.",
+            "author": "Jaimie Harris, Founder",
+            "background": "#ffffff",
+            "text_color": "#212020"
+          }
+        },
+        "image_dGDDzq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bamboo-Pajamas-Relaxed-Long-Sleeve-Set-Safari-Black-40023868.jpg",
+            "highlight": false,
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "middle_center",
+            "background": "#f7f8fd",
+            "text_color": "#1e316a",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        }
+      },
+      "block_order": [
+        "image_FiBBQ9",
+        "quote_Kt6cCd",
+        "image_dGDDzq"
+      ],
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "section_size": "medium",
+        "stack_on_mobile": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
     "shop_the_look_MmPy38": {
       "type": "shop-the-look",
       "blocks": {
         "look_GJYzXp": {
           "type": "look",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Mens-Stiver-Sleeping-Collection-Header-v5.jpg",
+            "image": "shopify:\/\/shop_images\/Henley-Harem-Set-Tie-Dye-Black-0346.jpg",
             "dot_type": "normal",
             "product_1": "lounge-set-t-shirt-lounge-pant-4",
             "product_1_horizontal_position": 45,
@@ -59,6 +350,7 @@
       "block_order": [
         "look_GJYzXp"
       ],
+      "disabled": true,
       "settings": {
         "reveal_on_scroll": false,
         "label": "Shop the looks"
@@ -80,6 +372,7 @@
       "block_order": [
         "collection_Rt4ziH"
       ],
+      "disabled": true,
       "settings": {
         "subheading": "",
         "title": "Solids",
@@ -123,6 +416,7 @@
       "block_order": [
         "look_XnWRba"
       ],
+      "disabled": true,
       "settings": {
         "reveal_on_scroll": false,
         "label": "Shop the looks"
@@ -144,6 +438,7 @@
       "block_order": [
         "collection_yrJpFn"
       ],
+      "disabled": true,
       "settings": {
         "subheading": "",
         "title": "Stripes",
@@ -187,6 +482,7 @@
       "block_order": [
         "look_dhWD9C"
       ],
+      "disabled": true,
       "settings": {
         "reveal_on_scroll": false,
         "label": "Shop the looks"
@@ -208,6 +504,7 @@
       "block_order": [
         "template--17915522580761__3c3f1770-874e-40e5-9463-f5cc211b590f-168389959488378107-0"
       ],
+      "disabled": true,
       "settings": {
         "subheading": "",
         "title": "Tie Dye",
@@ -399,47 +696,6 @@
         "label": "Shop the looks"
       }
     },
-    "71b9e4d5-d557-4417-b716-5bb55c080508": {
-      "type": "featured-collections",
-      "blocks": {
-        "template--21349787074841__71b9e4d5-d557-4417-b716-5bb55c080508-collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "bookhou-x-this-is-j-black-white",
-            "label": "",
-            "button_text": "VIEW FULL COLLECTION",
-            "button_url": ""
-          }
-        },
-        "c99850a9-5b49-45e9-b557-007881fe8c69": {
-          "type": "collection",
-          "settings": {
-            "collection": "mens-black-loungewear",
-            "label": "",
-            "button_text": "",
-            "button_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--21349787074841__71b9e4d5-d557-4417-b716-5bb55c080508-collection-1",
-        "c99850a9-5b49-45e9-b557-007881fe8c69"
-      ],
-      "disabled": true,
-      "settings": {
-        "subheading": "",
-        "title": "Bookhou x This is J",
-        "content": "",
-        "products_count": 50,
-        "products_per_row": 6,
-        "stack_products": false,
-        "show_cta": false,
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
     "shop_the_look_QKNRqL": {
       "type": "shop-the-look",
       "blocks": {
@@ -557,10 +813,87 @@
         "collections_to_show": "selected",
         "show_collection_title": true
       }
+    },
+    "featured_product_L6cYqc": {
+      "type": "featured-product",
+      "blocks": {
+        "variant_picker_ETXnpE": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector_wbX3hC": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons_4M9AJj": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": false,
+            "atc_button_background": "rgba(0,0,0,0)",
+            "atc_button_text_color": "rgba(0,0,0,0)",
+            "buy_now_button_background": "rgba(0,0,0,0)",
+            "buy_now_button_text_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "variant_picker_ETXnpE",
+        "quantity_selector_wbX3hC",
+        "buy_buttons_4M9AJj"
+      ],
+      "disabled": true,
+      "settings": {
+        "product": "henley-harem-set",
+        "subheading": "Subheading",
+        "title": "Featured product",
+        "show_vendor": true,
+        "show_sku": false,
+        "show_taxes_included": false,
+        "show_product_rating": true,
+        "show_share_buttons": true,
+        "help_page": "",
+        "enable_video_autoplay": false,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "show_thumbnails_on_mobile": false,
+        "desktop_thumbnails_position": "bottom",
+        "transition_effect": "slide",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "image_with_text_block_yYP7cz": {
+      "type": "image-with-text-block",
+      "settings": {
+        "reveal_on_scroll": true,
+        "subheading": "Subheading",
+        "title": "Image with text block",
+        "content": "<p>Use block text to give your customers insight into your brand. Select impactful text that relates to your brand and story.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_position": "left",
+        "text_alignment": "left",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
     }
   },
   "order": [
     "bcd16921-ce9d-4288-9d05-d560fec930e4",
+    "collection_list_aWcAM3",
+    "image_with_text_block_JcKgAK",
+    "collection_list_Y7TVUf",
+    "promotion_blocks_rPYrQ4",
     "shop_the_look_MmPy38",
     "dbdf553a-cda6-4b3f-9cd4-43e17b52a7e1",
     "shop_the_look_EY79C4",
@@ -572,9 +905,10 @@
     "shop_the_look_MqW4Ww",
     "2c5be0bf-8b7e-4d15-a00b-69e3e41d8490",
     "shop_the_look_gNjXPb",
-    "71b9e4d5-d557-4417-b716-5bb55c080508",
     "shop_the_look_QKNRqL",
     "e18c76af-8170-444e-80b7-6ed5d4391ea7",
-    "main"
+    "main",
+    "featured_product_L6cYqc",
+    "image_with_text_block_yYP7cz"
   ]
 }

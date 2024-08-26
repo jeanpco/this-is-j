@@ -196,7 +196,11 @@
                                       {%- continue -%}
                                     {%- endif -%}
 
-                                    <li class="line-item__property">{{ property.first }}: {{ property.last }}</li>
+                                    {%- if property.first == 'Sale' and property.last == 'Final' -%}
+                                      <li class="line-item__property">{{ 'cart.general.final_sale' | t }}</li>
+                                    {%- else -%}
+                                      <li class="line-item__property">{{ property.first }}: {{ property.last }}</li>
+                                      {%- endif -%}
                                   {%- endfor -%}
                                 </ul>
                               {%- endunless -%}

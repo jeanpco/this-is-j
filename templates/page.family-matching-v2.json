@@ -30,6 +30,130 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
+    "image_with_text_overlay_CD8Nwx": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "auto",
+        "image": "shopify:\/\/shop_images\/Varsity-Stripe-Kelly-Navy-Family-2160x800_v2.jpg",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+        "overlay_opacity": 30
+      }
+    },
+    "featured_collections_NYDmB6": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_MymQhp": {
+          "type": "collection",
+          "settings": {
+            "collection": "varsity-stripe-kelly-navy",
+            "label": "VARSITY STRIPE KELLY NAVY",
+            "button_text": "VIEW FULL COLLECTION",
+            "button_url": "shopify:\/\/collections\/varsity-stripe-kelly-navy"
+          }
+        },
+        "collection_t8Thgd": {
+          "type": "collection",
+          "settings": {
+            "collection": "varsity-stripe-raspberry-black",
+            "label": "VARSITY STRiPE RASPBERRY BLACK",
+            "button_text": "VIEW FULL COLLECTION",
+            "button_url": "shopify:\/\/collections\/varsity-stripe-raspberry-black"
+          }
+        }
+      },
+      "block_order": [
+        "collection_MymQhp",
+        "collection_t8Thgd"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Varsity Stripe",
+        "content": "",
+        "products_count": 8,
+        "products_per_row": 6,
+        "stack_products": false,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "image_with_text_overlay_b7FcEJ": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "medium",
+        "image": "shopify:\/\/shop_images\/Artboard_1-100_d21373df-0291-47d5-a385-f0429376c156.jpg",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+        "overlay_opacity": 30
+      }
+    },
+    "featured_collections_LLWL7k": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_an9Qzg": {
+          "type": "collection",
+          "settings": {
+            "collection": "tie-dye-tropical-breeze-collection",
+            "label": "Tie Dye Tropical breeze",
+            "button_text": "view full collection",
+            "button_url": "shopify:\/\/collections\/tie-dye-tropical-breeze-collection"
+          }
+        },
+        "collection_bCrCW7": {
+          "type": "collection",
+          "settings": {
+            "collection": "tie-dye-crush",
+            "label": "",
+            "button_text": "VIEW FULL COLLECTION",
+            "button_url": "shopify:\/\/collections\/tie-dye-crush"
+          }
+        }
+      },
+      "block_order": [
+        "collection_an9Qzg",
+        "collection_bCrCW7"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Tie Dye Bliss",
+        "content": "",
+        "products_count": 50,
+        "products_per_row": 6,
+        "stack_products": false,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
     "shop_the_look_jKp6XX": {
       "type": "shop-the-look",
       "blocks": {
@@ -59,40 +183,65 @@
       "block_order": [
         "look_WkeJWq"
       ],
+      "disabled": true,
       "settings": {
         "reveal_on_scroll": false,
         "label": "Shop the looks"
       }
     },
-    "featured_collections_LLWL7k": {
-      "type": "featured-collections",
+    "shop_the_look_AWYEDr": {
+      "type": "shop-the-look",
       "blocks": {
-        "collection_bCrCW7": {
-          "type": "collection",
+        "look_TDPU9T": {
+          "type": "look",
           "settings": {
-            "collection": "tie-dye-crush",
-            "label": "",
-            "button_text": "VIEW FULL COLLECTION",
-            "button_url": "shopify:\/\/collections\/tie-dye-crush"
-          }
-        },
-        "collection_an9Qzg": {
-          "type": "collection",
-          "settings": {
-            "collection": "tie-dye-tropical-breeze-collection",
-            "label": "Tie Dye Tropical breeze",
-            "button_text": "view full collection",
-            "button_url": "shopify:\/\/collections\/tie-dye-tropical-breeze-collection"
+            "image": "shopify:\/\/shop_images\/family-emmy-flower-brown.jpg",
+            "dot_type": "normal",
+            "product_1": "kids-long-sleeve-lounge-pant-pj-set-emmy-flower-brown",
+            "product_1_horizontal_position": 41,
+            "product_1_vertical_position": 41,
+            "product_1_horizontal_position_mobile": 30,
+            "product_1_vertical_position_mobile": 30,
+            "product_2": "t-shirt-set-emmy-flower-brown",
+            "product_2_horizontal_position": 50,
+            "product_2_vertical_position": 52,
+            "product_2_horizontal_position_mobile": 50,
+            "product_2_vertical_position_mobile": 50,
+            "product_3": "lounge-set-t-shirt-lounge-short-brown",
+            "product_3_horizontal_position": 67,
+            "product_3_vertical_position": 66,
+            "product_3_horizontal_position_mobile": 70,
+            "product_3_vertical_position_mobile": 70
           }
         }
       },
       "block_order": [
-        "collection_bCrCW7",
-        "collection_an9Qzg"
+        "look_TDPU9T"
+      ],
+      "settings": {
+        "reveal_on_scroll": false,
+        "label": "Shop the looks"
+      }
+    },
+    "featured_collections_MzcczA": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_kU3xTK": {
+          "type": "collection",
+          "settings": {
+            "collection": "emmy-flower-brown",
+            "label": "",
+            "button_text": "VIEW FULL COLLECTION",
+            "button_url": "shopify:\/\/collections\/emmy-flower-brown"
+          }
+        }
+      },
+      "block_order": [
+        "collection_kU3xTK"
       ],
       "settings": {
         "subheading": "",
-        "title": "Tie Dye Summer Bliss",
+        "title": "Emmy Flower Brown",
         "content": "",
         "products_count": 50,
         "products_per_row": 6,
@@ -113,8 +262,8 @@
             "image": "shopify:\/\/shop_images\/Header_Sketch-Flower-Heather-Grey_family-matching_v3.jpg",
             "dot_type": "inverted",
             "product_1": "kids-long-sleeve-lounge-pant-pj-set-sketch-flower-grey",
-            "product_1_horizontal_position": 31,
-            "product_1_vertical_position": 41,
+            "product_1_horizontal_position": 30,
+            "product_1_vertical_position": 38,
             "product_1_horizontal_position_mobile": 30,
             "product_1_vertical_position_mobile": 30,
             "product_2": "henley-harem-set-sketch-flower-heather-grey",
@@ -177,70 +326,6 @@
       "settings": {
         "subheading": "",
         "title": "Sketch Flower",
-        "content": "",
-        "products_count": 50,
-        "products_per_row": 6,
-        "stack_products": false,
-        "show_cta": false,
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "shop_the_look_AWYEDr": {
-      "type": "shop-the-look",
-      "blocks": {
-        "look_TDPU9T": {
-          "type": "look",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/family-emmy-flower-brown.jpg",
-            "dot_type": "normal",
-            "product_1": "kids-long-sleeve-lounge-pant-pj-set-emmy-flower-brown",
-            "product_1_horizontal_position": 41,
-            "product_1_vertical_position": 41,
-            "product_1_horizontal_position_mobile": 30,
-            "product_1_vertical_position_mobile": 30,
-            "product_2": "t-shirt-set-emmy-flower-brown",
-            "product_2_horizontal_position": 50,
-            "product_2_vertical_position": 52,
-            "product_2_horizontal_position_mobile": 50,
-            "product_2_vertical_position_mobile": 50,
-            "product_3": "lounge-set-t-shirt-lounge-short-brown",
-            "product_3_horizontal_position": 67,
-            "product_3_vertical_position": 66,
-            "product_3_horizontal_position_mobile": 70,
-            "product_3_vertical_position_mobile": 70
-          }
-        }
-      },
-      "block_order": [
-        "look_TDPU9T"
-      ],
-      "settings": {
-        "reveal_on_scroll": false,
-        "label": "Shop the looks"
-      }
-    },
-    "featured_collections_MzcczA": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_kU3xTK": {
-          "type": "collection",
-          "settings": {
-            "collection": "emmy-flower-brown",
-            "label": "",
-            "button_text": "VIEW FULL COLLECTION",
-            "button_url": "shopify:\/\/collections\/emmy-flower-brown"
-          }
-        }
-      },
-      "block_order": [
-        "collection_kU3xTK"
-      ],
-      "settings": {
-        "subheading": "",
-        "title": "Emmy Flower Brown",
         "content": "",
         "products_count": 50,
         "products_per_row": 6,
@@ -453,8 +538,8 @@
             "image": "shopify:\/\/shop_images\/Carousel_Fair-Isle-Black.webp",
             "dot_type": "normal",
             "product_1": "pajama-set-t-shirt-pajama-pant-13",
-            "product_1_horizontal_position": 41,
-            "product_1_vertical_position": 41,
+            "product_1_horizontal_position": 37,
+            "product_1_vertical_position": 77,
             "product_1_horizontal_position_mobile": 30,
             "product_1_vertical_position_mobile": 30,
             "product_2": "relaxed-long-sleeve-set-9",
@@ -547,6 +632,7 @@
       "block_order": [
         "look_bnKYPx"
       ],
+      "disabled": true,
       "settings": {
         "reveal_on_scroll": false,
         "label": "Shop the looks"
@@ -578,6 +664,7 @@
         "template--21349787074841__71b9e4d5-d557-4417-b716-5bb55c080508-collection-1",
         "c99850a9-5b49-45e9-b557-007881fe8c69"
       ],
+      "disabled": true,
       "settings": {
         "subheading": "",
         "title": "Bookhou x This is J",
@@ -611,7 +698,7 @@
             "product_2_horizontal_position_mobile": 50,
             "product_2_vertical_position_mobile": 50,
             "product_3": "henley-harem-set-black-green-plaid",
-            "product_3_horizontal_position": 62,
+            "product_3_horizontal_position": 84,
             "product_3_vertical_position": 50,
             "product_3_horizontal_position_mobile": 70,
             "product_3_vertical_position_mobile": 70
@@ -686,6 +773,41 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
+    "shop_the_look_LEbfQD": {
+      "type": "shop-the-look",
+      "blocks": {
+        "look_krJDa7": {
+          "type": "look",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Varsity-Stripe-Kelly-Navy-Family-2160x800_v2.jpg",
+            "dot_type": "normal",
+            "product_1": "",
+            "product_1_horizontal_position": 38,
+            "product_1_vertical_position": 63,
+            "product_1_horizontal_position_mobile": 30,
+            "product_1_vertical_position_mobile": 30,
+            "product_2": "",
+            "product_2_horizontal_position": 44,
+            "product_2_vertical_position": 47,
+            "product_2_horizontal_position_mobile": 50,
+            "product_2_vertical_position_mobile": 50,
+            "product_3": "",
+            "product_3_horizontal_position": 59,
+            "product_3_vertical_position": 63,
+            "product_3_horizontal_position_mobile": 70,
+            "product_3_vertical_position_mobile": 70
+          }
+        }
+      },
+      "block_order": [
+        "look_krJDa7"
+      ],
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": false,
+        "label": "Shop the looks"
+      }
+    },
     "main": {
       "type": "main-list-collections",
       "blocks": {
@@ -731,12 +853,15 @@
   },
   "order": [
     "bcd16921-ce9d-4288-9d05-d560fec930e4",
-    "shop_the_look_jKp6XX",
+    "image_with_text_overlay_CD8Nwx",
+    "featured_collections_NYDmB6",
+    "image_with_text_overlay_b7FcEJ",
     "featured_collections_LLWL7k",
-    "shop_the_look_MmPy38",
-    "dbdf553a-cda6-4b3f-9cd4-43e17b52a7e1",
+    "shop_the_look_jKp6XX",
     "shop_the_look_AWYEDr",
     "featured_collections_MzcczA",
+    "shop_the_look_MmPy38",
+    "dbdf553a-cda6-4b3f-9cd4-43e17b52a7e1",
     "shop_the_look_EY79C4",
     "featured_collections_Ydj9cF",
     "shop_the_look_dKJKyk",
@@ -749,6 +874,7 @@
     "71b9e4d5-d557-4417-b716-5bb55c080508",
     "shop_the_look_QKNRqL",
     "e18c76af-8170-444e-80b7-6ed5d4391ea7",
+    "shop_the_look_LEbfQD",
     "main"
   ]
 }

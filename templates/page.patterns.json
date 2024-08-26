@@ -61,7 +61,7 @@
         "button_text": "",
         "button_link": "",
         "background_type": "full_width",
-        "text_width": "medium",
+        "text_width": "large",
         "text_position": "center",
         "text_alignment": "center",
         "background": "rgba(0,0,0,0)",
@@ -154,7 +154,7 @@
         "button_text": "",
         "button_link": "",
         "background_type": "full_width",
-        "text_width": "medium",
+        "text_width": "large",
         "text_position": "center",
         "text_alignment": "center",
         "background": "rgba(0,0,0,0)",
@@ -203,79 +203,6 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
-    "fd3b1c53-a685-4442-8d8c-867972771539": {
-      "type": "image-with-text-overlay",
-      "custom_css": [
-
-      ],
-      "settings": {
-        "reveal_on_scroll": true,
-        "section_height": "small",
-        "image": "shopify:\/\/shop_images\/Artboard_4_3cat_nat_header-patterns-v6.jpg",
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "button_text": "",
-        "button_link": "",
-        "link_style": "link",
-        "background_type": "boxed",
-        "text_width": "medium",
-        "text_position": "middle_center",
-        "text_color": "#ffffff",
-        "button_background": "#ffffff",
-        "button_text_color": "#000000",
-        "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
-        "overlay_opacity": 25
-      }
-    },
-    "rich_text_mzMYNw": {
-      "type": "rich-text",
-      "settings": {
-        "subheading": "",
-        "title": "Cat & Nat x This is J",
-        "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-        "button_text": "",
-        "button_link": "",
-        "background_type": "full_width",
-        "text_width": "medium",
-        "text_position": "center",
-        "text_alignment": "center",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "3ffe6cd2-9d08-4ba7-8d20-385796e18434": {
-      "type": "featured-collections",
-      "blocks": {
-        "template--20427016470809__3ffe6cd2-9d08-4ba7-8d20-385796e18434-collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "cat-nat-x-this-is-j",
-            "label": "",
-            "button_text": "view collection",
-            "button_url": "shopify:\/\/collections\/cat-nat-x-this-is-j"
-          }
-        }
-      },
-      "block_order": [
-        "template--20427016470809__3ffe6cd2-9d08-4ba7-8d20-385796e18434-collection-1"
-      ],
-      "settings": {
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "products_count": 8,
-        "products_per_row": 6,
-        "stack_products": false,
-        "show_cta": false,
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
     "e211d227-68d6-4f4a-9f72-bd390e613d7f": {
       "type": "image-with-text-overlay",
       "custom_css": [
@@ -286,7 +213,7 @@
         "section_height": "small",
         "image": "shopify:\/\/shop_images\/EmmyFlower_CollectionHeader_v2.jpg",
         "subheading": "",
-        "title": "Emmy Flower",
+        "title": "",
         "content": "",
         "button_text": "",
         "button_link": "https:\/\/thisisj.com\/collections\/emmy-flower",
@@ -310,7 +237,7 @@
         "button_text": "",
         "button_link": "",
         "background_type": "full_width",
-        "text_width": "medium",
+        "text_width": "large",
         "text_position": "center",
         "text_alignment": "center",
         "background": "rgba(0,0,0,0)",
@@ -367,10 +294,10 @@
       "settings": {
         "reveal_on_scroll": true,
         "section_height": "small",
-        "image": "shopify:\/\/shop_images\/Safari_Jade-Carousel_1463_HIRES_copy.jpg",
+        "image": "shopify:\/\/shop_images\/safari_flower_black-chin.jpg",
         "subheading": "",
-        "title": "Safari Flower",
-        "content": "<p>A vintage This is J print, originally drawn in 2010 combining floral sketches from travels abroad to create a delicate, free flowing, hand-sketched flower compilation. The soft lines of leaves and thorns anchor the design while spontaneous bold pops colour create whimsy - both working together in a delicate and harmonious way.<\/p>",
+        "title": "",
+        "content": "",
         "button_text": "",
         "button_link": "",
         "link_style": "link",
@@ -384,6 +311,24 @@
         "overlay_opacity": 25
       }
     },
+    "rich_text_yjUxKC": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Safari Flower",
+        "content": "<p>A vintage This is J print, originally drawn in 2010 combining floral sketches from travels abroad to create a delicate, free flowing, hand-sketched flower compilation. The soft lines of leaves and thorns anchor the design while spontaneous bold pops colour create whimsy - both working together in a delicate and harmonious way.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
     "3c3f1770-874e-40e5-9463-f5cc211b590f": {
       "type": "featured-collections",
       "blocks": {
@@ -395,20 +340,10 @@
             "button_text": "View Collection",
             "button_url": "shopify:\/\/collections\/safari-flower-collection"
           }
-        },
-        "30643d47-a357-483a-bfaf-867803019d46": {
-          "type": "collection",
-          "settings": {
-            "collection": "safari-flower-jade",
-            "label": "Safari Flower Jade",
-            "button_text": "View Collection",
-            "button_url": "shopify:\/\/collections\/safari-flower-collection"
-          }
         }
       },
       "block_order": [
-        "template--17915522580761__3c3f1770-874e-40e5-9463-f5cc211b590f-168389959488378107-0",
-        "30643d47-a357-483a-bfaf-867803019d46"
+        "template--17915522580761__3c3f1770-874e-40e5-9463-f5cc211b590f-168389959488378107-0"
       ],
       "settings": {
         "subheading": "",
@@ -434,8 +369,8 @@
         "section_height": "small",
         "image": "shopify:\/\/shop_images\/Collection-Feature-Ikat-2.jpg",
         "subheading": "",
-        "title": "Ikat Marks",
-        "content": "<p>A hand-sketched pattern born from yarn dyed techniques, Ikat Marks blends artistry and tradition to create a bold statement. With distinctive brush marks that layer seamlessly, it introduces a dynamic texture that captivates and beckons to be touched. The use of contrasting colours heightens the pattern’s vibrancy and infuses it with a modern edge. Guaranteed to brighten any bedtime ensemble!<\/p>",
+        "title": "",
+        "content": "",
         "button_text": "",
         "button_link": "",
         "link_style": "link",
@@ -447,6 +382,24 @@
         "button_text_color": "#000000",
         "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
         "overlay_opacity": 25
+      }
+    },
+    "rich_text_4zqE7J": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Ikat Marks",
+        "content": "<p>A hand-sketched pattern born from yarn dyed techniques, Ikat Marks blends artistry and tradition to create a bold statement. With distinctive brush marks that layer seamlessly, it introduces a dynamic texture that captivates and beckons to be touched. The use of contrasting colours heightens the pattern’s vibrancy and infuses it with a modern edge. Guaranteed to brighten any bedtime ensemble!<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
       }
     },
     "2c5be0bf-8b7e-4d15-a00b-69e3e41d8490": {
@@ -489,8 +442,8 @@
         "section_height": "small",
         "image": "shopify:\/\/shop_images\/ThisisJ_220812_5543_HIRES_70sFlower_FamilyMatching_copy.jpg",
         "subheading": "",
-        "title": "70s Flower",
-        "content": "<p>Groove into comfort with this 70s inspired retro flower print. Bold pops of colour grounded against contrasting fabric choices are reminiscent of lazy Sundays lying around the house while listening to your favourite record on repeat.<\/p>",
+        "title": "",
+        "content": "",
         "button_text": "",
         "button_link": "",
         "link_style": "link",
@@ -502,6 +455,24 @@
         "button_text_color": "#000000",
         "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
         "overlay_opacity": 25
+      }
+    },
+    "rich_text_R4PfVT": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "70s Flower",
+        "content": "<p>Groove into comfort with this 70s inspired retro flower print. Bold pops of colour grounded against contrasting fabric choices are reminiscent of lazy Sundays lying around the house while listening to your favourite record on repeat.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
       }
     },
     "330bd8a1-3d08-4d5c-81e5-26cea4725813": {
@@ -554,8 +525,8 @@
         "section_height": "small",
         "image": "shopify:\/\/shop_images\/Fair-Isle-Collection_Header-3000x800.jpg",
         "subheading": "",
-        "title": "Fair Isle",
-        "content": "<p>Known for its warmth and coziness, our Fair Isle is a hand-illustrated version of a classic and timeless design that will add a touch of tradition, color, and charm to your nighttime routine.<\/p>",
+        "title": "",
+        "content": "",
         "button_text": "",
         "button_link": "",
         "link_style": "link",
@@ -567,6 +538,24 @@
         "button_text_color": "#000000",
         "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
         "overlay_opacity": 25
+      }
+    },
+    "rich_text_YDTWnH": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Fair Isle",
+        "content": "<p>Known for its warmth and coziness, our Fair Isle is a hand-illustrated version of a classic and timeless design that will add a touch of tradition, color, and charm to your nighttime routine.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
       }
     },
     "999f5bc6-a6b8-49d8-b963-4746b09411a8": {
@@ -594,72 +583,6 @@
       "block_order": [
         "template--17915522580761__999f5bc6-a6b8-49d8-b963-4746b09411a8-168389959488378107-0",
         "e305bdab-defe-4f2a-8290-000f62b85331"
-      ],
-      "settings": {
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "products_count": 50,
-        "products_per_row": 6,
-        "stack_products": false,
-        "show_cta": false,
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "3bafd0ec-8c7c-440f-9d53-448247aa5764": {
-      "type": "image-with-text-overlay",
-      "custom_css": [
-
-      ],
-      "settings": {
-        "reveal_on_scroll": true,
-        "section_height": "small",
-        "image": "shopify:\/\/shop_images\/Bookhou_x_ThisIsJ_CollectionHeader_Elsie.jpg",
-        "subheading": "",
-        "title": "Bookhou x This is J",
-        "content": "<p>When Art Meets Comfort. A lino cut, hand stamped pattern created by Bookhou designer, Arounna Khounnoraj, in collaboration with This is J. The distinctive neutral palette was inspired by Arounna Khounnoraj’s style and brought to life as a repeat pattern on signature This is J fabric soft stretch fabric.<\/p>",
-        "button_text": "",
-        "button_link": "",
-        "link_style": "link",
-        "background_type": "boxed",
-        "text_width": "medium",
-        "text_position": "middle_center",
-        "text_color": "#ffffff",
-        "button_background": "#ffffff",
-        "button_text_color": "#000000",
-        "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
-        "overlay_opacity": 25
-      }
-    },
-    "1dd14fad-f1dc-405c-a1a1-e3e8c5f4c5dd": {
-      "type": "featured-collections",
-      "blocks": {
-        "template--17915522580761__1dd14fad-f1dc-405c-a1a1-e3e8c5f4c5dd-1683900611e05c10e1-0": {
-          "type": "collection",
-          "settings": {
-            "collection": "bookhou-x-this-is-j-black-white",
-            "label": "Bookhou x TIJ Black & White",
-            "button_text": "View Collection",
-            "button_url": "shopify:\/\/collections\/bookhou-x-this-is-j"
-          }
-        },
-        "0e39e8ad-8151-49af-acd4-c922f23a1b85": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "collection": "bookhou-x-this-is-j-charcoal",
-            "label": "Bookhou x TIJ Charcoal",
-            "button_text": "View Collection",
-            "button_url": "shopify:\/\/collections\/bookhou-x-this-is-j"
-          }
-        }
-      },
-      "block_order": [
-        "template--17915522580761__1dd14fad-f1dc-405c-a1a1-e3e8c5f4c5dd-1683900611e05c10e1-0",
-        "0e39e8ad-8151-49af-acd4-c922f23a1b85"
       ],
       "settings": {
         "subheading": "",
@@ -747,6 +670,20 @@
             "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
             "overlay_opacity": 25
           }
+        },
+        "collection_ip67tR": {
+          "type": "collection",
+          "settings": {
+            "collection": "cat-nat-x-this-is-j",
+            "image": "shopify:\/\/shop_images\/Untitled_design.jpg",
+            "subheading": "",
+            "title": "Cat & Nat",
+            "link_text": "VIEW COLLECTION",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 30
+          }
         }
       },
       "block_order": [
@@ -754,7 +691,8 @@
         "f6e53f8a-f37a-4f59-aa50-a2f4b1c4158d",
         "collection_RzTKNE",
         "ee011ebe-2817-4e59-8d06-52a68f7edb10",
-        "d1c0a003-bfd4-4d8a-aaae-85c392612900"
+        "d1c0a003-bfd4-4d8a-aaae-85c392612900",
+        "collection_ip67tR"
       ],
       "custom_css": [
         "p {letter-spacing: 1px; font-weight: 700;}",
@@ -777,6 +715,28 @@
         "collections_to_show": "selected",
         "show_collection_title": true
       }
+    },
+    "image_with_text_overlay_crxDdV": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "small",
+        "image": "shopify:\/\/shop_images\/S400_073024_43845_Edit-2000x980.jpg",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+        "overlay_opacity": 30
+      }
     }
   },
   "order": [
@@ -787,23 +747,23 @@
     "b7e16cda-98a6-47ee-b593-7b88b504e356",
     "rich_text_qUFghV",
     "50f6138f-cfa6-44ed-8966-16ca3a42ba6e",
-    "fd3b1c53-a685-4442-8d8c-867972771539",
-    "rich_text_mzMYNw",
-    "3ffe6cd2-9d08-4ba7-8d20-385796e18434",
     "e211d227-68d6-4f4a-9f72-bd390e613d7f",
     "rich_text_JQ7afK",
     "6822df82-bc43-4b0e-ac16-2e6683486830",
     "2acc6dbe-8e22-4f69-a721-1ded8c8f70f1",
+    "rich_text_yjUxKC",
     "3c3f1770-874e-40e5-9463-f5cc211b590f",
     "06c1a025-0d3c-4ee8-b354-17326a5259b5",
+    "rich_text_4zqE7J",
     "2c5be0bf-8b7e-4d15-a00b-69e3e41d8490",
     "60b930f4-b477-4be7-98cf-10282589118f",
+    "rich_text_R4PfVT",
     "330bd8a1-3d08-4d5c-81e5-26cea4725813",
     "e940f348-120f-4474-bc71-fd379082f906",
+    "rich_text_YDTWnH",
     "999f5bc6-a6b8-49d8-b963-4746b09411a8",
-    "3bafd0ec-8c7c-440f-9d53-448247aa5764",
-    "1dd14fad-f1dc-405c-a1a1-e3e8c5f4c5dd",
     "acbdf988-9f5e-4c80-a99d-b954a874c312",
-    "main"
+    "main",
+    "image_with_text_overlay_crxDdV"
   ]
 }
