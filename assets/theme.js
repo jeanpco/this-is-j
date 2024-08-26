@@ -3972,7 +3972,7 @@
       const recentlyViewedProductsElement = div.querySelector(
         'recently-viewed-products'
       );
-      if (recentlyViewedProductsElement.hasChildNodes()) {
+      if (recentlyViewedProductsElement && recentlyViewedProductsElement.hasChildNodes()) {
         this.innerHTML = recentlyViewedProductsElement.innerHTML;
       }
     }
@@ -8074,7 +8074,7 @@
       // this is the product id on the PDP
       this.mainProductId = document.querySelector(
         '[data-main-product-id]'
-      ).dataset?.mainProductId;
+      )?.dataset?.mainProductId;
       // this.product.id is the product id of the currently opened in the product-variant element/container
       this.currentProductId = this.product.id;
 
@@ -8155,7 +8155,7 @@
         // therefor we need to update product-image-zoom product handle everytime the variant is changed
         const productImageZoomElement =
           document.querySelector('product-image-zoom');
-        productImageZoomElement.setAttribute(
+        productImageZoomElement?.setAttribute(
           'product-handle',
           selectedVariantHandle
         );
