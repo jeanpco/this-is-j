@@ -12,6 +12,31 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "2af3691f-48a8-40da-b6a5-be47cf654e2d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Carousel_-_Tie_Dye_Labour_Day_Sale.jpg",
+            "mute_toggle": false,
+            "font": "'BV Celine', serif",
+            "text_position": "middle_center",
+            "subheading": "labour day weekend",
+            "title": "Tie Dye Sale",
+            "subheading_font_size_m": 14,
+            "subheading_font_size_d": 14,
+            "heading_font_size_m": 32,
+            "heading_font_size_d": 58,
+            "description": "30% Off Our Softest PJs with Code: TIEDYESALE",
+            "button_1_text": "SHOP SALE",
+            "button_1_link": "shopify:\/\/collections\/the-tie-dye-collection",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#1c1b1b",
+            "button_text_color": "#ffffff",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1), rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 10
+          }
+        },
         "image_qjRPmG": {
           "type": "image",
           "settings": {
@@ -86,31 +111,6 @@
             "button_text_color": "#faf8f2",
             "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
             "overlay_opacity": 8
-          }
-        },
-        "2af3691f-48a8-40da-b6a5-be47cf654e2d": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ThisIsJ-SummerBliss-TieDye-Mixed-Colourway-May2425907_f6f95720-2559-4179-90b6-75ab3c7d68f7.jpg",
-            "mute_toggle": false,
-            "font": "'BV Celine', serif",
-            "text_position": "middle_center",
-            "subheading": "",
-            "title": "Summer Bliss",
-            "subheading_font_size_m": 14,
-            "subheading_font_size_d": 14,
-            "heading_font_size_m": 32,
-            "heading_font_size_d": 58,
-            "description": "The essence of sun-soaked days and balmy summer nights",
-            "button_1_text": "SHOP NEW TIE DYE PJs",
-            "button_1_link": "shopify:\/\/collections\/tie-dye-summer-bliss-collection",
-            "button_2_text": "",
-            "button_2_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1), rgba(255, 255, 255, 0) 60%)",
-            "overlay_opacity": 10
           }
         },
         "2da0b997-5a90-4854-8226-9f11794b4268": {
@@ -297,10 +297,10 @@
         }
       },
       "block_order": [
+        "2af3691f-48a8-40da-b6a5-be47cf654e2d",
         "image_qjRPmG",
         "0a4416e7-5b14-4e98-a91e-08b416cbdb5e",
         "5f50728c-97ef-40f0-9fa4-5ca1e43925bc",
-        "2af3691f-48a8-40da-b6a5-be47cf654e2d",
         "2da0b997-5a90-4854-8226-9f11794b4268",
         "63738099-eeb5-4d1b-9068-d3d0bbb3158a",
         "651bdab3-a6ac-4b78-aa18-f8b4cc25d911",
