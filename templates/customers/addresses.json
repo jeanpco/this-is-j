@@ -1,21 +1,16 @@
-/*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
 {
   "sections": {
     "hero": {
       "type": "hero-loyalty",
       "settings": {
-        "image": "shopify:\/\/shop_images\/TIJ_Header_Image_1.png",
+        "image": "shopify:\/\/shop_images\/Clothing-Stack-March-2024_41558_1512x500_v2_1.jpg",
         "bg": "#f0eee7",
+        "transition_type": "sweep",
+        "content_position": "bottom_left",
+        "content_alignment": "left",
         "heading": "<p>Welcome to <br\/>The comfort club<\/p>",
-        "text": "<p>descripion.<\/p>"
+        "text": "<p>descripion.<\/p>",
+        "note": "<p>Already a member? Log In Here.<\/p>"
       }
     },
     "account-nav": {
@@ -57,6 +52,7 @@
         "logout"
       ],
       "settings": {
+        "comfort_club_status": false
       }
     },
     "main": {

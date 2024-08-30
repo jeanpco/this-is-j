@@ -1,0 +1,19 @@
+{
+  "parent": "page.faq.json",
+  "context": {
+    "market": "ca"
+  },
+  "sections": {
+    "faq": {
+      "settings": {
+      },
+      "blocks": {
+        "6ade706a-522e-492f-b72f-741361e78ded": {
+          "settings": {
+            "answer": "<p>Shipping options and costs will be calculated at checkout for your purchase.<\/p><p>Comfort Club Members receive flat rate shipping options and can qualify for Free Shipping. <a href=\"\/pages\/loyalty\" title=\"Loyalty\"><strong>It's free to sign-up!<\/strong><\/a><\/p>"
+          }
+        }
+      }
+    }
+  }
+}
