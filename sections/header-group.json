@@ -30,13 +30,13 @@
         "message-1": {
           "type": "message",
           "settings": {
-            "text": "Free shipping on Orders Over $100",
-            "text_link": "shopify:\/\/pages\/shipping-information",
+            "text": "Flat Rate & Free Shipping Options for Comfort Club Members",
+            "text_link": "shopify:\/\/pages\/loyalty",
             "learn_more_text": "Learn More",
             "title": "",
             "content": "",
             "button_text": "",
-            "button_link": "shopify:\/\/pages\/shipping-information"
+            "button_link": "shopify:\/\/pages\/loyalty"
           }
         },
         "609903ea-b137-4089-840a-0e0c8321b5da": {
@@ -89,9 +89,10 @@
             "image_2_heading": "COMFY NEW ARRIVALS",
             "image_2_text": "",
             "image_2_link": "shopify:\/\/collections\/new-arrivals",
-            "image_3_heading": "",
-            "image_3_text": "",
-            "image_3_link": "shopify:\/\/collections\/sale",
+            "image_3": "shopify:\/\/shop_images\/Artboard_138-100.jpg",
+            "image_3_heading": "LABOUR DAY SALE!!!",
+            "image_3_text": "30% Off All Tie Dye with Code: TIEDYESALE",
+            "image_3_link": "shopify:\/\/collections\/the-tie-dye-collection",
             "image_4_heading": "",
             "image_4_text": "",
             "image_4_link": "",

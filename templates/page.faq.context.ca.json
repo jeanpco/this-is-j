@@ -8,19 +8,18 @@
 * ------------------------------------------------------------
 */
 {
-  "parent": "header-group.json",
+  "parent": "page.faq.json",
   "context": {
-    "market": "united-states"
+    "market": "ca"
   },
   "sections": {
-    "announcement-bar": {
-      "disabled": false,
+    "faq": {
       "settings": {
       },
       "blocks": {
-        "message-1": {
+        "6ade706a-522e-492f-b72f-741361e78ded": {
           "settings": {
-            "text": "Flat Rate & Free Shipping Options for Comfort Club Members"
+            "answer": "<p>Shipping options and costs will be calculated at checkout for your purchase.<\/p><p>Comfort Club Members receive flat rate shipping options and can qualify for Free Shipping. <a href=\"\/pages\/loyalty\" title=\"Loyalty\"><strong>It's free to sign-up!<\/strong><\/a><\/p>"
           }
         }
       }

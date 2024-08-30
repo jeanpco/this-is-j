@@ -71,7 +71,7 @@
             {%- endif -%}
           {%- endif -%}
 
-          {%- unless customer or section.settings.comfort_club_note == blank -%}
+          {%- unless section.settings.comfort_club_note == blank -%}
             {% render 'yopto-notice', notice_text: section.settings.comfort_club_note %}  
           {%- endunless -%}
         </div>
@@ -487,11 +487,11 @@
       "default": true
     },
     {
-      "type": "richtext",
+      "type": "html",
       "id": "comfort_club_note",
       "label": "Comfort Club Note",
       "info": "Banner text to display in cart",
-      "default": "<p>Members get free shipping on applicable orders. Login / Sign Up</p>"
+      "default": "<p>Members get free shipping on applicable orders. {% unless customer %}<a href='/account/login' title='/account/login'>Login / Sign Up</a>{% endunless %}</p>"
     },
     {
       "type": "text",

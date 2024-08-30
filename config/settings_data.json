@@ -37,7 +37,10 @@
     "show_secondary_image": false,
     "show_discount": false,
     "cart_show_free_shipping_threshold": true,
-    "cart_free_shipping_threshold": "USD:150,CAD:100",
+    "cart_free_shipping_threshold": "",
+    "cart_free_shipping_threshold_connoiseeur": "USD:100,CAD:100",
+    "cart_free_shipping_threshold_lover": "USD:125,CAD:125",
+    "cart_free_shipping_threshold_seeker": "USD:150,CAD:150",
     "social_facebook": "https:\/\/www.facebook.com\/thisisjtextileaccessories",
     "social_pinterest": "https:\/\/www.pinterest.ca\/thisisjsleepwear\/",
     "social_instagram": "https:\/\/www.instagram.com\/this_is_j\/",
@@ -54,7 +57,7 @@
         "type": "mini-cart",
         "settings": {
           "show_order_note": true,
-          "comfort_club_note": "<p>Members get free shipping on applicable orders. <a href='\/account\/login' title='\/account\/login'>Login \/ Sign Up<\/a><\/p>",
+          "comfort_club_note": "<span>Members get free shipping on applicable orders.<\/span>",
           "show_checkout_button": true,
           "empty_button_link": "shopify:\/\/collections\/new-arrivals",
           "show_recommendations": true,
@@ -98,7 +101,7 @@
         "disabled": false,
         "settings": {
           "inject_modules_loader": true,
-          "inject_sdk_loader": true
+          "inject_sdk_loader": false
         }
       }
     }

@@ -64,6 +64,7 @@
         },
         "5f50728c-97ef-40f0-9fa4-5ca1e43925bc": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Summer-Sale-2024-Carousel-Header.jpg",
             "mute_toggle": false,
@@ -425,22 +426,13 @@
     "0b66a79c-f620-44ef-b547-dcd702ada368": {
       "type": "featured-collections",
       "blocks": {
-        "89a5a7f6-cbd3-4761-afe4-b400e5ff692f": {
-          "type": "collection",
-          "settings": {
-            "collection": "tie-dye-crush",
-            "label": "Tie Dye Crush",
-            "button_text": "VIEW COLLECTION",
-            "button_url": "shopify:\/\/collections\/tie-dye-crush"
-          }
-        },
         "14c55113-a7c2-45db-ad2e-f2c840d4eb36": {
           "type": "collection",
           "settings": {
-            "collection": "tie-dye-tropical-breeze-collection",
-            "label": "Tie Dye Tropical Breeze",
+            "collection": "varsity-stripe-kelly-navy",
+            "label": "varsity stripe kelly navy",
             "button_text": "VIEW COLLECTION",
-            "button_url": "shopify:\/\/collections\/tie-dye-tropical-breeze-collection"
+            "button_url": "shopify:\/\/collections\/varsity-stripe-kelly-navy"
           }
         },
         "1d0d589f-470b-4725-a0d1-ce66fc0c4517": {
@@ -450,6 +442,15 @@
             "label": "SKETCH FLOWER",
             "button_text": "VIEW COLLECTION",
             "button_url": "shopify:\/\/collections\/sketch-flower-heather-grey"
+          }
+        },
+        "89a5a7f6-cbd3-4761-afe4-b400e5ff692f": {
+          "type": "collection",
+          "settings": {
+            "collection": "tie-dye-crush",
+            "label": "Tie Dye Crush",
+            "button_text": "VIEW COLLECTION",
+            "button_url": "shopify:\/\/collections\/tie-dye-crush"
           }
         },
         "b4237bd7-efab-4d5d-afd2-bd64ddd09866": {
@@ -473,9 +474,9 @@
         }
       },
       "block_order": [
-        "89a5a7f6-cbd3-4761-afe4-b400e5ff692f",
         "14c55113-a7c2-45db-ad2e-f2c840d4eb36",
         "1d0d589f-470b-4725-a0d1-ce66fc0c4517",
+        "89a5a7f6-cbd3-4761-afe4-b400e5ff692f",
         "b4237bd7-efab-4d5d-afd2-bd64ddd09866",
         "collection_gqHEp9"
       ],

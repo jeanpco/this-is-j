@@ -75,6 +75,7 @@
         },
         "image_V8kDja": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Summer-Sale-2024-Carousel-Header.jpg",
             "mute_toggle": false,
