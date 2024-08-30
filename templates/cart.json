@@ -34,7 +34,7 @@
       "settings": {
         "show_payment_methods": false,
         "show_shipping_estimator": false,
-        "comfort_club_note": "<p>Members get free shipping on applicable orders. <a href=\"\/pages\/loyalty\" title=\"Loyalty\">Login \/ Sign Up<\/a><\/p>",
+        "comfort_club_note": "<span>Members get free shipping on applicable orders.<\/span>",
         "shipping_estimator_default_country": "Canada",
         "empty_button_link": "shopify:\/\/collections\/new-arrivals"
       }

@@ -57,7 +57,7 @@
         "type": "mini-cart",
         "settings": {
           "show_order_note": true,
-          "comfort_club_note": "<p>Members get free shipping on applicable orders. <a href='\/account\/login' title='\/account\/login'>Login \/ Sign Up<\/a><\/p>",
+          "comfort_club_note": "<span>Members get free shipping on applicable orders.<\/span>",
           "show_checkout_button": true,
           "empty_button_link": "shopify:\/\/collections\/new-arrivals",
           "show_recommendations": true,
