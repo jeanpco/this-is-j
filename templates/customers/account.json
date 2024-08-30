@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "hero": {
@@ -85,7 +94,7 @@
       "settings": {
         "comfort_club_status": false,
         "seeker_description": "<ul><li><strong>Free Shipping<\/strong> on orders over $150<\/li><li><strong>$9.95 Flat Rate Shipping<\/strong> on orders under $150<\/li><li>15% Off - Birthday Reward<\/li><li>And more...<\/li><\/ul>",
-        "seeker_url": "#seekers",
+        "seeker_url": "shopify:\/\/pages\/loyalty",
         "lover_description": "<ul><li><strong>Free Shipping<\/strong> on orders over $125<\/li><li><strong>$6.95 Flat Rate Shipping<\/strong> on orders under $125<\/li><li>20% Off - Birthday Reward<\/li><li>And more...<\/li><\/ul>",
         "lover_url": "shopify:\/\/pages\/loyalty",
         "connoiseeur_description": "<ul><li><strong>Free Shipping<\/strong> on orders over $100<\/li><li><strong>$4.95 Flat Rate Shipping<\/strong> on orders under $100<\/li><li>30% Off - Birthday Reward<\/li><li>And more...<\/li><\/ul>",
