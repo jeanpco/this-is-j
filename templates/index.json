@@ -24,7 +24,7 @@
             "subheading_font_size_m": 12,
             "subheading_font_size_d": 13,
             "heading_font_size_m": 36,
-            "heading_font_size_d": 33,
+            "heading_font_size_d": 66,
             "description": "30% Off Our Softest PJs with Code: TIEDYESALE",
             "button_1_text": "SHOP SALE",
             "button_1_link": "shopify:\/\/collections\/the-tie-dye-collection",
@@ -34,7 +34,7 @@
             "button_background": "#1c1b1b",
             "button_text_color": "#ffffff",
             "overlay_color": "radial-gradient(rgba(0, 0, 0, 1), rgba(255, 255, 255, 0) 60%)",
-            "overlay_opacity": 10
+            "overlay_opacity": 35
           }
         },
         "image_qjRPmG": {
