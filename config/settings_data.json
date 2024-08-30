@@ -101,7 +101,7 @@
         "disabled": false,
         "settings": {
           "inject_modules_loader": true,
-          "inject_sdk_loader": true
+          "inject_sdk_loader": false
         }
       }
     }
