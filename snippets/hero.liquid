@@ -89,7 +89,7 @@
 
 <style>
   .shopify-section--loyalty h1,
-  .shopify-section--loyalty h1 * {
+   .shopify-section--loyalty h1 * {
     font-family: 'Celine Sans';
     font-size: 36px;
     font-weight: 400;
@@ -97,6 +97,8 @@
     letter-spacing: -0.05rem;
     text-align: center;
     margin-bottom: .5rem;
+    text-shadow: 0 0 15px white;
+    font-weight: 600;
   }
 
   @media only screen and (min-width: 769px) {
@@ -105,6 +107,8 @@
       font-size: 60px;
       line-height: 49.86px;
       text-align: left;
+      text-shadow: none;
+      font-weight: normal;
     }
   }
   .hero-cta {
@@ -128,12 +132,11 @@
   .hero-cta__content.hero-cta__content--logged {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
+    text-align: left;
     width: auto;
   }
   .hero-cta__content.hero-cta__content--logged h1 {
-    text-align: center;
+    text-align: left;
   }
 
   @media only screen and (min-width: 768px) {
@@ -146,6 +149,13 @@
     }
     .hero-cta__content {
       max-width: 60%;
+    }
+    .hero-cta__content.hero-cta__content--logged {
+      text-align: center;
+      align-items: center;
+    }
+    .hero-cta__content.hero-cta__content--logged h1 {
+      text-align: center;
     }
   }
   @media only screen and (min-width: 1024px) {
@@ -165,7 +175,7 @@
   }
   .hero-cta__text.hero-cta__text--logged {
     /* margin-top: -1rem; */
-    text-align: center;
+    text-align: left;
     font-family: Avenir;
     font-size: 18px;
     font-weight: 400;

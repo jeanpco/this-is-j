@@ -34,7 +34,7 @@
         "custom-link": {
           "type": "custom-link",
           "settings": {
-            "url": "\/pages\/loyalty",
+            "url": "shopify:\/\/pages\/refer-a-friend",
             "label": "Refer friends"
           }
         },

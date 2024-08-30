@@ -9689,6 +9689,10 @@
       this.yoptoCustomerData = data;
       this.currentVipTiers = this.getCurrentVipTiers();
 
+      console.log("yoptoCustomerData");
+      console.log(this.yoptoCustomerData);
+
+
       if (this.yoptoCustomerData && this.currentVipTiers) {
         // Plan name
         // this.planNameElement.innerHTML = this.currentVipTiers.name;
@@ -9702,6 +9706,7 @@
         // else this.planAdvantagesElements.forEach( element => element.classList.add('hidden') ); // hide all
 
         // Plan upgrage
+        console.log(this.upgradePlanAmountElement.innerHTML);
         if (this.upgradePlanAmountElement) {
           this.upgradePlanAmountElement.innerHTML =
             '$' +
@@ -9710,6 +9715,8 @@
             ] /
               100;
         }
+        console.log(this.upgradePlanAmountElement.innerHTML);
+
         // this.nextVipTiers = this.getNextVipTiersByName( this.yoptoCustomerData.vip_tier_name );
         // if(this.nextVipTiers) {
         //   const planDetails = `Spend another \$${this.yoptoCustomerData.vip_tier_upgrade_requirements['amount_cents_needed'] / 100} and become a <a href="${this.nextVipTiers.url}">${this.nextVipTiers.name}</a>.`;

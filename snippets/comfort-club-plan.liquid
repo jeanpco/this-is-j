@@ -90,7 +90,7 @@
         assign plan_name = 'Comfort Seeker'
         assign plan_advantages = section.settings.seeker_description
         capture plan_upgrade_requirements
-            echo "Spend another <span upgrade-amount></span> and become a <br/>" 
+            echo "Spend another <span upgrade-amount>--</span> and become a <br/>" 
             if section.settings.lover_url != blank
                 echo "<a href='{{ section.settings.lover_url }}'>Comfort Lover</a>."
             else
