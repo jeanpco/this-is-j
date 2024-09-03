@@ -69,6 +69,7 @@
       "blocks": {
         "exclusive-1": {
           "type": "comfort-club-offer",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/24-08-07-Style_Feature-Tank_Set-Double_Points_V1-4.jpg",
             "description": "",
@@ -78,12 +79,11 @@
         },
         "exclusive-2": {
           "type": "comfort-club-offer",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/September-Offer_Henley-Harem-Sets.jpg",
-            "description": "<p>x the points on all purchases of our best-selling Henley Harem Set<\/p>",
+            "image": "shopify:\/\/shop_images\/2x_Points_Sept-2024_Kids.jpg",
+            "description": "<p>2x the points on all purchases of our best-selling Kids Jammers<\/p>",
             "note": "<p>*Offer ends 09\/30 at 11:59 p.m. est<\/p>",
-            "url": "shopify:\/\/collections\/henley-harem-sets"
+            "url": "https:\/\/thisisj.com\/collections\/kid-jammers"
           }
         }
       },
