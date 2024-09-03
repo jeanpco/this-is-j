@@ -67,6 +67,15 @@
     "main-customers-comfort-club": {
       "type": "customers-comfort-club",
       "blocks": {
+        "exclusive-2": {
+          "type": "comfort-club-offer",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2x_Points_Sept-2024_Kids.jpg",
+            "description": "<p>2x the points on all purchases of our best-selling Kids Jammers<\/p>",
+            "note": "<p>*Offer ends 09\/30 at 11:59 p.m. est<\/p>",
+            "url": "https:\/\/thisisj.com\/collections\/kid-jammers"
+          }
+        },
         "exclusive-1": {
           "type": "comfort-club-offer",
           "disabled": true,
@@ -76,20 +85,11 @@
             "note": "",
             "url": "https:\/\/thisisj.com\/collections\/tank-sets-1"
           }
-        },
-        "exclusive-2": {
-          "type": "comfort-club-offer",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2x_Points_Sept-2024_Kids.jpg",
-            "description": "<p>2x the points on all purchases of our best-selling Kids Jammers<\/p>",
-            "note": "<p>*Offer ends 09\/30 at 11:59 p.m. est<\/p>",
-            "url": "https:\/\/thisisj.com\/collections\/kid-jammers"
-          }
         }
       },
       "block_order": [
-        "exclusive-1",
-        "exclusive-2"
+        "exclusive-2",
+        "exclusive-1"
       ],
       "settings": {
         "comfort_club_status": false,
