@@ -30,12 +30,6 @@
             "font_family": "inherit"
           }
         },
-        "yotpo_loyalty_rewards_product_points_module_app_block_kTnmy9": {
-          "type": "shopify:\/\/apps\/yotpo-loyalty-rewards\/blocks\/product-points-module-app-block\/2f9660df-5018-4e02-9868-ee1fb88d6ccd",
-          "disabled": true,
-          "settings": {
-          }
-        },
         "5e53d7ca-d59f-48d6-8237-0a5e1381d10b": {
           "type": "shopify:\/\/apps\/yotpo-product-reviews-ugc\/blocks\/star-rating\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
           "settings": {
@@ -89,7 +83,6 @@
       },
       "block_order": [
         "000df3a6-2cef-4181-9640-8fb6837765f6",
-        "yotpo_loyalty_rewards_product_points_module_app_block_kTnmy9",
         "5e53d7ca-d59f-48d6-8237-0a5e1381d10b",
         "variant_picker",
         "quantity_selector",
