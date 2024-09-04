@@ -433,6 +433,24 @@
         "show_collection_title": true
       }
     },
+    "rich_text_RLjG9Y": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
     "image_with_text_block_yYP7cz": {
       "type": "image-with-text-block",
       "settings": {
@@ -447,6 +465,24 @@
         "text_position": "left",
         "text_alignment": "left",
         "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "rich_text_hbzwr7": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)",
         "button_background": "rgba(0,0,0,0)",
         "button_text_color": "rgba(0,0,0,0)"
@@ -602,7 +638,9 @@
     "promotion_blocks_rPYrQ4",
     "dbdf553a-cda6-4b3f-9cd4-43e17b52a7e1",
     "main",
+    "rich_text_RLjG9Y",
     "image_with_text_block_yYP7cz",
+    "rich_text_hbzwr7",
     "collection_list_YkFF3m",
     "collection_list_ag4xjx",
     "rich_text_gxpy6R"
