@@ -27,7 +27,7 @@
         "section_height": "small",
         "image": "shopify:\/\/shop_images\/Summer-Essentials-header.jpg",
         "subheading": "",
-        "title": "Most Popular...",
+        "title": "Our Softest Favs...",
         "content": "",
         "button_text": "",
         "button_link": "",
@@ -40,6 +40,24 @@
         "button_text_color": "#000000",
         "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
         "overlay_opacity": 0
+      }
+    },
+    "rich_text_GjFnni": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<p>We've narrowed down our most popular styles to help you find your comfort.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
       }
     },
     "c59e590c-d7d6-4f88-bcfa-ebcc9427e2fd": {
@@ -382,6 +400,7 @@
   "order": [
     "main",
     "b523c626-4a86-4aae-9bdd-3c9c17db6fe2",
+    "rich_text_GjFnni",
     "c59e590c-d7d6-4f88-bcfa-ebcc9427e2fd",
     "85ca1a43-c515-4129-8aa3-589b0a13fb5a",
     "multi_column_JDbAgz",
