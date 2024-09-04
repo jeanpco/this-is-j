@@ -81,7 +81,7 @@
         capture plan_upgrade_requirements
             echo "Spend another <span upgrade-amount>--</span> and become a <br/>" 
             if section.settings.connoiseeur_url != blank
-                echo "<a href='{{ section.settings.connoiseeur_url }}'>Comfort Connoisseur</a>."
+                echo "<a href='" | append: section.settings.connoiseeur_url | append: "'>Comfort Connoisseur</a>."
             else
                 echo "Comfort Connoisseur."
             endif
@@ -92,6 +92,7 @@
         capture plan_upgrade_requirements
             echo "Spend another <span upgrade-amount>--</span> and become a <br/>" 
             if section.settings.lover_url != blank
+                echo "<a href='" | append: section.settings.lover_url | append: "'>Comfort Lover</a>."
                 echo "<a href='{{ section.settings.lover_url }}'>Comfort Lover</a>."
             else
                 echo "Comfort Lover."
