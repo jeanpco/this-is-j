@@ -248,6 +248,7 @@
     },
     "61117084-da71-4f43-8228-8cb68cdf600a": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "reveal_on_scroll": true,
         "section_height": "small",
