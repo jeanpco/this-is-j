@@ -13,6 +13,7 @@
       "type": "hero-loyalty",
       "settings": {
         "image": "shopify:\/\/shop_images\/Collection_Header_Cat-and-Nat_Pillows_copy.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Mobile-Comfort-Club-1000x1400_v2_1.jpg",
         "bg": "#f0eee7",
         "transition_type": "sweep",
         "content_position": "bottom_left",
