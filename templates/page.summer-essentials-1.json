@@ -268,6 +268,28 @@
         "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
         "overlay_opacity": 0
       }
+    },
+    "image_with_text_overlay_MBp77F": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "auto",
+        "image": "shopify:\/\/shop_images\/CollectionHeader_SaleOnSale_1600x600_copy.jpg",
+        "subheading": "The pjs you love on",
+        "title": "SALE",
+        "content": "",
+        "button_text": "",
+        "button_link": "shopify:\/\/collections\/sale",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+        "overlay_opacity": 30
+      }
     }
   },
   "order": [
@@ -276,6 +298,7 @@
     "c59e590c-d7d6-4f88-bcfa-ebcc9427e2fd",
     "85ca1a43-c515-4129-8aa3-589b0a13fb5a",
     "multi_column_JDbAgz",
-    "61117084-da71-4f43-8228-8cb68cdf600a"
+    "61117084-da71-4f43-8228-8cb68cdf600a",
+    "image_with_text_overlay_MBp77F"
   ]
 }
