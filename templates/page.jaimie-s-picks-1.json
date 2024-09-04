@@ -573,6 +573,24 @@
         "text_color": "rgba(0,0,0,0)",
         "text_shadow_color": "rgba(0,0,0,0)"
       }
+    },
+    "rich_text_gxpy6R": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
     }
   },
   "order": [
@@ -586,6 +604,7 @@
     "main",
     "image_with_text_block_yYP7cz",
     "collection_list_YkFF3m",
-    "collection_list_ag4xjx"
+    "collection_list_ag4xjx",
+    "rich_text_gxpy6R"
   ]
 }
