@@ -93,7 +93,6 @@
             echo "Spend another <span upgrade-amount>--</span> and become a <br/>" 
             if section.settings.lover_url != blank
                 echo "<a href='" | append: section.settings.lover_url | append: "'>Comfort Lover</a>."
-                echo "<a href='{{ section.settings.lover_url }}'>Comfort Lover</a>."
             else
                 echo "Comfort Lover."
             endif
