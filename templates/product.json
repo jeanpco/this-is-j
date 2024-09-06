@@ -1,12 +1,3 @@
-/*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
 {
   "sections": {
     "shogun-helper": {
@@ -28,12 +19,6 @@
             "heading": "Sezzle Widget",
             "font_size": 14,
             "font_family": "inherit"
-          }
-        },
-        "yotpo_loyalty_rewards_product_points_module_app_block_tcVjik": {
-          "type": "shopify:\/\/apps\/yotpo-loyalty-rewards\/blocks\/product-points-module-app-block\/2f9660df-5018-4e02-9868-ee1fb88d6ccd",
-          "disabled": true,
-          "settings": {
           }
         },
         "5e53d7ca-d59f-48d6-8237-0a5e1381d10b": {
@@ -89,7 +74,6 @@
       },
       "block_order": [
         "000df3a6-2cef-4181-9640-8fb6837765f6",
-        "yotpo_loyalty_rewards_product_points_module_app_block_tcVjik",
         "5e53d7ca-d59f-48d6-8237-0a5e1381d10b",
         "variant_picker",
         "quantity_selector",
