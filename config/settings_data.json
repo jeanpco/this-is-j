@@ -97,11 +97,26 @@
         }
       },
       "8962992520437913685": {
-        "type": "shopify://apps/yotpo-loyalty-rewards/blocks/loader-app-embed-block/2f9660df-5018-4e02-9868-ee1fb88d6ccd",
+        "type": "shopify:\/\/apps\/yotpo-loyalty-rewards\/blocks\/loader-app-embed-block\/2f9660df-5018-4e02-9868-ee1fb88d6ccd",
         "disabled": false,
         "settings": {
           "inject_modules_loader": true,
           "inject_sdk_loader": false
+        }
+      },
+      "11468047240823483236": {
+        "type": "shopify:\/\/apps\/sezzle-widget\/blocks\/checkout-embed\/f3a53793-e118-4764-a86b-a79bfedb0d5f",
+        "disabled": true,
+        "settings": {
+          "heading": "Sezzle Checkout Button",
+          "template": "Checkout with %%logo%%",
+          "mode": "light",
+          "padding": 9,
+          "marginTop": 0,
+          "marginRight": 0,
+          "marginBottom": 0,
+          "marginLeft": 0,
+          "width": "auto"
         }
       }
     }

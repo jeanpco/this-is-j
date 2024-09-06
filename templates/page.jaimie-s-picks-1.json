@@ -77,7 +77,7 @@
             "link_url": "https:\/\/thisisj.com\/products\/t-shirt-short-set-safari-flower-black",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
-            "overlay_opacity": 30
+            "overlay_opacity": 12
           }
         },
         "collection_4LYPGr": {
@@ -91,7 +91,7 @@
             "link_url": "https:\/\/thisisj.com\/en-us\/collections\/solid-collection",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
-            "overlay_opacity": 30
+            "overlay_opacity": 12
           }
         },
         "collection_EattLP": {
@@ -105,7 +105,7 @@
             "link_url": "https:\/\/thisisj.com\/collections\/the-tie-dye-collection",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
-            "overlay_opacity": 30
+            "overlay_opacity": 12
           }
         },
         "collection_rNbdQW": {
@@ -197,13 +197,13 @@
           "settings": {
             "collection": "",
             "image": "shopify:\/\/shop_images\/Artboard_1una_plaid.jpg",
-            "subheading": "",
+            "subheading": "light blue plaid",
             "title": "",
             "link_text": "",
             "link_url": "https:\/\/thisisj.com\/products\/henley-harem-set-1",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
-            "overlay_opacity": 30
+            "overlay_opacity": 12
           }
         },
         "collection_9JXQmE": {
@@ -211,13 +211,13 @@
           "settings": {
             "collection": "",
             "image": "shopify:\/\/shop_images\/Artboard_1laroe.jpg",
-            "subheading": "",
+            "subheading": "70s flower navy",
             "title": "",
             "link_text": "",
             "link_url": "https:\/\/thisisj.com\/products\/short-sleeve-nightie-13",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
-            "overlay_opacity": 30
+            "overlay_opacity": 12
           }
         },
         "collection_yC7wQL": {
@@ -225,13 +225,13 @@
           "settings": {
             "collection": "",
             "image": "shopify:\/\/shop_images\/Artboard_1dark_navy.jpg",
-            "subheading": "",
+            "subheading": "solid navy",
             "title": "",
             "link_text": "",
             "link_url": "https:\/\/thisisj.com\/products\/relaxed-long-sleeve-top-pajama-pant-set-5",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
-            "overlay_opacity": 30
+            "overlay_opacity": 10
           }
         },
         "collection_mFdMcr": {
@@ -433,6 +433,24 @@
         "show_collection_title": true
       }
     },
+    "rich_text_RLjG9Y": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
     "image_with_text_block_yYP7cz": {
       "type": "image-with-text-block",
       "settings": {
@@ -447,6 +465,24 @@
         "text_position": "left",
         "text_alignment": "left",
         "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "rich_text_hbzwr7": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)",
         "button_background": "rgba(0,0,0,0)",
         "button_text_color": "rgba(0,0,0,0)"
@@ -476,11 +512,11 @@
             "image": "shopify:\/\/shop_images\/Mens-White-T-Shirt-Tie-Dye-Tropical-Breeze-Pocket-Lounge-Short-2420883.jpg",
             "subheading": "",
             "title": "",
-            "link_text": "",
+            "link_text": "tie dye tropical breeze",
             "link_url": "https:\/\/thisisj.com\/collections\/tie-dye-tropical-breeze-collection",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
-            "overlay_opacity": 30
+            "overlay_opacity": 12
           }
         },
         "collection_JAzRCf": {
@@ -537,7 +573,7 @@
             "image": "shopify:\/\/shop_images\/Bamboo-Pajamas-Loungewear-Oversized-Tee-Tulip-Short-Set-Bamboo-Pajamas-Loungewear-Tank-Top-Tulip-Short-Black-Thin-White-Stripe-40021396.jpg",
             "subheading": "",
             "title": "",
-            "link_text": "",
+            "link_text": "black with thin white stripe",
             "link_url": "https:\/\/thisisj.com\/collections\/stripes-collection",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
@@ -573,6 +609,24 @@
         "text_color": "rgba(0,0,0,0)",
         "text_shadow_color": "rgba(0,0,0,0)"
       }
+    },
+    "rich_text_gxpy6R": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
     }
   },
   "order": [
@@ -584,8 +638,11 @@
     "promotion_blocks_rPYrQ4",
     "dbdf553a-cda6-4b3f-9cd4-43e17b52a7e1",
     "main",
+    "rich_text_RLjG9Y",
     "image_with_text_block_yYP7cz",
+    "rich_text_hbzwr7",
     "collection_list_YkFF3m",
-    "collection_list_ag4xjx"
+    "collection_list_ag4xjx",
+    "rich_text_gxpy6R"
   ]
 }

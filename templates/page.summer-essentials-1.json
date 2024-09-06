@@ -27,7 +27,7 @@
         "section_height": "small",
         "image": "shopify:\/\/shop_images\/Summer-Essentials-header.jpg",
         "subheading": "",
-        "title": "Most Popular...",
+        "title": "Our Softest Favs...",
         "content": "",
         "button_text": "",
         "button_link": "",
@@ -40,6 +40,24 @@
         "button_text_color": "#000000",
         "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
         "overlay_opacity": 0
+      }
+    },
+    "rich_text_GjFnni": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<p>We've narrowed down our most popular styles to help you find your comfort.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
       }
     },
     "c59e590c-d7d6-4f88-bcfa-ebcc9427e2fd": {
@@ -246,8 +264,49 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
+    "rich_text_9fHEQN": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "The PJs You Love, On Sale...",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "image_with_text_overlay_MBp77F": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "auto",
+        "image": "shopify:\/\/shop_images\/CollectionHeader_SaleOnSale_1600x600_copy.jpg",
+        "subheading": "",
+        "title": "Shop Sale",
+        "content": "",
+        "button_text": "",
+        "button_link": "shopify:\/\/collections\/sale",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+        "overlay_opacity": 30
+      }
+    },
     "61117084-da71-4f43-8228-8cb68cdf600a": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "reveal_on_scroll": true,
         "section_height": "small",
@@ -267,14 +326,88 @@
         "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
         "overlay_opacity": 0
       }
+    },
+    "multi_column_jH8Pfr": {
+      "type": "multi-column",
+      "blocks": {
+        "item_MmGEdk": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Column 1",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_D4aYdz": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Column 1",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "item_MmGEdk",
+        "item_D4aYdz"
+      ],
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "subheading": "Subheading",
+        "title": "Multi-column",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "medium",
+        "desktop_item_size": "medium",
+        "spacing": "normal",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "rich_text_ryzxP9": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
     }
   },
   "order": [
     "main",
     "b523c626-4a86-4aae-9bdd-3c9c17db6fe2",
+    "rich_text_GjFnni",
     "c59e590c-d7d6-4f88-bcfa-ebcc9427e2fd",
     "85ca1a43-c515-4129-8aa3-589b0a13fb5a",
     "multi_column_JDbAgz",
-    "61117084-da71-4f43-8228-8cb68cdf600a"
+    "rich_text_9fHEQN",
+    "image_with_text_overlay_MBp77F",
+    "61117084-da71-4f43-8228-8cb68cdf600a",
+    "multi_column_jH8Pfr",
+    "rich_text_ryzxP9"
   ]
 }
