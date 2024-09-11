@@ -22,7 +22,12 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "000df3a6-2cef-4181-9640-8fb6837765f6": {
+        "yotpo_loyalty_rewards_product_points_module_app_block_xpUcAa": {
+          "type": "shopify:\/\/apps\/yotpo-loyalty-rewards\/blocks\/product-points-module-app-block\/2f9660df-5018-4e02-9868-ee1fb88d6ccd",
+          "settings": {
+          }
+        },
+        "sezzle_widget_widget_block_AzAPGD": {
           "type": "shopify:\/\/apps\/sezzle-widget\/blocks\/widget-block\/f3a53793-e118-4764-a86b-a79bfedb0d5f",
           "settings": {
             "heading": "Sezzle Widget",
@@ -82,7 +87,8 @@
         }
       },
       "block_order": [
-        "000df3a6-2cef-4181-9640-8fb6837765f6",
+        "yotpo_loyalty_rewards_product_points_module_app_block_xpUcAa",
+        "sezzle_widget_widget_block_AzAPGD",
         "5e53d7ca-d59f-48d6-8237-0a5e1381d10b",
         "variant_picker",
         "quantity_selector",
