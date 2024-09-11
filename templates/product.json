@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "shogun-helper": {
@@ -152,10 +161,16 @@
           "settings": {
             "product": "{{product}}"
           }
+        },
+        "yotpo_loyalty_rewards_product_points_module_app_block_nDfKYp": {
+          "type": "shopify:\/\/apps\/yotpo-loyalty-rewards\/blocks\/product-points-module-app-block\/2f9660df-5018-4e02-9868-ee1fb88d6ccd",
+          "settings": {
+          }
         }
       },
       "block_order": [
-        "8e2eb500-9ef4-4dea-839c-82c4b1487382"
+        "8e2eb500-9ef4-4dea-839c-82c4b1487382",
+        "yotpo_loyalty_rewards_product_points_module_app_block_nDfKYp"
       ],
       "settings": {
         "include_horizontal_margins": true,
