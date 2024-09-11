@@ -26,6 +26,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Clothing-Stack-March-2024_41575_1512x500_Revised_Brighter_d713de36-48d1-4302-b840-0c3e7393af79.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Mobile-Comfort-Club-1000x1400_v2_1.jpg",
         "bg": "#f0eee7",
         "transition_type": "sweep",
         "content_position": "bottom_left",
