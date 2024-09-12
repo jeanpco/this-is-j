@@ -7172,6 +7172,12 @@
       if (!this.notifyMeButtonElement) {
         return;
       }
+
+      const { tags = [], mergedTags = [] } = window.allProductTags?.[variant?.product_id] || {};
+
+      // find hide-BIS tag
+      const hideBIS = tags && tags.includes('hide-BIS');
+
       const modalID =
         this.notifyMeButtonElement?.getAttribute('aria-controls') || '';
       const form = document.querySelector(`#${modalID} form`);
@@ -7188,12 +7194,15 @@
       }
 
       // handle display of notify me button
-      if (
-        (this.notifyMeButtonElement && this.comingSoon) ||
-        (this.notifyMeButtonElement && !variant.available)
-      )
+      if ((this.notifyMeButtonElement && this.comingSoon) || (this.notifyMeButtonElement && !variant.available)) {
         this.notifyMeButtonElement.style.display = 'block';
-      else this.notifyMeButtonElement.style.display = 'none';
+      } else {
+        this.notifyMeButtonElement.style.display = 'none';
+      }
+
+      if (!variant.available && hideBIS) {
+        this.notifyMeButtonElement.style.display = 'none';
+      }
     }
     _updateDynamicCheckoutButton(variant) {
       if (!this.paymentButtonElement) {

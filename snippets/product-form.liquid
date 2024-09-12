@@ -739,11 +739,16 @@
                 {%- endunless -%}
               {%- endif -%}
 
+              {%- assign hide_notify_me = false -%}
+              {%- if product.tags contains 'hide-BIS' and product.selected_or_first_available_variant.available == false -%}
+                {%- assign hide_notify_me = true -%}
+              {%- endif -%}
+
               <button
                 is="toggle-button"
                 data-product-notify-me
                 class="button button--black"
-                style="display:none;"
+                style="display:{% if hide_notify_me %}none{% else %}none{% endif %};"
                 aria-controls="notify-me--{{ product.id }}"
                 aria-expanded="false"
                 type="button"
@@ -753,7 +758,9 @@
             </product-payment-container>
           {%- endform -%}
 
-          {%- render 'notify-me-modal', product: product -%}
+          {%- unless hide_notify_me -%}
+            {%- render 'notify-me-modal', product: product -%}
+          {%- endunless -%}
         </div>
         {%- endif -%}
 
