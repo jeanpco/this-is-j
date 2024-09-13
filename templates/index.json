@@ -12,32 +12,6 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
-        "2af3691f-48a8-40da-b6a5-be47cf654e2d": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Carousel_-_Tie_Dye_Labour_Day_Sale.jpg",
-            "mute_toggle": false,
-            "font": "'BV Celine', serif",
-            "text_position": "middle_center",
-            "subheading": "labour day weekend",
-            "title": "Tie Dye Sale",
-            "subheading_font_size_m": 12,
-            "subheading_font_size_d": 13,
-            "heading_font_size_m": 36,
-            "heading_font_size_d": 66,
-            "description": "30% Off Our Softest PJs with Code: TIEDYESALE",
-            "button_1_text": "SHOP SALE",
-            "button_1_link": "shopify:\/\/collections\/the-tie-dye-collection",
-            "button_2_text": "",
-            "button_2_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#1c1b1b",
-            "button_text_color": "#ffffff",
-            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1), rgba(255, 255, 255, 0) 60%)",
-            "overlay_opacity": 35
-          }
-        },
         "image_qjRPmG": {
           "type": "image",
           "settings": {
@@ -269,6 +243,32 @@
             "overlay_opacity": 25
           }
         },
+        "2af3691f-48a8-40da-b6a5-be47cf654e2d": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/24-09-09-40off_Sitewide_Early_Access_Cat_banner_V5.jpg",
+            "mute_toggle": false,
+            "font": "'BV Celine', serif",
+            "text_position": "middle_center",
+            "subheading": "2-day flash sale!",
+            "title": "40% Off Sitewide*",
+            "subheading_font_size_m": 12,
+            "subheading_font_size_d": 13,
+            "heading_font_size_m": 36,
+            "heading_font_size_d": 66,
+            "description": "Use Code: TAKE40. Valid on all full price merchandise.",
+            "button_1_text": "SHOP SALE",
+            "button_1_link": "shopify:\/\/collections\/flash-sale",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#2c3456",
+            "button_background": "#2c3456",
+            "button_text_color": "#ffffff",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1), rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 3
+          }
+        },
         "d614789a-a1dd-4a1f-824e-7fd99a25c6d7": {
           "type": "image",
           "disabled": true,
@@ -298,7 +298,6 @@
         }
       },
       "block_order": [
-        "2af3691f-48a8-40da-b6a5-be47cf654e2d",
         "image_qjRPmG",
         "0a4416e7-5b14-4e98-a91e-08b416cbdb5e",
         "5f50728c-97ef-40f0-9fa4-5ca1e43925bc",
@@ -308,6 +307,7 @@
         "b24eb5a9-a144-43c5-aa6e-553164408fa6",
         "41ae075a-1376-49e3-8690-26f8fc04c23e",
         "60beccfe-7cd8-448e-9d7f-23b6860fc3a4",
+        "2af3691f-48a8-40da-b6a5-be47cf654e2d",
         "d614789a-a1dd-4a1f-824e-7fd99a25c6d7"
       ],
       "custom_css": [
