@@ -97,10 +97,25 @@
     letter-spacing: -0.05rem;
     text-align: left;
     margin-bottom: .5rem;
-    font-weight: 600;
+  }
+
+  img.hidden-lap-and-up {
+    display: block;
+  }
+
+  img.hidden-desk-and-up {
+    display: none;
   }
 
   @media only screen and (min-width: 769px) {
+    img.hidden-desk-and-up {
+      display: block;
+    }
+
+    img.hidden-lap-and-up {
+      display: none;
+    }
+
     .shopify-section--loyalty h1,
     .shopify-section--loyalty h1 * {
       font-size: 60px;
@@ -119,8 +134,8 @@
     display: flex;
     flex-wrap: wrap;
     position: relative;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 13rem;
+    padding-bottom: 13rem;
     align-items: {{ section_items_alignment }};
     justify-content: {{ section_items_justify }};
   }
@@ -148,8 +163,8 @@
       min-height: 550px;
     }
     .hero-cta__content-wrapper {
-      /* padding-top: 6rem;
-      padding-bottom: 6rem; */
+      padding-top: 5rem;
+      padding-bottom: 5rem;
     }
     .hero-cta__content {
       padding: 0;
