@@ -14,7 +14,6 @@
       "blocks": {
         "2af3691f-48a8-40da-b6a5-be47cf654e2d": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/24-09-09-40off_Sitewide_Early_Access_Cat_banner_V5.jpg",
             "mute_toggle": false,
