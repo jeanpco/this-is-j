@@ -18,8 +18,8 @@
           "type": "message",
           "disabled": true,
           "settings": {
-            "text": "24 Hour FLASH SALE! 30% Off select items with code: TODAY30",
-            "text_link": "shopify:\/\/collections\/new-arrivals",
+            "text": "2-DAY FLASH SALE! 40% Off with code: TAKE40. Shop the Sale!",
+            "text_link": "shopify:\/\/collections\/flash-sale",
             "learn_more_text": "Learn More",
             "title": "",
             "content": "",
