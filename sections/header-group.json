@@ -18,7 +18,7 @@
           "type": "message",
           "disabled": true,
           "settings": {
-            "text": "2-DAY FLASH SALE! 40% Off with code: TAKE40. Shop the Sale!",
+            "text": "40% Off with code: TAKE40",
             "text_link": "shopify:\/\/collections\/flash-sale",
             "learn_more_text": "Learn More",
             "title": "",
