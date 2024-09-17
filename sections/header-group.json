@@ -16,6 +16,7 @@
       "blocks": {
         "message_g39wMG": {
           "type": "message",
+          "disabled": true,
           "settings": {
             "text": "40% Off with code: TAKE40",
             "text_link": "shopify:\/\/collections\/flash-sale",
