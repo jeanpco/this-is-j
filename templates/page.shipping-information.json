@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -59,7 +68,7 @@
           "type": "question",
           "settings": {
             "title": "How much is shipping and when can I expect my order to arrive?",
-            "answer": "<p>We offer free standard shipping on all orders over $100 across Canada and U.S. orders over $150. We also offer $10 flat rate shipping across the U.S. Your order will ship within 2-3 business days, provided all items are in stock. You will be notified as soon as your order is shipped, and you will be given a tracking number. Since we ship all of our products from Toronto, Canada, delivery will depend on where you're located and can be delayed due to order volume, customs, and national holidays. Real time shipping options display at the time of purchase giving you rates and time in transit choices.<strong>Orders placed after 11:30am EST are scheduled to ship the following day.<\/strong><\/p>"
+            "answer": "<p>We offer flat rate shipping on all orders across Canada and U.S. for all <a href=\"\/pages\/account-comfort-club\" title=\"Comfort Club Rewards\">Comfort Club Members<\/a>. Members also have free shipping options dependent on their memebr status. Your order will ship within 2-3 business days, provided all items are in stock. You will be notified as soon as your order is shipped, and you will be given a tracking number. Since we ship all of our products from Toronto, Canada, delivery will depend on where you're located and can be delayed due to order volume, customs, and national holidays. Real time shipping options display at the time of purchase giving you rates and time in transit choices. <strong>Orders placed after 11:30am EST are scheduled to ship the following day.<\/strong><\/p>"
           }
         }
       },
