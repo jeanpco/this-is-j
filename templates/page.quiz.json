@@ -26,10 +26,14 @@
       ],
       "disabled": true,
       "settings": {
-        "heading": "The Comfort Club",
-        "text": "<p>Earn rewards on the products you love, redeem them for discounts, and get closer to the comfort you've been dreaming of.<\/p>",
         "image": "shopify:\/\/shop_images\/TIJ_001_Loyalty-Program_Banner_V4.gif",
-        "bg": "#f0eee7"
+        "bg": "#f0eee7",
+        "transition_type": "sweep",
+        "content_position": "bottom_left",
+        "content_alignment": "left",
+        "heading": "<p>The Comfort Club<\/p>",
+        "text": "<p>Earn rewards on the products you love, redeem them for discounts, and get closer to the comfort you've been dreaming of.<\/p>",
+        "note": "<p>Already a member? Log In Here.<\/p>"
       }
     },
     "steps": {
@@ -77,76 +81,6 @@
     },
     "loyalty-rewards": {
       "type": "loyalty-rewards",
-      "blocks": {
-        "2a5cf05f-9a81-4bfb-9ec5-2d62a444aa90": {
-          "type": "reward",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/TIJ_001_Create-an-account.png",
-            "text": "Create an Account",
-            "button": "25 points",
-            "campaign": "1109444",
-            "link": ""
-          }
-        },
-        "3bd0da4c-a1e0-44e4-ad75-86b66efeacd0": {
-          "type": "reward",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/TIJ_001_Birthday-Discount.png",
-            "text": "Happy Birthday!",
-            "button": "Birthday discount",
-            "campaign": "1109445",
-            "link": ""
-          }
-        },
-        "4a557db6-ddcb-4f01-9d19-a6dc63659408": {
-          "type": "reward",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/TIJ_001_Write-a-Review.png",
-            "text": "Write a Review",
-            "button": "25 points",
-            "campaign": "1109446",
-            "link": ""
-          }
-        },
-        "4b2c1ff0-d987-4ef6-883a-86e1b5f494fb": {
-          "type": "reward",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/TIJ_001_Picture-Review.png",
-            "text": "Submit a Photo Review",
-            "button": "40 points",
-            "campaign": "1109447",
-            "link": ""
-          }
-        },
-        "f51455c0-854a-4aaf-ba46-b18bebc56402": {
-          "type": "reward",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/TIJ_001_Follow-Us.png",
-            "text": "Follow Us on Instagram",
-            "button": "10 points",
-            "campaign": "1109449",
-            "link": ""
-          }
-        },
-        "68a50472-8671-4d4a-a527-42b986c613df": {
-          "type": "reward",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/TIJ_001_Refer-a-Friend.png",
-            "text": "Refer a Friend",
-            "button": "20% OFF",
-            "campaign": "1103469",
-            "link": "javascript:scrollTo('yotpoReferralTitleText')"
-          }
-        }
-      },
-      "block_order": [
-        "2a5cf05f-9a81-4bfb-9ec5-2d62a444aa90",
-        "3bd0da4c-a1e0-44e4-ad75-86b66efeacd0",
-        "4a557db6-ddcb-4f01-9d19-a6dc63659408",
-        "4b2c1ff0-d987-4ef6-883a-86e1b5f494fb",
-        "f51455c0-854a-4aaf-ba46-b18bebc56402",
-        "68a50472-8671-4d4a-a527-42b986c613df"
-      ],
       "disabled": true,
       "settings": {
         "heading": "Ways to Earn Points",
@@ -167,7 +101,7 @@
     "custom-code": {
       "type": "custom-code",
       "settings": {
-        "code": "<div class=\"octane-ai-quiz \" data-quiz-id=\"f3XfU8S1Yzk0HT9W\" data-embed-type=\"fullpage\" data-mobile-height=\"match_browser\" data-desktop-height=\"match_browser\"><\/div><script src=\"https:\/\/app.octaneai.com\/kiyf7nkssqu1zwjg\/quiz.js\" async defer><\/script>"
+        "code": "<div class=\"octane-ai-quiz \" data-quiz-id=\"tk1qPbhvK6xeoXBQ\" data-embed-type=\"fullpage\" data-mobile-height=\"match_browser\" data-desktop-height=\"match_browser\">\n    \n<\/div>\n<script src=\"https:\/\/app.octaneai.com\/kiyf7nkssqu1zwjg\/quiz.js\" async defer><\/script>"
       }
     },
     "rich_text_TF8wNT": {

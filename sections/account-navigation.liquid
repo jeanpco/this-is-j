@@ -1,12 +1,11 @@
 <div class="account-navigation">
-
   <style>
     .account-navigation {
       padding: 1.5rem 0;
     }
     .account-navigation .link-bar__wrapper {
-      padding: .5rem 0;
-      border-bottom: 1px solid #D4D4D4;
+      padding: 0.5rem 0;
+      border-bottom: 1px solid #d4d4d4;
     }
     .account-navigation .link-bar__wrapper .link-bar__link-item {
       padding: 0;
@@ -21,7 +20,6 @@
     }
   </style>
 
-
   {% assign current_url = request.path %}
 
   <div class="link-bar no-shadow hidden-phone">
@@ -29,32 +27,69 @@
       <div class="link-bar__wrapper">
         <ul class="link-bar__linklist list--unstyled" role="list">
           {% for block in section.blocks %}
-              {%- case block.type -%}
-                  {%- when 'custom-link' -%}
-                    <li class="link-bar__link-item">
-                      <a href="{{ block.settings.url }}" class="link-bar__link link--animated" data-nav-link>{{ block.settings.label }}</a>
-                    </li>
+            {%- case block.type -%}
+              {%- when 'custom-link' -%}
+                <li class="link-bar__link-item">
+                  <a
+                    href="{{ block.settings.url }}"
+                    class="link-bar__link link--animated js-link-desktop"
+                    data-nav-link
+                  >
+                    {{- block.settings.label -}}
+                  </a>
+                </li>
 
-                  {%- when 'club' -%}
-                    <li class="link-bar__link-item">
-                      <a href="{{ routes.account_url }}#comfortClub" class="link-bar__link link--animated" data-nav-link>{{ 'customer.general.comfortClub' | t }}</a>
-                    </li>
+              {%- when 'referrals' -%}
+                <li class="link-bar__link-item">
+                  <a
+                    href="{{ routes.account_url }}#referrals"
+                    class="link-bar__link link--animated js-link-desktop"
+                    data-nav-link
+                  >
+                    {{- 'customer.tabs.referrals' | t -}}
+                  </a>
+                </li>
 
-                  {%- when 'orders' -%}
-                    <li class="link-bar__link-item">
-                      <a href="{{ routes.account_url }}#orders" class="link-bar__link link--animated" data-nav-link>{{ 'customer.orders.title' | t }}</a>
-                    </li>
+              {%- when 'club' -%}
+                <li class="link-bar__link-item">
+                  <a
+                    href="{{ routes.account_url }}#comfort-club"
+                    class="link-bar__link link--animated js-link-desktop"
+                    data-nav-link
+                  >
+                    {{- 'customer.tabs.comfort_club' | t -}}
+                  </a>
+                </li>
 
-                  {%- when 'addresses' -%}
-                    <li class="link-bar__link-item">
-                      <a href="{{ routes.account_addresses_url }}" class="link-bar__link link--animated" data-nav-link>{{ 'customer.addresses.title' | t }}</a>
-                    </li>
+              {%- when 'orders' -%}
+                <li class="link-bar__link-item">
+                  <a
+                    href="{{ routes.account_url }}#orders"
+                    class="link-bar__link link--animated js-link-desktop"
+                    data-nav-link
+                  >
+                    {{- 'customer.tabs.orders' | t -}}
+                  </a>
+                </li>
 
-                  {%- when 'logout' -%}
-                    <li class="link-bar__link-item">
-                      <a href="{{ routes.account_logout_url }}" class="link-bar__link link--animated" data-no-instant>{{ 'customer.logout.title' | t }}</a>
-                    </li>
-              {%- endcase -%}
+              {%- when 'addresses' -%}
+                <li class="link-bar__link-item">
+                  <a
+                    href="{{ routes.account_addresses_url }}"
+                    class="link-bar__link link--animated js-link-desktop "
+                    data-nav-link
+                  >
+                    {{- 'customer.addresses.title' | t -}}
+                  </a>
+                </li>
+
+              {%- when 'logout' -%}
+                <li class="link-bar__link-item">
+                  <a href="{{ routes.account_logout_url }}" class="link-bar__link link--animated" data-no-instant>
+                    {{- 'customer.logout.title' | t -}}
+                  </a>
+                </li>
+            {%- endcase -%}
           {% endfor %}
         </ul>
       </div>
@@ -62,7 +97,10 @@
   </div>
 
   <div class="mobile-toolbar hidden-tablet-and-up">
-    <button is="toggle-button" class="mobile-toolbar__item" aria-expanded="false" aria-controls="account-links-popover">{%- render 'page-title' -%} {%- render 'icon' with 'chevron' -%}</button>
+    <button is="toggle-button" class="mobile-toolbar__item" aria-expanded="false" aria-controls="account-links-popover">
+      {%- render 'page-title' -%}
+      {%- render 'icon' with 'chevron' -%}
+    </button>
   </div>
 
   <popover-content id="account-links-popover" class="popover">
@@ -71,7 +109,12 @@
     <header class="popover__header">
       <span class="popover__title heading h6">{{- 'customer.general.title' | t -}}</span>
 
-      <button type="button" class="popover__close-button tap-area tap-area--large" data-action="close" title="{{ 'general.accessibility.close' | t | escape }}">
+      <button
+        type="button"
+        class="popover__close-button tap-area tap-area--large"
+        data-action="close"
+        title="{{ 'general.accessibility.close' | t | escape }}"
+      >
         {%- render 'icon' with 'close' -%}
       </button>
     </header>
@@ -80,54 +123,146 @@
       <div class="popover__choice-list">
         {% for block in section.blocks %}
           {%- case block.type -%}
-              {%- when 'custom-link' -%}
-                <a href="{{ block.settings.url }}" data-url="{{ block.settings.url }}" class="popover__choice-item">
-                  <span class="popover__choice-label" >{{ block.settings.label  }}</span>
-                </a>
+            {%- when 'custom-link' -%}
+              <a
+                href="{{ block.settings.url }}"
+                data-url="{{ block.settings.url }}"
+                class="popover__choice-item js-link-mobile"
+              >
+                <span class="popover__choice-label">{{ block.settings.label }}</span>
+              </a>
 
-              {%- when 'club' -%}
-                <a href="{{ routes.account_url }}#comfortClub" data-url="{{ routes.account_url }}" class="popover__choice-item">
-                  <span class="popover__choice-label" >{{ 'customer.general.comfortClub' | t }}</span>
-                </a>
+            {%- when 'referrals' -%}
+              <a
+                href="{{ routes.account_url }}#referrals"
+                data-url="{{ routes.account_url }}"
+                class="popover__choice-item js-link-mobile"
+              >
+                <span class="popover__choice-label">{{ 'customer.tabs.referrals' | t }}</span>
+              </a>
 
-              {%- when 'orders' -%}
-                <a href="{{ routes.account_url }}#orders" data-url="{{ routes.account_url }}" class="popover__choice-item">
-                  <span class="popover__choice-label" >{{ 'customer.orders.title' | t }}</span>
-                </a>
+            {%- when 'club' -%}
+              <a
+                href="{{ routes.account_url }}#comfort-club"
+                data-url="{{ routes.account_url }}"
+                class="popover__choice-item js-link-mobile"
+              >
+                <span class="popover__choice-label">{{ 'customer.tabs.comfort_club' | t }}</span>
+              </a>
 
-              {%- when 'addresses' -%}
-                <a href="{{ routes.account_addresses_url }}" data-url="{{ routes.account_addresses_url }}" class="popover__choice-item">
-                  <span class="popover__choice-label" >{{ 'customer.addresses.title' | t }}</span>
-                </a>
+            {%- when 'orders' -%}
+              <a
+                href="{{ routes.account_url }}#orders"
+                data-url="{{ routes.account_url }}"
+                class="popover__choice-item js-link-mobile"
+              >
+                <span class="popover__choice-label">{{ 'customer.tabs.orders' | t }}</span>
+              </a>
 
-              {%- when 'logout' -%}
-                <a href="{{ routes.account_logout_url }}" data-url="{{ routes.account_logout_url }}" class="popover__choice-item text--subdued" data-no-instant>
-                  <span class="popover__choice-label" >{{ 'customer.logout.title' | t }}</span>
-                </a>
+            {%- when 'addresses' -%}
+              <a
+                href="{{ routes.account_addresses_url }}"
+                data-url="{{ routes.account_addresses_url }}"
+                class="popover__choice-item js-link-mobile"
+              >
+                <span class="popover__choice-label">{{ 'customer.addresses.title' | t }}</span>
+              </a>
+
+            {%- when 'logout' -%}
+              <a
+                href="{{ routes.account_logout_url }}"
+                data-url="{{ routes.account_logout_url }}"
+                class="popover__choice-item text--subdued"
+                data-no-instant
+              >
+                <span class="popover__choice-label">{{ 'customer.logout.title' | t }}</span>
+              </a>
           {%- endcase -%}
         {% endfor %}
       </div>
     </div>
   </popover-content>
-
 </div>
 
 <script>
-  document.addEventListener('DOMContentLoaded', function() {
+  document.addEventListener('DOMContentLoaded', function () {
     const navLinks = document.querySelectorAll('[data-nav-link]');
-    const currentPath = window.location.pathname;
-    const currentHash = window.location.hash;
 
-    navLinks.forEach(link => {
-      const linkPath = new URL(link.href).pathname;
-      const linkHash = new URL(link.href).hash;
+    // Function to update active state of links
+    function updateActiveLink() {
+      const currentUrl = new URL(window.location);
+      const currentPathname = currentUrl.pathname;
+      const currentHash = currentUrl.hash || '';
 
-      if (linkPath === currentPath && (!linkHash || linkHash === currentHash)) {
-        link.classList.add('text--underlined');
-      } else {
-        link.classList.remove('text--underlined');
+      navLinks.forEach((link) => {
+        const linkUrl = new URL(link.href);
+        const linkPathname = linkUrl.pathname;
+        const linkHash = linkUrl.hash || '';
+
+        if (linkPathname === currentPathname && linkHash === currentHash) {
+          link.classList.add('text--underlined');
+        } else {
+          link.classList.remove('text--underlined');
+        }
+      });
+    }
+
+    function showTab(tabId) {
+      var selectors =
+        tabId === 'orders'
+          ? '#main-customers-account-section'
+          : tabId === 'comfort-club'
+          ? '.main-customers-comfort-club, .main-loyalty-rewards'
+          : tabId === 'referrals'
+          ? '.main-referrals'
+          : '#main-customers-account-section'; // Default to showing the account section
+
+      var tabs = document.querySelectorAll(
+        '#main-customers-account-section, .main-customers-comfort-club, .main-loyalty-rewards, .main-referrals'
+      );
+      tabs.forEach(function (tab) {
+        tab.classList.add('hideSection');
+      });
+
+      document.querySelectorAll(selectors).forEach((item) => item.classList.remove('hideSection'));
+    }
+
+    function updateURL(link) {
+      if (link.getAttribute('href').indexOf('/account#') === -1) return;
+      var targetId = link.getAttribute('href').split('#')[1];
+      console.log('targetId', targetId);
+      if (targetId.length > 0) {
+        showTab(targetId ?? 'comfort-club');
+        window.history.pushState(null, null, '#' + targetId);
       }
+    }
+
+    var hash = window.location.hash;
+    switch (hash) {
+      case '#orders':
+        showTab('orders');
+        break;
+      case '#referrals':
+        showTab('referrals');
+        break;
+      case '#comfort-club':
+        showTab('comfort-club');
+        break;
+      default:
+        showTab(''); // This will now show the main account section by default
+        break;
+    }
+    updateActiveLink();
+
+    navLinks.forEach((link) => {
+      link.addEventListener('click', function (event) {
+        updateURL(link);
+        updateActiveLink();
+      });
     });
+
+    // Update on popstate events (internal navigation)
+    window.addEventListener('popstate', updateActiveLink);
   });
 </script>
 
@@ -158,6 +293,10 @@
           "label": "Label"
         }
       ]
+    },
+    {
+      "type": "referrals",
+      "name": "Refer friends"
     },
     {
       "type": "club",

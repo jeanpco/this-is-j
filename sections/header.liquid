@@ -74,30 +74,6 @@
   }
 {% endstyle %}
 
-{%- if brand_blocks.size > 1 -%}
-  <nav class="brand-switcher">
-    <ul class="brands">
-      {%- for block in brand_blocks -%}
-        {%- if block.settings.title != empty and block.settings.logo and block.settings.home -%}
-          <li class="brand{% if block.settings.title == active_brand.settings.title %} brand--active{% endif %}">
-            <a class="brand__link" href="{{ block.settings.home }}?">
-              {%- liquid
-                if block.settings.title == active_brand.settings.title and block.settings.brand_logo_active
-                  assign logo = block.settings.brand_logo_active
-                else
-                  assign logo = block.settings.brand_logo | default: block.settings.logo
-                endif
-
-                echo logo | image_url: width: 200 | image_tag: class: 'brand__image'
-              -%}
-            </a>
-          </li>
-        {%- endif -%}
-      {%- endfor -%}
-    </ul>
-  </nav>
-{%- endif -%}
-
 <style>
   :root {
     --enable-sticky-header: {% if section.settings.enable_sticky_header %}1{% else %}0{% endif %};
@@ -229,6 +205,34 @@
   role="banner"
 >
   {%- assign menu = active_brand.settings.navigation_menu -%}
+
+  {% comment %}
+    brand was moved inside of store-header
+    so the brand height is included in the calculation of the --header-height
+  {% endcomment %}
+  {%- if brand_blocks.size > 1 -%}
+    <nav class="brand-switcher">
+      <ul class="brands">
+        {%- for block in brand_blocks -%}
+          {%- if block.settings.title != empty and block.settings.logo and block.settings.home -%}
+            <li class="brand{% if block.settings.title == active_brand.settings.title %} brand--active{% endif %}">
+              <a class="brand__link" href="{{ block.settings.home }}?">
+                {%- liquid
+                  if block.settings.title == active_brand.settings.title and block.settings.brand_logo_active
+                    assign logo = block.settings.brand_logo_active
+                  else
+                    assign logo = block.settings.brand_logo | default: block.settings.logo
+                  endif
+
+                  echo logo | image_url: width: 200 | image_tag: class: 'brand__image'
+                -%}
+              </a>
+            </li>
+          {%- endif -%}
+        {%- endfor -%}
+      </ul>
+    </nav>
+  {%- endif -%}
 
   <div class="container">
     <div class="header__wrapper">
