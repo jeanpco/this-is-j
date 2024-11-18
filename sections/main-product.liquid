@@ -341,6 +341,16 @@
   {%- endif -%}
 {%- endunless -%}
 
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Find the first variant selector and trigger selection
+  const firstVariantSelector = document.querySelector('.block-swatch-list input[type="radio"]');
+  if (firstVariantSelector) {
+    firstVariantSelector.dispatchEvent(new Event('change'));
+  }
+});
+</script>
+
 {% schema %}
 {
   "name": "Product page",
