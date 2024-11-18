@@ -1,0 +1,48 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "custom_html_9aVanC": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<div data-tf-live=\"01JABTQ0MV9HK8NRGBRTJ3XPMB\"><\/div><script src=\"\/\/embed.typeform.com\/next\/embed.js\"><\/script>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "blog_posts_BXmmtK": {
+      "type": "blog-posts",
+      "disabled": true,
+      "custom_css": [
+        "h3 {font-size: 22px; font-family: BV Celine; font-weight: 400;}"
+      ],
+      "settings": {
+        "blog": "comfort-series",
+        "subheading": "Our Blog",
+        "title": "The Comfort Series",
+        "articles_count": 3,
+        "stack_mobile": false,
+        "show_category": true,
+        "show_excerpt": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_html_9aVanC",
+    "blog_posts_BXmmtK"
+  ]
+}

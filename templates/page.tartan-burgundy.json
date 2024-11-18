@@ -1,0 +1,540 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "blog_posts_BXmmtK": {
+      "type": "blog-posts",
+      "disabled": true,
+      "custom_css": [
+        "h3 {font-size: 22px; font-family: BV Celine; font-weight: 400;}"
+      ],
+      "settings": {
+        "blog": "comfort-series",
+        "subheading": "Our Blog",
+        "title": "The Comfort Series",
+        "articles_count": 3,
+        "stack_mobile": false,
+        "show_category": true,
+        "show_excerpt": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "featured_collections_MWG7Fj": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_BzyWJt": {
+          "type": "collection",
+          "settings": {
+            "collection": "tartan-burgundy",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_BzyWJt"
+      ],
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "Get Cozy in Tartan",
+        "content": "",
+        "products_count": 6,
+        "products_per_row": 3,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "shop_the_look_dWKpCn": {
+      "type": "shop-the-look",
+      "blocks": {
+        "look_HkDeXF": {
+          "type": "look",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard_14Tartan-Dark_33bdb8b9-0bac-4a4c-8282-e1aca1f516ee.jpg",
+            "dot_type": "normal",
+            "product_1": "long-sleeve-button-down-pajama-set-tartan-burgundy",
+            "product_1_horizontal_position": 62,
+            "product_1_vertical_position": 64,
+            "product_1_horizontal_position_mobile": 30,
+            "product_1_vertical_position_mobile": 30,
+            "product_2": "henley-harem-set-tartan-burgundy",
+            "product_2_horizontal_position": 36,
+            "product_2_vertical_position": 64,
+            "product_2_horizontal_position_mobile": 50,
+            "product_2_vertical_position_mobile": 50,
+            "product_3": "",
+            "product_3_horizontal_position": 5,
+            "product_3_vertical_position": 5,
+            "product_3_horizontal_position_mobile": 5,
+            "product_3_vertical_position_mobile": 5
+          }
+        },
+        "look_mj6WBG": {
+          "type": "look",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard_15Tartan-Grant.jpg",
+            "dot_type": "normal",
+            "product_1": "short-sleeve-nightie-tartan-burgundy",
+            "product_1_horizontal_position": 42,
+            "product_1_vertical_position": 42,
+            "product_1_horizontal_position_mobile": 30,
+            "product_1_vertical_position_mobile": 30,
+            "product_2": "",
+            "product_2_horizontal_position": 50,
+            "product_2_vertical_position": 50,
+            "product_2_horizontal_position_mobile": 50,
+            "product_2_vertical_position_mobile": 50,
+            "product_3": "",
+            "product_3_horizontal_position": 70,
+            "product_3_vertical_position": 70,
+            "product_3_horizontal_position_mobile": 70,
+            "product_3_vertical_position_mobile": 70
+          }
+        },
+        "look_zqqnh6": {
+          "type": "look",
+          "disabled": true,
+          "settings": {
+            "dot_type": "normal",
+            "product_1": "",
+            "product_1_horizontal_position": 30,
+            "product_1_vertical_position": 30,
+            "product_1_horizontal_position_mobile": 30,
+            "product_1_vertical_position_mobile": 30,
+            "product_2": "",
+            "product_2_horizontal_position": 50,
+            "product_2_vertical_position": 50,
+            "product_2_horizontal_position_mobile": 50,
+            "product_2_vertical_position_mobile": 50,
+            "product_3": "",
+            "product_3_horizontal_position": 70,
+            "product_3_vertical_position": 70,
+            "product_3_horizontal_position_mobile": 70,
+            "product_3_vertical_position_mobile": 70
+          }
+        }
+      },
+      "block_order": [
+        "look_HkDeXF",
+        "look_mj6WBG",
+        "look_zqqnh6"
+      ],
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": false,
+        "label": "Shop the looks"
+      }
+    },
+    "image_with_text_block_YLUJH3": {
+      "type": "image-with-text-block",
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/Artboard_14Tartan-Dark_33bdb8b9-0bac-4a4c-8282-e1aca1f516ee.jpg",
+        "subheading": "Subheading",
+        "title": "Image with text block",
+        "content": "<p>Use block text to give your customers insight into your brand. Select impactful text that relates to your brand and story.<\/p>",
+        "button_text": "SHOP TARTAN",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_position": "left",
+        "text_alignment": "left",
+        "text_background": "#740e1a",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#6aadcf"
+      }
+    },
+    "gallery_HfDdBn": {
+      "type": "gallery",
+      "blocks": {
+        "image_Qa987n": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard_9Tartan-Dark.jpg",
+            "caption": ""
+          }
+        },
+        "image_gLbGGi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard_9_1Tartan-Dark.jpg",
+            "caption": ""
+          }
+        },
+        "image_Ye6Lhg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard_9_2Tartan-Dark.jpg",
+            "caption": ""
+          }
+        },
+        "image_eyFBgF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard_9_3Tartan-Dark.jpg",
+            "caption": ""
+          }
+        },
+        "image_grig4W": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard_9_4Tartan-Dark.jpg",
+            "caption": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_Qa987n",
+        "image_gLbGGi",
+        "image_Ye6Lhg",
+        "image_eyFBgF",
+        "image_grig4W"
+      ],
+      "disabled": true,
+      "settings": {
+        "subheading": "Subheading",
+        "title": "Gallery",
+        "show_arrows": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "image_with_text_overlay_t8aWVj": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "auto",
+        "image": "shopify:\/\/shop_images\/Artboard_15Tartan-Cream.jpg",
+        "subheading": "",
+        "title": "",
+        "content": "<h1>Tartan Burgundy Collection<\/h1>",
+        "button_text": "",
+        "button_link": "shopify:\/\/collections\/tartan-burgundy",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#740e1a",
+        "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+        "overlay_opacity": 26
+      }
+    },
+    "collection_list_QE4YiU": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_Y7R9eE": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Artboard_9_2Tartan-Dark.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "WOMENS BUTTON DOWN",
+            "link_url": "shopify:\/\/products\/long-sleeve-button-down-pajama-set-tartan-burgundy",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_zV4eyw": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Artboard_9_1Tartan-Dark.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "HENLEY HAREM SET",
+            "link_url": "shopify:\/\/products\/henley-harem-set-tartan-burgundy",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_4A8rwB": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Artboard_9_4Tartan-Dark.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "KID JAMMERS",
+            "link_url": "shopify:\/\/products\/kids-long-sleeve-lounge-pant-pj-set-tartan-burgundy",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_xBRXBG": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Artboard_9_3Tartan-Dark.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "MENS BUTTON DOWN",
+            "link_url": "shopify:\/\/products\/mens-long-sleeve-button-down-pajama-set-tartan-burgundy",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_eeEA7z": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Artboard_9Tartan-Dark.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "SHORT SLEEVE NIGHTIE",
+            "link_url": "shopify:\/\/products\/short-sleeve-nightie-tartan-burgundy",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_bXfD6e": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Artboard_16Tartan-Grant.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "SHOP ALL TARTAN",
+            "link_url": "shopify:\/\/collections\/the-tartan-collection",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_Y7R9eE",
+        "collection_zV4eyw",
+        "collection_4A8rwB",
+        "collection_xBRXBG",
+        "collection_eeEA7z",
+        "collection_bXfD6e"
+      ],
+      "settings": {
+        "reveal_on_scroll": false,
+        "layout": "collage",
+        "subheading": "slip into tartan burgundy",
+        "title": "Family Matching Made Cozy",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "text_shadow_color": "rgba(0,0,0,0)"
+      }
+    },
+    "image_with_text_PfWEwn": {
+      "type": "image-with-text",
+      "blocks": {
+        "item_P9pcTg": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "tab_label": "Item",
+            "subheading": "Subheading",
+            "title": "Image with text",
+            "content": "<p>Use image with text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "item_QWFCkc": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard_17Tartan-Cream-group.jpg",
+            "tab_label": "",
+            "subheading": "Discover the Cozy Essence of the Season with...",
+            "title": "TARTAN BURGUNDY",
+            "content": "<p>A timeless pattern that’s equal parts classic and fresh. With a rich burgundy base woven through with dreamy blue, teal, and deep red accents, this pattern echoes the flickering glow of a holiday fire, bringing both festive charm and year-round style. <\/p><p>This holiday season, let Tartan Burgundy set the scene for cozy, unforgettable memories shared with those who matter most.<\/p>",
+            "button_text": "SHOP TARTAN BURGUNDY",
+            "button_link": "shopify:\/\/collections\/tartan-burgundy"
+          }
+        }
+      },
+      "block_order": [
+        "item_P9pcTg",
+        "item_QWFCkc"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "both",
+        "image_position": "right",
+        "text_alignment": "left",
+        "cycle_speed": 8,
+        "accent_background": "#ffffff",
+        "text_color": "#1c1b1b",
+        "button_background": "#740e1a",
+        "button_text_color": "#ffffff"
+      }
+    },
+    "image_with_text_overlay_cAipRb": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "auto",
+        "image": "shopify:\/\/shop_images\/Artboard_14Tartan-Dark_33bdb8b9-0bac-4a4c-8282-e1aca1f516ee.jpg",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "EXPLORE TARTAN",
+        "button_link": "shopify:\/\/collections\/tartan-burgundy",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+        "overlay_opacity": 0
+      }
+    },
+    "shop_the_look_3qUmEa": {
+      "type": "shop-the-look",
+      "blocks": {
+        "look_LMDRWx": {
+          "type": "look",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard_14Tartan-Dark_18ce7c47-80ee-421f-bb77-f8d47042ed96.jpg",
+            "dot_type": "normal",
+            "product_1": "henley-harem-set-tartan-burgundy",
+            "product_1_horizontal_position": 33,
+            "product_1_vertical_position": 62,
+            "product_1_horizontal_position_mobile": 30,
+            "product_1_vertical_position_mobile": 30,
+            "product_2": "long-sleeve-button-down-pajama-set-tartan-burgundy",
+            "product_2_horizontal_position": 62,
+            "product_2_vertical_position": 66,
+            "product_2_horizontal_position_mobile": 50,
+            "product_2_vertical_position_mobile": 50,
+            "product_3": "",
+            "product_3_horizontal_position": 62,
+            "product_3_vertical_position": 50,
+            "product_3_horizontal_position_mobile": 70,
+            "product_3_vertical_position_mobile": 70
+          }
+        }
+      },
+      "block_order": [
+        "look_LMDRWx"
+      ],
+      "settings": {
+        "reveal_on_scroll": false,
+        "label": "Shop the looks"
+      }
+    },
+    "featured_collections_xrUEei": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_WGVgVT": {
+          "type": "collection",
+          "settings": {
+            "collection": "burgundy-collection",
+            "label": "",
+            "button_text": "SHOP SOLID BURGUNDY",
+            "button_url": "shopify:\/\/collections\/burgundy-collection"
+          }
+        }
+      },
+      "block_order": [
+        "collection_WGVgVT"
+      ],
+      "settings": {
+        "subheading": "More Pieces, more comfort",
+        "title": "Make it a Match in Burgundy",
+        "content": "",
+        "products_count": 8,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "#740e1a",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "shop_the_look_yGhtab": {
+      "type": "shop-the-look",
+      "blocks": {
+        "look_D7UFKx": {
+          "type": "look",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard_14Tartan-Dark_18ce7c47-80ee-421f-bb77-f8d47042ed96.jpg",
+            "dot_type": "normal",
+            "product_1": "",
+            "product_1_horizontal_position": 41,
+            "product_1_vertical_position": 41,
+            "product_1_horizontal_position_mobile": 30,
+            "product_1_vertical_position_mobile": 30,
+            "product_2": "",
+            "product_2_horizontal_position": 46,
+            "product_2_vertical_position": 64,
+            "product_2_horizontal_position_mobile": 50,
+            "product_2_vertical_position_mobile": 50,
+            "product_3": "",
+            "product_3_horizontal_position": 62,
+            "product_3_vertical_position": 50,
+            "product_3_horizontal_position_mobile": 70,
+            "product_3_vertical_position_mobile": 70
+          }
+        }
+      },
+      "block_order": [
+        "look_D7UFKx"
+      ],
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "label": "Shop the looks"
+      }
+    },
+    "featured_content_gnJNqR": {
+      "type": "featured-content",
+      "settings": {
+        "title": "",
+        "text": "",
+        "align_text": "left",
+        "narrow_column": false,
+        "enlarge_text": true,
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "blog_posts_BXmmtK",
+    "featured_collections_MWG7Fj",
+    "shop_the_look_dWKpCn",
+    "image_with_text_block_YLUJH3",
+    "gallery_HfDdBn",
+    "image_with_text_overlay_t8aWVj",
+    "collection_list_QE4YiU",
+    "image_with_text_PfWEwn",
+    "image_with_text_overlay_cAipRb",
+    "shop_the_look_3qUmEa",
+    "featured_collections_xrUEei",
+    "shop_the_look_yGhtab",
+    "featured_content_gnJNqR"
+  ]
+}

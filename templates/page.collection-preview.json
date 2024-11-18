@@ -1,0 +1,199 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "blog_posts_BXmmtK": {
+      "type": "blog-posts",
+      "disabled": true,
+      "custom_css": [
+        "h3 {font-size: 22px; font-family: BV Celine; font-weight: 400;}"
+      ],
+      "settings": {
+        "blog": "comfort-series",
+        "subheading": "Our Blog",
+        "title": "The Comfort Series",
+        "articles_count": 3,
+        "stack_mobile": false,
+        "show_category": true,
+        "show_excerpt": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "slideshow_A8E3ma": {
+      "type": "slideshow",
+      "blocks": {
+        "image_6yWbaY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard_19Tartan-Burgundy-Big-Group.jpg",
+            "mute_toggle": false,
+            "font": "'BV Celine', serif",
+            "text_position": "middle_center",
+            "subheading": "a cozy holiday",
+            "title": "Tartan Burgundy",
+            "subheading_font_size_m": 12,
+            "subheading_font_size_d": 19,
+            "heading_font_size_m": 36,
+            "heading_font_size_d": 64,
+            "description": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 25
+          }
+        },
+        "image_6WN3gJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard_15Tartan-Cream-v2.jpg",
+            "mute_toggle": false,
+            "font": "'BV Celine', serif",
+            "text_position": "middle_center",
+            "subheading": "a cozy holiday",
+            "title": "Tartan Burgundy",
+            "subheading_font_size_m": 12,
+            "subheading_font_size_d": 19,
+            "heading_font_size_m": 36,
+            "heading_font_size_d": 64,
+            "description": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 25
+          }
+        },
+        "image_Fjk437": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard_19Tartan-Burgundy.jpg",
+            "mute_toggle": false,
+            "font": "'BV Celine', serif",
+            "text_position": "middle_center",
+            "subheading": "a cozy holiday",
+            "title": "Tartan Burgundy",
+            "subheading_font_size_m": 12,
+            "subheading_font_size_d": 19,
+            "heading_font_size_m": 36,
+            "heading_font_size_d": 64,
+            "description": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 25
+          }
+        },
+        "image_yHBkJh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard_19Tartan-Burgundy-Tess-Adam.jpg",
+            "mute_toggle": false,
+            "font": "'BV Celine', serif",
+            "text_position": "middle_center",
+            "subheading": "a cozy holiday",
+            "title": "Tartan Burgundy",
+            "subheading_font_size_m": 12,
+            "subheading_font_size_d": 19,
+            "heading_font_size_m": 36,
+            "heading_font_size_d": 64,
+            "description": "",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 25
+          }
+        }
+      },
+      "block_order": [
+        "image_6yWbaY",
+        "image_6WN3gJ",
+        "image_Fjk437",
+        "image_yHBkJh"
+      ],
+      "settings": {
+        "section_height": "large",
+        "transition_type": "fade",
+        "autoplay": true,
+        "cycle_speed": 4,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "rich_text_VCnnBJ": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "tartan burgundy pajamas",
+        "title": "Make Comfort Your Holiday Tradition",
+        "content": "<p>The essence of Tartan Burgundy comes from creating cozy moments while spending quality time together. Deep burgundy tones are complemented by dreamy blue, teal and deep red accents to create a holiday PJ pattern you'll want to wear year round.  <\/p><p>In sizes and styles to outfit your whole crew...get ready to get cozy.<\/p><p><strong>The Tartan Burgundy Collection Launches In...<\/strong><\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "featured_content_3gaCeA": {
+      "type": "featured-content",
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "text": "",
+        "align_text": "center",
+        "narrow_column": false,
+        "enlarge_text": true,
+        "divider": false
+      }
+    },
+    "custom_html_hy9y9g": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<table align=\"center\"><tbody><tr><td><img src=\"https:\/\/gen.sendtric.com\/countdown\/fbbl3j81ix\" style=\"display: block;max-width:100%\"><\/td><\/tr><\/tbody><\/table>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "blog_posts_BXmmtK",
+    "slideshow_A8E3ma",
+    "rich_text_VCnnBJ",
+    "featured_content_3gaCeA",
+    "custom_html_hy9y9g"
+  ]
+}

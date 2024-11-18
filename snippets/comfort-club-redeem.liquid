@@ -211,14 +211,12 @@
     }
 {% endstyle %}
 
-
-
 <comfort-club-redeem>
     <div class="redeem-points-options container">
         <div class="yotpo-widget-instance" data-yotpo-instance-id="779042"></div>
     </div>
     <div class="redeem-points-history container">
-        <h2 class="text-center">Point history</h2>
+        <h2 class="text-center">{{ points_history_title }}</h2>
         <table class="" points-history>
             <thead>
                 <tr>
@@ -234,7 +232,7 @@
         <p class="text-center hidden" points-history-none>Nothing found.</p>
     </div>
     <div class="redeem-redemption-history container">
-        <h2 class="text-center">Redemptions history</h2>
+        <h2 class="text-center">{{ redemption_history_title }}</h2>
         <table class="" redemption-history>
             <thead>
                 <tr>

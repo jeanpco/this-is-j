@@ -1,23 +1,12 @@
-/*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
 {
   "sections": {
     "shogun-helper": {
       "type": "shogun-helper",
-      "settings": {
-      }
+      "settings": {}
     },
     "shogun-above": {
       "type": "shogun-above",
-      "settings": {
-      }
+      "settings": {}
     },
     "main": {
       "type": "main-product",
@@ -48,8 +37,7 @@
         "quantity_selector": {
           "type": "quantity_selector",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         },
         "82c603e3-226f-4a1f-af2e-d0ea606d2b78": {
           "type": "inventory",
@@ -71,8 +59,7 @@
         "98635072-6996-4e5d-a929-b6f472e9425c": {
           "type": "description",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         },
         "complementary_products": {
           "type": "complementary_products",
@@ -116,8 +103,7 @@
       "blocks": {
         "2c447d5e-0b6a-40b0-9683-507bcb0d4f87": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "f72c75dd-cda4-4ff3-a5c1-b0a644f96232": {
           "type": "content",
@@ -147,11 +133,8 @@
         "f72c75dd-cda4-4ff3-a5c1-b0a644f96232",
         "d3380f50-4703-4ec8-bbad-8470918c1329"
       ],
-      "custom_css": [
-
-      ],
-      "settings": {
-      }
+      "custom_css": [],
+      "settings": {}
     },
     "16980194664ff0dc65": {
       "type": "apps",
@@ -173,9 +156,7 @@
     },
     "product-recommendations": {
       "type": "product-recommendations",
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "subheading": "",
         "title": "You may also like",
@@ -228,9 +209,7 @@
     },
     "ac4e3f1b-1a02-4a88-9051-b7819e60f7b1": {
       "type": "recently-viewed-products",
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "subheading": "",
         "title": "Recently viewed",
@@ -241,8 +220,7 @@
     },
     "shogun-below": {
       "type": "shogun-below",
-      "settings": {
-      }
+      "settings": {}
     }
   },
   "order": [

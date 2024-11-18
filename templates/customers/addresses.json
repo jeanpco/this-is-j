@@ -18,37 +18,30 @@
       "blocks": {
         "club": {
           "type": "club",
-          "settings": {
-          }
+          "settings": {}
         },
         "orders": {
           "type": "orders",
-          "settings": {
-          }
+          "settings": {}
         },
         "addresses": {
           "type": "addresses",
-          "settings": {
-          }
+          "settings": {}
         },
-        "custom-link": {
-          "type": "custom-link",
-          "settings": {
-            "url": "shopify:\/\/pages\/refer-a-friend",
-            "label": "Refer friends"
-          }
+        "referrals": {
+          "type": "referrals",
+          "settings": {}
         },
         "logout": {
           "type": "logout",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
         "club",
         "orders",
         "addresses",
-        "custom-link",
+        "referrals",
         "logout"
       ],
       "settings": {
@@ -60,15 +53,13 @@
       "blocks": {
         "addresses": {
           "type": "addresses",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
         "addresses"
       ],
-      "settings": {
-      }
+      "settings": {}
     }
   },
   "order": [

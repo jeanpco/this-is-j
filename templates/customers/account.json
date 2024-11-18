@@ -19,42 +19,39 @@
       "blocks": {
         "club": {
           "type": "club",
-          "settings": {
-          }
+          "settings": {}
         },
         "orders": {
           "type": "orders",
-          "settings": {
-          }
+          "settings": {}
         },
         "addresses": {
           "type": "addresses",
-          "settings": {
-          }
+          "settings": {}
         },
-        "custom-link": {
-          "type": "custom-link",
-          "settings": {
-            "url": "shopify:\/\/pages\/refer-a-friend",
-            "label": "Refer friends"
-          }
+        "referrals": {
+          "type": "referrals",
+          "settings": {}
         },
         "logout": {
           "type": "logout",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
         "club",
         "orders",
         "addresses",
-        "custom-link",
+        "referrals",
         "logout"
       ],
       "settings": {
         "comfort_club_status": false
       }
+    },
+    "referrals_3HheGt": {
+      "type": "referrals",
+      "settings": {}
     },
     "main-customers-comfort-club": {
       "type": "customers-comfort-club",
@@ -62,20 +59,20 @@
         "exclusive-2": {
           "type": "comfort-club-offer",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2x_Points_Sept-2024_Kids.jpg",
-            "description": "<p>2x the points on all purchases of our best-selling Kids Jammers<\/p>",
-            "note": "<p>*Offer ends 09\/30 at 11:59 p.m. est<\/p>",
-            "url": "https:\/\/thisisj.com\/collections\/kid-jammers"
+            "image": "shopify:\/\/shop_images\/ComfortClub_2xRobe_November_v2.jpg",
+            "description": "<p>2x the points on all purchases of our best-selling Robes<\/p>",
+            "note": "<p>*Offer ends 11\/30 at 11:59 p.m. est<\/p>",
+            "url": "shopify:\/\/collections\/robes"
           }
         },
         "exclusive-1": {
           "type": "comfort-club-offer",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/24-08-07-Style_Feature-Tank_Set-Double_Points_V1-4.jpg",
-            "description": "",
-            "note": "",
-            "url": "https:\/\/thisisj.com\/collections\/tank-sets-1"
+            "image": "shopify:\/\/shop_images\/CC_Offer_October_1.png",
+            "description": "<p>2x the points on all purchases of our best-selling Henley Harem Sets<\/p>",
+            "note": "<p>*Offer ends 10\/31 at 11:59 p.m. est<\/p>",
+            "url": "https:\/\/thisisj.com\/collections\/henley-harem-set"
           }
         }
       },
@@ -89,10 +86,12 @@
         "seeker_url": "shopify:\/\/pages\/loyalty",
         "lover_description": "<ul><li><strong>Free Shipping<\/strong> on orders over $150<\/li><li><strong>$9.95 Flat Rate Shipping<\/strong> on orders under $150<\/li><li>20% Off - Birthday Reward<\/li><li>And more...<\/li><\/ul>",
         "lover_url": "shopify:\/\/pages\/loyalty",
-        "connoiseeur_description": "<ul><li><strong>Free Shipping<\/strong> on orders over $150<\/li><li><strong>$6.95 Flat Rate Shipping<\/strong> on orders under $150<\/li><li>30% Off - Birthday Reward<\/li><li>And more...<\/li><\/ul>",
+        "connoiseeur_description": "<ul><li><strong>Free Shipping<\/strong> on orders over $150<\/li><li><strong>$9.95 Flat Rate Shipping<\/strong> on orders under $150<\/li><li>30% Off - Birthday Reward<\/li><li>And more...<\/li><\/ul>",
         "connoiseeur_url": "shopify:\/\/pages\/loyalty",
         "comfort_club_offers_status": true,
-        "comfort_club_offers_title": "Comfort Club Offers"
+        "comfort_club_offers_title": "Comfort Club Offers",
+        "points_history_title": "Point History",
+        "redemption_history_title": "Redemption History"
       }
     },
     "main-loyalty-rewards": {
@@ -102,13 +101,16 @@
         "bg": "#ffffff"
       }
     },
+    "main-referrals": {
+      "type": "referrals",
+      "settings": {}
+    },
     "main": {
       "type": "main-customers-account",
       "blocks": {
         "orders": {
           "type": "orders",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -122,8 +124,10 @@
   "order": [
     "hero",
     "account-nav",
+    "referrals_3HheGt",
     "main-customers-comfort-club",
     "main-loyalty-rewards",
+    "main-referrals",
     "main"
   ]
 }

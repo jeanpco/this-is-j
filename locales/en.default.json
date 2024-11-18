@@ -193,7 +193,7 @@
         "one": "{{ count }} review",
         "other": "{{ count }} reviews"
       },
-      "limited_edition": "Limited-Edition",
+      "limited_edition": "We Made Too Much",
       "last_chance": "Last Chance",
       "last_chance_info": "Once this item is out of stock, it won't be replenished."
     },
@@ -487,6 +487,9 @@
             "discount_code_not_honoured": "This discount code is not applicable on the items in your cart."
           }
         }
+      },
+      "shipping": {
+        "shipping_method_notice": "Due to the ongoing Canada Post strike, please note we will be shipping all orders through alternate carriers at no additional cost to you."
       }
     }
   }

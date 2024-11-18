@@ -16,7 +16,7 @@
       "settings": {
         "reveal_on_scroll": true,
         "section_height": "auto",
-        "image": "shopify:\/\/shop_images\/HolidayGifting_Header-FairIsle_Black_FlatLay_W_Packagining_GiftBoxes.jpg",
+        "image": "shopify:\/\/shop_images\/Artboard_2_1Gift_Boxes.jpg",
         "subheading": "",
         "title": "Holiday Gift Guide",
         "content": "",
@@ -45,7 +45,7 @@
             "title": "",
             "content": "",
             "link_text": "gifts for her",
-            "link_url": "https:\/\/thisisj.com\/collections\/the-holiday-collection",
+            "link_url": "",
             "link_style": "link",
             "text_alignment": "center",
             "vertical_alignment": "start"

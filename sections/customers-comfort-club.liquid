@@ -7,7 +7,7 @@
         {%- render 'comfort-club-exclusive' -%}
 
         {%- comment -%}  section-comfort-loyalty {%- endcomment -%}
-        {%- render 'comfort-club-redeem' -%}
+        {%- render 'comfort-club-redeem', points_history_title: section.settings.points_history_title, redemption_history_title: section.settings.redemption_history_title -%}
     </account-comfort-club>
 {% else %}
     <div style="text-align:center;margin:5rem;">
@@ -81,6 +81,18 @@
       "id": "comfort_club_offers_title",
       "label": "Offers Title",
       "default": "Comfort Club Offers"
+    },
+    {
+      "type": "text",
+      "id": "points_history_title",
+      "label": "Point History Title",
+      "default": "Point History"
+    },
+    {
+      "type": "text",
+      "id": "redemption_history_title",
+      "label": "Redemption History Title",
+      "default": "Redemption History"
     }
   ],
   "blocks": [

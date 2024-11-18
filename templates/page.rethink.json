@@ -1,0 +1,896 @@
+{
+  "sections": {
+    "bcd16921-ce9d-4288-9d05-d560fec930e4": {
+      "type": "rich-text",
+      "disabled": true,
+      "custom_css": [
+        "h3 {font-size: 48px;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Jaimie's Picks",
+        "content": "<p>\"Shedding the weight of the day as you change into your favourite pair of PJs is a feeling we strive to replicate with every product we make.\" <\/p><p>- Jaimie Harris, Founder & Creative Director <\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "#faf8f2",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "image_with_text_KXGpb8": {
+      "type": "image-with-text",
+      "blocks": {
+        "item_8aGMgD": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ThisisJ_JaimieHarris_Headshot_5537_Black_White_ForWebsite_39de0c51-9a44-4fb9-9d43-7e8f66f03b54.jpg",
+            "tab_label": "Jaimie's Picks",
+            "subheading": "",
+            "title": "Jaimie's Picks",
+            "content": "<p>\"Shedding the weight of the day as you change into your favourite pair of PJs is a feeling we strive to replicate with every product we make.\" <\/p><p>- Jaimie Harris, Founder & Creative Director <\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_8aGMgD"
+      ],
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": false,
+        "background_type": "full_width",
+        "background_overlap": "both",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 3,
+        "accent_background": "#faf8f2",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "collection_list_aWcAM3": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_C6RV6H": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Artboard_1una.jpg",
+            "subheading": "for keeping cool",
+            "title": "",
+            "link_text": "",
+            "link_url": "https:\/\/thisisj.com\/products\/t-shirt-short-set-safari-flower-black",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 12
+          }
+        },
+        "collection_4LYPGr": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Artboard_1Heather-Grey-1100x1400.jpg",
+            "subheading": "for lounging around",
+            "title": "",
+            "link_text": "",
+            "link_url": "https:\/\/thisisj.com\/en-us\/collections\/solid-collection",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 12
+          }
+        },
+        "collection_EattLP": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Artboard_58-100.jpg",
+            "subheading": "for sleepovers & cottage weekends",
+            "title": "",
+            "link_text": "",
+            "link_url": "https:\/\/thisisj.com\/collections\/the-tie-dye-collection",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 12
+          }
+        },
+        "collection_rNbdQW": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Artboard_1marcia.jpg",
+            "subheading": "for entertaining at home",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_TUwBdz": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_qCa4zg": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_C6RV6H",
+        "collection_4LYPGr",
+        "collection_EattLP",
+        "collection_rNbdQW",
+        "collection_TUwBdz",
+        "collection_qCa4zg"
+      ],
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": false,
+        "layout": "carousel",
+        "subheading": "My Favourite Fits",
+        "title": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "text_shadow_color": "rgba(0,0,0,0)"
+      }
+    },
+    "image_with_text_block_JcKgAK": {
+      "type": "image-with-text-block",
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/Henley-Harem-Set-Tie-Dye-Black-0346.jpg",
+        "subheading": "The style i reach for every night...",
+        "title": "Henley Harem Set",
+        "content": "<p>The fit, feel and look of this set is unmatched! So cute that you'll want people to see you in your PJs.<\/p><p>Available in 12+ patterns<\/p>",
+        "button_text": "SHOP HENLEY HAREMS",
+        "button_link": "https:\/\/thisisj.com\/collections\/henley-harem-set",
+        "background_type": "boxed",
+        "text_position": "overlap_left",
+        "text_alignment": "left",
+        "text_background": "#ffffff",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "collection_list_Y7TVUf": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_V6Qz3q": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Artboard_1una_plaid.jpg",
+            "subheading": "light blue plaid",
+            "title": "",
+            "link_text": "",
+            "link_url": "https:\/\/thisisj.com\/products\/henley-harem-set-1",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 12
+          }
+        },
+        "collection_9JXQmE": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Artboard_1laroe.jpg",
+            "subheading": "70s flower navy",
+            "title": "",
+            "link_text": "",
+            "link_url": "https:\/\/thisisj.com\/products\/short-sleeve-nightie-13",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 12
+          }
+        },
+        "collection_yC7wQL": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Artboard_1dark_navy.jpg",
+            "subheading": "solid navy",
+            "title": "",
+            "link_text": "",
+            "link_url": "https:\/\/thisisj.com\/products\/relaxed-long-sleeve-top-pajama-pant-set-5",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 10
+          }
+        },
+        "collection_mFdMcr": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Artboard_1tie_dye_tropical_breeze.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_JJBpBc": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_9NmNxm": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_V6Qz3q",
+        "collection_9JXQmE",
+        "collection_yC7wQL",
+        "collection_mFdMcr",
+        "collection_JJBpBc",
+        "collection_9NmNxm"
+      ],
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": false,
+        "layout": "carousel",
+        "subheading": "my love of blue & black",
+        "title": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "text_shadow_color": "rgba(0,0,0,0)"
+      }
+    },
+    "promotion_blocks_rPYrQ4": {
+      "type": "promotion-blocks",
+      "blocks": {
+        "image_FiBBQ9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bamboo-Pajamas-T-Shirt-Short-Set-Safari-Black-40023795.jpg",
+            "highlight": false,
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "middle_center",
+            "background": "#f7f8fd",
+            "text_color": "#1e316a",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        },
+        "quote_Kt6cCd": {
+          "type": "quote",
+          "settings": {
+            "highlight": false,
+            "subheading": "founder tip",
+            "content": "Buy mulitple pieces from the same collection to be able to mix, match and be comfy in every season.",
+            "author": "Jaimie Harris, Founder",
+            "background": "#ffffff",
+            "text_color": "#212020"
+          }
+        },
+        "image_dGDDzq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bamboo-Pajamas-Relaxed-Long-Sleeve-Set-Safari-Black-40023868.jpg",
+            "highlight": false,
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "middle_center",
+            "background": "#f7f8fd",
+            "text_color": "#1e316a",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        }
+      },
+      "block_order": [
+        "image_FiBBQ9",
+        "quote_Kt6cCd",
+        "image_dGDDzq"
+      ],
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "section_size": "medium",
+        "stack_on_mobile": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "dbdf553a-cda6-4b3f-9cd4-43e17b52a7e1": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_Rt4ziH": {
+          "type": "collection",
+          "settings": {
+            "collection": "solids-for-men",
+            "label": "mens heather grey & black",
+            "button_text": "SHOP SOLIDS FOR HIM",
+            "button_url": "https:\/\/thisisj.com\/collections\/solids-for-men"
+          }
+        }
+      },
+      "block_order": [
+        "collection_Rt4ziH"
+      ],
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "Solids",
+        "content": "",
+        "products_count": 50,
+        "products_per_row": 6,
+        "stack_products": false,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "main": {
+      "type": "main-list-collections",
+      "blocks": {
+        "f1c787ac-b80c-4c8d-9bd2-ef2b5be01d18": {
+          "type": "collection",
+          "settings": {
+            "collection": "colour-block-capsule",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10
+          }
+        },
+        "9b5df00c-ade2-4584-a9f0-06fec10f0b07": {
+          "type": "collection",
+          "settings": {
+            "collection": "varsity-stripe-collection",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "1d9db22f-c8a5-4898-bd67-870400f57be0": {
+          "type": "collection",
+          "settings": {
+            "collection": "the-graphic-collection",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "f1c787ac-b80c-4c8d-9bd2-ef2b5be01d18",
+        "9b5df00c-ade2-4584-a9f0-06fec10f0b07",
+        "1d9db22f-c8a5-4898-bd67-870400f57be0"
+      ],
+      "disabled": true,
+      "settings": {
+        "collections_to_show": "selected",
+        "show_collection_title": true
+      }
+    },
+    "rich_text_RLjG9Y": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "image_with_text_block_yYP7cz": {
+      "type": "image-with-text-block",
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/Jaimie_s-Picks-Varsity-Stripe_v2.gif",
+        "subheading": "sleepwear for every season",
+        "title": "Mix & Match Comfort",
+        "content": "<p>I love buying separate pieces from the same pattern collection so that I can change up my tops and bottoms depending on the temperature.<\/p>",
+        "button_text": "SHOP SEPARATES",
+        "button_link": "https:\/\/thisisj.com\/collections\/pj-loungewear-separates",
+        "background_type": "boxed",
+        "text_position": "left",
+        "text_alignment": "left",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "rich_text_hbzwr7": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "collection_list_YkFF3m": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_8fmU3R": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Bamboo-Jammers-Henley-Harem-Set-Tie-Dye-Tropical-Breeze-May2424375.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "https:\/\/thisisj.com\/collections\/tie-dye-tropical-breeze-collection",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_kqkQgq": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Mens-White-T-Shirt-Tie-Dye-Tropical-Breeze-Pocket-Lounge-Short-2420883.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "tie dye tropical breeze",
+            "link_url": "https:\/\/thisisj.com\/collections\/tie-dye-tropical-breeze-collection",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 12
+          }
+        },
+        "collection_JAzRCf": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Bamboo-Jammers-Kids-Long-Sleeve-Lounge-Pant-PJ-Set-Tie-Dye-Tropical-Breeze-May2420808.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "https:\/\/thisisj.com\/collections\/tie-dye-tropical-breeze-collection",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_8fmU3R",
+        "collection_kqkQgq",
+        "collection_JAzRCf"
+      ],
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": false,
+        "layout": "grid",
+        "subheading": "My family's favs",
+        "title": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "text_shadow_color": "rgba(0,0,0,0)"
+      }
+    },
+    "collection_list_ag4xjx": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_mFkNCf": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Kids-PJs-Black-Thin-White-Stripe-4001481.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "https:\/\/thisisj.com\/collections\/stripes-collection",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_xTT7BD": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Bamboo-Pajamas-Loungewear-Oversized-Tee-Tulip-Short-Set-Bamboo-Pajamas-Loungewear-Tank-Top-Tulip-Short-Black-Thin-White-Stripe-40021396.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "black with thin white stripe",
+            "link_url": "https:\/\/thisisj.com\/collections\/stripes-collection",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_UErzhj": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Harris-Mens-Bamboo-Pajamas-Loungewear-T-Shirt-Lounge-Pant-Black-White-Stripe-Bamboo-Pajamas-Loungewear-Tank-Top-Tulip-Short-Black-Thin-White-Stripe-40024466.jpg",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "https:\/\/thisisj.com\/collections\/stripes-collection",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_mFkNCf",
+        "collection_xTT7BD",
+        "collection_UErzhj"
+      ],
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": false,
+        "layout": "grid",
+        "subheading": "",
+        "title": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "text_shadow_color": "rgba(0,0,0,0)"
+      }
+    },
+    "rich_text_gxpy6R": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "rich_text_Gw6URg": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "This Is J x Rethink Breast Cancer",
+        "title": "Supporting the Cause",
+        "content": "<p>We’re proud to announce our partnership with <em>Rethink Breast Cancer<\/em>, an organization dedicated to educating, empowering, and advocating for those affected by breast cancer.<\/p><p>Our connection to the cause is personal. Like many of you, breast cancer has touched our lives and the lives of those close to us.  We’re committed to supporting the change Rethink strives for. That’s why we’re excited to partner with <em>Rethink Breast Cancer<\/em> as part of their reimagined <em>Give-A-Care<\/em> collection, launching this fall. This special initiative offers meaningful products designed to bring comfort and care to those navigating breast cancer, and we’re honoured to contribute.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "fill",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "image_with_text_tLfCzc": {
+      "type": "image-with-text",
+      "blocks": {
+        "item_aANRjG": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ThisIsJ_Off-FIgure-HenleyHaremSet-TieDye-LavenderHaze-Props-15169-Square-Tie-Dye-Crush_1400x1400_2f71bd8f-8c5d-4b37-8ac6-03af26f6e5db.jpg",
+            "tab_label": "",
+            "subheading": "this is j x rethink breast cancer",
+            "title": "Let's Make an  Impact Together",
+            "content": "<p>Launching in October, in recognition of Breast Cancer Awareness Month, <em>This Is J<\/em> will join <em>Rethink Breast Cancer<\/em> as an Impact Partner, pledging 15% of the proceeds from the sale of our <a href=\"https:\/\/thisisj.com\/products\/henley-harem-set-tie-dye-crush\" target=\"_blank\" title=\"https:\/\/thisisj.com\/products\/henley-harem-set-tie-dye-crush\">Henley Harem Bamboo Jammers Set in Tie Dye Crush<\/a> to their incredible cause. It’s our way of giving back and standing alongside a community that deserves so much support.<\/p><p>Together, we can help <em>Rethink <\/em>continue their vital work and improve lives, one cozy set of jammers at a time.<\/p><p>Join us in making a difference. <\/p>",
+            "button_text": "SHOP THE SET",
+            "button_link": "shopify:\/\/products\/henley-harem-set-tie-dye-crush"
+          }
+        }
+      },
+      "block_order": [
+        "item_aANRjG"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "boxed",
+        "background_overlap": "both",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "#faf8f2",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "#000000",
+        "button_text_color": "#faf8f2"
+      }
+    },
+    "rich_text_dPD7CC": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "Giving Back",
+        "content": "<p>Throughout October, in recognition of Breast Cancer Awareness Month, This Is J will donate a portion of the proceeds from the sale of these jammers to Rethink Breast Cancer. It’s our way of giving back and standing alongside a community that deserves so much support. Join us in making a difference. <\/p><p>Together, we can help Rethink continue their vital work and improve lives, one cozy set of jammers at a time.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "rich_text_djziq4": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "rethink breast cancer's mission",
+        "title": "",
+        "content": "<p>Rethink's mission is clear: to improve the experience and outcomes of historically underserved groups—particularly women diagnosed at a younger age, those facing metastatic breast cancer, and individuals marginalized due to social determinants of health. Their work is inspiring, and it resonates deeply with us at <em>This Is J.<\/em><\/p>",
+        "button_text": "Learn more about rethink",
+        "button_link": "https:\/\/rethinkbreastcancer.com\/",
+        "background_type": "boxed",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "#faf8f2",
+        "text_color": "#000000",
+        "button_background": "#000000",
+        "button_text_color": "#faf8f2"
+      }
+    },
+    "rich_text_h9dFQE": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "Get Cozy for a Cause",
+        "content": "<p>15% of proceeds from the sale of our Henley Harem Bamboo Jammers Set in Tie Dye Crush will be donated to Rethink Breast Cancer.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "featured_product_3dXh9w": {
+      "type": "featured-product",
+      "blocks": {
+        "star_rating_yotpo_YNdpwP": {
+          "type": "star_rating_yotpo",
+          "settings": {}
+        },
+        "variant_picker_GqJAN3": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector_gLGhJy": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_9RVPCX": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": false,
+            "atc_button_background": "rgba(0,0,0,0)",
+            "atc_button_text_color": "rgba(0,0,0,0)",
+            "buy_now_button_background": "rgba(0,0,0,0)",
+            "buy_now_button_text_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "star_rating_yotpo_YNdpwP",
+        "variant_picker_GqJAN3",
+        "quantity_selector_gLGhJy",
+        "buy_buttons_9RVPCX"
+      ],
+      "settings": {
+        "product": "henley-harem-set-tie-dye-crush",
+        "subheading": "",
+        "title": "",
+        "show_vendor": false,
+        "show_sku": false,
+        "show_taxes_included": false,
+        "show_product_rating": false,
+        "show_share_buttons": true,
+        "help_page": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "show_thumbnails_on_mobile": true,
+        "desktop_thumbnails_position": "left",
+        "transition_effect": "slide",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "rich_text_brjbnb": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "Our Connection",
+        "content": "<p>Our connection to the cause is personal. Like many of you, breast cancer has touched our lives and the lives of those close to us.  We’re committed to supporting the change Rethink strives for. That’s why we’re excited to partner with <em>Rethink Breast Cancer<\/em> as part of their reimagined <em>Give-A-Care<\/em> collection, launching this fall. This special initiative offers meaningful products designed to bring comfort and care to those navigating breast cancer, and we’re honoured to contribute.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "boxed",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "#faf8f2",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "testimonials_n8GXWJ": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_HcxCEL": {
+          "type": "testimonial",
+          "settings": {
+            "content": "\"I had a long road of treatment and recovery ahead of me and wanted to wrap myself in as much comfort as possible. My Bamboo Jammers  brought me all that comfort and more. I'm grateful that I had them to wear every day throughout my treatment.\"",
+            "author": "Kelly T."
+          }
+        },
+        "testimonial_DRQFFG": {
+          "type": "testimonial",
+          "settings": {
+            "content": "\"Cancer treatment left my skin feeling irritated and sensitive and I found it hard to get relief. This Is J PJs were the only thing I could wear at that time. Soft, breathable and helped keep me temperature regulated when it was hard to be. They are still a part of my nighttime routine.\"",
+            "author": "Melinda P."
+          }
+        },
+        "testimonial_aYtYUn": {
+          "type": "testimonial",
+          "settings": {
+            "content": "\"During my wife's cancer treatment she was often tired and would have guests for short visits at home. She would wear her This Is J sleepwear day and night because she felt cute and comfortable in it. I was so happy that they brought her so much peace and joy at an otherwise difficult time.\"",
+            "author": "Kevin S."
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_HcxCEL",
+        "testimonial_DRQFFG",
+        "testimonial_aYtYUn"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "subheading": "",
+        "title": "",
+        "background": "#faf8f2",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "rich_text_b3JGYr": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "bcd16921-ce9d-4288-9d05-d560fec930e4",
+    "image_with_text_KXGpb8",
+    "collection_list_aWcAM3",
+    "image_with_text_block_JcKgAK",
+    "collection_list_Y7TVUf",
+    "promotion_blocks_rPYrQ4",
+    "dbdf553a-cda6-4b3f-9cd4-43e17b52a7e1",
+    "main",
+    "rich_text_RLjG9Y",
+    "image_with_text_block_yYP7cz",
+    "rich_text_hbzwr7",
+    "collection_list_YkFF3m",
+    "collection_list_ag4xjx",
+    "rich_text_gxpy6R",
+    "rich_text_Gw6URg",
+    "image_with_text_tLfCzc",
+    "rich_text_dPD7CC",
+    "rich_text_djziq4",
+    "rich_text_h9dFQE",
+    "featured_product_3dXh9w",
+    "rich_text_brjbnb",
+    "testimonials_n8GXWJ",
+    "rich_text_b3JGYr"
+  ]
+}

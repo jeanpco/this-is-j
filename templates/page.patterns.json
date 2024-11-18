@@ -21,17 +21,17 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
-    "image_with_text_overlay_crxDdV": {
+    "image_with_text_overlay_T3tPAU": {
       "type": "image-with-text-overlay",
       "settings": {
         "reveal_on_scroll": true,
-        "section_height": "small",
-        "image": "shopify:\/\/shop_images\/S400_073024_43845_Edit-2000x980.jpg",
+        "section_height": "medium",
+        "image": "shopify:\/\/shop_images\/Pattern_images_-03.jpg",
         "subheading": "",
         "title": "",
         "content": "",
         "button_text": "",
-        "button_link": "shopify:\/\/collections\/varsity-stripe-collection",
+        "button_link": "",
         "link_style": "link",
         "background_type": "boxed",
         "text_width": "medium",
@@ -43,14 +43,14 @@
         "overlay_opacity": 30
       }
     },
-    "rich_text_UPXcAw": {
+    "rich_text_JQ7afK": {
       "type": "rich-text",
       "settings": {
         "subheading": "",
-        "title": "Varsity Stripe",
-        "content": "<p>Our modern take on a vintage collegiate stripe. Join team comfort and experience the softness and elevated style of Varsity Stripe.<\/p>",
+        "title": "Tartan",
+        "content": "<p>An intricate interplay of lines and hues that create a classic pattern that mixes timeless tradition with modern family matching goals, crafting a seasonal delight perfect for staying in together, a coordinated family greeting card and year-round lounging.<\/p>",
         "button_text": "",
-        "button_link": "shopify:\/\/collections\/varsity-stripe-collection",
+        "button_link": "",
         "background_type": "full_width",
         "text_width": "large",
         "text_position": "center",
@@ -61,37 +61,37 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
-    "79b994f3-a6f3-4be0-937b-39d6aa7f3653": {
+    "featured_collections_NtgnyN": {
       "type": "featured-collections",
       "blocks": {
-        "f321d6e0-c59e-421f-b2bf-61fea8f0a1d3": {
+        "collection_pb797W": {
           "type": "collection",
           "settings": {
-            "collection": "varsity-stripe-raspberry-black",
-            "label": "Varsity stripe raspberry black",
-            "button_text": "View Collection",
-            "button_url": "shopify:\/\/collections\/varsity-stripe-raspberry-black"
+            "collection": "tartan-collection",
+            "label": "",
+            "button_text": "VIEW FULL COLLECTION",
+            "button_url": "shopify:\/\/collections\/tartan-collection"
           }
         },
-        "template--20427016470809__79b994f3-a6f3-4be0-937b-39d6aa7f3653-collection-1": {
+        "collection_QPMMKY": {
           "type": "collection",
           "settings": {
-            "collection": "varsity-stripe-kelly-navy",
-            "label": "VARSITY STRIPE KELLY NAVY",
-            "button_text": "View Collection",
-            "button_url": "shopify:\/\/collections\/varsity-stripe-kelly-navy"
+            "collection": "tartan-burgundy",
+            "label": "",
+            "button_text": "view full collection",
+            "button_url": "https:\/\/thisisj.com\/pages\/tartan-burgundy-collection"
           }
         }
       },
       "block_order": [
-        "f321d6e0-c59e-421f-b2bf-61fea8f0a1d3",
-        "template--20427016470809__79b994f3-a6f3-4be0-937b-39d6aa7f3653-collection-1"
+        "collection_pb797W",
+        "collection_QPMMKY"
       ],
       "settings": {
         "subheading": "",
         "title": "",
         "content": "",
-        "products_count": 6,
+        "products_count": 8,
         "products_per_row": 6,
         "stack_products": false,
         "show_cta": false,
@@ -103,12 +103,10 @@
     },
     "b7e16cda-98a6-47ee-b593-7b88b504e356": {
       "type": "image-with-text-overlay",
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "reveal_on_scroll": true,
-        "section_height": "small",
+        "section_height": "medium",
         "image": "shopify:\/\/shop_images\/Headers-Family-Matching-Sketch-Flower-Heather-Grey.jpg",
         "subheading": "",
         "title": "",
@@ -184,20 +182,17 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
-    "e211d227-68d6-4f4a-9f72-bd390e613d7f": {
+    "image_with_text_overlay_crxDdV": {
       "type": "image-with-text-overlay",
-      "custom_css": [
-
-      ],
       "settings": {
         "reveal_on_scroll": true,
-        "section_height": "small",
-        "image": "shopify:\/\/shop_images\/EmmyFlower_CollectionHeader_v2.jpg",
+        "section_height": "medium",
+        "image": "shopify:\/\/shop_images\/S400_073024_43845_Edit-2000x980.jpg",
         "subheading": "",
         "title": "",
         "content": "",
         "button_text": "",
-        "button_link": "https:\/\/thisisj.com\/collections\/emmy-flower",
+        "button_link": "shopify:\/\/collections\/varsity-stripe-collection",
         "link_style": "link",
         "background_type": "boxed",
         "text_width": "medium",
@@ -206,17 +201,17 @@
         "button_background": "#ffffff",
         "button_text_color": "#000000",
         "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
-        "overlay_opacity": 25
+        "overlay_opacity": 30
       }
     },
-    "rich_text_JQ7afK": {
+    "rich_text_UPXcAw": {
       "type": "rich-text",
       "settings": {
         "subheading": "",
-        "title": "Emmy Flower",
-        "content": "<p>Hello again, Emmy Flower! This pattern remains one of our most loved and sought after florals for its whimsical illustration, soft floral details and tranquil design. Experience the comfort of Emmy Flower in two new colourways.  <\/p>",
+        "title": "Varsity Stripe",
+        "content": "<p>Our modern take on a vintage collegiate stripe. Join team comfort and experience the softness and elevated style of Varsity Stripe.<\/p>",
         "button_text": "",
-        "button_link": "",
+        "button_link": "shopify:\/\/collections\/varsity-stripe-collection",
         "background_type": "full_width",
         "text_width": "large",
         "text_position": "center",
@@ -227,37 +222,37 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
-    "6822df82-bc43-4b0e-ac16-2e6683486830": {
+    "79b994f3-a6f3-4be0-937b-39d6aa7f3653": {
       "type": "featured-collections",
       "blocks": {
-        "template--17915522580761__6822df82-bc43-4b0e-ac16-2e6683486830-168389959488378107-0": {
+        "f321d6e0-c59e-421f-b2bf-61fea8f0a1d3": {
           "type": "collection",
           "settings": {
-            "collection": "emmy-flower-brown",
-            "label": "EMMY FLOWER BROWN & PINK",
+            "collection": "varsity-stripe-raspberry-black",
+            "label": "Varsity stripe raspberry black",
             "button_text": "View Collection",
-            "button_url": "shopify:\/\/collections\/emmy-flower-brown"
+            "button_url": "shopify:\/\/collections\/varsity-stripe-raspberry-black"
           }
         },
-        "collection_iK8rnj": {
+        "template--20427016470809__79b994f3-a6f3-4be0-937b-39d6aa7f3653-collection-1": {
           "type": "collection",
           "settings": {
-            "collection": "emmy-flower-charcoal-blue",
-            "label": "EMMY FLOWER CHARCOAL & BLUE",
-            "button_text": "VIEW COLLECTION",
-            "button_url": "https:\/\/thisisj.com\/collections\/emmy-flower"
+            "collection": "varsity-stripe-kelly-navy",
+            "label": "VARSITY STRIPE KELLY NAVY",
+            "button_text": "View Collection",
+            "button_url": "shopify:\/\/collections\/varsity-stripe-kelly-navy"
           }
         }
       },
       "block_order": [
-        "template--17915522580761__6822df82-bc43-4b0e-ac16-2e6683486830-168389959488378107-0",
-        "collection_iK8rnj"
+        "f321d6e0-c59e-421f-b2bf-61fea8f0a1d3",
+        "template--20427016470809__79b994f3-a6f3-4be0-937b-39d6aa7f3653-collection-1"
       ],
       "settings": {
         "subheading": "",
         "title": "",
         "content": "",
-        "products_count": 50,
+        "products_count": 6,
         "products_per_row": 6,
         "stack_products": false,
         "show_cta": false,
@@ -269,12 +264,10 @@
     },
     "2acc6dbe-8e22-4f69-a721-1ded8c8f70f1": {
       "type": "image-with-text-overlay",
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "reveal_on_scroll": true,
-        "section_height": "small",
+        "section_height": "medium",
         "image": "shopify:\/\/shop_images\/safari_flower_black-chin.jpg",
         "subheading": "",
         "title": "",
@@ -342,12 +335,10 @@
     },
     "06c1a025-0d3c-4ee8-b354-17326a5259b5": {
       "type": "image-with-text-overlay",
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "reveal_on_scroll": true,
-        "section_height": "small",
+        "section_height": "medium",
         "image": "shopify:\/\/shop_images\/Collection-Feature-Ikat-2.jpg",
         "subheading": "",
         "title": "",
@@ -415,12 +406,10 @@
     },
     "60b930f4-b477-4be7-98cf-10282589118f": {
       "type": "image-with-text-overlay",
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "reveal_on_scroll": true,
-        "section_height": "small",
+        "section_height": "medium",
         "image": "shopify:\/\/shop_images\/ThisisJ_220812_5543_HIRES_70sFlower_FamilyMatching_copy.jpg",
         "subheading": "",
         "title": "",
@@ -498,12 +487,10 @@
     },
     "e940f348-120f-4474-bc71-fd379082f906": {
       "type": "image-with-text-overlay",
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "reveal_on_scroll": true,
-        "section_height": "small",
+        "section_height": "medium",
         "image": "shopify:\/\/shop_images\/Fair-Isle-Collection_Header-3000x800.jpg",
         "subheading": "",
         "title": "",
@@ -582,6 +569,20 @@
     "acbdf988-9f5e-4c80-a99d-b954a874c312": {
       "type": "collection-list",
       "blocks": {
+        "collection_RzTKNE": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Headers-01.jpg",
+            "subheading": "",
+            "title": "Plaid",
+            "link_text": "VIEW COLLECTION",
+            "link_url": "https:\/\/thisisj.com\/collections\/the-plaid-collection",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 15
+          }
+        },
         "f21e3a96-c746-4dd0-ae33-52120822673d": {
           "type": "collection",
           "settings": {
@@ -599,29 +600,15 @@
         "f6e53f8a-f37a-4f59-aa50-a2f4b1c4158d": {
           "type": "collection",
           "settings": {
-            "collection": "stripes-collection",
-            "image": "shopify:\/\/shop_images\/1_4-stripes.jpg",
+            "collection": "emmy-flower",
+            "image": "shopify:\/\/shop_images\/Pattern_images_-02.jpg",
             "subheading": "",
-            "title": "Stripes",
+            "title": "Emmy Flower",
             "link_text": "VIEW COLLECTION",
-            "link_url": "",
+            "link_url": "shopify:\/\/collections\/emmy-flower",
             "text_color": "rgba(0,0,0,0)",
             "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
             "overlay_opacity": 25
-          }
-        },
-        "collection_RzTKNE": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify:\/\/shop_images\/Headers-01.jpg",
-            "subheading": "",
-            "title": "Plaid",
-            "link_text": "VIEW COLLECTION",
-            "link_url": "https:\/\/thisisj.com\/collections\/the-plaid-collection",
-            "text_color": "rgba(0,0,0,0)",
-            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
-            "overlay_opacity": 15
           }
         },
         "ee011ebe-2817-4e59-8d06-52a68f7edb10": {
@@ -668,9 +655,9 @@
         }
       },
       "block_order": [
+        "collection_RzTKNE",
         "f21e3a96-c746-4dd0-ae33-52120822673d",
         "f6e53f8a-f37a-4f59-aa50-a2f4b1c4158d",
-        "collection_RzTKNE",
         "ee011ebe-2817-4e59-8d06-52a68f7edb10",
         "d1c0a003-bfd4-4d8a-aaae-85c392612900",
         "collection_ip67tR"
@@ -700,15 +687,15 @@
   },
   "order": [
     "bcd16921-ce9d-4288-9d05-d560fec930e4",
-    "image_with_text_overlay_crxDdV",
-    "rich_text_UPXcAw",
-    "79b994f3-a6f3-4be0-937b-39d6aa7f3653",
+    "image_with_text_overlay_T3tPAU",
+    "rich_text_JQ7afK",
+    "featured_collections_NtgnyN",
     "b7e16cda-98a6-47ee-b593-7b88b504e356",
     "rich_text_qUFghV",
     "50f6138f-cfa6-44ed-8966-16ca3a42ba6e",
-    "e211d227-68d6-4f4a-9f72-bd390e613d7f",
-    "rich_text_JQ7afK",
-    "6822df82-bc43-4b0e-ac16-2e6683486830",
+    "image_with_text_overlay_crxDdV",
+    "rich_text_UPXcAw",
+    "79b994f3-a6f3-4be0-937b-39d6aa7f3653",
     "2acc6dbe-8e22-4f69-a721-1ded8c8f70f1",
     "rich_text_yjUxKC",
     "3c3f1770-874e-40e5-9463-f5cc211b590f",

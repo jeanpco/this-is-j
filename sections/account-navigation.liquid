@@ -213,9 +213,7 @@
           ? '#main-customers-account-section'
           : tabId === 'comfort-club'
           ? '.main-customers-comfort-club, .main-loyalty-rewards'
-          : tabId === 'referrals'
-          ? '.main-referrals'
-          : '#main-customers-account-section'; // Default to showing the account section
+          : '.main-referrals';
 
       var tabs = document.querySelectorAll(
         '#main-customers-account-section, .main-customers-comfort-club, .main-loyalty-rewards, .main-referrals'
@@ -245,11 +243,8 @@
       case '#referrals':
         showTab('referrals');
         break;
-      case '#comfort-club':
-        showTab('comfort-club');
-        break;
       default:
-        showTab(''); // This will now show the main account section by default
+        showTab('comfort-club');
         break;
     }
     updateActiveLink();

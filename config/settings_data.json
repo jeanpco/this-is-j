@@ -1,17 +1,8 @@
-/*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
 {
   "current": {
     "icon_stroke_width": 1,
     "text_color": "#1c1b1b",
-    "background": "#fff",
+    "background": "#ffffff",
     "secondary_background": "#ffffff",
     "success_color": "#d6bda7",
     "header_background": "#ffffff",
@@ -31,11 +22,18 @@
     "text_font": "avenir_next_n4",
     "text_font_size": 15,
     "currency_code_enabled": true,
+    "stagger_products_apparition": false,
     "stagger_blog_posts_apparition": true,
     "round_color_swatches": true,
     "color_swatch_config": "Black:#231F20\nBlue:#2A7DE1\nGreen:#949300\nGrey:#8C827A\nYellow:#F5A800\nPurple:#A576A6\nRed:#C10230\nPink:#E88697\nWhite:#F7E8DE\nOrange:#FF6C37\nBrown:#563722",
-    "show_secondary_image": false,
+    "show_secondary_image": true,
+    "product_add_to_cart": true,
+    "show_product_rating": false,
+    "show_sale_label": true,
     "show_discount": false,
+    "product_color_display": "count",
+    "product_image_size": "natural",
+    "cart_icon": "shopping_bag",
     "cart_show_free_shipping_threshold": true,
     "cart_free_shipping_threshold": "",
     "cart_free_shipping_threshold_connoiseeur": "USD:100,CAD:100",
@@ -65,27 +63,22 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "855628211100114053": {
         "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "7570552984445421165": {
         "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/settings\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "1744161739547163668": {
         "type": "shopify:\/\/apps\/countdown-timer-bar-hextom\/blocks\/ctb-embeded-block\/f7b88b6e-2e87-46bc-87a9-3e3638a24fa9",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "8962992520437913685": {
         "type": "shopify:\/\/apps\/yotpo-loyalty-rewards\/blocks\/loader-app-embed-block\/2f9660df-5018-4e02-9868-ee1fb88d6ccd",
@@ -122,8 +115,6 @@
     }
   },
   "platform_customizations": {
-    "custom_css": [
-
-    ]
+    "custom_css": []
   }
 }
