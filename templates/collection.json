@@ -1,12 +1,3 @@
-/*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
 {
   "sections": {
     "collection-banner": {
@@ -102,9 +93,7 @@
     },
     "0e110668-8a85-4fc9-8836-debd0255c9bf": {
       "type": "recently-viewed-products",
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "subheading": "",
         "title": "Recently viewed",
@@ -115,9 +104,7 @@
     },
     "34704ab1-2125-4ccc-a04f-8e93573b309b": {
       "type": "faq-schema",
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "namespace": "custom",
         "key": "faq"
