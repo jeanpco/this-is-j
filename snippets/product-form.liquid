@@ -303,12 +303,21 @@
                     </div>
                     <div class="block-swatch-list">
                       {%- for value in option.values -%}
+        
+                        {% for variant in product.variants %}
+                          {% if variant.option2 == value %}
+                            {%- assign variant_product_id = variant.id -%}
+                            {% break %}
+                          {% endif %}
+                        {% endfor %}
+
                         <div class="block-swatch">
                           <input
                             class="block-swatch__radio visually-hidden"
                             type="radio"
                             name="option{{ option.position }}"
                             form="{{ product_form_id }}"
+                            {% if variant_product_id %} data-variant-id="{{ variant_product_id }}" {% endif %}
                             id="{{ option_id }}-{{ forloop.index }}"
                             value="{{ value | escape }}"
                             data-bind-value="{{ option_id }}-value"

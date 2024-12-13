@@ -5,7 +5,7 @@
       "settings": {
         "reveal_on_scroll": true,
         "section_height": "auto",
-        "image": "shopify:\/\/shop_images\/Untitled_design_1.jpg",
+        "image": "shopify:\/\/shop_images\/Collection_HeaderSSX24_-_Headers.jpg",
         "subheading": "",
         "title": "",
         "content": "",
@@ -22,8 +22,27 @@
         "overlay_opacity": 30
       }
     },
+    "rich_text_gGgKxD": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<p>Welcome to our Winter 2024 Sample Sale! Shop up to 80% off samples, misprints, off-cut, and seconds in a variety of sizes.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "boxed",
+        "text_width": "fill",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
     "rich_text_D6giJz": {
       "type": "rich-text",
+      "disabled": true,
       "settings": {
         "subheading": "",
         "title": "",
@@ -40,12 +59,22 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
+    "featured_content_HxxpwT": {
+      "type": "featured-content",
+      "custom_css": [],
+      "settings": {
+        "title": "",
+        "text": "<p>All Sales Final. Items not held in cart.<\/p>",
+        "align_text": "center",
+        "narrow_column": false,
+        "enlarge_text": false,
+        "divider": false
+      }
+    },
     "collection-banner": {
       "type": "collection-banner",
       "disabled": true,
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "show_collection_image": true,
         "show_collection_title": false,
@@ -115,9 +144,7 @@
     },
     "0e110668-8a85-4fc9-8836-debd0255c9bf": {
       "type": "recently-viewed-products",
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "subheading": "",
         "title": "Recently viewed",
@@ -128,9 +155,7 @@
     },
     "34704ab1-2125-4ccc-a04f-8e93573b309b": {
       "type": "faq-schema",
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "namespace": "custom",
         "key": "faq"
@@ -139,7 +164,9 @@
   },
   "order": [
     "image_with_text_overlay_wF8X9E",
+    "rich_text_gGgKxD",
     "rich_text_D6giJz",
+    "featured_content_HxxpwT",
     "collection-banner",
     "main",
     "0e110668-8a85-4fc9-8836-debd0255c9bf",

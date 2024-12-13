@@ -342,20 +342,20 @@
 {%- endunless -%}
 
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-  // Find the first variant selector and trigger selection
-  const firstVariantSelector = document.querySelector('.block-swatch-list input[type="radio"]');
-  const secondVariantSelector = document.querySelector('.block-swatch-list input[type="radio"]:nth-child(2)');
+// document.addEventListener('DOMContentLoaded', function() {
+//   // Find the first variant selector and trigger selection
+//   const firstVariantSelector = document.querySelector('.block-swatch-list input[type="radio"]');
+//   const secondVariantSelector = document.querySelector('.block-swatch-list input[type="radio"]:nth-child(2)');
 
-  if (firstVariantSelector) {
-    firstVariantSelector.click();
-    secondVariantSelector.click();
-    firstVariantSelector.click();
+//   if (firstVariantSelector) {
+//     firstVariantSelector.click();
+//     secondVariantSelector?.click();
+//     firstVariantSelector.click();
 
-    firstVariantSelector.checked = true;
-    firstVariantSelector.dispatchEvent(new Event('change'));
-  }
-});
+//     firstVariantSelector.checked = true;
+//     firstVariantSelector.dispatchEvent(new Event('change', { bubbles: true }));
+//   }
+// });
 </script>
 
 {% schema %}

@@ -3,29 +3,29 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
-        "651bdab3-a6ac-4b78-aa18-f8b4cc25d911": {
+        "b24eb5a9-a144-43c5-aa6e-553164408fa6": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Artboard_12button_down_carousel.jpg",
+            "image": "shopify:\/\/shop_images\/Shopify-Carousel_Bonus-Daysample-sale-carousel-2024.jpg",
             "mute_toggle": false,
             "font": "'BV Celine', serif",
-            "text_position": "bottom_left",
-            "subheading": "introducing the",
-            "title": "Button-Down Collection",
-            "subheading_font_size_m": 13,
+            "text_position": "bottom_center",
+            "subheading": "",
+            "title": "",
+            "subheading_font_size_m": 12,
             "subheading_font_size_d": 13,
-            "heading_font_size_m": 40,
-            "heading_font_size_d": 60,
-            "description": "His & Hers Perfectly Matched PJs",
-            "button_1_text": "SHOP BUTTON-DOWNS",
-            "button_1_link": "shopify:\/\/collections\/long-sleeve-button-down-pjs",
+            "heading_font_size_m": 36,
+            "heading_font_size_d": 57,
+            "description": "Up to 80% Off",
+            "button_1_text": "SHOP sample sale",
+            "button_1_link": "shopify:\/\/collections\/sample-sale-winter-2024",
             "button_2_text": "",
             "button_2_link": "",
             "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#24274a",
-            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1), rgba(255, 255, 255, 0) 55%)",
-            "overlay_opacity": 25
+            "button_background": "#24274a",
+            "button_text_color": "#ffffff",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1), rgba(255, 255, 255, 0) 60%)",
+            "overlay_opacity": 0
           }
         },
         "2af3691f-48a8-40da-b6a5-be47cf654e2d": {
@@ -53,29 +53,29 @@
             "overlay_opacity": 3
           }
         },
-        "d614789a-a1dd-4a1f-824e-7fd99a25c6d7": {
+        "651bdab3-a6ac-4b78-aa18-f8b4cc25d911": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Plaid_2022_Carousel_WebsiteHeader_2.jpg",
+            "image": "shopify:\/\/shop_images\/Artboard_12button_down_carousel.jpg",
             "mute_toggle": false,
             "font": "'BV Celine', serif",
-            "text_position": "middle_center",
-            "subheading": "",
-            "title": "We Made Too Much!",
-            "subheading_font_size_m": 12,
+            "text_position": "bottom_left",
+            "subheading": "introducing the",
+            "title": "Button-Down Collection",
+            "subheading_font_size_m": 13,
             "subheading_font_size_d": 13,
-            "heading_font_size_m": 36,
-            "heading_font_size_d": 59,
-            "description": "",
-            "button_1_text": "SHOP SALE",
-            "button_1_link": "https:\/\/thisisj.com\/collections\/we-made-too-much",
+            "heading_font_size_m": 40,
+            "heading_font_size_d": 60,
+            "description": "His & Hers Perfectly Matched PJs",
+            "button_1_text": "SHOP BUTTON-DOWNS",
+            "button_1_link": "shopify:\/\/collections\/long-sleeve-button-down-pjs",
             "button_2_text": "",
             "button_2_link": "",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
-            "overlay_opacity": 45
+            "button_text_color": "#24274a",
+            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1), rgba(255, 255, 255, 0) 55%)",
+            "overlay_opacity": 25
           }
         },
         "image_qjRPmG": {
@@ -153,30 +153,29 @@
             "overlay_opacity": 31
           }
         },
-        "0a4416e7-5b14-4e98-a91e-08b416cbdb5e": {
+        "d614789a-a1dd-4a1f-824e-7fd99a25c6d7": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Artboard_1Caftan-carousel-header.jpg",
-            "mute_toggle": true,
+            "image": "shopify:\/\/shop_images\/Plaid_2022_Carousel_WebsiteHeader_2.jpg",
+            "mute_toggle": false,
             "font": "'BV Celine', serif",
-            "text_position": "bottom_center",
-            "subheading": "the effortlessly chic",
-            "title": "Caftan",
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "We Made Too Much!",
             "subheading_font_size_m": 12,
-            "subheading_font_size_d": 14,
-            "heading_font_size_m": 48,
-            "heading_font_size_d": 68,
+            "subheading_font_size_d": 13,
+            "heading_font_size_m": 36,
+            "heading_font_size_d": 59,
             "description": "",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_2_text": "BROWSE CAFTANS",
-            "button_2_link": "https:\/\/thisisj.com\/collections\/caftans",
+            "button_1_text": "SHOP SALE",
+            "button_1_link": "https:\/\/thisisj.com\/collections\/we-made-too-much",
+            "button_2_text": "",
+            "button_2_link": "",
             "text_color": "#ffffff",
-            "button_background": "#f58186",
-            "button_text_color": "#0b2136",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
             "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
-            "overlay_opacity": 34
+            "overlay_opacity": 45
           }
         },
         "5f50728c-97ef-40f0-9fa4-5ca1e43925bc": {
@@ -231,32 +230,6 @@
             "overlay_opacity": 0
           }
         },
-        "b24eb5a9-a144-43c5-aa6e-553164408fa6": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/EmmyFlower_CollectionHeader_v2.jpg",
-            "mute_toggle": false,
-            "font": "'BV Celine', serif",
-            "text_position": "middle_center",
-            "subheading": "hello again",
-            "title": "Emmy Flower Sleepwear",
-            "subheading_font_size_m": 12,
-            "subheading_font_size_d": 13,
-            "heading_font_size_m": 36,
-            "heading_font_size_d": 64,
-            "description": "Whimsical Details & Delicate Flowers... Experience the Comfort",
-            "button_1_text": "SHOP EMMY FLOWER",
-            "button_1_link": "https:\/\/thisisj.com\/collections\/emmy-flower",
-            "button_2_text": "",
-            "button_2_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#f3efe0",
-            "button_text_color": "#000000",
-            "overlay_color": "radial-gradient(rgba(0, 0, 0, 1), rgba(255, 255, 255, 0) 60%)",
-            "overlay_opacity": 21
-          }
-        },
         "41ae075a-1376-49e3-8690-26f8fc04c23e": {
           "type": "image",
           "disabled": true,
@@ -285,16 +258,15 @@
         }
       },
       "block_order": [
-        "651bdab3-a6ac-4b78-aa18-f8b4cc25d911",
+        "b24eb5a9-a144-43c5-aa6e-553164408fa6",
         "2af3691f-48a8-40da-b6a5-be47cf654e2d",
-        "d614789a-a1dd-4a1f-824e-7fd99a25c6d7",
+        "651bdab3-a6ac-4b78-aa18-f8b4cc25d911",
         "image_qjRPmG",
         "60beccfe-7cd8-448e-9d7f-23b6860fc3a4",
         "2da0b997-5a90-4854-8226-9f11794b4268",
-        "0a4416e7-5b14-4e98-a91e-08b416cbdb5e",
+        "d614789a-a1dd-4a1f-824e-7fd99a25c6d7",
         "5f50728c-97ef-40f0-9fa4-5ca1e43925bc",
         "63738099-eeb5-4d1b-9068-d3d0bbb3158a",
-        "b24eb5a9-a144-43c5-aa6e-553164408fa6",
         "41ae075a-1376-49e3-8690-26f8fc04c23e"
       ],
       "custom_css": [

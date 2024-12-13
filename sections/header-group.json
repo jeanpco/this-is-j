@@ -51,7 +51,7 @@
       "custom_css": [],
       "settings": {
         "announcement_bar_position": "non_sticky",
-        "announcement_text_size": "normal",
+        "announcement_text_size": "small",
         "autoplay": true,
         "cycle_speed": 5,
         "background": "#1c1b1b",
@@ -77,10 +77,10 @@
             "image_2_heading": "COMFY NEW ARRIVALS",
             "image_2_text": "Our Newest PJ Patterns & Styles to Explore",
             "image_2_link": "shopify:\/\/collections\/new-arrivals",
-            "image_3": "shopify:\/\/shop_images\/Artboard_2_2Nav_Image_-We_Made_Too_Much_d8bca777-e94b-43f9-91b1-8b8f34364d9d.jpg",
-            "image_3_heading": "WE MADE TOO MUCH",
-            "image_3_text": "In Season Styles at Snuggle Worthy Prices",
-            "image_3_link": "shopify:\/\/collections\/we-made-too-much",
+            "image_3": "shopify:\/\/shop_images\/Sample-sale-nav-560x420.jpg",
+            "image_3_heading": "READY. SET. SAMPLE SALE!",
+            "image_3_text": "Up to 80% off samples, slight misprints, offcuts, seconds, and unique cozy finds.",
+            "image_3_link": "shopify:\/\/collections\/sample-sale-winter-2024",
             "image_4_heading": "",
             "image_4_text": "",
             "image_4_link": "",
@@ -234,6 +234,32 @@
             "image_6_link": ""
           }
         },
+        "mega_menu_br6GBw": {
+          "type": "mega_menu",
+          "settings": {
+            "brand": "all",
+            "menu_item": "Sample Sale",
+            "images_position": "right",
+            "image_1_heading": "",
+            "image_1_text": "",
+            "image_1_link": "",
+            "image_2_heading": "",
+            "image_2_text": "",
+            "image_2_link": "",
+            "image_3_heading": "",
+            "image_3_text": "",
+            "image_3_link": "",
+            "image_4_heading": "",
+            "image_4_text": "",
+            "image_4_link": "",
+            "image_5_heading": "",
+            "image_5_text": "",
+            "image_5_link": "",
+            "image_6_heading": "",
+            "image_6_text": "",
+            "image_6_link": ""
+          }
+        },
         "dc9e7dc0-977e-4f13-8253-26938423eaaf": {
           "type": "brand",
           "settings": {
@@ -241,7 +267,7 @@
             "logo": "shopify:\/\/shop_images\/ThisIsJ_Black_Logo-300x246.png",
             "home": "\/",
             "color": "#d6bda7",
-            "navigation_menu": "main-menu",
+            "navigation_menu": "main-menu-dec-ss",
             "sidebar_navigation_menu": "",
             "brand_logo": "shopify:\/\/shop_images\/ThisIsJ_Black_Logo-300x246.png",
             "brand_logo_active": "shopify:\/\/shop_images\/ThisIsJ_White_Logo-300x246.png"
@@ -268,6 +294,7 @@
         "72a3cb4b-22c1-4f4e-a335-49fb4cb8f590",
         "0602b6a2-e280-4de9-85cc-7eb7ca2f876b",
         "mega_menu_qg7rXt",
+        "mega_menu_br6GBw",
         "dc9e7dc0-977e-4f13-8253-26938423eaaf",
         "60c4a2b4-2fbb-43b7-ab3d-87ba13e2b059"
       ],

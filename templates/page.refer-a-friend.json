@@ -26,7 +26,7 @@
       ],
       "disabled": true,
       "settings": {
-        "heading": "The Comfort Club",
+        "heading": "<p>The Comfort Club<\/p>",
         "text": "<p>Earn rewards on the products you love, redeem them for discounts, and get closer to the comfort you've been dreaming of.<\/p>",
         "image": "shopify:\/\/shop_images\/TIJ_001_Loyalty-Program_Banner_V4.gif",
         "bg": "#f0eee7"
@@ -64,7 +64,7 @@
       ],
       "disabled": true,
       "settings": {
-        "heading": "How it Works:",
+        "heading": "<p>How it Works:<\/p>",
         "bg": "#b5c7c5"
       }
     },
@@ -149,7 +149,7 @@
       ],
       "disabled": true,
       "settings": {
-        "heading": "Ways to Earn Points",
+        "heading": "<p>Ways to Earn Points<\/p>",
         "bg": "#f9f8f5"
       }
     },

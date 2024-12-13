@@ -7502,7 +7502,7 @@
       let shouldReload = false;
       this.product['media'].forEach((media) => {
         var _a;
-        let matchMedia2 =
+        let matchMedia2 = variant &&
           variant['featured_media'] &&
           media['id'] === variant['featured_media']['id'];
         if ((_a = media['alt']) == null ? void 0 : _a.includes('#')) {
@@ -8077,9 +8077,33 @@
         this._onMasterSelectorChanged.bind(this)
       );
       this._updateDisableSelectors();
-      if (this.selectedVariant?.id) {
-        this.selectVariant(this.selectedVariant.id);
+
+      const urlParams = new URLSearchParams(window.location.search);
+      const variantParam = urlParams.get('variant');
+
+      let selectedVariant =  this.product['variants'].find( variant => variant.id == variantParam );
+
+      console.log( "selectedVariant" );
+      console.log( selectedVariant );
+
+      console.log( "this.selectedVariant" );
+      console.log( this.selectedVariant );
+
+      if( variantParam ) {    
+        this.selectVariant( selectedVariant.id );
+        this._forceUIUpdate(selectedVariant);
       }
+      else {
+        // if the variant is already selected, select it
+        if (this.selectedVariant?.id) {
+          this.selectVariant(this.selectedVariant.id);
+          this._forceUIUpdate(this.selectedVariant);
+        }
+        else {
+          this.selectVariant();
+        }
+      }
+
       // this is the product id on the PDP
       this.mainProductId = document.querySelector(
         '[data-main-product-id]'
@@ -8137,7 +8161,7 @@
       if (this.updateUrl && history.replaceState) {
         const variants = this.product.variants;
         // this will be a variant object which will contain url we need
-        const selectedVariant = variants.find((variant) => variant.id === id);
+        const selectedVariant = variants.find((variant) => variant.id == id);
         const selectedVariantHandle = selectedVariant.url
           .split('?')[0]
           .split('/')[2];
@@ -8196,6 +8220,33 @@
       }
     }
 
+    // Inside ProductVariants class
+    _forceUIUpdate(variant) {
+      // First update master selector
+      if (variant && variant.id) {
+          this.masterSelector.value = variant.id;
+          this.masterSelector.dispatchEvent(new Event('change', { bubbles: true }));
+      }
+
+      // Then force update each option input
+      variant.options.forEach((value, index) => {
+        const input = this.querySelector(
+            `input[name="option${index + 1}"][value="${CSS.escape(value)}"], select[name="option${index + 1}"]`
+        );
+        
+        if (input) {
+            if (input.tagName === 'INPUT') {
+              input.checked = true;
+            } else if (input.tagName === 'SELECT') {
+              input.value = value;
+            }
+            
+            // Force trigger change event
+            input.dispatchEvent(new Event('change', { bubbles: true }));
+        }
+      });
+    }
+
     _updateFinalSale(variant) {
       this.querySelectorAll('.final-sale').forEach((el) => {
         const colors = el.dataset.colors?.split(',') || [];
@@ -8235,7 +8286,7 @@
     }
     _getVariantById(id) {
       const variant = this.product['variants'].find(
-        (variant) => variant['id'] === id
+        (variant) => variant['id'] == id
       );
       this.displayProductGallery(variant);
       return variant;
@@ -8283,7 +8334,7 @@
       } while (!matchedVariant && options.length > 0);
       return matchedVariant;
     }
-    _getSelectedOptionValues() {
+    _getSelectedOptionValues(firstLoad = false) {
       const selector = 'input[name^="option"]:checked, select[name^="option"]';
       const options = [...this.querySelectorAll(selector)].map(
         ({ value }) => value
@@ -8307,11 +8358,13 @@
 
         const newUrl = new URL(selectedVariant.url, window.location.href);
         // manually replace the current page with the color variant chosen
-        window.history.replaceState(
-          { path: newUrl.toString() },
-          '',
-          newUrl.toString()
-        );
+        if( !firstLoad ) {
+          window.history.replaceState(
+            { path: newUrl.toString() },
+            '',
+            newUrl.toString()
+          );
+        }
 
         if (selectedVariantHandle !== currentVariantHandle) {
           this._updateProductRecommendations(selectedVariant);
@@ -9566,7 +9619,7 @@
     function init() {
       if (
         window.swellAPI?.getCustomerDetails &&
-        window.swellAPI.getCustomerDetails().email
+        window.swellAPI?.getCustomerDetails().email
       ) {
         customerDetails = window.swellAPI.getCustomerDetails();
         redeemDisplay();

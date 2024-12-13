@@ -1,0 +1,812 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "blog_posts_BXmmtK": {
+      "type": "blog-posts",
+      "disabled": true,
+      "custom_css": [
+        "h3 {font-size: 22px; font-family: BV Celine; font-weight: 400;}"
+      ],
+      "settings": {
+        "blog": "comfort-series",
+        "subheading": "Our Blog",
+        "title": "The Comfort Series",
+        "articles_count": 3,
+        "stack_mobile": false,
+        "show_category": true,
+        "show_excerpt": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "rich_text_6znam4": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<h1>The Holiday Shop ✨<\/h1>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "rich_text_3mtXLw": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "✨The Holiday Shop ✨",
+        "content": "<p><strong>Make comfort your holiday tradition in cozy matching PJs.<\/strong> <\/p><p><\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "image_with_text_overlay_7RkAzy": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "small",
+        "image": "shopify:\/\/shop_images\/Artboard_118BF-Collection_2205c34a-d23d-4514-b205-976a8c3f39f9.jpg",
+        "subheading": "level up your comfort game",
+        "title": "The Black Friday Collection",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "boxed",
+        "text_width": "medium",
+        "text_position": "bottom_left",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+        "overlay_opacity": 22
+      }
+    },
+    "image_with_text_overlay_t8CwUh": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "auto",
+        "image": "shopify:\/\/shop_images\/Artboard_119_3BF-Collection.jpg",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+        "overlay_opacity": 30
+      }
+    },
+    "shop_the_look_HBdYhq": {
+      "type": "shop-the-look",
+      "blocks": {
+        "look_tqMGej": {
+          "type": "look",
+          "settings": {
+            "dot_type": "normal",
+            "product_1": "",
+            "product_1_horizontal_position": 30,
+            "product_1_vertical_position": 30,
+            "product_1_horizontal_position_mobile": 30,
+            "product_1_vertical_position_mobile": 30,
+            "product_2": "",
+            "product_2_horizontal_position": 50,
+            "product_2_vertical_position": 50,
+            "product_2_horizontal_position_mobile": 50,
+            "product_2_vertical_position_mobile": 50,
+            "product_3": "",
+            "product_3_horizontal_position": 70,
+            "product_3_vertical_position": 70,
+            "product_3_horizontal_position_mobile": 70,
+            "product_3_vertical_position_mobile": 70
+          }
+        },
+        "look_Hk7kkN": {
+          "type": "look",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard_119_3BF-Collection.jpg",
+            "dot_type": "normal",
+            "product_1": "",
+            "product_1_horizontal_position": 70,
+            "product_1_vertical_position": 76,
+            "product_1_horizontal_position_mobile": 30,
+            "product_1_vertical_position_mobile": 30,
+            "product_2": "",
+            "product_2_horizontal_position": 56,
+            "product_2_vertical_position": 67,
+            "product_2_horizontal_position_mobile": 57,
+            "product_2_vertical_position_mobile": 50,
+            "product_3": "",
+            "product_3_horizontal_position": 29,
+            "product_3_vertical_position": 65,
+            "product_3_horizontal_position_mobile": 70,
+            "product_3_vertical_position_mobile": 70
+          }
+        }
+      },
+      "block_order": [
+        "look_tqMGej",
+        "look_Hk7kkN"
+      ],
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": false,
+        "label": "Shop the looks"
+      }
+    },
+    "featured_collections_ErNHyc": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_nkHJWn": {
+          "type": "collection",
+          "settings": {
+            "collection": "fair-isle-cream-burgundy",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_nkHJWn"
+      ],
+      "disabled": true,
+      "settings": {
+        "subheading": "Fair isle cream & burgundy",
+        "title": "",
+        "content": "",
+        "products_count": 50,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "featured_collections_tKFCPp": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_mzMTiD": {
+          "type": "collection",
+          "settings": {
+            "collection": "fair-isle-black-heather-grey",
+            "label": "",
+            "button_text": "",
+            "button_url": "shopify:\/\/collections\/hunter-green-collection"
+          }
+        }
+      },
+      "block_order": [
+        "collection_mzMTiD"
+      ],
+      "disabled": true,
+      "settings": {
+        "subheading": "Fair isle Black & heather grey",
+        "title": "",
+        "content": "",
+        "products_count": 50,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "#d6bda7",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "shop_the_look_TYJEAq": {
+      "type": "shop-the-look",
+      "blocks": {
+        "look_VGWQ6a": {
+          "type": "look",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard_119_2BF-Collection.jpg",
+            "dot_type": "normal",
+            "product_1": "pajama-set-long-sleeve-shirt-pajama-pant-grey",
+            "product_1_horizontal_position": 44,
+            "product_1_vertical_position": 12,
+            "product_1_horizontal_position_mobile": 30,
+            "product_1_vertical_position_mobile": 30,
+            "product_2": "kids-long-sleeve-lounge-pant-pj-set-sketch-flower-grey",
+            "product_2_horizontal_position": 63,
+            "product_2_vertical_position": 53,
+            "product_2_horizontal_position_mobile": 50,
+            "product_2_vertical_position_mobile": 50,
+            "product_3": "oversized-tee-harem-set-sketch-flower-heather-grey",
+            "product_3_horizontal_position": 54,
+            "product_3_vertical_position": 78,
+            "product_3_horizontal_position_mobile": 70,
+            "product_3_vertical_position_mobile": 70
+          }
+        }
+      },
+      "block_order": [
+        "look_VGWQ6a"
+      ],
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": false,
+        "label": "Shop the looks"
+      }
+    },
+    "featured_collections_faWy3e": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_xxHBwL": {
+          "type": "collection",
+          "settings": {
+            "collection": "sketch-flower-heather-grey",
+            "label": "",
+            "button_text": "",
+            "button_url": "shopify:\/\/collections\/sketch-flower-heather-grey"
+          }
+        },
+        "collection_xai3MY": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_xxHBwL",
+        "collection_xai3MY"
+      ],
+      "disabled": true,
+      "settings": {
+        "subheading": "Sketch Flower & Heather grey BASICS",
+        "title": "",
+        "content": "",
+        "products_count": 50,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "image_with_text_overlay_niBBwF": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "auto",
+        "image": "shopify:\/\/shop_images\/Artboard_19Tartan-collection-navy-family-kids.jpg",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+        "overlay_opacity": 30
+      }
+    },
+    "shop_the_look_3P4qKC": {
+      "type": "shop-the-look",
+      "blocks": {
+        "look_adxUrz": {
+          "type": "look",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard_119BF-Collection_41141b1f-0bc4-4c31-a5f4-c660b18989f9.jpg",
+            "dot_type": "normal",
+            "product_1": "henley-harem-set-emmy-flower-brown",
+            "product_1_horizontal_position": 57,
+            "product_1_vertical_position": 54,
+            "product_1_horizontal_position_mobile": 30,
+            "product_1_vertical_position_mobile": 30,
+            "product_2": "pajama-set-t-shirt-pajama-pant-brown",
+            "product_2_horizontal_position": 41,
+            "product_2_vertical_position": 50,
+            "product_2_horizontal_position_mobile": 50,
+            "product_2_vertical_position_mobile": 50,
+            "product_3": "",
+            "product_3_horizontal_position": 62,
+            "product_3_vertical_position": 50,
+            "product_3_horizontal_position_mobile": 70,
+            "product_3_vertical_position_mobile": 70
+          }
+        }
+      },
+      "block_order": [
+        "look_adxUrz"
+      ],
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": false,
+        "label": "Shop the looks"
+      }
+    },
+    "featured_collections_DbdJe9": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_Xq9zQq": {
+          "type": "collection",
+          "settings": {
+            "collection": "emmy-flower-brown",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_Xq9zQq"
+      ],
+      "disabled": true,
+      "settings": {
+        "subheading": "EMMY FLOWER & BROWN BASICS",
+        "title": "",
+        "content": "",
+        "products_count": 50,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "featured_collections_hpidqC": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_ExHUeB": {
+          "type": "collection",
+          "settings": {
+            "collection": "navy-is-the-new-black",
+            "label": "",
+            "button_text": "Shop all navy basics",
+            "button_url": "shopify:\/\/collections\/navy-is-the-new-black"
+          }
+        }
+      },
+      "block_order": [
+        "collection_ExHUeB"
+      ],
+      "disabled": true,
+      "settings": {
+        "subheading": "Mix & Match Solid basics",
+        "title": "Dark Navy",
+        "content": "",
+        "products_count": 20,
+        "products_per_row": 4,
+        "stack_products": false,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "#1b4063",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "shop_the_look_nBUpAW": {
+      "type": "shop-the-look",
+      "blocks": {
+        "look_xEpxP9": {
+          "type": "look",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard_119_1BF-Collection-EF.jpg",
+            "dot_type": "normal",
+            "product_1": "relaxed-long-sleeve-set-emmy-flower-charcoal-blue",
+            "product_1_horizontal_position": 47,
+            "product_1_vertical_position": 70,
+            "product_1_horizontal_position_mobile": 50,
+            "product_1_vertical_position_mobile": 30,
+            "product_2": "mens-long-sleeve-shirt-6",
+            "product_2_horizontal_position": 62,
+            "product_2_vertical_position": 58,
+            "product_2_horizontal_position_mobile": 50,
+            "product_2_vertical_position_mobile": 50,
+            "product_3": "mens-pajama-pant-10",
+            "product_3_horizontal_position": 57,
+            "product_3_vertical_position": 82,
+            "product_3_horizontal_position_mobile": 70,
+            "product_3_vertical_position_mobile": 70
+          }
+        }
+      },
+      "block_order": [
+        "look_xEpxP9"
+      ],
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": false,
+        "label": "Shop the looks"
+      }
+    },
+    "image_with_text_overlay_8YYR6y": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "auto",
+        "image": "shopify:\/\/shop_images\/Artboard_19Red-Plaid.jpg",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "radial-gradient(rgba(0, 0, 0, 1) 5%, rgba(255, 255, 255, 0) 60%)",
+        "overlay_opacity": 30
+      }
+    },
+    "featured_collections_aXfVg8": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_MkDzaW": {
+          "type": "collection",
+          "settings": {
+            "collection": "emmy-flower-charcoal-blue",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_MkDzaW"
+      ],
+      "disabled": true,
+      "settings": {
+        "subheading": "EMMY FLOWER & CHARCOAL BASICS",
+        "title": "",
+        "content": "",
+        "products_count": 20,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "shop_the_look_PKHPJh": {
+      "type": "shop-the-look",
+      "blocks": {
+        "look_bbWHH9": {
+          "type": "look",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard_19Green-Plaid.jpg",
+            "dot_type": "normal",
+            "product_1": "henley-top-harem-pant-black",
+            "product_1_horizontal_position": 40,
+            "product_1_vertical_position": 75,
+            "product_1_horizontal_position_mobile": 30,
+            "product_1_vertical_position_mobile": 30,
+            "product_2": "kids-long-sleeve-lounge-pant-pj-set-green-plaid",
+            "product_2_horizontal_position": 28,
+            "product_2_vertical_position": 60,
+            "product_2_horizontal_position_mobile": 50,
+            "product_2_vertical_position_mobile": 50,
+            "product_3": "pajama-set-limited-edition-green-plaid",
+            "product_3_horizontal_position": 64,
+            "product_3_vertical_position": 70,
+            "product_3_horizontal_position_mobile": 70,
+            "product_3_vertical_position_mobile": 70
+          }
+        }
+      },
+      "block_order": [
+        "look_bbWHH9"
+      ],
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": false,
+        "label": "Shop the looks"
+      }
+    },
+    "featured_collections_hUL76z": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_jx8aQh": {
+          "type": "collection",
+          "settings": {
+            "collection": "black-basics",
+            "label": "",
+            "button_text": "SHOP ALL BLACK BASICS",
+            "button_url": "shopify:\/\/collections\/black-basics"
+          }
+        }
+      },
+      "block_order": [
+        "collection_jx8aQh"
+      ],
+      "disabled": true,
+      "settings": {
+        "subheading": "Mix & Match Solid basics",
+        "title": "Black",
+        "content": "",
+        "products_count": 20,
+        "products_per_row": 4,
+        "stack_products": false,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "#000000",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "shop_the_look_9KQnfQ": {
+      "type": "shop-the-look",
+      "blocks": {
+        "look_4ah7i3": {
+          "type": "look",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard_14fair-isle.jpg",
+            "dot_type": "normal",
+            "product_1": "pajama-set-long-sleeve-shirt-pajama-pant-8",
+            "product_1_horizontal_position": 68,
+            "product_1_vertical_position": 47,
+            "product_1_horizontal_position_mobile": 30,
+            "product_1_vertical_position_mobile": 30,
+            "product_2": "kids-long-sleeve-lounge-pant-pj-set-26",
+            "product_2_horizontal_position": 35,
+            "product_2_vertical_position": 68,
+            "product_2_horizontal_position_mobile": 50,
+            "product_2_vertical_position_mobile": 50,
+            "product_3": "",
+            "product_3_horizontal_position": 62,
+            "product_3_vertical_position": 50,
+            "product_3_horizontal_position_mobile": 70,
+            "product_3_vertical_position_mobile": 70
+          }
+        }
+      },
+      "block_order": [
+        "look_4ah7i3"
+      ],
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": false,
+        "label": "Shop the looks"
+      }
+    },
+    "featured_collections_6FQgGa": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_9Y9xEf": {
+          "type": "collection",
+          "settings": {
+            "collection": "fair-isle-cream-burgundy",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_9Y9xEf"
+      ],
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "Fair Isle",
+        "content": "",
+        "products_count": 20,
+        "products_per_row": 5,
+        "stack_products": true,
+        "show_cta": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "featured_collections_FbCckU": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_GYDDmz": {
+          "type": "collection",
+          "settings": {
+            "collection": "accessories",
+            "label": "",
+            "button_text": "SHOP ALL ACCESSORIES",
+            "button_url": "shopify:\/\/collections\/accessories"
+          }
+        }
+      },
+      "block_order": [
+        "collection_GYDDmz"
+      ],
+      "disabled": true,
+      "settings": {
+        "subheading": "Holiday hits",
+        "title": "Stocking Stuffers",
+        "content": "",
+        "products_count": 20,
+        "products_per_row": 6,
+        "stack_products": false,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "#0e0e0e",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "multi_column_H8p8xt": {
+      "type": "multi-column",
+      "blocks": {
+        "item_q4C7en": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard_121200x1200-holiday.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "<p>\"I bought plaid PJs for my family last holiday and we spent 3 days straight hanging out in them. Nobody wanted to take them off! I'm already picking out a new pattern for this year...they're the best.\" - Danielle<\/p>",
+            "link_text": "SHOP MATCHING PJS",
+            "link_url": "https:\/\/thisisj.com\/pages\/family-matching",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_nKtrb8": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Fair_Isle_Family_PJs.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "<p>\"We were not pajama people, just wear whatever old t-shirt was in our closet people. I received a pair of your bamboo jammers as a gift for my birthday, then bought them for my husband, kids, parents and in-laws last christmas. Let me tell you - we have worn them every night since. The absolute best!\" - Nancy<\/p>",
+            "link_text": "SHOP Family PJS",
+            "link_url": "https:\/\/thisisj.com\/pages\/family-matching",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_UCMwA4": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard_101200x1200_Gifts-For-Her.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "<p>\"I just have to say that I won Christmas by gifting my family your PJs. I have 3 sisters and a picky brother and everyone agreed that they are the most comfortable pyjamas they've ever put on. High praise coming from them!\"  - Mel<\/p>",
+            "link_text": "SHOP new pajamas",
+            "link_url": "shopify:\/\/collections\/new-arrivals",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_qTnRgq": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Column 1",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "item_q4C7en",
+        "item_nKtrb8",
+        "item_UCMwA4",
+        "item_qTnRgq"
+      ],
+      "disabled": true,
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "subheading": "",
+        "title": "In Your Cozy Words...",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "medium",
+        "desktop_item_size": "large",
+        "spacing": "normal",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "rich_text_3m3PLw": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<p>Discount automatically applied at checkout. Add to cart to see your savings appear.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "blog_posts_BXmmtK",
+    "rich_text_6znam4",
+    "rich_text_3mtXLw",
+    "image_with_text_overlay_7RkAzy",
+    "image_with_text_overlay_t8CwUh",
+    "shop_the_look_HBdYhq",
+    "featured_collections_ErNHyc",
+    "featured_collections_tKFCPp",
+    "shop_the_look_TYJEAq",
+    "featured_collections_faWy3e",
+    "image_with_text_overlay_niBBwF",
+    "shop_the_look_3P4qKC",
+    "featured_collections_DbdJe9",
+    "featured_collections_hpidqC",
+    "shop_the_look_nBUpAW",
+    "image_with_text_overlay_8YYR6y",
+    "featured_collections_aXfVg8",
+    "shop_the_look_PKHPJh",
+    "featured_collections_hUL76z",
+    "shop_the_look_9KQnfQ",
+    "featured_collections_6FQgGa",
+    "featured_collections_FbCckU",
+    "multi_column_H8p8xt",
+    "rich_text_3m3PLw"
+  ]
+}
