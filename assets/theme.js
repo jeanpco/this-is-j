@@ -7635,6 +7635,7 @@
   var NotifyMe = class extends CustomHTMLElement {
     async connectedCallback() {
       this.form = this.querySelector('form');
+      this.productId = this.getAttribute('data-product-id');
       this.successBannerElement = this.querySelector('.banner--success');
       this.errorBannerElement = this.querySelector('.banner--error');
 
@@ -7655,29 +7656,35 @@
         this.errorBannerElement.style.display = 'none';
       }
 
-      const { method, action } = this.form;
+      try {
+        const { method, action } = this.form;
 
-      const response = await fetch(action, {
-        method,
-        body: new FormData(this.form),
-      });
+        const response = await fetch(action, {
+          method,
+          body: new FormData(this.form),
+        });
 
-      if (response.status === 200) {
-        if (this.successBannerElement) {
-          this.successBannerElement.style.display = 'flex';
+        if (response.status === 200) {
+          if (this.successBannerElement) {
+            this.successBannerElement.style.display = 'flex';
 
-          setTimeout(() => {
-            this.successBannerElement.style.display = 'none';
-          }, 10000);
+            setTimeout(() => {
+              this.successBannerElement.style.display = 'none';
+            }, 10000);
+          }
+        } else {
+          if (this.errorBannerElement) {
+            this.errorBannerElement.style.display = 'flex';
+
+            setTimeout(() => {
+              this.errorBannerElement.style.display = 'none';
+            }, 10000);
+          }
         }
-      } else {
-        if (this.errorBannerElement) {
-          this.errorBannerElement.style.display = 'flex';
-
-          setTimeout(() => {
-            this.errorBannerElement.style.display = 'none';
-          }, 10000);
-        }
+      } catch (error) {
+        console.error('Failed to submit form', error);
+        document.getElementById( `notify-me--${this.productId}` ).removeAttribute( 'open' );
+        // Show a generic error banner
       }
     }
   };
@@ -8083,12 +8090,6 @@
 
       let selectedVariant =  this.product['variants'].find( variant => variant.id == variantParam );
 
-      console.log( "selectedVariant" );
-      console.log( selectedVariant );
-
-      console.log( "this.selectedVariant" );
-      console.log( this.selectedVariant );
-
       if( variantParam ) {    
         this.selectVariant( selectedVariant.id );
         this._forceUIUpdate(selectedVariant);
@@ -8174,15 +8175,24 @@
         } else {
           newUrl.searchParams.delete('variant');
         }
+
+        // if the variant handle is different, then we need to update the url
+        if (selectedVariantHandle !== currentVariantHandle) {
+          // console.log( "selectedVariantHandle !== currentVariantHandle" );
+          window.location.href = newUrl.toString();
+          return;
+        }
+
+
         window.history.replaceState(
           { path: newUrl.toString() },
           '',
           newUrl.toString()
         );
         // Only update the product recommendations if the variant handle is different
-        if (selectedVariantHandle !== currentVariantHandle) {
-          this._updateProductRecommendations(selectedVariant);
-        }
+        // if (selectedVariantHandle !== currentVariantHandle) {
+        //   this._updateProductRecommendations(selectedVariant);
+        // }
 
         // product-image-zoom only shows the dialog/modal of media of its 'product-handle' attribute
         // therefor we need to update product-image-zoom product handle everytime the variant is changed
@@ -8214,9 +8224,12 @@
     _onOptionChanged() {
       const variant = this._getVariantFromOptions();
       if (variant) {
-        this.displayProductGallery(variant);
-        this._updateFinalSale(variant);
         this.selectVariant(variant.id);
+        // click on the variant, dont do this
+        if( this.mainProductId != this.currentProductId ) {
+          this._updateFinalSale(variant);
+          this.displayProductGallery(variant);
+        }
       }
     }
 
@@ -8288,7 +8301,7 @@
       const variant = this.product['variants'].find(
         (variant) => variant['id'] == id
       );
-      this.displayProductGallery(variant);
+      // this.displayProductGallery(variant);
       return variant;
     }
     _getVariantFromOptions() {
@@ -8334,7 +8347,7 @@
       } while (!matchedVariant && options.length > 0);
       return matchedVariant;
     }
-    _getSelectedOptionValues(firstLoad = false) {
+    _getSelectedOptionValues() {
       const selector = 'input[name^="option"]:checked, select[name^="option"]';
       const options = [...this.querySelectorAll(selector)].map(
         ({ value }) => value
@@ -8358,13 +8371,11 @@
 
         const newUrl = new URL(selectedVariant.url, window.location.href);
         // manually replace the current page with the color variant chosen
-        if( !firstLoad ) {
-          window.history.replaceState(
-            { path: newUrl.toString() },
-            '',
-            newUrl.toString()
-          );
-        }
+        window.history.replaceState(
+          { path: newUrl.toString() },
+          '',
+          newUrl.toString()
+        );
 
         if (selectedVariantHandle !== currentVariantHandle) {
           this._updateProductRecommendations(selectedVariant);

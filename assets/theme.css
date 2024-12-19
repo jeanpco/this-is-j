@@ -12283,10 +12283,6 @@ input:checked + .popover__choice-label::after,
       var(--grid-column-width) * 8 + var(--grid-gap) * 7
     );
   }
-  
-  .product__info [data-yotpo-instance-id] {
-    margin-left: auto;
-  }
 }
 
 @media screen and (min-width: 1400px) {
@@ -12647,12 +12643,18 @@ input:checked + .popover__choice-label::after,
   padding-bottom: 16px;
   border-bottom: 1px solid rgb(var(--border-color));
 }
-
+.product-meta__price-list-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -8px;
+  gap: 8px;
+  align-items: flex-end;
+  justify-content: space-between;
+}
 .product-meta__price-list-container {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  margin-top: -8px;
 }
 
 [dir='ltr'] .product-meta__label-list:not(:empty) {

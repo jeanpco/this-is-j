@@ -11,7 +11,7 @@
       {%- render 'icon' with 'close' -%}
     </button>
 
-    <notify-me class="notify-me">
+    <notify-me class="notify-me" data-product-id="{{ product.id }}">
       <form method="post" action="https://a.klaviyo.com/onsite/components/back-in-stock/subscribe">
         <h2>{{ product.title }}</h2>
         <p>{{ 'product.form.notify_me_content' | t }}</p>

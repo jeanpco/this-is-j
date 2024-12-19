@@ -32,94 +32,96 @@
       </h2>
     {% endunless %}
 
-    <div class="product-meta__price-list-container" role="region" aria-live="polite">
-      <div class="price-list" data-product-price-list>
-        {%- if product.selected_or_first_available_variant.compare_at_price > product.selected_or_first_available_variant.price -%}
-          <span class="price price--compare">
-            <span class="visually-hidden">{{ 'product.general.regular_price' | t }}</span>
-            {%- render 'product-price-varies', price: product.selected_or_first_available_variant.compare_at_price -%}
-          </span>
-          
-          <span class="price price--highlight price--large" >
-            <span class="visually-hidden">{{ 'product.general.sale_price' | t }}</span>
-            {%- render 'product-price-varies', price: product.selected_or_first_available_variant.price -%}
-          </span>
 
-        {%- else -%}
-        
-          <span class="price price--large" >
-            <span class="visually-hidden">{{ 'product.general.sale_price' | t }}</span>
-            {%- render 'product-price-varies', price: product.selected_or_first_available_variant.price -%}
-          </span>
-        {%- endif -%}
-
-        {%- if product.selected_or_first_available_variant.unit_price_measurement -%}
-          <div class="price text--subdued">
-            <div class="unit-price-measurement">
-              <span class="unit-price-measurement__price">{{ product.selected_or_first_available_variant.unit_price | money }}</span>
-              <span class="unit-price-measurement__separator">/</span>
-
-              {%- if product.selected_or_first_available_variant.unit_price_measurement.reference_value != 1 -%}
-                <span class="unit-price-measurement__reference-value">{{ product.selected_or_first_available_variant.unit_price_measurement.reference_value }}</span>
-              {%- endif -%}
-
-              <span class="unit-price-measurement__reference-unit">{{ product.selected_or_first_available_variant.unit_price_measurement.reference_unit }}</span>
-            </div>
-          </div>
-        {%- endif -%}
-
-      </div>
-
-      <div class="product-meta__label-list label-list" data-product-label-list>
-        {%- if coming_tag_found -%}
-          <span class="label label--subdued">          
-            {{ 'collection.product.comingsoon' | t}}
-          </span>
-        {% else %}
-          {%- unless product.available  -%}
-            {%- assign show_restock_label = false -%}
-            {%- assign restock_product_tag = 'restock::' | append: product.selected_or_first_available_variant.option1 -%}
-            {%- assign restock_product_tag_cap = 'Restock::' | append: product.selected_or_first_available_variant.option1 -%}
-            {%- for tag in product_tags -%}
-              {%- if tag == restock_product_tag or tag ==  restock_product_tag_cap -%}
-                {%- assign show_restock_label = true -%}
-                {%- break -%}
-              {%- endif -%}
-            {%- endfor -%}
-            <span class="label label--subdued">          
-              {%- if coming_tag_found -%}
-                coming soon
-              {%- elsif show_restock_label -%}
-                {{ 'collection.product.restock' | t}}
-              {%- else -%}
-                {{ 'collection.product.sold_out' | t }}
-              {%- endif -%}
-            </span>
-
-          {%- elsif product.selected_or_first_available_variant.compare_at_price > product.selected_or_first_available_variant.price -%}
-            {%- if settings.discount_mode == 'percentage' -%}
-              {%- assign savings = product.selected_or_first_available_variant.compare_at_price | minus: product.selected_or_first_available_variant.price | times: 100.0 | divided_by: product.selected_or_first_available_variant.compare_at_price | round | append: '%' -%}
+    <div class="product-meta__price-list-wrapper">
+        <div class="product-meta__price-list-container" role="region" aria-live="polite">
+          <div class="price-list" data-product-price-list>
+            {%- if product.selected_or_first_available_variant.compare_at_price > product.selected_or_first_available_variant.price -%}
+              <span class="price price--compare">
+                <span class="visually-hidden">{{ 'product.general.regular_price' | t }}</span>
+                {%- render 'product-price-varies', price: product.selected_or_first_available_variant.compare_at_price -%}
+              </span>
+              
+              <span class="price price--highlight price--large" >
+                <span class="visually-hidden">{{ 'product.general.sale_price' | t }}</span>
+                {%- render 'product-price-varies', price: product.selected_or_first_available_variant.price -%}
+              </span>
+    
             {%- else -%}
-              {%- capture savings -%}{{ product.selected_or_first_available_variant.compare_at_price | minus: product.selected_or_first_available_variant.price | money }}{%- endcapture -%}
+            
+              <span class="price price--large" >
+                <span class="visually-hidden">{{ 'product.general.sale_price' | t }}</span>
+                {%- render 'product-price-varies', price: product.selected_or_first_available_variant.price -%}
+              </span>
             {%- endif -%}
-
-            <span class="label label--highlight">{{ 'collection.product.discount_html' | t: savings: savings }}</span>
-          {%- endunless -%}
-        {%- endif -%}
-      </div>
-      
-      {% comment %}  {% endcomment %}
-
-      <div 
-        class="yotpo-widget-instance" 
-        data-yotpo-instance-id="779085" 
-        data-yotpo-product-id="{{product.id}}" 
-        data-yotpo-variant-id="{{ product.selected_or_first_available_variant.id }}" 
-        data-yotpo-product-variants="{{ product.variants | json | url_encode }}" 
-        data-yotpo-product-collections="{{product.collections | json | url_encode}}" 
-        data-yotpo-product-tags="{{ product.tags | json | url_encode }}" 
-        data-yotpo-product-type="{{ product.type | json | url_encode }}">
-      </div>
+    
+            {%- if product.selected_or_first_available_variant.unit_price_measurement -%}
+              <div class="price text--subdued">
+                <div class="unit-price-measurement">
+                  <span class="unit-price-measurement__price">{{ product.selected_or_first_available_variant.unit_price | money }}</span>
+                  <span class="unit-price-measurement__separator">/</span>
+    
+                  {%- if product.selected_or_first_available_variant.unit_price_measurement.reference_value != 1 -%}
+                    <span class="unit-price-measurement__reference-value">{{ product.selected_or_first_available_variant.unit_price_measurement.reference_value }}</span>
+                  {%- endif -%}
+    
+                  <span class="unit-price-measurement__reference-unit">{{ product.selected_or_first_available_variant.unit_price_measurement.reference_unit }}</span>
+                </div>
+              </div>
+            {%- endif -%}
+    
+          </div>
+    
+          <div class="product-meta__label-list label-list" data-product-label-list>
+            {%- if coming_tag_found -%}
+              <span class="label label--subdued">          
+                {{ 'collection.product.comingsoon' | t}}
+              </span>
+            {% else %}
+              {%- unless product.available  -%}
+                {%- assign show_restock_label = false -%}
+                {%- assign restock_product_tag = 'restock::' | append: product.selected_or_first_available_variant.option1 -%}
+                {%- assign restock_product_tag_cap = 'Restock::' | append: product.selected_or_first_available_variant.option1 -%}
+                {%- for tag in product_tags -%}
+                  {%- if tag == restock_product_tag or tag ==  restock_product_tag_cap -%}
+                    {%- assign show_restock_label = true -%}
+                    {%- break -%}
+                  {%- endif -%}
+                {%- endfor -%}
+                <span class="label label--subdued">          
+                  {%- if coming_tag_found -%}
+                    coming soon
+                  {%- elsif show_restock_label -%}
+                    {{ 'collection.product.restock' | t}}
+                  {%- else -%}
+                    {{ 'collection.product.sold_out' | t }}
+                  {%- endif -%}
+                </span>
+    
+              {%- elsif product.selected_or_first_available_variant.compare_at_price > product.selected_or_first_available_variant.price -%}
+                {%- if settings.discount_mode == 'percentage' -%}
+                  {%- assign savings = product.selected_or_first_available_variant.compare_at_price | minus: product.selected_or_first_available_variant.price | times: 100.0 | divided_by: product.selected_or_first_available_variant.compare_at_price | round | append: '%' -%}
+                {%- else -%}
+                  {%- capture savings -%}{{ product.selected_or_first_available_variant.compare_at_price | minus: product.selected_or_first_available_variant.price | money }}{%- endcapture -%}
+                {%- endif -%}
+    
+                <span class="label label--highlight">{{ 'collection.product.discount_html' | t: savings: savings }}</span>
+              {%- endunless -%}
+            {%- endif -%}
+          </div>
+        </div>
+    
+        {% comment %}  {% endcomment %}
+        <div 
+          class="yotpo-widget-instance" 
+          data-yotpo-instance-id="779085" 
+          data-yotpo-product-id="{{product.id}}" 
+          data-yotpo-variant-id="{{ product.selected_or_first_available_variant.id }}" 
+          data-yotpo-product-variants="{{ product.variants | json | url_encode }}" 
+          data-yotpo-product-collections="{{product.collections | json | url_encode}}" 
+          data-yotpo-product-tags="{{ product.tags | json | url_encode }}" 
+          data-yotpo-product-type="{{ product.type | json | url_encode }}">
+        </div>
     </div>
 
     {%- if section.settings.show_taxes_included -%}
